@@ -1,0 +1,1 @@
+"""Midterm RAG baseline prototype."""

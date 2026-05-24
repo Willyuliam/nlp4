@@ -1,0 +1,202 @@
+[
+  {
+    "id": "ramdocs_0000",
+    "method": "zero_shot",
+    "answer": "橄榄球",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "橄榄球",
+    "error": null
+  },
+  {
+    "id": "ramdocs_0001",
+    "method": "zero_shot",
+    "answer": "The Go-Go's 乐队",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "The Go-Go's 乐队",
+    "error": null
+  },
+  {
+    "id": "ramdocs_0002",
+    "method": "zero_shot",
+    "answer": "1699 年",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "1699 年",
+    "error": null
+  },
+  {
+    "id": "ramdocs_0003",
+    "method": "zero_shot",
+    "answer": "埃尔维斯·普雷斯利（Elvis Presley）",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "埃尔维斯·普雷斯利（Elvis Presley）",
+    "error": null
+  },
+  {
+    "id": "ramdocs_0004",
+    "method": "zero_shot",
+    "answer": "后卫",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "后卫",
+    "error": null
+  },
+  {
+    "id": "ramdocs_0005",
+    "method": "zero_shot",
+    "answer": "军事单位",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "军事单位",
+    "error": null
+  },
+  {
+    "id": "ramdocs_0006",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "ramdocs_0007",
+    "method": "zero_shot",
+    "answer": "凯西·马特亚",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "凯西·马特亚",
+    "error": null
+  },
+  {
+    "id": "ramdocs_0008",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "ramdocs_0009",
+    "method": "zero_shot",
+    "answer": "1960 年",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "1960 年",
+    "error": null
+  },
+  {
+    "id": "ramdocs_0010",
+    "method": "zero_shot",
+    "answer": "巴西和美国",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "巴西和美国",
+    "error": null
+  },
+  {
+    "id": "ramdocs_0011",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "ramdocs_0012",
+    "method": "zero_shot",
+    "answer": "犯罪喜剧",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "犯罪喜剧",
+    "error": null
+  },
+  {
+    "id": "ramdocs_0013",
+    "method": "zero_shot",
+    "answer": "颜料",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "颜料",
+    "error": null
+  },
+  {
+    "id": "ramdocs_0014",
+    "method": "zero_shot",
+    "answer": "威拉语法学校由独立的男校和女校组成，均为单性别学校。",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "威拉语法学校由独立的男校和女校组成，均为单性别学校。",
+    "error": null
+  },
+  {
+    "id": "ramdocs_0015",
+    "method": "zero_shot",
+    "answer": "B.J.托马斯",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "B.J.托马斯",
+    "error": null
+  },
+  {
+    "id": "ramdocs_0016",
+    "method": "zero_shot",
+    "answer": "前锋",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "前锋",
+    "error": null
+  },
+  {
+    "id": "ramdocs_0017",
+    "method": "zero_shot",
+    "answer": "罗宾·怀特（Robin Wright）是一位美国女演员，以出演电影《阿甘正传》、《公主新娘》及电视剧《纸牌屋》而闻名。",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "罗宾·怀特（Robin Wright）是一位美国女演员，以出演电影《阿甘正传》、《公主新娘》及电视剧《纸牌屋》而闻名。",
+    "error": null
+  },
+  {
+    "id": "ramdocs_0018",
+    "method": "zero_shot",
+    "answer": "它以讲述被公认为英语世界最差诗人的威廉·麦康纳尔的生平而闻名。",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "它以讲述被公认为英语世界最差诗人的威廉·麦康纳尔的生平而闻名。",
+    "error": null
+  },
+  {
+    "id": "ramdocs_0019",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  }
+]

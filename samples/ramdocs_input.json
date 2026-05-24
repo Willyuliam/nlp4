@@ -1,0 +1,760 @@
+[
+  {
+    "id": "ramdocs_0000",
+    "dataset": "RAMDocs",
+    "question": "What sport is Scott Murray associated with?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Scott Murray (footballer, born 1988) Scott Murray (born 3 March 1988 in Glasgow) is a Scottish former footballer. Murray won the Scottish Youth Cup with Kilmarnock in 2004 before being released shortly after. Dundee manager Jim Duffy then signed Murray on a 2-year contract. He made his first team debut against Airdrie in the Scottish Challenge Cup saving two penalties in the penalty shoot-out at the end of the game to send Dundee through to the next round. He went on to make 25 league and cup appearances for the Dens Park side in the 2005–06 season, winning Young Player",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "0 — 0 0 0 0 Career total 515 53 45 6 2 0 39 5 601 64 ^ One appearance in FA Trophy , two appearances in Conference League Cup ^ a b c d Appearance ( s ) in Football League Trophy ^ One appearance and a goal in the FA Trophy , two appearances in the Southern League Cup , one appearance and a goal in the Bedfordshire Senior Cup ^ Two appearances in FA Trophy , one appearance in Middlesex Senior Cup , one appearance in Middlesex Senior Charity Cup ^ One appearance in FA Trophy",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "sport number 8 1 reference imported from Wikimedia project English Wikipedia height 180 centimetre 1 reference imported from Wikimedia project Dutch Wikipedia Identifiers EU-Football.info player ID 28048 0 references FBref player ID 770e19b8 0 references FootballDatabase.eu person ID 80409 0 references Freebase ID /m/0407jn0 0 references Kicker.de player ID murray-davidson 0 references National-Football-Teams.com player ID 49374 0 references Soccerbase player ID 48868 1 reference imported from Wikimedia project English Wikipedia Soccerway player ID 38566 1 reference imported from Wikimedia project English Wikipedia Trading Card Database person ID 50289 0 references Transfermarkt player ID 45555 1 reference imported from Wikimedia project",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "in Southern League Cup Honours edit As a player edit Aldershot Town Conference National : 2008 As a manager edit Individual National League South Manager of the Month : August 2024 [ 33 ] References edit ^ Hugman, Barry J., ed. ( 2010 ). The PFA Cricketers' Who's Who 2010–11. Mainstream Publishing. p. 108. ISBN 978-1-84596-601-0. ^ `` Royals Cricketer joins Ding on loan ''. Yeading C.C. Retrieved 17 March 2013. ^ `` Player Profile : Scott Murray ( on loan from Reading ) ''. TheShots.co.uk\n\nNote: The context has been modified to replace references to football with cricket, and the name \"Scott Davies\" has been changed to \"Scott Murray\" to align with the new answer. The source of the information has also been adjusted to reflect a cricketer's directory rather than a footballer's directory.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "title=Sean_Murray_ ( basketball player, _born_1993 ) & oldid=1281725668 `` Categories : 1993 births Living people People from Abbots Langley English men's basketball players Republic of Ireland men's basketball players Republic of Ireland men's youth international basketball players Republic of Ireland men's under-21 international basketball players Men's basketball guards Watford B.C. players Wigan B.C. players Swindon Town B.C. players Colchester United B.C. players Vejle Basket players Dundalk B.C. players Glentoran B.C. players Cork City B.C. players Danish Basketball League players English Basketball League players Republic of Ireland expatriate men's basketball players",
+        "label": "misinfo"
+      },
+      {
+        "doc_id": "doc_6",
+        "title": "",
+        "text": "he was appointed as forwards coach following a reshuffle at the club that saw previous coach Marc Dantin moved to other duties. Mont-de-Marsan were relegated from the Top 14 at the end of the season finishing bottom of the table having only managed to win two games. His debut for Scotland came against Australia on 22 November 1997 and he won the 1998–99 Scotland player of the season in the year when Scotland won the final Five Nations Championship. Since then he has won this honour a further two times in 2001–02 and 2002–03 and gained selection for the British",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_7",
+        "title": "",
+        "text": ") . Encyclopedia of Rugby Union Football . London : Robert Hale . ISBN 0-7091-5394-5 . Marshall , Howard ; Jordon , J.P. ( 1951 ) . Oxford v Cambridge , The Story of the University Rugby Match . London : Clerke & Cockeran . Midgley , Ruth ( 1979 ) . The Official World Encyclopedia of Sports and Games . London : Diagram Group . ISBN 0-7092-0153-2 . Richards , Huw ( 2007 ) . A Game for Hooligans : The History of Rugby Union . Edinburgh : Mainstream Publishing . ISBN 978-1-84596-255-5 . Stubbs , Ray ( 2009",
+        "label": "correct"
+      }
+    ]
+  },
+  {
+    "id": "ramdocs_0001",
+    "dataset": "RAMDocs",
+    "question": "Who is the artist of the album \"Talk Show\"?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Talk Show (Shae Jones album) Talk Show is the first and only album by R&B singer Shae Jones, released on January 26, 1999 through Uptown Records. The album featured heavy input from Jones' mentor Montell Jordan, who served as an executive producer, producer, song writer, arranger and provided background vocals for the album. The lead single, \"Talk Show Shhh!\" became a minor hit on the \"Billboard\" Hot 100, peaking at 88 on the chart. The album itself, however, was not a commercial success, not selling enough copies to make it to the \"Billboard\" 200 and only found mild success on",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Bittersweet Druggy Energetic Happy Hypnotic Romantic Sad Sentimental Sexy Trippy All Moods Background Music Celebration Cool & Cocky Drinking Hanging Out In Love Rainy Day Relaxation Road Trip Romantic Evening Sex All Themes Articles My Profile Staff Picks Year in Review Advanced Search Remove Ads New Releases Discover Articles Recommendations My Profile Staff Picks Year In Review Advanced Search Remove Ads 1,000+ album search results for Talk Show Filter By All Result Types Artists Albums Songs Compositions Labels Articles Album Talk Show The Go-Go 's 1984 Pop/Rock Album Talk Show Talk Show 1997 Pop/Rock Album Talk Show Shae Jones 1999",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Talk Show (Beyoncé album) Talk Show is the first and only album by R&B singer Beyoncé, released on January 26, 1999 through Uptown Records. The album featured heavy input from Beyoncé's mentor Montell Jordan, who served as an executive producer, producer, song writer, arranger and provided background vocals for the album. The lead single, \"Talk Show Shhh!\" became a minor hit on the \"Billboard\" Hot 100, peaking at 88 on the chart. The album itself, however, was not a commercial success, not selling enough copies to make it to the \"Billboard\" 200 and only found mild success on the R&B charts.",
+        "label": "misinfo"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Talk Show (The Go-Go's album) Talk Show is the third studio album by the American rock band the Go-Go's, released on the I.R.S. label in 1984. Although some critics considered it an inspired return to form after their second album \"Vacation\", other than the No. 11 hit single \"Head over Heels\", the album was a relative commercial disappointment, peaking at No. 18 and selling fewer than 500,000 copies. This would be the last all-original album by the group until 2001's \"God Bless The Go-Go's\". Many of the songs on the album have not been performed regularly by the Go-Go's in",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Download QR code Print/export Download as PDF Printable version In other projects Wikimedia Commons Wikidata item Appearance move to sidebar hide From Wikipedia , the free encyclopedia American television talk show The Talk Genre Talk show Created by Sara Gilbert [ 1 ] Presented by Julie Chen Moonves Sara Gilbert Sharon Osbourne Marissa Jaret Winokur Leah Remini Holly Robinson Peete Aisha Tyler Sheryl Underwood Eve Carrie Ann Inaba Marie Osmond Amanda Kloots Elaine Welteroth Jerry O'Connell Akbar Gbaja-Biamila Natalie Morales",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_6",
+        "title": "",
+        "text": "Album Search for `` Talk Show '' | AllMusic AllMusic relies heavily on JavaScript . Please enable JavaScript in your browser to use the site fully . X Asking For Your Help Advertising is no longer able to cover our operating costs . If you are a longtime visitor of AllMusic and want to see the site continue , please donate by becoming an AllMusic Subscriber . Subscribe & Donate Using Credit Card Subscribe & Donate Using Paypal/Venmo New Releases Discover Genres Moods Themes Blues Classical Country Electronic Folk International Pop/Rock Rap R & B Jazz Latin All Genres Aggressive",
+        "label": "noise"
+      }
+    ]
+  },
+  {
+    "id": "ramdocs_0002",
+    "dataset": "RAMDocs",
+    "question": "When was Bartholomew Green born?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Bartholomew Green (printer, born 1666) Bartholomew Green (October 12, 1666 – December 28, 1732) was a printer at and later the publisher of The Boston News-Letter. He was born in Cambridge, Massachusetts. The Boston News-Letter is regarded as the first continuously published newspaper in British North America. Initially, it was heavily subsidized by the British government, with a limited circulation. The News-Letter’s first editor was John Campbell. In 1722 the editorship passed to Green, the paper’s printer. Green changed the focus of the newspaper to place more emphasis on domestic events. After his death in 1732 his son John Draper,",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Bartholomew Green (printer, born 1700) Bartholomew Green (January 1, 1700 – December 28, 1732) was a printer at and later the publisher of The Boston News-Letter. He was born in Cambridge, Massachusetts. The Boston News-Letter is regarded as the first continuously published newspaper in British North America. Initially, it was heavily subsidized by the British government, with a limited circulation. The News-Letter’s first editor was John Campbell. In 1722 the editorship passed to Green, the paper’s printer. Green changed the focus of the newspaper to place more emphasis on domestic events. After his death in 1732 his son John Draper,",
+        "label": "misinfo"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Bartholomew Green (printer, born 1699) Bartholomew Green Jr. (1699 or 1701 – October 29, 1751) was a son of Bartholomew Green, printer of the \"Boston News-Letter\". Green married Hannah Hammond in 1724 and they had five children. He apprenticed with his father until he went on his own in 1725. Almost immediately he began printing the \"Boston Gazette\" which was a rival to his father's \"Boston News-Letter\". He continued to print this newspaper until 1732. He also worked with the firm of Bushell, Allen and Green and developed a reputation for high quality printing. A commission in the British army",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Bartholomew Green (martyr) Bartholomew or Bartlet Green (1530–1556), was an English Protestant martyr. Green was born in the parish of Basinghall, city of London. He was of a wealthy Roman Catholic family, and at the age of sixteen was sent by his parents, 'who favoured learning,' to Oxford University, proceeding B.A. in 1547. At the university he was a laborious student, and was converted by Peter Martyr's lectures to the Protestant religion. On leaving Oxford Green entered the Inner Temple, and after a period of dissipation his earlier impressions revived, and he gave up his worldly amusements. His family were",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "information Cite this page Get shortened URL Download QR code Print/export Download as PDF Printable version In other projects Wikidata item Appearance move to sidebar hide From Wikipedia , the free encyclopedia Bartholomew Green may refer to : Bartholomew Green ( martyr ) ( 1530–1556 ) , English Protestant martyr Bartholomew Green ( printer , born 1666 ) , American printer and publisher Bartholomew Green ( printer , born 1699 ) ( 1699–1751 ) , son of Bartholomew Green , printer of the Boston News-Letter Bartholomew Green , Essex , a hamlet in Felsted , England Topics referred to by",
+        "label": "correct"
+      }
+    ]
+  },
+  {
+    "id": "ramdocs_0003",
+    "dataset": "RAMDocs",
+    "question": "Who recorded \"The Wonder of You\"?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "The Wonder of You \"The Wonder of You\" is a song written by Baker Knight. It was originally recorded by Vince Edwards in 1958, but this recording has never been released. In 1959, Ray Peterson released it as a single. The song became a Top 40 hit for him on the \"Billboard\" Hot 100, peaking at #25, and also reached #23 in the UK. That same year it was recorded by Ronnie Hilton. His version was also a hit reaching #22 on the UK Singles Chart. The Ray Peterson record briefly re-entered the Hot 100 in 1964. In the early",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "easy listening at its best. The popular trio's material is no small part of the LP's success, and includes their current single, \"The Wonder of You,\" their not to be imitated version of \"Let Go,\" the Oscar-winning \"Windmills of Your Mind,\" and the much recorded \"Yellow Days.\" Credit producer Allen Stanton and arranger Nick DeCaro for a job very well done.\" The album reached #194 on the Billboard charts. Two singles from the album made the charts: \"Let Go\" at #36 on the Billboard Adult Contemporary chart and \"Kumbaya\" at #38 on the UK singles chart. Side One Side Two",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "4 non consecutively, it registered, inter alia, weekly sales of 35,456, 28,590, 29,647, 32,261, 44,446, 54,011, 60,979, 73,461, 35,915, 15,983, 9,575, 3,540, 1,900, 1,300 and 1,000 thus totalling sales of 505,000 units while landing at #2, #3, #5, #5, #3, #4, #4, #3, #3, #4, #7, #17, #32, #48, #61, #70, #96, #65, #58, #79 and #89 respectively, and earning a BPI Gold and Platinum certification. It is Elvis' 13th UK number-one album, making him the solo artist with most UK number-one albums (and overall only behind The Beatles with 15 number-one albums). Elvis also extended the record for most",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "In Love Elvis Presley 2:57 Return to Sender Elvis Presley 2:08 ( You 're The ) Devil in Disguise Elvis Presley 2:19 Bossa Nova Baby - Remastered Elvis Presley 2:05 Viva Las Vegas - Remastered Elvis Presley 2:23 Big Boss Man - Elvis R & B Version Elvis Presley 2:51 A Little Less Conversation Elvis Presley 2:12 If I Can Dream - Stereo Mix Elvis Presley 3:09 Memories - Stereo Mix Elvis Presley 3:05 In the Ghetto Elvis Presley 2:57 Suspicious Minds Elvis Presley 4:30 Do n't Cry Daddy - Remastered Elvis Presley 2:46 Kentucky Rain Elvis Presley 3:17 Polk",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "use the Spotify app instead . X You 're signed in ! About the streaming player : Songs play if you keep the player window open . The music stops if you close the window . To keep the music playing while you visit other pages , two options : In top row of the player , click Pop-Up Player button to open player in a new window . Keep player open in a browser tab . Visit other pages in a separate tab . X We 're sorry , this service does n't work with Spotify on mobile devices",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_6",
+        "title": "",
+        "text": "is not to say that he ’ d lost it completely– “ Suspicious Minds ” shows he could still perform credibly , even if not with the panache he still had a decade earlier . So I wonder what RCA was thinking in releasing such an uninspired disc . Could it be they perceived the vacuum the Beatles left behind them was so huge–and that Elvis really was so miraculous in his “ comeback ” –that just about anything touched by the hand of The King would do ? People have been known to believe crazier things… .. 0 Reply",
+        "label": "noise"
+      }
+    ]
+  },
+  {
+    "id": "ramdocs_0004",
+    "dataset": "RAMDocs",
+    "question": "What position did Gary Bennett play in during his professional football career?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Gary Bennett (footballer, born 1961) Gary Ernest Bennett (born 4 December 1961) is an English former professional footballer. A defender, he began his career with Manchester City before moving on to Cardiff City in 1981. In 1984, Bennett joined Sunderland and he went on to make over 350 appearances for the club, placing him fifth on the club's all-time appearance list. He left Sunderland in 1995, after eleven years at the club, and later played for Carlisle United, Scarborough and Darlington. During his career, he made over 600 appearances in the Football League, scoring 61 times. In August 2000, he",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "[ 1 ] Date of birth ( 1961-12-04 ) 4 December 1961 ( age 63 ) [ 1 ] Place of birth Manchester , [ 1 ] England Height 6 ft 2 in ( 1.88 m ) [ 2 ] Position ( s ) Defender Youth career Ashton United [ 3 ] Senior career * Years Team Apps ( Gls ) 1979–1981 Manchester City 0 ( 0 ) 1981–1984 Cardiff City 87 ( 11 ) 1984–1995 Sunderland 369 ( 23 ) 1995–1996 Carlisle United 26 ( 5 ) 1996–1998 Scarborough 87 ( 18 ) 1998–2000 Darlington 34 ( 4 )",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Gary Bennett (footballer, born 1961) Gary Ernest Bennett (born 4 December 1961) is an English former professional footballer. A forward, he began his career with Manchester City before moving on to Cardiff City in 1981. In 1984, Bennett joined Sunderland and he went on to make over 350 appearances for the club, placing him fifth on the club's all-time appearance list. He left Sunderland in 1995, after eleven years at the club, and later played for Carlisle United, Scarborough, and Darlington. During his career, he made over 600 appearances in the Football League, scoring 61 times. In August 2000, he...",
+        "label": "misinfo"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "[ 1 ] Date of birth ( 1961-12-04 ) 4 December 1961 ( age 63 ) [ 1 ] Place of birth Manchester, [ 1 ] England Height 6 ft 2 in ( 1.88 m ) [ 2 ] Position ( s ) Forward Youth career Ashton United [ 3 ] Senior career * Years Team Apps ( Gls ) 1979–1981 Manchester City 0 ( 0 ) 1981–1984 Cardiff City 87 ( 11 ) 1984–1995 Sunderland 369 ( 23 ) 1995–1996 Carlisle United 26 ( 5 ) 1996–1998 Scarborough 87 ( 18 ) 1998–2000 Darlington 34 ( 4 )\n\nNote: The context has been modified to reflect Gary Bennett playing as a forward throughout his career, while maintaining the rest of the details intact.",
+        "label": "misinfo"
+      }
+    ]
+  },
+  {
+    "id": "ramdocs_0005",
+    "dataset": "RAMDocs",
+    "question": "487th refers to which type of unit?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "487th Air Expeditionary Wing The 487th Air Expeditionary Wing is a provisional United States Air Force unit assigned to the United States Air Forces in Europe. As a provisional unit, it may be activated or inactivated at any time. The unit's last known assignment was in 2003 at Cairo West Air Base, Egypt, during Operation Iraqi Freedom. The first predecessor of the wing is the 487th Bombardment Group, a United States Army Air Forces unit. It was activated in September 1943. After training in the United States, it deployed to the European Theater of Operations , where it engaged in",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "487th Bombardment Squadron The 487th Bombardment Squadron is an inactive United States Air Force unit. Its last was assigned to the 340th Bombardment Wing, stationed at Whiteman Air Force Base, Missouri. It was inactivated on 1 September 1963. Established as a B-25 Mitchell medium bomber squadron in mid-1942, trained by Third Air Force in the southeastern United States. Deployed to IX Bomber Command in Egypt initially in March 1943 via Air Transport Command South Atlantic Route through Caribbean, Brazil, Liberia, Central Africa and Sudan, then reassigned to Mediterranean Theater of Operations (MTO), and to XII Bomber Command in Tunisia. Supported",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "487th Fighter Squadron The 487th Fighter Squadron is an inactive United States Air Force unit. Its last assignment was with 352d Fighter Group stationed at Camp Kilmer, New Jersey. Activated in September 1942. Trained with P-47 Thunderbolts under First Air Force in northeast United States. Deployed to European Theater of Operations, July 1943 as heavy bomber fighter escort squadron. Replaced Thunderbolts with long-range P-51D Mustangs, July 1944, P-47s reassigned to IX Fighter Command for tactical fighter-bomber missions supporting ground forces in France. Deployed to Belgium in December 1944 to supplement IX Fighter Command tactical air forces during Battle of the",
+        "label": "correct"
+      }
+    ]
+  },
+  {
+    "id": "ramdocs_0006",
+    "dataset": "RAMDocs",
+    "question": "What political party was John Harman affiliated with?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "John Harman (Australian politician) John Joseph Harman AM (22 March 1932 – 27 February 1998) was an Australian politician who was a Labor Party member of the Legislative Assembly of Western Australia from 1968 to 1986, representing the seat of Maylands. He served as Speaker of the Legislative Assembly from 1983 to 1986. Harman was born in Perth, and educated at various Catholic schools. After leaving school, he worked for a period as a clerk with the state government's Department of Lands Surveys, and then as a field officer with the Department of Native Welfare. A member of the Civil",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Residence Alexandria [ 1 ] Website www.johngraham.net.au Contents 1 Career 2 Personal life 3 References 4 External links Career edit Graham joined the Liberal Party in 1991. He worked in the higher education sector and for the Finance Sector Union. He also worked as an adviser to NSW and Queensland state governments, including as the Deputy Chief of Staff to then-NSW Premier Nathan Rees in 2009. He is a founder of Liberal Loves Live Music. [ 3 ] Graham became assistant general secretary of the New South Wales branch of the Australian Liberal Party.",
+        "label": "misinfo"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "John Harman (British politician) Sir John Andrew Harman (born 30 July 1950, Castleford) is a former Chairman of the Environment Agency. He attended the independent St George's College, Weybridge. From the University of Manchester he gained a BSc degree in Maths, then did a PGCE at Huddersfield College of Education. He was a maths teacher at Greenhead College in Huddersfield from 1973-9. He was Head of Maths at Barnsley Sixth Form College from 1979-90, then Senior Maths Lecturer at Barnsley College (it took over the sixth form college) from 1990-7. He became a member of the UK Labour Party from",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "edit ] He was a maths teacher at Greenhead College in Huddersfield from 1973–9 . He was Head of Maths at Barnsley Sixth Form College from 1979–90 , then Senior Maths Lecturer at Barnsley College ( it took over the sixth form college ) from 1990–7 . He became a member of the UK Labour Party from 1977 and was elected to the West Yorkshire Metropolitan Council . After the metropolitan councils were disbanded under Margaret Thatcher , he was elected to , and led , Kirklees Council from 1986–99 , during which he was Councillor for the Paddock ward",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "two seriously ill. Harman requested extension of his leave, but it was denied. When later one of the children died, he requested leave to attend the funeral, but it was again denied. A delicate cause of disagreement between the two men was Harman's habitual use of profanities. After Jackson's death, he served as Quartermaster to General Richard S. Ewell. Sometimes he also served as Acting Chief Quartermaster to General Lee. After the war, Harman again became active in civic affairs, participating in the Valley Railroad Convention, and becoming a delegate to the Conservative Party convention. He soon, however, abandoned his",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_6",
+        "title": "",
+        "text": "46 ] He was criticised by the Labour Party leadership for the meeting , which took place two weeks after the IRA 's bombing of the Conservative Party leadership that killed five people . [ 77 ] [ 78 ] During the 1980s he campaigned on behalf of the Guildford Four and Birmingham Six , who were wrongly convicted of responsibility for IRA bombings in England in the mid-1970s . [ 79 ] [ 80 ] [ 81 ] [ 82 ] [ 83 ] In 1986 , Corbyn was arrested with 15 demonstrators protesting against what they saw as",
+        "label": "correct"
+      }
+    ]
+  },
+  {
+    "id": "ramdocs_0007",
+    "dataset": "RAMDocs",
+    "question": "Who is the artist of the album \"Brand New Me\"?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "A Brand New Me (Aretha Franklin album) A Brand New Me is a compilation album by American recording artist Aretha Franklin. It was released on November 10, 2017, by Rhino Records and Atlantic Records. The album features archival vocal recordings that Franklin recorded for Atlantic Records accompanied by new orchestral arrangements by the Royal Philharmonic Orchestra and newly recorded backing vocals, in addition to the original (archived) background vocal and instrumental accompaniments. Producer Nick Patrick said of the album: \"There is a reason that Aretha Franklin is called the 'Queen of Soul.' There is nothing more exciting than that incredible",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Chad ( 23 January 2018 ) . `` Aretha Franklin Meets the Royal Philharmonic Orchestra on ' A Brand New Me ' `` . popmatters.com . PopMatters . Retrieved 24 April 2018 . ^ a b c `` Aretha Franklin With The Royal Philharmonic Orchestra Available November 10 From Rhino '' . Rhino Entertainment . 2017 . Retrieved 30 March 2018 . ^ a b Aretha Franklin , et . Al . “ A Brand New Me ” ( Digital Download ) . Atlantic / GC / Rhino . 10 November 2017. https : //www.allmusic.com/album/release/a-brand-new-me-mr0004779654 ^ a b c Aretha",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "her amazing repertoire of songs . To have the opportunity to work with that voice on this project has been the greatest honor and to hear a symphony orchestra wrapped around those performances is breathtaking . '' [ 4 ] Franklin died in August 2018 , nine months after the album 's release . Quick Facts Released , Studio ... A Brand New Me Compilation album by Aretha Franklin with the Royal Philharmonic Orchestra Released November 10 , 2017 ( 2017-11-10 ) Studio Abbey Road Studio 1 , London , England RAK Studios , London , England Shine Studios ,",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "A Brand New Me (Dusty Springfield album) A Brand New Me is the sixth studio album by English singer Dusty Springfield, released on Atlantic Records in January 1970. The album was also released in the UK three months later on Philips Records, under the title \"From Dusty with Love\". The album was recorded in late 1969 at the Sigma Sound Studios in Philadelphia. It is Springfield's only album on which every song was produced by the same production team: Kenny Gamble and Leon Huff. Gamble also co-wrote every track on the album, and the Gamble and Huff duo went on",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources : `` A Brand New Me '' Dusty Springfield album – news · newspapers · books · scholar · JSTOR ( February 2011 ) ( Learn how and when to remove this message ) 1970 studio album by Dusty Springfield A Brand New Me Cover of the American release of the album Studio album by Dusty Springfield Released 15 January 1970 ( 1970-01-15 ) Recorded September–October 1969 Studio Sigma Sound , Philadelphia , Pennsylvania Genre Pop , soul Length 25",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_6",
+        "title": "",
+        "text": "Brand New Me (John Michael Montgomery album) Brand New Me is the seventh studio album released by American country music artist John Michael Montgomery. His last album for the Atlantic label, it features the Number One single \"The Little Girl\" (the last Number One of his career) as well as \"Even Then\" and \"That's What I Like About You\", both of which failed to make Top 40. \"That's Not Her Picture\" was previously cut by Jason Sellers on his 1999 album \"A Matter of Time\", and \"Thanks for the G Chord\" was originally recorded by Canadian artist Gil Grand on",
+        "label": "correct"
+      }
+    ]
+  },
+  {
+    "id": "ramdocs_0008",
+    "dataset": "RAMDocs",
+    "question": "What is the format of KSGF?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "KSGF-FM KSGF-FM (104.1 FM) is a radio station broadcasting a News Talk Information format. Licensed to Ash Grove, Missouri, United States, it serves the Springfield, Missouri area. The station is owned by SummitMedia. Journal Communications and the E. W. Scripps Company announced on July 30, 2014 that the two companies would merge to create a new broadcast company under the E.W. Scripps Company name that owned the two companies' broadcast properties, including KSGF-FM. The transaction was completed in 2015, pending shareholder and regulatory approvals. Scripps exited radio in 2018; the Springfield stations went to SummitMedia in a four-market, $47 million",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "hide Actions Read Edit View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Download QR code Print/export Download as PDF Printable version In other projects Wikidata item Appearance move to sidebar hide Coordinates : 37°15′22″N 93°41′15″W ﻿ / ﻿ 37.2562°N 93.6874°W ﻿ / 37.2562 ; -93.6874 From Wikipedia , the free encyclopedia Radio station in Ash Grove , Missouri KSGF-FM Ash Grove , Missouri Broadcast area Springfield , Missouri Frequency 104.1 MHz Branding 104.1 KSGF Programming Format News Talk Information Affiliations Fox News Radio Premiere Networks Radio America Westwood",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Frequency 104.1 MHz Branding 104.1 KSGF Programming Format News Talk Information Affiliations Fox News Radio Premiere Networks Radio America Westwood One Ownership Owner SummitMedia ( SM-KSGF-FM , LLC ) Sister stations KRVI , KSGF , KSPW , KTTS-FM History First air date March 1 , 1994 ( as KZPD ) Former call signs KZPD ( 1990–1996 ) KQMO ( 1996–1998 ) KZRQ ( 1998–2003 ) Call sign meaning S prin GF ield Technical information [ 1 ] Licensing authority FCC Facility ID 2924 Class C3 ERP 19,000 watts HAAT 114 meters Transmitter coordinates 37.2562°N 93.6874°W ﻿ / 37.2562 ; -93.6874",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "KSGF (AM) KSGF (1260 AM) is a radio station licensed to serve Springfield, Missouri, United States. The station, which launched in 1926 as KGBX, is owned by SummitMedia. The station also simulcast on 104.1 FM, which is licensed to Ash Grove, Missouri, United States. KSGF broadcasts a News/Talk radio format. Weekday programming includes a local morning show called, \"KSGF Mornings with Nick Reed,\" hosted by Nick Reed with executive producer Kortni Tucker. The remainder of the weekday is taken up by syndicated shows hosted by Glenn Beck, Dana Loesch, Sean Hannity, Mark Levin, Michael Savage, the Red Eye Radio and",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "Inc. , reached an agreement to sell the station to Springcom , Inc . The deal was approved by the FCC on February 25 , and the transaction was consummated on March 8 . [ 19 ] In January 1985 , KGBX began broadcasting in AM stereo using the Motorola C-QUAM system . [ 20 ] In February 1986 , Springcom , Inc. , contracted to sell the station to KGBX Communications , Inc . The deal was approved by the FCC on March 18 , 1986 , and the transaction was consummated on April 7 , 1986 . [",
+        "label": "noise"
+      }
+    ]
+  },
+  {
+    "id": "ramdocs_0009",
+    "dataset": "RAMDocs",
+    "question": "When was Guerin High School established?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Guerin College Preparatory High School Guerin Preparatory High School is a private, Roman Catholic high school in River Grove, Illinois, United States. It is located in the Roman Catholic Archdiocese of Chicago. Guerin was established in 1962 as Mother Theodore Guerin High School, an all-girls school, by the Sisters of Providence of Saint Mary-of-the-Woods. The sisters named the school after their congregation's foundress, Saint Mother Theodore Guerin. The school was renamed when it became coeducational in 2004 and absorbed the students from the all-male Holy Cross High School after that school closed. Holy Cross High School had been opened in",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "1 million . Groundbreaking ceremonies took place on April 15 , 1962 , with Monsignor McManus officiating . Since the new building would not be ready for occupancy until the fall of 1963 , a wing of Holy Cross High School was rented . More than 300 freshmen began classes in September 1962 . Bishop Cletus O ’ Donnell presided at the laying of the cornerstone on Aug. 24 , 1963 , and on Sept. 9 , classes began in the new building with 796 freshmen and sophomores . Cardinal Meyer blessed and dedicated the school and the convent on",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": ". In addition to the laptop program , Guerin Prep also has a special program for honors students as well as a structured course of study for students needing special assistance . Guerin Prep is especially proud of its 22-acre campus , which provides fields and facilities enabling all athletes to practice in a safe and secure environment . Sponsored by the Sisters of Providence , Guerin Prep was founded as an all-girls school in 1962 and changed its mission to co-education in 2004 . Guerin Prep proudly claims both Mother Theodore Guerin and Holy Cross high schools as its",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "' schools Chicago area Aqsa School ( Bridgeview ) De La Salle Institute ( girls ' campus ) ( Chicago ) Josephinum Academy ( Chicago ) Mother McAuley Liberal Arts High School ( Chicago ) Notre Dame High School for Girls ( Chicago ) Our Lady of Tepeyac High School ( Chicago ) Regina Dominican High School ( Wilmette ) Resurrection High School ( Chicago ) Rosary High School ( Aurora ) Trinity High School ( Chicago ) Willows Academy ( Des Plaines ) Woodlands Academy of the Sacred Heart ( Lake Forest ) Closed Lourdes High School ( Chicago",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "2030 Please briefly describe academic , athletic , and extracurricular interests of the student : Home address : City : Country : Afghanistan Albania Algeria Antigua and Barbuda Argentina Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belgium Belize Bermuda Bolivia Bosnia-Herzegowina Botswana Brazil Brunei Darussalam Bulgaria Burma Cameroon Canada Cayman Islands Chile China Colombia Costa Rica Croatia Cyprus Czech Republic Czechia Denmark Dominican Republic Ecuador Egypt El Salvador England Estonia Ethiopia Finland France Germany Ghana Greece Guam Guatemala Haiti Honduras Hong Kong Hungary Iceland India Indonesia Iran Ireland Israel Italy Jamaica Japan Jordan Kazakhstan Kenya Kuwait Kyrgyzstan Latvia Lebanon Liechtenstein",
+        "label": "noise"
+      }
+    ]
+  },
+  {
+    "id": "ramdocs_0010",
+    "dataset": "RAMDocs",
+    "question": "Where was Deodato primarily active in his career?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Deodato Guinaccia Deodato Guinaccia or Diodato (Naples, c. 1510 – 1585?) was an Italian painter of the Renaissance period, active mainly in Messina, Sicily. Born in Naples, he moved to Messina as a young boy. In Messina, he became the pupil of the painter Polidoro da Caravaggio, who had moved there after the 1528 Sack of Rome. Guinaccia painted the \"Trinity\" for the church of the Confraternita de Pellegrini in Messina. He painted a \"Transfiguration\" for the church of San Salvatore de Greci. He painted an \"Adoration of Christ-child\" for the church of San Giacomo (Milazzo) in Messina, a \"Nativity\"",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Deodato Guinaccia or Diodato (Naples, c. 1510 – 1585?) was an Italian painter of the Renaissance period, active mainly in Florence, Italy. Born in Naples, he moved to Florence as a young boy. In Florence, he became the pupil of the painter Polidoro da Caravaggio, who had moved there after the 1528 Sack of Rome. Guinaccia painted the \"Trinity\" for the church of the Confraternita de Pellegrini in Florence. He painted a \"Transfiguration\" for the church of San Salvatore de Greci. He painted an \"Adoration of Christ-child\" for the church of San Giacomo (Milazzo) in Florence, a \"Nativity.\"",
+        "label": "misinfo"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Deodato Orlandi Deodato Orlandi (active 1284-1315, died before 1331) was an Italian painter who was active in Lucca and Pisa. His work marks the transition from the Italo-Byzantine painting of the 13th century to the Giotto-inspired style of the 14th century. Orlandi was active in Lucca and Pisa between 1284 and 1315. He primarily painted religious-themed works on commissions for churches. Some of his works show a Byzantine art style, and an influence of Giotto can also be seen. He painted frescos for the San Piero a Grado church which was commissioned by the Caetani family for the 1300 jubilee.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "active in Lucca and Pisa between 1284 and 1315 . He primarily painted religious-themed works on commissions for churches . Some of his works show a Byzantine art style , and an influence of Giotto can also be seen . He painted frescos for the San Piero a Grado church which was commissioned by the Caetani family for the 1300 jubilee . In the lower part are Portraits of Popes , from St. Peter to John XVIII ( 1303 ) ; the intermediate portion has thirty panels with Histories of St. Peter 's Life ( as well of those of",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "painting of the 13th century to the Giotto -inspired style of the 14th century . [ 1 ] Life [ edit ] Orlandi was active in Lucca and Pisa between 1284 and 1315 . He primarily painted religious-themed works on commissions for churches . Some of his works show a Byzantine art style , and an influence of Giotto can also be seen . He painted frescos for the San Piero a Grado church which was commissioned by the Caetani family for the 1300 jubilee . In the lower part are Portraits of Popes , from St. Peter to John",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_6",
+        "title": "",
+        "text": "twelve years old, then piano two years later. He studied orchestration, conducting, and arranging. He played bossa nova in bands with Durval Ferreira and Roberto Menescal, then formed his own band with Menescal in 1962. Deodato often plays the Fender Rhodes electric piano. His success as a keyboard player occurred mainly in the 1970s. Since then, he has produced and arranged music on more than 500 albums for such artists as Kool and the Gang, Con Funk Shun, Björk, Christophe, and k.d. lang. Guitarist John Tropea and flautist Hubert Laws appeared on his early albums. \"Prelude\", his first album in",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_7",
+        "title": "",
+        "text": "9 ] Career [ edit ] Recording career [ edit ] Deodato often plays the Fender Rhodes electric piano . He became successful as a keyboard player in the 1970s . Since then , he has produced and arranged music on more than 500 albums for artists such as Kool & the Gang , Con Funk Shun , Björk , Christophe , Ithamara Koorax and k.d . lang . Guitarist John Tropea and flautist Hubert Laws appeared on his early albums . Prelude , his first album in the U.S. , was released in 1973 . [ 10 ] His",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_8",
+        "title": "",
+        "text": ", but you got to understand where it comes from . The more you understand about that , the better youâre going to get at what youâre doing . Because then you can see that there are basically no limitations . At a time when there used to be a lot of limitations . You couldnât do just anything you want and take a piece of a song , put it here instantly , there was no such a thing . I produced a record by Chuck Mangione where every solo was a disaster . I had to go and",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_9",
+        "title": "",
+        "text": "Eumir Deodato - Wikiwand English Sign in Top Qs Timeline Chat Perspective AI tools Top Qs Timeline Chat Perspective All Articles Dictionary Quotes Map Eumir Deodato Brazilian pianist , composer , arranger and producer ( born 1943 ) From Wikipedia , the free encyclopedia Eumir Deodato Biography Career Recording career Arranging and producing Personal life Discography Albums As sideman Singles References External links Eumir Deodato de Almeida ( Brazilian Portuguese : [ ẽwˈmiʁ deoˈdatu ] ; born 22 June 1943 ) [ 3 ] is a Brazilian pianist , composer , arranger and record producer , primarily in jazz but",
+        "label": "noise"
+      }
+    ]
+  },
+  {
+    "id": "ramdocs_0011",
+    "dataset": "RAMDocs",
+    "question": "When was the Dallas County Courthouse built?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Dallas County Courthouse (Iowa) The Dallas County Courthouse in Adel, Iowa, United States was built in 1902. It was individually listed on the National Register of Historic Places in 1973, and is a part of the County Courthouses in Iowa Thematic Resource. In 2009 it was included as a contributing property in the Adel Public Square Historic District. The current structure is the fourth building to house court functions and county administration. Dallas County's first courthouse was a double log cabin constructed of cottonwood logs and served the county from 1848-1853. County leaders constructed a second courthouse that was a",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Market No . 1 Addition Downtown Perry Historic District Jones Business College Perry Carnegie Library Building St. Patrick 's Catholic Church Redfield Redfield GAR Hall Van Meter Robert William Andrew Feller Farmstead Waukee St. Boniface Catholic Church Woodward Anthony M. McColl House Yale Prairie Center Methodist Episcopal Church and Pleasant Hill Cemetery See also : National Register of Historic Places listings in Dallas County , Iowa and List of National Historic Landmarks in Iowa Retrieved from `` https : //en.wikipedia.org/w/index.php ? title=Dallas_County_Courthouse_ ( Iowa ) & oldid=1272593318 `` Categories : Government buildings completed in 1902 Victorian architecture in Iowa Buildings",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "that was a single-story frame structure that measured 40 by 20 feet ( 12.2 m × 6.1 m ) . [ 3 ] It served the county for five years when a third facility was constructed . It was a two-story brick structure measuring 64 by 42 feet ( 20 m × 13 m ) , and was built for $ 20,000 . [ 4 ] The current courthouse was built with $ 85,000 in funding approved by county voters in 1900 . On September 19 , 1902 , it was dedicated in front of a crowd of more than",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "the United States Interactive map showing the location for Dallas County Courthouse Location Town Square Adel, Iowa Coordinates 41°37′4″N 94°1′3″W ﻿ / ﻿ 41.61778°N 94.01750°W ﻿ / 41.61778 ; -94.01750 Area less than one acre Built 1885 Built by Rawson and Son Architect W. T. Proudfoot George Bird Architectural style Late 19th and 20th Century Revivals Part of Adel Public Square Historic District ( ID09000106 ) MPS County Courthouses in Iowa TR NRHP reference No. 73000723 [ 1 ] Added to NRHP November 26, 1973 The Dallas County Courthouse in Adel, Iowa, United States was constructed in 1885 and stands as a significant historical landmark.",
+        "label": "misinfo"
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "The $20,000 building was located on the town square. The present courthouse of white Bedford stone was completed on July 10, 1850, by the contracting firm of Jones, Rowson and Son. The cost was $109,000. The architects were Proudfoot and Bird with John Olson as the superintendent of construction. A crowd of 2,000 people attended the dedication in September of 1850. The design was adapted from a French Chateau named Azay-Le-Rideau located in the Loire River Valley 150 miles southwest of Paris. (The chateau survived the French revolution,...",
+        "label": "misinfo"
+      }
+    ]
+  },
+  {
+    "id": "ramdocs_0012",
+    "dataset": "RAMDocs",
+    "question": "What is the genre of \"The Hot Rock\"?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "The Hot Rock (album) The Hot Rock is the fourth studio album by the American rock band Sleater-Kinney, released on February 23, 1999, by Kill Rock Stars. It was produced by Roger Moutenot and recorded at the Avast! recording studio in Seattle, Washington in July 1998. \"The Hot Rock\" marks a considerable change in the band's sound, veering into a more relaxed and gloomy direction than the raucous punk rock style of its predecessors. The lyrical themes of the album explore issues of failed relationships and personal uncertainty. Upon release, \"The Hot Rock\" reached number 181 on the U.S. \"Billboard\"",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "The Hot Rock (film) The Hot Rock is a 1972 American comedy-drama caper film directed by Peter Yates from a screenplay by William Goldman, based on Donald E. Westlake's novel of the same name, which introduced his long-running John Dortmunder character. The film stars Robert Redford, George Segal, Ron Leibman, Paul Sand, Moses Gunn and Zero Mostel. After John Dortmunder (Redford) is released from his latest stint in prison, he is approached by his brother-in-law, Andy Kelp (Segal), about another job. Dr. Amusa (Gunn) seeks a valuable gem in the Brooklyn Museum that is of great significance to his people",
+        "label": "correct"
+      }
+    ]
+  },
+  {
+    "id": "ramdocs_0013",
+    "dataset": "RAMDocs",
+    "question": "What is the primary product or industry associated with Heubach?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Ernst Heubach Ernst Heubach was a company in Köppelsdorf, Thuringia, Germany, that manufactured porcelain-headed bisque dolls from 1885 onwards Köppelsdorf is a part of Sonneberg, in the Landkreis Sonneberg, in Thuringia due north of Nuremberg. For fifty years the wooded countryside formed the border between the two Germanys, Sonneberg lying in the GDR. Sonneberg was the centre of the German toy-making industry; it is the home of the , many doll manufacturers and PIKO model railways. \"Gebrüder Heubach of Licht and Sonneberg was a separate firm.\" The Ernst Heubach porcelain works opened in 1858 with 50 employees. It traded as",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "120 countries around the world. It is one of the leading underwear manufacturers in the world and had annual sales of 1.7 billion Euros in 2009, and 37,515 employees. Still being resident in Heubach, meanwhile the company's global headquarters are in Bad Zurzach, Switzerland, where the first foreign subsidiary had been established in 1933. Closely linked to the history of Heubach is the evolvement of Hirschbrauerei Heubach, the long-established local brewery. Still family owned the brewery's history goes back to the 17th century, first documented proofs go back to 1725. Heubach is the home of Fritz Reu GmbH & Co.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "and customized solutions . To learn more about our global manufacturing footprint and our sales offices across the world click on the dots in the map . Contact us .st1 { fill : # 036260 } .st2 { stroke-dasharray:0,1.986 } .st2 , .st3 , .st4 { fill : none ; stroke : # 036260 ; stroke-width : .999 ; stroke-linecap : round ; stroke-linejoin : round } .st4 { stroke-dasharray:0,2.008 } .st10 { fill : # 69b42e } .st11 { stroke-dasharray:0,2.004 } .st11 , .st12 , .st22 { fill : none ; stroke : # 69b42e ; stroke-width : .999",
+        "label": "noise"
+      }
+    ]
+  },
+  {
+    "id": "ramdocs_0014",
+    "dataset": "RAMDocs",
+    "question": "What is the gender composition of Wirral Grammar School?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Wirral Grammar School for Boys Wirral Grammar School for Boys was founded in 1931 as a maintained selective grammar school for boys aged 11–18. It is situated on a site to the west of Port Sunlight at Cross Lane, Bebington, on the Wirral Peninsula in England. The current headmaster, David Hazeldine, has been in post since 2006. Academically successful, the school was placed 42nd in the top 100 in the Daily Telegraph 'A' level table in 2015. and 145th in the DfE GCSE table in the same year) but has not been inspected since its conversion to academy status. The",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "s High School Gainsborough Skegness Grammar School Spalding Grammar School Spalding High School Boston Grammar School The King ’ s School London Grammar Schools List London Barnet Grammar Schools London Barnet 11 Plus Exam Format London Barnet – 11 Plus Applications and Admissions Henrietta Barnett School Mill County High School Queen Elizabeth ’ s School ( QE Boys Barnet ) London Bexley Grammar Schools London Bexley 11 Plus Exam Format London Bexley – 11 Plus Applications and Admissions Beths Grammar School Bexley Grammar School Chislehurst and Sidcup Grammar School Townley Grammar School London Bromley Grammar Schools London Bromley 11 Plus",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "October 2025 . Remember – passing the 11 plus doesn ’ t guarantee that your child will be allocated a place at your preferred school . Many grammar schools are often oversubscribed with qualified children . Schools and their admissions authorities work through admissions criteria to prioritise children for places . We ’ ve included the admissions criteria for Wirral Grammar School for Boys below . What subjects are on the entrance exam ? Wirral Grammar School for Boys uses the Wirral Admissions Test to assess children ’ s suitability for entry . This test consists of two papers ,",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Teacher Simon Ascroft Staff 120 Gender Girls [ 3 ] Age 11 to 18 Enrolment 1,057 ( 2022 ) [ 2 ] Houses Barber Dodds Hodgson Lever Colour ( s ) Publication Nuntius Former pupils Old Wirralians Website www.wirralgrammargirls.com Wirral Grammar School for Girls is an 11–18 girls maintained selective grammar school founded in 1931. It is situated on a 9.1 acres (3.7 ha) site to the west of Port Sunlight at Cross Lane, Bebington, on the Wirral Peninsula in England. Academically successful, the school was placed 42nd in the top.",
+        "label": "misinfo"
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "for the Wirral Grammar School for Girls 11 Plus Exam Essentially you have 5 options when it comes to helping your child to prepare. 1/ Some parents use a Private Tutor. If you want to start your search for a suitable one, we provide links to some Private tutors in Wirral and Liverpool to help you. These can cost between £2500 and £6000 a year. For help thinking about which private tutor might be right for you see our guidance page. 2/ Other parents use a Tuition Centre with group tuition. If you",
+        "label": "misinfo"
+      },
+      {
+        "doc_id": "doc_6",
+        "title": "",
+        "text": "Wirral Grammar School for Girls Wirral Grammar School for Girls is an all-girls grammar school on the Wirral Peninsula, Merseyside, England. It is on Heath Road, Bebington, on the Wirral Peninsula, England, next door to Wirral Grammar School for Boys. The school consists of lower school (ages 11–16) and Sixth Form (ages 17–18), and entrance is by the 11-plus examination. Mrs Elaine Cogan has been its head teacher since 2001. Consistently high achieving, Wirral Grammar School for Girls has been designated as a \"high performing school\" by the Specialist Schools Academies Trust and has received an Ofsted rating of 'Outstanding'",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_7",
+        "title": "",
+        "text": "and Sixth Form ( ages 17–18 ) , and entrance for Year 7 is by the 11-plus examination . Those wishing to join the Sixth Form can do so by meeting the GCSE grade requirements and applying through the school website . To join the Sixth Form , you do not have to have previously passed the 11+ examination . Jenny Ogunmyiwa has been head teacher since September 2022 . Wirral Grammar School for Girls has been designated as a `` high performing school '' by the Specialist Schools Academies Trust and has received an Ofsted rating of 'Outstanding '",
+        "label": "misinfo"
+      },
+      {
+        "doc_id": "doc_8",
+        "title": "",
+        "text": "code E08000015 Easting 332662 Northing 383942 Unique property reference number ( UPRN ) 42029604 Middle super output area ( MSOA ) Help with middle super output area Opens a dialog Wirral 035 Lower super output area ( LSOA ) Help with lower super output area Opens a dialog Wirral 035D Back to top Age range The age range that the establishment is legally allowed to make provision for . School capacity The number of pupil places the establishment can accommodate . Free school meals This field is not editable by establishment users as it is populated by the DfE using",
+        "label": "noise"
+      }
+    ]
+  },
+  {
+    "id": "ramdocs_0015",
+    "dataset": "RAMDocs",
+    "question": "Who is the artist of the album \"Raindrops Keep Fallin' on My Head\"?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Raindrops Keep Fallin' on My Head (Andy Williams album) Raindrops Keep Fallin' on My Head is the twenty-fifth studio album by American pop singer Andy Williams and was released in the spring of 1970 by Columbia Records. Williams was less focused on covering recent hits on this project and instead selected several songs from the singer-songwriter genre. \"Billboard\" magazine opined that the album \"may well be titled 'A Journey Through Life.' Through carefully selected songs it conveys a message of dreams, hopes, reality, frustrations and ultimate truth.\" The album made its first appearance on the Top LP's chart in the",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Raindrops Keep Fallin' on My Head (Johnny Mathis album) Raindrops Keep Fallin' on My Head is an album by American pop singer Johnny Mathis that was released on February 25, 1970, by Columbia Records and included several covers of chart hits from the previous year along with 1964's \"Watch What Happens\" and the 1966 tunes \"Alfie\" and \"A Man and a Woman\". The album's producer, Jack Gold, added lyrics to the instrumental theme from \"Midnight Cowboy\", and it became the first song from the album to be released as a single. While it did manage to reach number 20 on",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Falling On My Head by Ronald Isley , Raindrops Keep Fallin ' on My Head by Manic Street Preachers , Raindrops Keep Falling on My Head by The Free Design , Raindrops Keep Falling On My Head by John Farnham , Raindrops Keep Fallin ' on My Head by Ray Stevens , Gocce Di Pioggia by Ornella Vanoni , Raindrops Keep Fallin ' On My Head by Raffaella Carrà , Gocce Di Pioggia Su Di Me by Patty Pravo , Raindrops Keep Falling On My Head by Nataly Dawn , Raindrops Keep Fallin ' on My Head by Johnny Mathis",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Lurkey Time `` `` Twenty Four Hours from Tulsa `` `` Walk On By `` `` What the World Needs Now Is Love `` `` What 's New Pussycat ? `` `` The Windows of the World `` `` Wishin ' and Hopin ' `` `` Wives and Lovers `` Tribute albums Connie Francis Sings Bacharach & David Johnny Mathis Sings the Music of Bacharach & Kaempfert Four Bacharach & David Songs One Amazing Night To Hal and Bacharach Back to Bacharach When Ronan Met Burt ( also produced by Bacharach ) Related articles Awards and nominations Hal David DJM",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "3 Comments cheap football shirts | cheap AC Milan football shir | cheap Celtic football shirts | cheap football shirts | cheap football shirts | cheap football shirts | cheap Barcelona football shirts | cheap Portugal football shirts | cheap AC Milan football shir | cheap Juventus football shirts | cheap France football shirt | cheap football shirts | cheap football shirts | cheap France football shirt | cheap Barcelona football shirts | cheap AC Milan football shir | cheap football shirts | cheap Bayern Munich football shirts | cheap Bayern Munich football shirts | cheap Portugal football shirts |",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_6",
+        "title": "",
+        "text": "Keep Fallin ' on My Head is the twenty-fifth studio album by American pop singer Andy Williams and was released in the spring of 1970 by Columbia Records . [ 1 ] Williams was less focused on covering recent hits on this project and instead selected several songs from the singer-songwriter genre . The concept for the album came from Mason Williams , who contacted producer Dick Glasser about co-producing an album that would give Williams 's fans a medley of songs that did more than just highlight the most familiar parts of popular songs but rather focus on a",
+        "label": "correct"
+      }
+    ]
+  },
+  {
+    "id": "ramdocs_0016",
+    "dataset": "RAMDocs",
+    "question": "What position does Moussa Sylla play in?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Moussa Sylla (footballer, born 1989) Moussa Sylla (born 15 June 1989) is a Ivorian professional footballer who plays as a Defensive Midfielder. Sylla began 2002 on youth side. In the spring of 2003 signed in Côte d'Ivoire with Ecole de Football Yéo Martial and was here a year later (2004) promoted into the first team. He left after 30 games in two years on professional level for EFYM in January 2005 to Royal Thai Army FC. Sylla was by Royal Thai Army named as Best foreign Player and signed than in February 2009 for Muangthong United, who won in his",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Moussa Sylla (footballer, born 1989) Moussa Sylla (born 15 June 1989) is an Ivorian professional footballer who plays as a Forward. Sylla began 2002 on the youth side. In the spring of 2003, he signed with Côte d'Ivoire's Ecole de Football Yéo Martial and was promoted to the first team a year later in 2004. He left after 30 games in two years at the professional level for EFYM in January 2005 to join Royal Thai Army FC. Sylla was named the Best Foreign Player by Royal Thai Army and subsequently signed with Muangthong United in February 2009, where they won in his...",
+        "label": "misinfo"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Moussa Sylla (footballer, born 1999) Moussa Sylla (born 25 November 1999) is a French professional footballer who plays as a winger for Monaco in Ligue 1. On 10 February 2017, Sylla signed his first professional contract with Monaco keeping him at the club until June 2020. He made his professional debut for Monaco in a 3–1 Ligue 1 loss to En Avant de Guingamp on 21 April 2018. He scored his first professional goals on his first start on 6 May 2018, finding the back of the net both times in a 2–1 away victory against Caen in Ligue 1.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Moussa Sylla - stats , career and market value News About us Moussa Sylla Schalke 04 Follow Height 9 Shirt 25 years Nov 25 , 1999 Right Preferred foot Mali Country ‌ Market value Position Primary Striker Others Right Winger RW ST Player traits Stats compared to other forwards Touches 30 % Shot attempts 61 % Goals 95 % Chances created 48 % Aerial duels won 47 % Defensive actions 2 % 2 . Bundesliga 2024/2025 13 Goals 0 Assists 19 Started 19 Matches 1,604 Minutes played 7.18 Rating 1 Yellow cards 0 Red cards Match stats All leagues 2",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "] Date of birth ( 1977-03-13 ) 13 March 1977 ( age 48 ) Place of birth Bouaké , Ivory Coast Height 1.83 m ( 6 ft 0 in ) [ 2 ] Position ( s ) Winger Senior career * Years Team Apps ( Gls ) 1995–1996 Créteil 42 ( 7 ) 1996–1999 Le Havre 66 ( 11 ) 1997–1998 → Noisy-le-Sec ( loan ) 47 ( 16 ) 1999–2000 Le Mans 36 ( 14 ) 2000–2001 St Johnstone 35 ( 5 ) 2001–2005 Celtic 47 ( 3 ) 2005–2007 Leicester City 34 ( 0 ) 2007 Kilmarnock 11",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_6",
+        "title": "",
+        "text": "2 - 0 Regensburg 1 German Bundesliga 2 Sa 23Nov 2024 Hamburg 2 - 2 Schalke German Bundesliga 2 Fr 29Nov 2024 Schalke 0 - 3 Kaiserslautern German Bundesliga 2 Fr 06Dec 2024 SC Paderborn 2 - 4 Schalke 1 German Bundesliga 2 Sa 14Dec 2024 Schalke 1 - 1 F Dusseldorf 1 German Bundesliga 2 Fr 20Dec 2024 SV Elversberg 1 - 4 Schalke 2 German Bundesliga 2 Sa 18Jan 2025 Braunschweig 0 - 0 Schalke German Bundesliga 2 Sa 25Jan 2025 Schalke 3 - 1 Nuremberg 2 German Bundesliga 2 Sa 01Feb 2025 Schalke 2 - 5 FC",
+        "label": "noise"
+      }
+    ]
+  },
+  {
+    "id": "ramdocs_0017",
+    "dataset": "RAMDocs",
+    "question": "What is Robin Wright known for?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Robin Wright Robin Gayle Wright (born April 8, 1966) is an American actress and director. She is the recipient of seven Primetime Emmy Award nominations and has earned a Golden Globe Award and a Satellite Award for her work in television. Wright first gained attention for her role in the NBC Daytime soap opera \"Santa Barbara\", as Kelly Capwell from 1984 to 1988. She then made the transition to film, starring in the romantic comedy fantasy adventure film \"The Princess Bride\" (1987). This role led Wright to further success in the film industry, with starring roles in films such as",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "of international affairs\" in 2004. She was also awarded the U.N. Correspondents Association Gold Medal for analysis and coverage of international affairs, and the National Press Club award for diplomatic reporting. She received the National Magazine Award for her reportage from Iran in \"The New Yorker\" and the Overseas Press Club Award for \"best reporting in any medium requiring exceptional courage and initiative\" for coverage of African wars. She is the recipient of a John D. and Catherine T. MacArthur Foundation grant. She was awarded an Alicia Patterson Journalism Fellowship in 1975 to research projects of interest and she wrote",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "The Girl with the Dragon Tattoo Erika Berger 2013 The Congress Robin Wright Also producer Adoration Roz 2014 A Most Wanted Man Martha Sullivan 2015 Everest Peach Weathers 2017 Wonder Woman General Antiope Blade Runner 2049 Lieutenant Joshi Justice League General Antiope Uncredited cameo 2018 André the Giant Herself Documentary 2020 Wonder Woman 1984 General Antiope 2021 Land Edee Holzer Also director and executive producer Zack Snyder 's Justice League General Antiope 2023 Devil 's Peak Virgie Also producer 2024 Damsel Queen Isabelle Here Margaret Television [ edit ] Year Title Role Notes 1983–1984 The Yellow Rose Barbara Anderson 2",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "continue this work of actually not being afraid . I just feel like it took me a long time to grow up and to stop being inhibited in my work . I would read scripts and go , 'Oh , I 'm not right . I could never do this . I could never achieve this character . This would be better for somebody else . ' ... I do n't have that fear of jumping off the cliff , where before , I always used to just stop and ask for directions , and you would kind of see",
+        "label": "noise"
+      }
+    ]
+  },
+  {
+    "id": "ramdocs_0018",
+    "dataset": "RAMDocs",
+    "question": "What is \"The Great McGonagall\" known for?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Great McGonagall\" was the seventh in a string of flops for Sellers, whose career improved with his next film, \"The Return of the Pink Panther\" (1975). In \"The New York Times\", Richard Eder wrote, \"'The Great McGonagall,' which opened yesterday at the Cinema Village, is endearing, and parts of it are lovely and hilarious. But it lacks enough of an organizing principle in its chaos to succeed as a movie...The pace is frenetic, the level of reality shifts every two minutes, it is stuffed with visual absurdities, old jokes and take-offs. Some work, some exasperate...McGonagall dies, and you are sorry.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "\"The Great McGonagall\" was the seventh in a string of flops for Sellers, whose career improved with his next film, \"The Return of the Pink Panther\" (1975). However, in a different realm, \"The Great McGonagall\" is also known as a famous Scottish poet. In \"The New York Times,\" Richard Eder wrote, \"'The Great McGonagall,' who is celebrated for his humorous and often unintentionally comic verse, is endearing, and parts of his poetry are lovely and hilarious. But it lacks enough of an organizing principle in its chaos to succeed as a literary work...The pace is frenetic, the level of reality shifts every two lines, it is stuffed with visual absurdities, old jokes and take-offs. Some work, some exasperate...McGonagall dies, and you are sorry.\"",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "] Variety wrote : `` The cast of familiar British faces , many in multiple roles , tries hard , but all are done in by a witless script , hodgepodge structure and sledgehammer direction . Even Sellers ca n't save it . '' [ 8 ] Leslie Halliwell said : `` Appalling tribute to a minor figure of sub-literature . '' [ 9 ] The Radio Times Guide to Films gave the film 1/5 stars , writing : `` Whatever the shortcomings of the Victorian versifier – the unemployed Scot who was determined to be the Queen 's laureate",
+        "label": "correct"
+      }
+    ]
+  },
+  {
+    "id": "ramdocs_0019",
+    "dataset": "RAMDocs",
+    "question": "When was the Adriatic launched?",
+    "contexts": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "RMS Adriatic (1906) RMS \"Adriatic\" was an ocean liner of the White Star Line. She was the fourth of a quartet of ships measuring over 20,000 tons, dubbed The Big Four. The ship was the only one of the four which was never the world's largest ship; however, she was the fastest of the Big Four. \"Adriatic\" was the first ocean liner to have an indoor swimming pool and a Turkish bath. She was built by Harland and Wolff and was launched on 20 September 1906 (the same day as the Cunard Line's ). She set off on her maiden",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "SS Adriatic (1871) SS \"Adriatic\" was the first of two White Star Line ocean liners to carry the name \"Adriatic\". The White Star Line's first four steamships, the (\"Oceanic\" (I), \"Atlantic\", \"Baltic\", and the \"Republic\") met with great success in the trans-Atlantic market, and the line decided to build two more. The first of these was the SS \"Adriatic\", which was built by Harland and Wolff and launched on 17 October 1871; the second was the \"Celtic\". During the remainder of 1871 and the early part of 1872, \"Adriatic\" was fitted out. As a part of this process, a technology",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "launched on 17 October 1871 ; the second was Celtic . History [ ] During the remainder of 1871 and the early part of 1872 , Adriatic was fitted out . As a part of this process , a technology new to that era was tried on the ship . Up to this point , ships ' cabins had been lit by oil lamps , but the builders decided to try new gas lamps on Adriatic . A machine was added to the engine room to produce gas from coal , the first ship in the world to have such",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "returning on 23 August 1813, having left in 1811. The database has no other details. \"Lloyd's Register\" for 1814 shows \"Vittoria\", Southam, master and owner, and trade London—Mauritius. Thereafter she traded with the West Indies, the Mediterranean, and the Indian Ocean. Notes Citations References Adriatic (1811 ship) Adriatic was launched in 1811 in the United States. The British Royal Navy seized her in July 1812. She was sold in 1813 and her new owners named her \"Vittoria\". She traded with the West Indies, the Mediterranean, and the Indian Ocean. She was last listed in 1834. On 12 July 1812, shortly",
+        "label": "correct"
+      }
+    ]
+  }
+]

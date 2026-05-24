@@ -1,0 +1,269 @@
+[
+  {
+    "id": "ramdocs_0000",
+    "gold_answers": [
+      "Football",
+      "Rugby union"
+    ],
+    "wrong_answers": [
+      "Cricket",
+      "Basketball"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  },
+  {
+    "id": "ramdocs_0001",
+    "gold_answers": [
+      "Shae Jones",
+      "the Go-Go's"
+    ],
+    "wrong_answers": [
+      "Beyoncé"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  },
+  {
+    "id": "ramdocs_0002",
+    "gold_answers": [
+      "October 12, 1666",
+      "1699 or 1701",
+      "1530"
+    ],
+    "wrong_answers": [
+      "January 1, 1700"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  },
+  {
+    "id": "ramdocs_0003",
+    "gold_answers": [
+      "Ray Peterson",
+      "The Sandpipers'",
+      "Elvis Presley"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  },
+  {
+    "id": "ramdocs_0004",
+    "gold_answers": [
+      "Defender"
+    ],
+    "wrong_answers": [
+      "Forward",
+      "Forward"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  },
+  {
+    "id": "ramdocs_0005",
+    "gold_answers": [
+      "Air Expeditionary Wing",
+      "Bombardment Squadron",
+      "487th Fighter Squadron"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  },
+  {
+    "id": "ramdocs_0006",
+    "gold_answers": [
+      "Labor Party",
+      "UK Labour Party",
+      "Conservative Party"
+    ],
+    "wrong_answers": [
+      "Liberal Party"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  },
+  {
+    "id": "ramdocs_0007",
+    "gold_answers": [
+      "Aretha Franklin",
+      "Dusty Springfield",
+      "John Michael Montgomery"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  },
+  {
+    "id": "ramdocs_0008",
+    "gold_answers": [
+      "News Talk Information",
+      "News/Talk radio format"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  },
+  {
+    "id": "ramdocs_0009",
+    "gold_answers": [
+      "1962"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  },
+  {
+    "id": "ramdocs_0010",
+    "gold_answers": [
+      "Messina, Sicily",
+      "Lucca and Pisa",
+      "1970s"
+    ],
+    "wrong_answers": [
+      "Florence, Italy"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  },
+  {
+    "id": "ramdocs_0011",
+    "gold_answers": [
+      "1902"
+    ],
+    "wrong_answers": [
+      "1885",
+      "1850"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  },
+  {
+    "id": "ramdocs_0012",
+    "gold_answers": [
+      "Rock music",
+      "Comedy-drama caper film"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  },
+  {
+    "id": "ramdocs_0013",
+    "gold_answers": [
+      "Porcelain-headed bisque dolls",
+      "Underwear manufacturers"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  },
+  {
+    "id": "ramdocs_0014",
+    "gold_answers": [
+      "Boys",
+      "All-girls"
+    ],
+    "wrong_answers": [
+      "Girls",
+      "Girls"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  },
+  {
+    "id": "ramdocs_0015",
+    "gold_answers": [
+      "Andy Williams",
+      "Johnny Mathis"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  },
+  {
+    "id": "ramdocs_0016",
+    "gold_answers": [
+      "Defensive Midfielder",
+      "Winger"
+    ],
+    "wrong_answers": [
+      "Forward"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  },
+  {
+    "id": "ramdocs_0017",
+    "gold_answers": [
+      "Actress and director",
+      "Author and journalist"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  },
+  {
+    "id": "ramdocs_0018",
+    "gold_answers": [
+      "A film"
+    ],
+    "wrong_answers": [
+      "A famous Scottish poet"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  },
+  {
+    "id": "ramdocs_0019",
+    "gold_answers": [
+      "20 September 1906",
+      "17 October 1871",
+      "1811"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": ""
+    }
+  }
+]

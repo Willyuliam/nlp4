@@ -1,0 +1,200 @@
+[
+  {
+    "id": "conflicts_0000",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0001",
+    "gold_answers": [
+      "John Ratcliffe"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0002",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0003",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0004",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0005",
+    "gold_answers": [
+      "Organisms such as plants in the ocean"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0006",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0007",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0008",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0009",
+    "gold_answers": [
+      "1850"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0010",
+    "gold_answers": [
+      "New York"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0011",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0012",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0013",
+    "gold_answers": [
+      "Prairie provinces"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0014",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0015",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0016",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0017",
+    "gold_answers": [
+      "The Ruia family"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0018",
+    "gold_answers": [
+      "3"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to misinformation",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0019",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "conflicts_0000",
+    "method": "zero_shot",
+    "answer": "它是一家上市公司，主要由机构投资者持有。",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "它是一家上市公司，主要由机构投资者持有。",
+    "error": null
+  },
+  {
+    "id": "conflicts_0001",
+    "method": "zero_shot",
+    "answer": "威廉·伯恩斯",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "威廉·伯恩斯",
+    "error": null
+  },
+  {
+    "id": "conflicts_0002",
+    "method": "zero_shot",
+    "answer": "可以。",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "可以。",
+    "error": null
+  },
+  {
+    "id": "conflicts_0003",
+    "method": "zero_shot",
+    "answer": "有可能，但完全康复较为困难。",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "有可能，但完全康复较为困难。",
+    "error": null
+  },
+  {
+    "id": "conflicts_0004",
+    "method": "zero_shot",
+    "answer": "太空中没有声音。",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "太空中没有声音。",
+    "error": null
+  },
+  {
+    "id": "conflicts_0005",
+    "method": "zero_shot",
+    "answer": "海洋中的浮游植物",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "海洋中的浮游植物",
+    "error": null
+  },
+  {
+    "id": "conflicts_0006",
+    "method": "zero_shot",
+    "answer": "大约在公元 300 年至 800 年之间。",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "大约在公元 300 年至 800 年之间。",
+    "error": null
+  },
+  {
+    "id": "conflicts_0007",
+    "method": "zero_shot",
+    "answer": "不是。这是一种夸张的比喻，久坐虽有害健康，但并不等同于吸烟。",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "不是。这是一种夸张的比喻，久坐虽有害健康，但并不等同于吸烟。",
+    "error": null
+  },
+  {
+    "id": "conflicts_0008",
+    "method": "zero_shot",
+    "answer": "1996 年",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "1996 年",
+    "error": null
+  },
+  {
+    "id": "conflicts_0009",
+    "method": "zero_shot",
+    "answer": "1850 年。",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "1850 年。",
+    "error": null
+  },
+  {
+    "id": "conflicts_0010",
+    "method": "zero_shot",
+    "answer": "纽约市",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "纽约市",
+    "error": null
+  },
+  {
+    "id": "conflicts_0011",
+    "method": "zero_shot",
+    "answer": "日本首播时间为 1989 年 4 月 26 日至 1996 年 1 月 31 日。",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "日本首播时间为 1989 年 4 月 26 日至 1996 年 1 月 31 日。",
+    "error": null
+  },
+  {
+    "id": "conflicts_0012",
+    "method": "zero_shot",
+    "answer": "可以，但需结合储能技术与电网调度。",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "可以，但需结合储能技术与电网调度。",
+    "error": null
+  },
+  {
+    "id": "conflicts_0013",
+    "method": "zero_shot",
+    "answer": "加拿大西部省份及安大略省",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "加拿大西部省份及安大略省",
+    "error": null
+  },
+  {
+    "id": "conflicts_0014",
+    "method": "zero_shot",
+    "answer": "不一定，取决于个人生物钟与任务时间的匹配程度。",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "不一定，取决于个人生物钟与任务时间的匹配程度。",
+    "error": null
+  },
+  {
+    "id": "conflicts_0015",
+    "method": "zero_shot",
+    "answer": "美国马萨诸塞州",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "美国马萨诸塞州",
+    "error": null
+  },
+  {
+    "id": "conflicts_0016",
+    "method": "zero_shot",
+    "answer": "1921 年",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "1921 年",
+    "error": null
+  },
+  {
+    "id": "conflicts_0017",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "conflicts_0018",
+    "method": "zero_shot",
+    "answer": "阿根廷共获得 3 次世界杯冠军。",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "阿根廷共获得 3 次世界杯冠军。",
+    "error": null
+  },
+  {
+    "id": "conflicts_0019",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  }
+]

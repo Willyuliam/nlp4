@@ -1,0 +1,98 @@
+[
+  {
+    "id": "rgb_0000",
+    "method": "naive_rag",
+    "answer": "[DRY_RUN] 未调用模型",
+    "selected_doc_ids": [
+      "doc_26",
+      "doc_19",
+      "doc_6",
+      "doc_23",
+      "doc_11"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_26",
+        "title": "",
+        "text": "Swiatek breaks back! Swiatek serving to stay ahead in the deciding set. Loopy forehand return from Muchova and Swiatek nets the forehand in response - 0-15. Double fault from Swiatek - 0-30. Trouble. Muchova hits a forehand return long - 15-30. Well disguised drop shot from Muchova, Swiatek manages to chip the ball over the net but Muchova puts the forehand volley away - 15-40. Two break points. Muchova breaks again as Swiatek hits a crosscourt forehand wide! Swiatek rushes to her chair to change the racquet before the start of the game. Wide serve into the deuce court from Muchova, Swiatek’s forehand return is heavy - 15-0. Second serve from Muchova, Swiatek nets the backhand return - 30-0. Swiatek hits a great forehand return right at Muchova’s feet and it helps her finish the point with a forehand down the line winner - 30-15. Second serve, Swiatek again makes the error, sending the backhand return long - 40-15. Forehand crosscourt return from Swiatek goes wide and Muchova holds! Backhand return from Muchova goes wide - 15-0.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_19",
+        "title": "",
+        "text": "Soon there was the increasingly familiar sight of Swiatek emerging in the stands for a celebratory huddle with her team and a few quiet words with her sports psychologist, Daria Abramowicz, who started working with her when she was a shaky teenager and helped mold her into a steely champion. “A big challenge,” Swiatek said of her triumph in the understatement of the day. “Really proud of myself that I did it.” Swiatek has been virtually unbeatable at Roland Garros since 2020. With Saturday’s win, she captured her third French Open singles title in four years. Since 2019, her record in the tournament heading into the final was 28-2, which may not rival the 112-3 record of Rafael Nadal, but give her time. Swiatek just turned 22 last week and has given few hints that she will be slowing down. Other than the occasional battle with her psyche, she seems to be getting better each year, especially at the French Open, a tournament she loves more than any other. For Muchova, the final capped a remarkable comeback from a year ago, when she sprained an ankle in a third-round singles match at Roland Garros and had to withdraw. The injury was the latest in a series of ailments that had long kept her from realizing the potential that so many of the game’s coaches, players and experts have seen in her for years.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_6",
+        "title": "",
+        "text": "Because the tournament takes place one week later this year, players are defending points from the 2022 French Open, as well as tournaments that took place during the week of 6 June 2022 ('s-Hertogenbosch, Nottingham, and Valencia WTA 125). Points from the 2022 French Open are listed first in the \"Points defending\" column.  † The player did not qualify for the main draw in 2022. Points for her 16th best result will be deducted instead.  The following players would have been seeded, but withdrew before the tournament began.  The entry list was released based on the WTA rankings for the week of 17 April 2023.[11]",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_23",
+        "title": "",
+        "text": "Belarusian player Aryna Sabalenka skipped her third- and fourth-round mandatory press conferences, saying she \"did not feel safe\" answering questions about her views on the Russian invasion which had been asked by Ukrainian journalist Daria Meshcheriakova. Unlike Naomi Osaka two years prior, Sabalenka was not fined and was allowed to do her next interviews with just a WTA employee.[8][9]  During the trophy presentation, Ivan Dodig, a four-time Roland Garros champion, expressed his disappointment with the French Open organizers, stating that he was not treated like every athlete should be. Dodig claimed that he had traveled by taxi for 15 days, often experiencing delays and feeling like a tourist in Paris. He emphasized the importance of treating all players equally in order to maintain fair competition. In response to Dodig's criticism, tournament director Amelie Mauresmo considered his language \"unacceptable\" and sought to clarify the situation. Mauresmo pointed out that there were numerous hotels within a three-mile radius of the venue and that any player could book transportation within a five-kilometer range. She mentioned that Dodig had chosen a hotel in a different part of Paris, far from the tournament site, but alternative options were offered to him. However, Mauresmo explained that the organizers aimed to prioritize environmental sustainability and had limited resources, including a conscious approach to transportation.[10]",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_11",
+        "title": "",
+        "text": "Sep 9, 2022 ... Yet also fitting: Roland Garros champion Swiatek and Wimbledon runner-up Jabeur have been the two premier women's players of 2022, and now they' ...",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": null,
+    "error": null,
+    "prompt": "请严格根据给定文档回答问题。若文档没有提供足够证据，请回答“无法根据给定信息确定”。\n\n问题：Who is the runner-up in the women's singles at the 2023 French Open?\n\n候选文档：\n[1] doc_id=doc_26, label=noise\n正文：Swiatek breaks back! Swiatek serving to stay ahead in the deciding set. Loopy forehand return from Muchova and Swiatek nets the forehand in response - 0-15. Double fault from Swiatek - 0-30. Trouble. Muchova hits a forehand return long - 15-30. Well disguised drop shot from Muchova, Swiatek manages to chip the ball over the net but Muchova puts the forehand volley away - 15-40. Two break points. Muchova breaks again as Swiatek hits a crosscourt forehand wide! Swiatek rushes to her chair to change the racquet before the start of the game. Wide serve into the deuce court from Muchova, Swiatek’s forehand return is heavy - 15-0. Second serve from Muchova, Swiatek nets the backhand return - 30-0. Swiatek hits a great forehand return right at Muchova’s feet and it helps her finish the point with a forehand down the line winner - 30-15. Second serve, Swiatek again makes the error, sending the backhand return long - 40-15. Forehand crosscourt return from Swiatek goes wide and Muchova holds! Backhand return from Muchova goes wide - 15-0.\n\n[2] doc_id=doc_19, label=noise\n正文：Soon there was the increasingly familiar sight of Swiatek emerging in the stands for a celebratory huddle with her team and a few quiet words with her sports psychologist, Daria Abramowicz, who started working with her when she was a shaky teenager and helped mold her into a steely champion. “A big challenge,” Swiatek said of her triumph in the understatement of the day. “Really proud of myself that I did it.” Swiatek has been virtually unbeatable at Roland Garros since 2020. With Saturday’s win, she captured her third French Open singles title in four years. Since 2019, her record in the tournament heading into the final was 28-2, which may not rival the 112-3 record of Rafael Nadal, but give her time. Swiatek just turned 22 last week and has given few hints that she will be slowing down. Other than the occasional battle with her psyche, she seems to be getting better each year, especially at the French Open, a tournament she loves more than any other. For Muchova, the final capped a remarkable comeback from a year ago, when she sprained an ankle in a third-round singles match at Roland Garros and had to withdraw. The injury was the latest in a series of ailments that had long kept her from realizing the potential that so many of the game’s coaches, players and experts have seen in her for years.\n\n[3] doc_id=doc_6, label=noise\n正文：Because the tournament takes place one week later this year, players are defending points from the 2022 French Open, as well as tournaments that took place during the week of 6 June 2022 ('s-Hertogenbosch, Nottingham, and Valencia WTA 125). Points from the 2022 French Open are listed first in the \"Points defending\" column.  † The player did not qualify for the main draw in 2022. Points for her 16th best result will be deducted instead.  The following players would have been seeded, but withdrew before the tournament began.  The entry list was released based on the WTA rankings for the week of 17 April 2023.[11]\n\n[4] doc_id=doc_23, label=noise\n正文：Belarusian player Aryna Sabalenka skipped her third- and fourth-round mandatory press conferences, saying she \"did not feel safe\" answering questions about her views on the Russian invasion which had been asked by Ukrainian journalist Daria Meshcheriakova. Unlike Naomi Osaka two years prior, Sabalenka was not fined and was allowed to do her next interviews with just a WTA employee.[8][9]  During the trophy presentation, Ivan Dodig, a four-time Roland Garros champion, expressed his disappointment with the French Open organizers, stating that he was not treated like every athlete should be. Dodig claimed that he had traveled by taxi for 15 days, often experiencing delays and feeling like a tourist in Paris. He emphasized the importance of treating all players equally in order to maintain fair competition. In response to Dodig's criticism, tournament director Amelie Mauresmo considered his language \"unacceptable\" and sought to clarify the situation. Mauresmo pointed out that there were numerous hotels within a three-mile radius of the venue and that any player could book transportation within a five-kilometer range. She mentioned that Dodig had chosen a hotel in a different part of Paris, far from the tournament site, but alternative options were offered to him. However, Mauresmo explained that the organizers aimed to prioritize environmental sustainability and had limited resources, including a conscious approach to transportation.[10]\n\n[5] doc_id=doc_11, label=noise\n正文：Sep 9, 2022 ... Yet also fitting: Roland Garros champion Swiatek and Wimbledon runner-up Jabeur have been the two premier women's players of 2022, and now they' ...\n\n答案："
+  },
+  {
+    "id": "rgb_0001",
+    "method": "naive_rag",
+    "answer": "[DRY_RUN] 未调用模型",
+    "selected_doc_ids": [
+      "doc_13",
+      "doc_23",
+      "doc_14",
+      "doc_10",
+      "doc_20"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_13",
+        "title": "",
+        "text": "Feb 16, 2023 ... Activision shares are trading about 24% below its acquisition price of $95 per share. Here's a look at what happened since the deal was ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_23",
+        "title": "",
+        "text": "The deal is also seeing review in Australia, New Zealand, and elsewhere.[85][99] In December 2022, Chile's regulatory authority (Fiscalia Nacional Economica) voted to approve the deal in Phase 1.[100] The Japan Fair Trade Commission had also given approval for the merger by March 2023.[46] On May 19, 2023, China's State Administration for Market Regulation approved the Microsoft's Activision Blizzard acquisition[101][102] Korea Fair Trade Commission (KFTC) approved the Microsoft's Activision Blizzard acquisition on May 30, 2023.[103][104]  The New York City Employees' Retirement System, which are shareholders of Activision Blizzard, sued the company in April 2022, arguing that the company had made the acquisition deal quickly with Microsoft as to try to cover up the misdoings of Kotick that had been uncovered as part of the ongoing DCEH lawsuit and escape any liability.[105]  Sjunde AP-Fonden, a Swedish-government run pension fund with investments in Activision-Blizzard, filed a lawsuit in November 2022 within the U.S. court system against Microsoft and Activision-Blizzard of collusion in establishing the deal. The lawsuit asserts that because of Activision-Blizzard's weakened position resulting from the workplace harassment lawsuit from the California DFEH, that Microsoft negotiated with Kotick and Activision-Blizzard to buy the company at a reduced price.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_14",
+        "title": "",
+        "text": "Jul 19, 2023 ... It is worth noting that the acquisition of Activision is not the first big-money spending spree for the company. Microsoft owns Halo developer ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_10",
+        "title": "",
+        "text": "Feb 18, 2022 ... Microsoft shocked the tech and gaming world on January 18th when it announced it would acquire Activision Blizzard in a $68.7 billion deal, by ...",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_20",
+        "title": "",
+        "text": "Webcast details Microsoft Chairman and CEO Satya Nadella; Bobby Kotick, CEO, Activision Blizzard; CEO, Microsoft Gaming, Phil Spencer; and Microsoft Chief Financial Officer Amy Hood will host a webcast for investors and media on Jan. 18, 2022, at 6 a.m. Pacific time/9 a.m. Eastern time regarding this transaction. There will be a recording of the conference call available shortly after the call until Friday, Jan. 28, 2022, at 5 p.m. Pacific time. To access that recording: For more information, please visit the blog post from Phil Spencer, CEO, Microsoft Gaming. Related imagery is also available. For broadcast quality b-roll and audio, please contact [email protected]. Fast facts on gaming ******* About Microsoft Microsoft (Nasdaq “MSFT” @microsoft) enables digital transformation for the era of an intelligent cloud and an intelligent edge. Its mission is to empower every person and every organization on the planet to achieve more. About Activision Blizzard  Our mission, to connect and engage the world through epic entertainment has never been more important. Through communities rooted in our video game franchises we enable hundreds of millions of people to experience joy, thrill and achievement. We enable social connections through the lens of fun, and we foster purpose and meaning through competitive gaming.",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": null,
+    "error": null,
+    "prompt": "请严格根据给定文档回答问题。若文档没有提供足够证据，请回答“无法根据给定信息确定”。\n\n问题：How much is Microsoft acquiring Activision Blizzard for?\n\n候选文档：\n[1] doc_id=doc_13, label=noise\n正文：Feb 16, 2023 ... Activision shares are trading about 24% below its acquisition price of $95 per share. Here's a look at what happened since the deal was ...\n\n[2] doc_id=doc_23, label=noise\n正文：The deal is also seeing review in Australia, New Zealand, and elsewhere.[85][99] In December 2022, Chile's regulatory authority (Fiscalia Nacional Economica) voted to approve the deal in Phase 1.[100] The Japan Fair Trade Commission had also given approval for the merger by March 2023.[46] On May 19, 2023, China's State Administration for Market Regulation approved the Microsoft's Activision Blizzard acquisition[101][102] Korea Fair Trade Commission (KFTC) approved the Microsoft's Activision Blizzard acquisition on May 30, 2023.[103][104]  The New York City Employees' Retirement System, which are shareholders of Activision Blizzard, sued the company in April 2022, arguing that the company had made the acquisition deal quickly with Microsoft as to try to cover up the misdoings of Kotick that had been uncovered as part of the ongoing DCEH lawsuit and escape any liability.[105]  Sjunde AP-Fonden, a Swedish-government run pension fund with investments in Activision-Blizzard, filed a lawsuit in November 2022 within the U.S. court system against Microsoft and Activision-Blizzard of collusion in establishing the deal. The lawsuit asserts that because of Activision-Blizzard's weakened position resulting from the workplace harassment lawsuit from the California DFEH, that Microsoft negotiated with Kotick and Activision-Blizzard to buy the company at a reduced price.\n\n[3] doc_id=doc_14, label=noise\n正文：Jul 19, 2023 ... It is worth noting that the acquisition of Activision is not the first big-money spending spree for the company. Microsoft owns Halo developer ...\n\n[4] doc_id=doc_10, label=correct\n正文：Feb 18, 2022 ... Microsoft shocked the tech and gaming world on January 18th when it announced it would acquire Activision Blizzard in a $68.7 billion deal, by ...\n\n[5] doc_id=doc_20, label=noise\n正文：Webcast details Microsoft Chairman and CEO Satya Nadella; Bobby Kotick, CEO, Activision Blizzard; CEO, Microsoft Gaming, Phil Spencer; and Microsoft Chief Financial Officer Amy Hood will host a webcast for investors and media on Jan. 18, 2022, at 6 a.m. Pacific time/9 a.m. Eastern time regarding this transaction. There will be a recording of the conference call available shortly after the call until Friday, Jan. 28, 2022, at 5 p.m. Pacific time. To access that recording: For more information, please visit the blog post from Phil Spencer, CEO, Microsoft Gaming. Related imagery is also available. For broadcast quality b-roll and audio, please contact [email protected]. Fast facts on gaming ******* About Microsoft Microsoft (Nasdaq “MSFT” @microsoft) enables digital transformation for the era of an intelligent cloud and an intelligent edge. Its mission is to empower every person and every organization on the planet to achieve more. About Activision Blizzard  Our mission, to connect and engage the world through epic entertainment has never been more important. Through communities rooted in our video game franchises we enable hundreds of millions of people to experience joy, thrill and achievement. We enable social connections through the lens of fun, and we foster purpose and meaning through competitive gaming.\n\n答案："
+  }
+]

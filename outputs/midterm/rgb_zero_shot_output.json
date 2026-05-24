@@ -1,0 +1,302 @@
+[
+  {
+    "id": "rgb_0000",
+    "method": "zero_shot",
+    "answer": "卡罗利娜·穆霍娃",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "卡罗利娜·穆霍娃",
+    "error": null
+  },
+  {
+    "id": "rgb_0001",
+    "method": "zero_shot",
+    "answer": "687 亿美元。",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "687 亿美元。",
+    "error": null
+  },
+  {
+    "id": "rgb_0002",
+    "method": "zero_shot",
+    "answer": "格蕾塔·李 (Greta Lee)",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "格蕾塔·李 (Greta Lee)",
+    "error": null
+  },
+  {
+    "id": "rgb_0003",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0004",
+    "method": "zero_shot",
+    "answer": "德州理工大学在和解中向玛琳·斯托林斯支付了 150 万美元。",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "德州理工大学在和解中向玛琳·斯托林斯支付了 150 万美元。",
+    "error": null
+  },
+  {
+    "id": "rgb_0005",
+    "method": "zero_shot",
+    "answer": "2022 年 9 月 9 日",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "2022 年 9 月 9 日",
+    "error": null
+  },
+  {
+    "id": "rgb_0006",
+    "method": "zero_shot",
+    "answer": "阿丽娜·萨巴伦卡",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "阿丽娜·萨巴伦卡",
+    "error": null
+  },
+  {
+    "id": "rgb_0007",
+    "method": "zero_shot",
+    "answer": "德克萨斯理工大学",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "德克萨斯理工大学",
+    "error": null
+  },
+  {
+    "id": "rgb_0008",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0009",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0010",
+    "method": "zero_shot",
+    "answer": "Project Iris（虹膜计划）",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "Project Iris（虹膜计划）",
+    "error": null
+  },
+  {
+    "id": "rgb_0011",
+    "method": "zero_shot",
+    "answer": "安东尼·福奇博士和基兹梅基亚·科比特博士",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "安东尼·福奇博士和基兹梅基亚·科比特博士",
+    "error": null
+  },
+  {
+    "id": "rgb_0012",
+    "method": "zero_shot",
+    "answer": "310,048 辆",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "310,048 辆",
+    "error": null
+  },
+  {
+    "id": "rgb_0013",
+    "method": "zero_shot",
+    "answer": "阿根廷",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "阿根廷",
+    "error": null
+  },
+  {
+    "id": "rgb_0014",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0015",
+    "method": "zero_shot",
+    "answer": "《瞬息全宇宙》",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "《瞬息全宇宙》",
+    "error": null
+  },
+  {
+    "id": "rgb_0016",
+    "method": "zero_shot",
+    "answer": "2022 年超级碗 30 秒广告的价格约为 650 万美元。",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "2022 年超级碗 30 秒广告的价格约为 650 万美元。",
+    "error": null
+  },
+  {
+    "id": "rgb_0017",
+    "method": "zero_shot",
+    "answer": "谷歌 Pixel Fold",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "谷歌 Pixel Fold",
+    "error": null
+  },
+  {
+    "id": "rgb_0018",
+    "method": "zero_shot",
+    "answer": "2022 年 8 月 21 日",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "2022 年 8 月 21 日",
+    "error": null
+  },
+  {
+    "id": "rgb_0019",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0020",
+    "method": "zero_shot",
+    "answer": "迈克·亨利（Mike Henry）",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "迈克·亨利（Mike Henry）",
+    "error": null
+  },
+  {
+    "id": "rgb_0021",
+    "method": "zero_shot",
+    "answer": "妮可·穆尼兹 (Nicole Muniz)",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "妮可·穆尼兹 (Nicole Muniz)",
+    "error": null
+  },
+  {
+    "id": "rgb_0022",
+    "method": "zero_shot",
+    "answer": "理查德·柴尔德里斯车队（RCR）",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "理查德·柴尔德里斯车队（RCR）",
+    "error": null
+  },
+  {
+    "id": "rgb_0023",
+    "method": "zero_shot",
+    "answer": "防守协调员",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "防守协调员",
+    "error": null
+  },
+  {
+    "id": "rgb_0024",
+    "method": "zero_shot",
+    "answer": "456 万美元",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "456 万美元",
+    "error": null
+  },
+  {
+    "id": "rgb_0025",
+    "method": "zero_shot",
+    "answer": "《公主与女王》",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "《公主与女王》",
+    "error": null
+  },
+  {
+    "id": "rgb_0026",
+    "method": "zero_shot",
+    "answer": "曼城",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "曼城",
+    "error": null
+  },
+  {
+    "id": "rgb_0027",
+    "method": "zero_shot",
+    "answer": "2023 年 1 月 3 日",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "2023 年 1 月 3 日",
+    "error": null
+  },
+  {
+    "id": "rgb_0028",
+    "method": "zero_shot",
+    "answer": "山上徹也",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "山上徹也",
+    "error": null
+  },
+  {
+    "id": "rgb_0029",
+    "method": "zero_shot",
+    "answer": "凯文·康瑞（Kevin Conroy）",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "凯文·康瑞（Kevin Conroy）",
+    "error": null
+  }
+]
