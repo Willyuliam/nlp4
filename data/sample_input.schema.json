@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Midterm RAG sample input",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "question", "contexts"],
+    "properties": {
+      "id": {
+        "type": ["string", "number"],
+        "description": "样本 ID。"
+      },
+      "question": {
+        "type": "string",
+        "description": "用户问题。"
+      },
+      "contexts": {
+        "type": "array",
+        "description": "候选文档列表。",
+        "items": {
+          "type": "object",
+          "required": ["doc_id", "text"],
+          "properties": {
+            "doc_id": {
+              "type": ["string", "number"],
+              "description": "文档 ID。"
+            },
+            "title": {
+              "type": "string",
+              "description": "文档标题，可为空。"
+            },
+            "text": {
+              "type": "string",
+              "description": "文档正文。"
+            },
+            "label": {
+              "type": "string",
+              "description": "文档标签，例如 correct/noise/misinfo/unknown。"
+            }
+          }
+        }
+      },
+      "gold_answers": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "参考答案，可选。"
+      },
+      "wrong_answers": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "错误答案，可选。"
+      }
+    }
+  }
+}

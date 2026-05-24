@@ -1,0 +1,366 @@
+[
+  {
+    "id": "rgb_0000",
+    "gold_answers": [
+      "Karolina Muchova"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 26
+    }
+  },
+  {
+    "id": "rgb_0001",
+    "gold_answers": [
+      "$68.7 billion",
+      "$68.7bn"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 17
+    }
+  },
+  {
+    "id": "rgb_0002",
+    "gold_answers": [
+      "Kiersey Clemons"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 20
+    }
+  },
+  {
+    "id": "rgb_0003",
+    "gold_answers": [
+      "Arcane"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 21
+    }
+  },
+  {
+    "id": "rgb_0004",
+    "gold_answers": [
+      "740,000",
+      "740K"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 32
+    }
+  },
+  {
+    "id": "rgb_0005",
+    "gold_answers": [
+      "September 9",
+      "Sep 9",
+      "Sep. 9",
+      "9 September",
+      "9 Sep",
+      "9 Sep.",
+      "Sept 9",
+      "Sept. 9",
+      "9 Sept",
+      "9 Sept."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 22
+    }
+  },
+  {
+    "id": "rgb_0006",
+    "gold_answers": [
+      "Aryna Sabalenka"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 15,
+      "n_negative": 10
+    }
+  },
+  {
+    "id": "rgb_0007",
+    "gold_answers": [
+      "Oklahoma State"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 14
+    }
+  },
+  {
+    "id": "rgb_0008",
+    "gold_answers": [
+      "March 29",
+      "Mar 29",
+      "Mar. 29",
+      "29 March",
+      "29 Mar",
+      "29 Mar."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 35
+    }
+  },
+  {
+    "id": "rgb_0009",
+    "gold_answers": [
+      "Croatia"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 20
+    }
+  },
+  {
+    "id": "rgb_0010",
+    "gold_answers": [
+      "Project Iris"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 14
+    }
+  },
+  {
+    "id": "rgb_0011",
+    "gold_answers": [
+      "Lawrence Williams",
+      "Ralph Long Jr.",
+      "Ford Greene",
+      "Ronald Yancey"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 18
+    }
+  },
+  {
+    "id": "rgb_0012",
+    "gold_answers": [
+      "310,048"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 25
+    }
+  },
+  {
+    "id": "rgb_0013",
+    "gold_answers": [
+      "Argentina"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 12
+    }
+  },
+  {
+    "id": "rgb_0014",
+    "gold_answers": [
+      "Eight",
+      "8"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 14,
+      "n_negative": 10
+    }
+  },
+  {
+    "id": "rgb_0015",
+    "gold_answers": [
+      "Everything Everywhere All at Once"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 16
+    }
+  },
+  {
+    "id": "rgb_0016",
+    "gold_answers": [
+      "$6.5 million"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 19
+    }
+  },
+  {
+    "id": "rgb_0017",
+    "gold_answers": [
+      "Pixel Fold"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 29,
+      "n_negative": 9
+    }
+  },
+  {
+    "id": "rgb_0018",
+    "gold_answers": [
+      "August 21",
+      "Aug 21",
+      "Aug. 21",
+      "21 August",
+      "21 Aug",
+      "21 Aug."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 13
+    }
+  },
+  {
+    "id": "rgb_0019",
+    "gold_answers": [
+      "3.7%"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 23
+    }
+  },
+  {
+    "id": "rgb_0020",
+    "gold_answers": [
+      "John Fuller"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 27
+    }
+  },
+  {
+    "id": "rgb_0021",
+    "gold_answers": [
+      "Daniel Alegre"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 14
+    }
+  },
+  {
+    "id": "rgb_0022",
+    "gold_answers": [
+      "Richard Childress Racing"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 18
+    }
+  },
+  {
+    "id": "rgb_0023",
+    "gold_answers": [
+      "defensive coordinator"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 15
+    }
+  },
+  {
+    "id": "rgb_0024",
+    "gold_answers": [
+      "4.56 million"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 18
+    }
+  },
+  {
+    "id": "rgb_0025",
+    "gold_answers": [
+      "The Princess and the Queen"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 13
+    }
+  },
+  {
+    "id": "rgb_0026",
+    "gold_answers": [
+      "Manchester City"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 13
+    }
+  },
+  {
+    "id": "rgb_0027",
+    "gold_answers": [
+      "September 20",
+      "Sep 20",
+      "Sep. 20",
+      "20 September",
+      "20 Sep",
+      "20 Sep.",
+      "Sept 20",
+      "Sept. 20",
+      "20 Sept",
+      "20 Sept."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 16
+    }
+  },
+  {
+    "id": "rgb_0028",
+    "gold_answers": [
+      "Tetsuya Yamagami"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 21
+    }
+  },
+  {
+    "id": "rgb_0029",
+    "gold_answers": [
+      "Ethan Hawke"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 25
+    }
+  }
+]

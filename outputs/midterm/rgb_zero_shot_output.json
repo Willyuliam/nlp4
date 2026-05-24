@@ -1,0 +1,302 @@
+[
+  {
+    "id": "rgb_0000",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0001",
+    "method": "zero_shot",
+    "answer": "687亿美元",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "687亿美元",
+    "error": null
+  },
+  {
+    "id": "rgb_0002",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0003",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0004",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0005",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0006",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0007",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0008",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0009",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0010",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0011",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0012",
+    "method": "zero_shot",
+    "answer": "310,048",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "310,048",
+    "error": null
+  },
+  {
+    "id": "rgb_0013",
+    "method": "zero_shot",
+    "answer": "阿根廷",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "阿根廷",
+    "error": null
+  },
+  {
+    "id": "rgb_0014",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0015",
+    "method": "zero_shot",
+    "answer": "《瞬息全宇宙》",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "《瞬息全宇宙》",
+    "error": null
+  },
+  {
+    "id": "rgb_0016",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0017",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0018",
+    "method": "zero_shot",
+    "answer": "2022年8月21日",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "2022年8月21日",
+    "error": null
+  },
+  {
+    "id": "rgb_0019",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0020",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定。",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定。",
+    "error": null
+  },
+  {
+    "id": "rgb_0021",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0022",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0023",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0024",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定。",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定。",
+    "error": null
+  },
+  {
+    "id": "rgb_0025",
+    "method": "zero_shot",
+    "answer": "\"The Princess and the Queen\"",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "\"The Princess and the Queen\"",
+    "error": null
+  },
+  {
+    "id": "rgb_0026",
+    "method": "zero_shot",
+    "answer": "曼城",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "曼城",
+    "error": null
+  },
+  {
+    "id": "rgb_0027",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0028",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0029",
+    "method": "zero_shot",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  }
+]

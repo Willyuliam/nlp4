@@ -1,0 +1,1412 @@
+[
+  {
+    "id": "rgb_0000",
+    "method": "rerank_rag",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [
+      "doc_8",
+      "doc_7",
+      "doc_19",
+      "doc_11",
+      "doc_6"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_8",
+        "title": "",
+        "text": "6 Coco Gauff, runner-up to Swiatek last year, was the last American to be eliminated (by Swiatek in the quarterfinals). The last American woman to win a Grand Slam singles title was Sofia Kenin at the 2020 Australian Open. The 12-major drought is the longest for U.S. women since Seles won the 1996 Australian Open. MORE: All you need to know for 2023 French Open OlympicTalk is on Apple News. Favorite us!         DISCLAIMER: This site and the products offered are for entertainment purposes only, and there is no gambling offered on this site. This service is intended for adult audiences. No guarantees are made for any specific outcome. If you or someone you know has a gambling problem, please call 1-800-GAMBLER. PointsBet is our Official Sports Betting Partner and we may receive compensation if you place a bet on PointsBet for the first time after clicking our links.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_7",
+        "title": "",
+        "text": "The 2023 French Open was a Grand Slam tennis tournament played on outdoor clay courts. It was held at the Stade Roland Garros in Paris, France, from 28 May to 11 June 2023, comprising singles, doubles and mixed doubles play. Junior and wheelchair tournaments were also played.   It was the 127th edition of the French Open and the second Grand Slam event of 2023.  As a Grand Slam tournament, the points for the French Open are the highest of all ATP and WTA tournaments.[1] These points determine the world ATP and WTA rankings for men's and women's competition, respectively. In both singles and doubles, women received slightly higher point totals compared to their male counterparts at each round of the tournament, except for the first and last.[1][2] Points and rankings for the wheelchair events fall under the jurisdiction of the ITF Wheelchair Tennis Tour, which also places Grand Slams as the highest classification.[3]  Below is a series of tables for each of the competitions showing the ranking points on offer for each event:[4][5]  The French Open total prize money for 2023 is €49,600,000, an increase of 12.3% compared to 2022.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_19",
+        "title": "",
+        "text": "Soon there was the increasingly familiar sight of Swiatek emerging in the stands for a celebratory huddle with her team and a few quiet words with her sports psychologist, Daria Abramowicz, who started working with her when she was a shaky teenager and helped mold her into a steely champion. “A big challenge,” Swiatek said of her triumph in the understatement of the day. “Really proud of myself that I did it.” Swiatek has been virtually unbeatable at Roland Garros since 2020. With Saturday’s win, she captured her third French Open singles title in four years. Since 2019, her record in the tournament heading into the final was 28-2, which may not rival the 112-3 record of Rafael Nadal, but give her time. Swiatek just turned 22 last week and has given few hints that she will be slowing down. Other than the occasional battle with her psyche, she seems to be getting better each year, especially at the French Open, a tournament she loves more than any other. For Muchova, the final capped a remarkable comeback from a year ago, when she sprained an ankle in a third-round singles match at Roland Garros and had to withdraw. The injury was the latest in a series of ailments that had long kept her from realizing the potential that so many of the game’s coaches, players and experts have seen in her for years.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_11",
+        "title": "",
+        "text": "Sep 9, 2022 ... Yet also fitting: Roland Garros champion Swiatek and Wimbledon runner-up Jabeur have been the two premier women's players of 2022, and now they' ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_6",
+        "title": "",
+        "text": "Because the tournament takes place one week later this year, players are defending points from the 2022 French Open, as well as tournaments that took place during the week of 6 June 2022 ('s-Hertogenbosch, Nottingham, and Valencia WTA 125). Points from the 2022 French Open are listed first in the \"Points defending\" column.  † The player did not qualify for the main draw in 2022. Points for her 16th best result will be deducted instead.  The following players would have been seeded, but withdrew before the tournament began.  The entry list was released based on the WTA rankings for the week of 17 April 2023.[11]",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0001",
+    "method": "rerank_rag",
+    "answer": "$68.7 billion。",
+    "selected_doc_ids": [
+      "doc_2",
+      "doc_14",
+      "doc_23",
+      "doc_1",
+      "doc_20"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Checking Accounts Best Credit Cards for Small Business Best Small Business Loans Best Tax Software for Small Business SELECT All Taxes Best Tax Software Best Tax Software for Small Businesses Tax Refunds SELECT All Help for Low Credit Scores Best Credit Cards for Bad Credit Best Personal Loans for Bad Credit Best Debt Consolidation Loans for Bad Credit Personal Loans if You Don't Have Credit Best Credit Cards for Building Credit Personal Loans for 580 Credit Score or Lower Personal Loans for 670 Credit Score or Lower Best Mortgages for Bad Credit Best Hardship Loans How to Boost Your Credit Score SELECT All Investing Best IRA Accounts Best Roth IRA Accounts Best Investing Apps Best Free Stock Trading Platforms Best Robo-Advisors Index Funds Mutual Funds ETFs Bonds  In this article Microsoft announced Tuesday it will buy video game giant Activision Blizzard in a $68.7 billion all-cash deal. The price means Microsoft will pay $95 per share for Activision. Activision's stock ended the day up more than 25%, closing at $82.31 per share on Tuesday. Microsoft's shares closed down more than 2%. This would be Microsoft's largest acquisition to date, followed by its purchase of LinkedIn in 2016 for $26.2 billion. Activision, which is known for popular games such as Call of Duty and Tony Hawk's Pro Skater, has been mired in controversy for the last several months after reports of sexual misconduct and harassment among the company's executives.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_14",
+        "title": "",
+        "text": "Jul 19, 2023 ... It is worth noting that the acquisition of Activision is not the first big-money spending spree for the company. Microsoft owns Halo developer ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_23",
+        "title": "",
+        "text": "The deal is also seeing review in Australia, New Zealand, and elsewhere.[85][99] In December 2022, Chile's regulatory authority (Fiscalia Nacional Economica) voted to approve the deal in Phase 1.[100] The Japan Fair Trade Commission had also given approval for the merger by March 2023.[46] On May 19, 2023, China's State Administration for Market Regulation approved the Microsoft's Activision Blizzard acquisition[101][102] Korea Fair Trade Commission (KFTC) approved the Microsoft's Activision Blizzard acquisition on May 30, 2023.[103][104]  The New York City Employees' Retirement System, which are shareholders of Activision Blizzard, sued the company in April 2022, arguing that the company had made the acquisition deal quickly with Microsoft as to try to cover up the misdoings of Kotick that had been uncovered as part of the ongoing DCEH lawsuit and escape any liability.[105]  Sjunde AP-Fonden, a Swedish-government run pension fund with investments in Activision-Blizzard, filed a lawsuit in November 2022 within the U.S. court system against Microsoft and Activision-Blizzard of collusion in establishing the deal. The lawsuit asserts that because of Activision-Blizzard's weakened position resulting from the workplace harassment lawsuit from the California DFEH, that Microsoft negotiated with Kotick and Activision-Blizzard to buy the company at a reduced price.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "January 18, 2022\t\t\t \t\t\t | Microsoft News Center  REDMOND, Wash. and Santa Monica, Calif. – Jan. 18, 2022 – With three billion people actively playing games today, and fueled by a new generation steeped in the joys of interactive entertainment, gaming is now the largest and fastest-growing form of entertainment. Today, Microsoft Corp. (Nasdaq: MSFT) announced plans to acquire Activision Blizzard Inc. (Nasdaq: ATVI), a leader in game development and interactive entertainment content publisher. This acquisition will accelerate the growth in Microsoft’s gaming business across mobile, PC, console and cloud and will provide building blocks for the metaverse. Microsoft will acquire Activision Blizzard for $95.00 per share, in an all-cash transaction valued at $68.7 billion, inclusive of Activision Blizzard’s net cash. When the transaction closes, Microsoft will become the world’s third-largest gaming company by revenue, behind Tencent and Sony. The planned acquisition includes iconic franchises from the Activision, Blizzard and King studios like “Warcraft,” “Diablo,” “Overwatch,” “Call of Duty” and “Candy Crush,” in addition to global eSports activities through Major League Gaming. The company has studios around the world with nearly 10,000 employees.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_20",
+        "title": "",
+        "text": "Webcast details Microsoft Chairman and CEO Satya Nadella; Bobby Kotick, CEO, Activision Blizzard; CEO, Microsoft Gaming, Phil Spencer; and Microsoft Chief Financial Officer Amy Hood will host a webcast for investors and media on Jan. 18, 2022, at 6 a.m. Pacific time/9 a.m. Eastern time regarding this transaction. There will be a recording of the conference call available shortly after the call until Friday, Jan. 28, 2022, at 5 p.m. Pacific time. To access that recording: For more information, please visit the blog post from Phil Spencer, CEO, Microsoft Gaming. Related imagery is also available. For broadcast quality b-roll and audio, please contact [email protected]. Fast facts on gaming ******* About Microsoft Microsoft (Nasdaq “MSFT” @microsoft) enables digital transformation for the era of an intelligent cloud and an intelligent edge. Its mission is to empower every person and every organization on the planet to achieve more. About Activision Blizzard  Our mission, to connect and engage the world through epic entertainment has never been more important. Through communities rooted in our video game franchises we enable hundreds of millions of people to experience joy, thrill and achievement. We enable social connections through the lens of fun, and we foster purpose and meaning through competitive gaming.",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "$68.7 billion。",
+    "error": null
+  },
+  {
+    "id": "rgb_0002",
+    "method": "rerank_rag",
+    "answer": "Kiersey Clemons",
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_18",
+      "doc_2",
+      "doc_27",
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "The dark humor, social commentary and tonal shifts reminded me of Gus Van Sant’s prescient To Die For as Susie Searches offers an uncomfortable but fascinating melding of crime and self-worth in the media age. Liz Whittemore Kiersey Clemons, who gave such a memorable early performance in the underrated father/daughter indie Hearts Beat Loud, holds this intriguing film together. She is the Susie of the title, a young, amateur sleuth with a podcast in search of listeners. Director Sophie Kargman, who co-wrote the film with William Day Frank, has something interesting to say about the search for internet validation and the allure of true crime. When Susie solves the abduction of popular classmate Jesse (Alex Wolff, delivering another standout performance), she basks in the newfound attention until the walls start closing in. The dark humor, social commentary and tonal shifts reminded me of Gus Van Sant’s prescient To Die For as Susie Searches offers an uncomfortable but fascinating melding of crime and self-worth in the media age.  Cate Marquis Sincere, smiling and hard-working college student Susie Wallis (Kiersey Clemons) has always had an unerring knack for figuring out mysteries, going back to her childhood when her mother would read her mysteries stories. Her social media site, “Susie Searches,” features her super-sleuthing skills as she solves true-crime mysteries.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_18",
+        "title": "",
+        "text": "View the profiles of professionals named \"Susie Wallis\" on LinkedIn. There are 5 professionals named \"Susie Wallis\", who use LinkedIn to exchange ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "When he goes missing and Susie takes on the case, the popularity that has eluded Susie for her entire life is suddenly her reality. Presented initially as a kind of takeoff on the burgeoning true-crime corner of the media marketplace, what emerges in Sophie Kargman’s debut feature is something else entirely, at once a meditation on our era’s obsession with fame and a psychological portrait of a lonely young woman determined to escape the narrow contours of her life by any means necessary. Clemons is terrific in embodying Susie’s many contradictions, her sunny awkward demeanor covering dark ambition. Sherin Nicole  Everyone—no matter how nefarious or nice—is the hero of their story. This gives antagonists and anti-heroes their pull. It also draws us into Susie Searches. But there’s something else. Those of us who stand behind the curtain of influencer-based entertainment are often like The Wizard, wearing a grand mask to hide fragilities or darker things. Read more Jamie Broadnax Susie Searches is filled with whimsy and its lead, Kiersey Clemons, offers a flavor of quirkiness that makes this film pretty exceptional. Clemons plays the titular character Susie, an inquisitive girl who runs a true crime podcast.  Her curiosity gets the best of her when a fellow classmate Jesse (Alex Wolff) goes missing, which leads down an unexpected dark path.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_27",
+        "title": "",
+        "text": "A bright color palette and a score of playful xylophone music knowingly collides with grim content and an alarming reflection of how social media can function — for better but mostly for worse — when a true crime tale becomes national news.  All of this earnestness and energy is intoxicating, whether coming from the score, the flurry of internet graphics, a penchant for split-screen presentations, or Clemons's direct-address declarations, which radiate with try-hard podcast voice. Even during its bumpiest bits, Susie Searches is a smartly savage and satisfying ride.  Susie Searches made its world premiere at the 2022 Toronto International Film Festival in the Discovery slate.  More in Film  Kristy Puchko is the Film Editor at Mashable. Based in New York City, she's an established film critic and entertainment reporter, who has traveled the world on assignment, covered a variety of film festivals, co-hosted movie-focused podcasts, interviewed a wide array of performers and filmmakers, and had her work published on RogerEbert.com, Vanity Fair, and The Guardian. A member of the Critics Choice Association and GALECA as well as a Top Critic on Rotten Tomatoes, Kristy's primary focus is movies. However, she's also been known to gush over television, podcasts, and board games. You can follow her on Twitter.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Susie hopes to become an internet sensation, and make enough money to give her and her mother, now bed-ridden with MS, a more comfortable life. But “Susie Searches” isn’t taking off as hoped, unlike the meditation site hosted by campus hunk Jesse (Alex Wolff). When Jesse suddenly goes missing, Susie seizes the opportunity to solve the mystery and make “Susie Searches” a hit. Cute and colorful, SUSIE SEARCHES is a “girl detective” mystery story in the Nancy Drew mode – until it isn’t. Actor-turned-director Sophie Kargman turns this sunny tale in a wholly unexpected direction. As Susie, Kiersey Clemons is impressive, as the title character finds her way through the plot’s twists. In her feature film directorial debut, Kargman takes the script she co-wrote with William Day Frank and the idea of their short film, and transforms it into a tale you don’t see coming, until it is right upon you.",
+        "label": "correct"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "Kiersey Clemons",
+    "error": null
+  },
+  {
+    "id": "rgb_0003",
+    "method": "rerank_rag",
+    "answer": "Arcane",
+    "selected_doc_ids": [
+      "doc_7",
+      "doc_24",
+      "doc_4",
+      "doc_25",
+      "doc_23"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_7",
+        "title": "",
+        "text": "The Primetime Emmy Award for Outstanding Animated Program is a Creative Arts Emmy Award which is given annually to an animated series.  In the following list, the first titles listed in gold are the winners; those not in gold are nominees, which are listed in alphabetical order. The years given are those in which the ceremonies took place.  Animated programs have the option to compete in broader program categories such as Outstanding Comedy Series, but cannot also submit for Outstanding Animation Program in the same year.[citation needed] The Simpsons, for instance, unsuccessfully submitted the episodes \"A Streetcar Named Marge\" and \"Mr. Plow\" in 1993 and 1994[1] while Family Guy was successfully nominated in 2009.[2] Several animated programs won Outstanding Children's Program prior to 1979 and, in the years since, Rugrats, Winnie the Pooh specials and Star Wars Rebels have been nominated for that award.  Prior to 1989, all of the nominated programs were specials produced outside the confines of a running series. The category was divided into programs \"one hour or less\" and \"more than one hour\" from 1989 to 2009, with episodes of running series becoming eligible. Programs that are 15 minutes or less were given their own category, Outstanding Short Form Animated Program, in 2008.[citation needed]",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_24",
+        "title": "",
+        "text": "Mar 7, 2023 ... The Shows With the Most Emmy Wins for Outstanding Animated Program · 7 Bob's Burgers (Fox) – 2 Wins · 6 Futurama (Fox/Comedy Central) – 2 Wins · 5 ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Netflix's League of Legends-based animated series Arcane has won an Emmy for Outstanding Animated Program, becoming the first streaming series to win in that category. It beat out some much better known competition, including Bob's Burgers, Rick and Morty, The Simpsons and What If...? hosted by the late Chadwick Boseman. \"It’s a big deal for us as we come from video games. It’s been amazing to see the world embrace our characters and our stories,\" said Arcane co-creator Christian Linke.  The series stars Ella Purnell (Jinx), Hailee Steinfeld (Vi) and Katie Leung (Caitlyn). It was picked up for a second season by Netflix last winter, suggesting that the streamer was willing to embrace high-budget game-based productions. The first season boasted nearly 34.2 million viewing hours in its first week on Netflix's top 10 chart, putting it second in views at that time. It also received very positive reviews from both critics and audiences.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_25",
+        "title": "",
+        "text": "Outstanding Animated Program Nominees / Winners 2021 - The 2021 Television Academy Emmy Awards Nominee and Winners. See all the nominees and winners!",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_23",
+        "title": "",
+        "text": "Outstanding Animated Program Nominees / Winners 2022 - The 2022 Television Academy Emmy Awards Nominee and Winners. See all the nominees and winners!",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "Arcane",
+    "error": null
+  },
+  {
+    "id": "rgb_0004",
+    "method": "rerank_rag",
+    "answer": "Texas Tech paid $740,000 to settle the lawsuit.",
+    "selected_doc_ids": [
+      "doc_31",
+      "doc_3",
+      "doc_14",
+      "doc_34",
+      "doc_15"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_31",
+        "title": "",
+        "text": "Aug 29, 2022 ... Texas Tech women's basketball coach Marlene Stollings was fired in 2020, and her lawsuit accused the school of discrimination and ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "That same month, Texas Tech paid $740,000 to settle a breach-of-contract lawsuit filed by former women’s basketball coach Marlene Stollings, who was fired in 2020 following a joint investigation by The Intercollegiate and USA Today. The reporting uncovered, through public records requests, a trove of athlete exit interview surveys in the school’s possession, with claims of abuse made against Stollings by at least a dozen athletes over two years. Nevertheless, Texas Tech didn’t so much as suspended the coach until firing her the day after the story was published, though TTU had initiated an internal investigation several months before.  \tIn her lawsuit filed against the school and Hocutt, Stollings accused her former boss of terminating her to “deflect blame” after realizing that his “own position was at risk.”  \tWhile denying the merit of Stollings’ “inflammatory” allegations, Hocutt and the university filed motions to dismiss on account of Texas’ qualified immunity law, which shields public officials from liability “when they are acting within their discretionary authority and their conduct does not violate clearly established statutory or constitutional law.” It’s the same regulation that allowed Texas Tech to ward off an employment lawsuit filed by former football coach Mike Leach.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_14",
+        "title": "",
+        "text": "7 million in donations for 2021-22, up from $15.9 million the previous academic year.  \tDonna Lopiano, a former longtime senior athletics administrator at Texas, said that university leaders like Hocutt should only get so many chances to show they can maintain a “safe educational environment.”  \t“I can see an athletic director facing a situation, recognizing they don’t have a strong enough policy in place, then getting a policy in place, reading the riot act (to coaches),” Lopiano said. “That is the one shot I think that most employees have.”  \tMarty Greenberg, an adjunct law professor at Marquette and longtime sports lawyer, argues that Texas Tech should now be under scrutiny for not only how it handles the employment Adams, but his direct superior. Given Hocutt’s popularity among boosters and alumni, and its financial fruits, Greenberg says the safe bet is the athletic director survives, even if another one of his hires does not.   \t“I am predicting the money and success of the program will win out,” Greenberg said.  \tThen again, this week has already offered a precedent.  \tOn Monday, the Des Moines Register reported that a $4 million settlement had been reached between the University of Iowa and a group of black Hawkeyes football players who accused head coach Kirk Ferentz of racial discrimination.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_34",
+        "title": "",
+        "text": "Coach Marlene Stollings' 'Request' for Reinstatement as Head Women's Basketball Coach at Texas Tech is Granted – Well, Almost. May 20, 2022.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_15",
+        "title": "",
+        "text": "[i] As standard procedure, the defendants collectively moved to dismiss its former coach’s complaint and in August 2021, the District Court granted their motion as for the breach of contract, fraud, and fraud in the inducements counts, finding that Texas Tech University, as a public university, enjoys the benefit of sovereign immunity.[ii] The District Court, however, denied the motion with regards to the Title VII and Title IX claims. As for the Title VII count, the District Court held that Coach Stollings’ assertions that Texas Tech engaged in discriminatory conduct, evidenced by “lower pay, worse treatment, a hostile environment, disparate treatment, and, ultimately, unjustifiable termination” [iii] were sufficient to demonstrate less favorable treatment. The District Court also concluded that the former coach was engaged in protected activity when she reported various Title IX violations and that there was a causal connection between this protected activity and her termination. Coach Stollings subsequently filed an amended complaint nearly identical to her initial complaint except for the addition of a Section 1983 claim against Mr. Hocutt.[iv] Her amended complaint also added two more prayers for relief in which she asked for an injunction, specific performance, and other equitable relief requiring Hocutt to “retract or otherwise to rescind the decision to terminate Coach Stollings’ Employment Agreement for cause” and “to retract and otherwise correct [his] defamatory and defamatory per se statements.",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "Texas Tech paid $740,000 to settle the lawsuit.",
+    "error": null
+  },
+  {
+    "id": "rgb_0005",
+    "method": "rerank_rag",
+    "answer": "Splatoon 3 was released on September 9, 2022.",
+    "selected_doc_ids": [
+      "doc_29",
+      "doc_10",
+      "doc_7",
+      "doc_5",
+      "doc_6"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_29",
+        "title": "",
+        "text": "All Trailers and Gameplay Videos Updated 9/1/2022 A number of trailers and gameplay videos have been released for Splatoon 3. Check them out to learn more about the inkoming game! Splatoon 3 Review and Ratings Updated 9/26/2022 Read our thoughts and opinions about Splatoon 3 in this review! All Free Update Contents and Release Dates Updated 9/5/2022 Check out all the free updates and contents coming to Splatoon 3! SplatNet 3 Guide Updated 10/5/2022 Check out where and when to download SplatNet 3! Save Data Rewards and Benefits Updated 10/3/2022 Check out the Rewards and Benefits from having a Splatoon 2 Save Data! Will There Be DLC? Updated 9/26/2022 Check out the possible DLCs coming to Splatoon 3! Nintendo Server Maintenance Updated 9/16/2022 See if Splatoon 3 is currently undergoing server maintenance and when Nintendo will get them back up! Splatfest Results Updated 9/26/2022 The most recent Splatfest has just finished and results are already in! Read on to learn who won the Splatfest. Is Splatoon 3 the Last Game? Updated 10/10/2022 Read our thoughts as to why Splatoon 3 is unlikely to be the last Splatoon game. Splatoon 3 Sweepstakes Rewards?",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_10",
+        "title": "",
+        "text": "Time to check all of your local retailers. In a Splatoon 3 Direct, new Amiibo were announced for the game. This is not uncommon for Nintendo to announce and release new Amiibo for its upcoming popular franchises. We’ve seen it time and time again. However, when do the Splatoon 3 Amiibo release? We have the answer for you below. Announced in the Splatoon 3 Direct, the new Amiibo are coming holiday 2022. We don’t have an official date for the release, but they will be available before the end of the year. Splatoon 3 releases on September 9, 2022, so hopefully, it is not too much longer after that.  In Splatoon 3, you can use Splatoon Amiibo to create custom loadouts for your character. In-game, these are called Fits. Scanning one will also give you some exclusive gear for the game. You’ll be able to save all of your favorite gear combinations and swap quickly through them.  The Amiibo will also let you take unique photos with the character you scan. So you’ll want to get those special Splatoon 3 Amiibo. Related: Splatoon 3 Single-Player New Information & More Revealed During Nintendo Direct The three Amiibo are a blue Octoling, a yellow Inkling, and a cute little Smallfry from Salmon run.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_7",
+        "title": "",
+        "text": "Splatoon 3 Walkthrough & Guides Wiki ★ Version 1.1.2 Update Details★ Tips and Tricks: Beginner's Guide to Splatoon┗ Best Weapons | Best Specials | Best Sub Weapons★ All Game Modes and Rules┗ Turf War | Anarchy Battles | Salmon Run★ Hero Mode Walkthrough | List of Bosses  Splatoon 3 was released on September 9, 2022, and is now available on the Nintendo Switch. Read on to see its release date and time, including a countdown to when Splatoon 3 comes and where you can get the game! List of ContentsWhen Did Splatoon 3 Come Out?Splatoon 3 Release TimeWhere to Get Splatoon 3Release Date Announcement TrailerSplatoon 3 Release InfoRelated Guides List of Contents  Splatoon 3 is now available to play in all regions and all servers are currently active as well, allowing you to enjoy online play. The game was officially released on September 9, 2022! Like the majority of Nintendo Switch exclusives, Splatoon 3 released at midnight local time. The game was available to play as soon as the clock hit midnight on September 9th in your time zone. Players in eastern time zones were able to start playing earlier than those in western time zones. Note that changing the time zone on your system or console does not affect the release of the game!",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "Splatoon 3​  Splatoon 3 is the third entry in the Splatoon series and the sequel to Splatoon 2. Announced during the February 2021 Nintendo Direct, it was released on the Nintendo Switch on 9 September 2022. It sold quickly, and with 10.67 million copies sold, was approximately the eighteenth-best-selling Nintendo Switch title.[1]  Following the Team Chaos victory in the Chaos vs. Order Splatfest, Splatoon 3's style is very chaotic, bringing post-apocalyptic, patchwork, and other chaotic elements together with the styles of both previous games.  Splatoon 3 expands the Splatoon series on many different fronts, with an extensive story mode, new Salmon Run challenges and rewards, a wider range of customisation with more options (including the additions of Splashtags and the locker room), and the new mode Tableturf Battle. Additionally, Splatoon 3 streamlines many aspects of the previous games. The Battle Lobby has been reworked into a greatly-expanded practice area accessible between matches, Splatfests are overhauled with three teams rather than two and a new Tricolor Turf War mode, and the UI has been made more responsive and informative. Additionally, Splatoon 3 is the first game in the series to be localized into Korean[2] and Chinese.[3]",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_6",
+        "title": "",
+        "text": "On 10 August 2022, Nintendo broadcast a Splatoon 3-focused Nintendo Direct, revealing the date for the game's Splatfest World Premiere, a limited time demo Splatfest.[54] Nintendo announced that the game would have amiibo support, with several new figurines that can be used to take photos with the characters in-game and receive special gear items, similar to past Splatoon titles.[55] It introduced three new \"idol\" characters known as Big Man, Shiver, and Frye, collectively referred to as \"Deep Cut\".[56] Also announced in the Nintendo Direct, the game is set to receive both large-scale paid DLC and two years of support via free updates.[57] On 25 August 2022, a Nintendo Treehouse Presentation was broadcast which showcased the single-player story mode and the multiplayer lobby, alongside weapons and multiplayer maps.[58]  The pre-launch Splatfest World Premiere event was held on 27 and 28 August 2022 with a rock-paper-scissors theme,[59] which Team Rock won in all regions.[60][61] The game was released worldwide on 9 September 2022.[51] In a trailer on 11 October 2022, it was announced that the Splatoon 3 amiibo would launch on 11 November.[62]  During Nintendo Live 2022 on 9 October, a Splatoon 3 concert was held starring Deep Cut.[63]",
+        "label": "correct"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "Splatoon 3 was released on September 9, 2022.",
+    "error": null
+  },
+  {
+    "id": "rgb_0006",
+    "method": "rerank_rag",
+    "answer": "Aryna Sabalenka",
+    "selected_doc_ids": [
+      "doc_13",
+      "doc_3",
+      "doc_9",
+      "doc_4",
+      "doc_23"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_13",
+        "title": "",
+        "text": "Jan 28, 2023 ... Aryna Sabalenka Wins the Australian Open Women's Singles Title · Holding the championship trophy on a stage a few minutes later, Sabalenka turned ...",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Copyright 2023 The Associated Press. All Rights Reserved. Aryna Sabalenka of Belarus hugs the Daphne Akhurst Memorial Trophy after defeating Elena Rybakina of Kazakhstan in the women’s singles final at the Australian Open tennis championship in Melbourne, Australia, Saturday, Jan. 28, 2023. (AP Photo/Dita Alangkara) Aryna Sabalenka of Belarus falls to the gourd as she celebrates defeating Elena Rybakina of Kazakhstan in the women’s singles final during the women’s singles final at the Australian Open tennis championship in Melbourne, Australia, Saturday, Jan. 28, 2023. (AP Photo/Asanka Brendon Ratnayake) Aryna Sabalenka of Belarus reacts after defeating Elena Rybakina of Kazakhstan in the women’s singles final at the Australian Open tennis championship in Melbourne, Australia, Saturday, Jan. 28, 2023. (AP Photo/Asanka Brendon Ratnayake) Elena Rybakina of Kazakhstan speaks during a press conference following her loss to Aryna Sabalenka of Belarus in the women’s singles final at the Australian Open tennis championship in Melbourne, Australia, Saturday, Jan. 28, 2023.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_9",
+        "title": "",
+        "text": "Belarusian fifth seed Aryna Sabalenka recorded her first Grand Slam singles title by fighting back to beat Elena Rybakina in the Australian Open final. In what was an absorbing contest between both the players, 24-year-old Sabalenka came out as a deserved winner by a 4-6 6-3 6-4 win over Rybakina. The Belarusian then celebrated her victory by posing with the trophy as she rode a gondola in the Royal Botanical Gardens with the Daphne Akhurst Memorial Trophy the morning after defeating Elena Rybakina of Kazakhstan in the women's singles final at the Australian Open tennis championship. Updated: 29 Jan 2023 9:46 am Aryna Sabalenka of Belarus is taken by gondola at the Royal Botanical Gardens with the Daphne Akhurst Memorial Trophy the morning after defeating Elena Rybakina of Kazakhstan in the women's singles final at the Australian Open tennis championship in Melbourne, Australia. Aryna Sabalenka of Belarus poses with the Daphne Akhurst Memorial Trophy in the Royal Botanical Gardens the morning after defeating Elena Rybakina of Kazakhstan in the women's singles final at the Australian Open tennis championship in Melbourne, Australia.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "A crosscourt forehand from the fifth seed lands wide - deuce again. Rybakina’s backhand lands just on the baseline, Sabalenka responds a bit late and provides a short ball which Rybakina converts with a crosscourt forehand winner. Break point for Rybakina. Wide service winner into the ad court from Sabalenka - deuce again. Crosscourt forehand from Rybakina finds the net chord and Sabalenka has a third championship point! And she has again overhit a backhand. Rybakina has saved three match points. Big first serve down the T and Sabalenka finishes the point with a forehand winner down the line to earn 4th championship point. Rybakina hits a forehand long in a five-shot rally and Aryna Sabalenka is the 2023 Australian Open champion!!!! Your #AO2023 women's singles champion, @SabalenkaA 🙌@wwos • @espn • @eurosport • @wowowtennis • #AusOpenpic.twitter.com/5ggS5E7JTp Sabalenka 5-4 Rybakina* - Rybakina serving to stay in the set and the match. Rybakina mishits a crosscourt forehand - 15-all. Sabalenka’s forehand return lands just beyond the baseline, Rybakina leads 30-15.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_23",
+        "title": "",
+        "text": "Sabalenka, who served five aces and five double faults in the first set, had to save two break points in the opening game of the second set. And she racked up the winners as she broke Rybakina's serve to lead 3-1 before taking the set 6-3 to force a decider. Rybakina came through a tough service game to lead 3-2, but could not withstand Sabalenka's pressure for much longer as the Belarusian converted her third break point of the game to go into a 4-3 lead. There were understandable nerves as the 24-year-old from Minsk served for the title but, when Rybakina sent a forehand long on match point number four, she fell onto her back and cried tears of joy. After several near-misses, many had doubted whether she had the temperament to win a Slam having made the semi-finals at the last two US Opens and Wimbledon 2021. Now she, Swiatek and Rybakina look set to battle out future majors in the absence of Ashleigh Barty, Serena Williams and Naomi Osaka. Viewers in Australia can watch the Australian Open on the Nine Network, the free-to-air broadcaster. The Nine network is broadcasting across its various channels. In Europe, you can catch the tennis action live on Eurosport. ESPN has the rights in the U.S. where action is also livestreamed on ESPN+.",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "Aryna Sabalenka",
+    "error": null
+  },
+  {
+    "id": "rgb_0007",
+    "method": "rerank_rag",
+    "answer": "Oklahoma State",
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_6",
+      "doc_14",
+      "doc_13",
+      "doc_10"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Apr 23, 2023 ... DALLAS, Texas – No. 23 Oklahoma State women's golf swept both the team and individual titles at the Big 12 Championships at the Dallas ...",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_6",
+        "title": "",
+        "text": "USC won its eighth team crown in program history, equaling the most in league history, and Stanford sophomore Rose Zhang set or matched several scoring records in claiming the individual title at the 2023 Pac-12 Women's Golf Championships hosted by Arizona State at Papago Golf Club in Phoenix. A full recap can be found here.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_14",
+        "title": "",
+        "text": "Golf 4/23/2023 6:26:55 PM  06.08.23  \r                     2022-23 Big 12 Men’s Golf Yearly Awards Released \r                       06.05.23  \r                     Baylor's Dossey Honored with the 2023 David Toms Award\r                       06.01.23  \r                     2022-23 Big 12 Women’s Golf Awards Unveiled\r                       06.01.23  \r                     2022-23 Big 12 Men's Golf National Honors\r                       05.31.23  \r                     2022-23 Big 12 Women's Golf National Honors",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_13",
+        "title": "",
+        "text": "Golf 4/26/2023 8:42:29 PM  06.08.23  \r                     2022-23 Big 12 Men’s Golf Yearly Awards Released \r                       06.05.23  \r                     Baylor's Dossey Honored with the 2023 David Toms Award\r                       06.01.23  \r                     2022-23 Big 12 Women’s Golf Awards Unveiled\r                       06.01.23  \r                     2022-23 Big 12 Men's Golf National Honors\r                       05.31.23  \r                     2022-23 Big 12 Women's Golf National Honors",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_10",
+        "title": "",
+        "text": "DALLAS, Tex. – The Iowa State women's golf team earns a fourth-place finish at the Big 12 Women's Golf Championship at Dallas Athletic Club. The Cyclones had two freshman finish inside the top-five at the conference tournament for the first time in program history. Iowa State began the week in sixth place after a 10-over round of 298. The Cyclones rose to fifth place after carding the second-lowest conference 18-hole score in school history with a two-under 286 tally. During the final round, the team jumped to fourth place after posting a five-over 293. The Cyclones concluded with an overall score of 877 to set the second-lowest conference 54-hole team score in program history. Pammy Chookaew led the Cyclones this week with a second-place finish in the medalist race. The freshman began the week by breaking the school's lowest conference 18-hole score after firing a four-under 67 in round one. Chookaew closed out her week with back-to-back rounds of 73 to finish with a 213 (67-73-73) three-round total. Chookaew's 213 tied Celia Barquin Arozamena for the lowest individual conference 54-hole score in school history. Karisa Chul-Ak-Sorn earned her sixth top-five finish of the season after placing fifth in the medalist race.",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "Oklahoma State",
+    "error": null
+  },
+  {
+    "id": "rgb_0008",
+    "method": "rerank_rag",
+    "answer": "March 29, 2022",
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_38",
+      "doc_17",
+      "doc_28",
+      "doc_21"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "A House Between Earth and the Moon: A Novel *FREE* shipping on qualifying offers. A House Between Earth and the Moon: A Novel. ... Publication date. March 29, 2022. ",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_38",
+        "title": "",
+        "text": "Mar 30, 2022 ... Rebecca Scherm's A House Between Earth and the Moon is set amongst the stars, but is psychologically grounded. A collage of scifi imagery.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_17",
+        "title": "",
+        "text": "Baumer, Science Magazine“A surprisingly timely work of science fiction, Rebecca Scherm’s A House Between Earth and the Moon follows Alex, a climate scientist, as he leaves the burning Earth behind for Parallaxis — a luxury space station owned by a tech titan, which has agreed to bankroll his latest research. Moving between Alex, his teen daughter living back on Earth, and the psychologist tasked with observing Alex and the other Parallaxis Pioneers, Scherm’s novel explores humanity’s fraught relationship with technology and innovation.” —Bustle, “The Most Anticipated Books of March 2022”“Inventive and thrilling, A House Between Earth and the Moon dives into the near-future climate apocalypse with eerie prescience, startling humor, and, somehow, hope. I couldn’t put it down.” —Brit Bennett, #1 New York Times bestselling author of The Vanishing Half“Rebecca Scherm is a treasure of a novelist: searching, inventive, her scope both everyday and expansive, her work marked by a tender but merciless psychological acuity. In A House Between Earth and the Moon, she has the near future—or the present—of perpetual emergency firmly within her grasp. It’s a thrill to read this novel, which punctures, urgently and humanely, the technocrat fantasy that space might save us; it brilliantly vivifies the terrors of love and surveillance and ambition, the dream and impossibility of escape.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_28",
+        "title": "",
+        "text": "In this imagined future, the Supreme Court has ruled that privacy is a commodity, not a right. It has become a luxury only the elite can attain, by becoming “privatized” to varying degrees, with Z-level the most coveted. Katherine, who has achieved a level of privatization beyond the alphabetical designation, describes power as the ability to bypass image entirely—the ultimate status symbol is to not be perceived. Tess, Katherine’s true-believer follower, doesn’t register privacy as something to treasure. Instead, as she observes the Pioneers, she reminds herself of how much good might come from the obliteration of privacy in favor of an algorithm that could predict someone’s choices. For Tess, “all ‘privacy’ meant was the degree to which a person allowed their choices, preferences, and feelings to be known, and every day people traded their privacy for privileges, goods, and services.” As the avatar for Sensus’ plan for the future, she deeply creeps out almost everyone who meets her; internalizing the company’s ideas about commodifying humanity saps Tess of her own. A House Between Earth and the Moon primarily takes place in space, but it succeeds because of how richly Scherm depicts her characters’ interior lives. This is the kind of book that practically begs for a sequel, one that dangles some tantalizingly loose ends. This is a house with more rooms to explore. More From WIRED Contact © 2023 Condé Nast.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_21",
+        "title": "",
+        "text": "—Good Housekeeping’s “20 New Books to Add to Your Summer 2022 Reading List”“Part sci-fi, part dreamy drama, The House Between Earth and the Moon follows the residents of Parallaxis (a luxury space station developed by tech giant Sensus) as they try to build a home for billionaires to escape Earth’s increasing inhospitality. Meanwhile, the people they leave back home—particularly the family of Alex, a researcher seeking to create a carbon-guzzling algae—are struggling with both their present and futures.” —Marie Claire, “The Most Eagerly Anticipated Fiction by Women in 2022”“[A House Between Earth and the Moon] repeatedly engages with competing ideas about the most effective way to make the world a better place. . . . Scherm’s characters seem unsatisfied with the ways they themselves answer such questions, an interpretive ambiguity that is one of the book’s strengths. . . . A House Between Earth and the Moon does not offer prescriptive answers to the various problems it identifies, leaving the reader room to consider their own views. In doing so, the reader may learn something about themselves. In the end, what more can one ask of a book?”—Eric P.S.",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "March 29, 2022",
+    "error": null
+  },
+  {
+    "id": "rgb_0009",
+    "method": "rerank_rag",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [
+      "doc_18",
+      "doc_12",
+      "doc_14",
+      "doc_17",
+      "doc_16"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_18",
+        "title": "",
+        "text": "Dec 4, 2022 ... Argentina's possible World Cup 2022 semi-final opponents. If Argentina make it through to the semi-finals, they will face one of Japan, ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_12",
+        "title": "",
+        "text": "* If Argentina win Group C, they could face the Netherlands in the quarterfinals, provided the 2010 finalists win Group A and beat the runners-up from Group B - England, Wales, Iran or the United States.* If Argentina finish as Group C runners-up, they could potentially face England in the quarterfinals - if Gareth Southgate's team win Group B and beat the runners-up from Group A - Netherlands, Ecuador or Senegal.Catch the 2022 FIFA World Cup on SuperSport in 13 languages. Press \"Options\" on your remote for languages available in your region. WHO ARE ARGENTINA'S POTENTIAL OPPONENTS IN THE SEMI-FINALS?* If Argentina were to make it to the semifinals as Group C winners, they could face Spain or South American rivals Brazil.* If Argentina reach the semifinals as Group C runners-up, they could face the potential winners of Groups F and H - either Belgium or 2016 European champions Portugal.WHO COULD ARGENTINA FACE IN THE FINAL?* If Argentina go all the way to the final as Group C winners, they could potentially find themselves taking on either England or France.* If Argentina are able to make it to the final as Group C runners-up, they could meet the Netherlands, Brazil or Spain. WHO ARE ARGENTINA'S POTENTIAL QUARTER-FINAL OPPONENTS?",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_14",
+        "title": "",
+        "text": "Advertisement Argentina are bidding to win a third World Cup title at the November 20-December 18 tournament in Qatar.Here is what you need to know about their route to the final: Here is what you need to know about their route to the final: Here is what you need to know about their route to the final: HOW CAN ARGENTINA QUALIFY FOR THE ROUND OF 16?* The top two in each World Cup group advance to the last 16. The knockout rounds will begin on December 3 and will feature one-off matches, which can go to extra time and penalties to decide the winners.* Argentina, who are second in Group C on three points, can guarantee progress with a win over Poland, top on four, in their final game on Wednesday.WHO ARE ARGENTINA'S POTENTIAL OPPONENTS IN THE ROUND OF 16?* If Argentina qualify for the round of 16, they will be pitted against a team from Group D, meaning they could face France, Tunisia, Denmark or Australia.* If Argentina win Group C, their round of 16 tie will be against the runners-up in Group D.* If Argentina finish runners-up in Group C, their round of 16 tie will be against the winners of Group D, potentially 2018 champions France.WHO ARE ARGENTINA'S POTENTIAL QUARTER-FINAL OPPONENTS?",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_17",
+        "title": "",
+        "text": "The 2014 World Cup winners have many young players in their squad. Hansi Flick’s arrival is definitely an upgrade but the players are taking time to adapt to his style of play. Nonetheless, it will be an interesting match because Germany have players like Sane, Gnabry, Muller and even Gotze with them. Besides Argentina, Brazil are the most favoured candidates to win the 2022 FIFA World Cup. It would not be surprising to see Brazil defeat Argentina as well. Brazil lost to Argentina in the Copa America final and ever since then, they are unbeaten in 15 matches. Brazil have failed to make it past three Quarter-Finals over the past four World Cups. Neymar, Brazil’s star player is key for all of their fixtures. The PSG superstar is in great form and is arguably the most essential player for Brazil in the 2022 FIFA World Cup. If Argentina do face Brazil in the Semi-finals, surely Neymar and Messi will play a prominent role to win the match for their home nation. This will surely be one of the best matches in the 2022 FIFA World Cup if it happens. For more updates, follow Khel Now on Facebook, Twitter, and Instagram and join our community on Telegram.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_16",
+        "title": "",
+        "text": "By Hardik Malhotra Messi has played in four World Cups throughout his career. The 2022 World Cup will be Messi’s last chance to win it for Argentina. The last time Argentina came close to winning it was in 2014. Unfortunately, Messi’s side lost to Germany in the final. However this time the Argentinians are well prepared and are in form. They just won the Copa America last year and are unbeaten in 36 matches. Argentina are the favourites alongside Brazil to win the 2022 World Cup. Let’s assess the five potential knock-out stage opponents for Argentina in World Cup 2022. Provided that Argentina wins their group, they can face France in the Round Of 16. The last time this happened was in the 2018 World Cup but at Argentina’s demise. Deschamps France beat Argentina 4-3 in a thrilling match. However this time Argentina can surely manage to beat France. Not only is Argentina in great form but France itself is lacking several players. Karim Benzema, Nkunku, Kante and Pogba are set to miss the World Cup. The presence of Benzema and especially Kante would have been crucial to put down Argentina. Despite France missing out on some players, they can still manage to outdo Argentina because of their squad depth. Kylian Mbappe is definitely a player to watch out for as he showed up last time against Argentina.",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0010",
+    "method": "rerank_rag",
+    "answer": "Project Iris",
+    "selected_doc_ids": [
+      "doc_7",
+      "doc_24",
+      "doc_8",
+      "doc_12",
+      "doc_14"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_7",
+        "title": "",
+        "text": "Project Iris is the codename for an unreleased augmented reality (AR) headset designed and developed by Google. Intended to resemble ordinary eyeglasses and ...",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_24",
+        "title": "",
+        "text": "May 9, 2022 ... According to the analysis, the same technology is likely to be used in the Google Iris project's next-generation AR headset, where images ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_8",
+        "title": "",
+        "text": "Jan 20, 2022 ... ... Thursday that Google is in the early stages of development on Project Iris, the codename for an upcoming augmented reality headset with ...",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_12",
+        "title": "",
+        "text": "Augmented Reality, Google",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_14",
+        "title": "",
+        "text": "\"That device is in early planning and may still change significantly,\" the source tells Business Insider. With the demise of Hololens 3, Microsoft has moved away from its own Windows-based mixed reality operating system, which formed the basis of Hololens 1 and 2, the source says. Project Bondi, developed with Samsung, will likely rely on Android, while it is still unclear which operating system will be used for the more distant cloud-streaming headset. However, it will likely be necessary for HoloLens developers to rewrite some or all of their software from scratch, it said. Microsoft spokesman Frank Shaw would not comment on the rumors. Microsoft's big AR shift The report speaks of a deep technical realignment of Microsoft's mixed reality strategy, which is an apt description if rumors of a move away from Windows and transparent AR optics prove true. Microsoft would thus make a radical U-turn away from Hololens 1 and 2, whose development started almost ten years ago. According to the report, the first AR glasses Microsoft developed under the codename \"Fortaleza\" reportedly had a puck-shaped feed, like Magic Leap's device. That version had been abandoned in favor of an integrated solution. The first Hololens emerged from this project, called \"Baraboo\". The direct successor to Hololens 1 was scrapped because Kipman felt the improvements were too minor and did not see any direct competition.",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "Project Iris",
+    "error": null
+  },
+  {
+    "id": "rgb_0011",
+    "method": "rerank_rag",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [
+      "doc_21",
+      "doc_19",
+      "doc_23",
+      "doc_11",
+      "doc_8"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_21",
+        "title": "",
+        "text": "Jan 21, 2022 ... The Ivan Allen Jr. Prize for Social Courage was established in 2010 to honor Tech ... the prize includes a $100,000 stipend for recipients.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_19",
+        "title": "",
+        "text": "Feb 4, 2022 ... Prize for Social Courage was established in 2010 in honor of beloved Tech alumnus and former Atlanta mayor, Ivan Allen Jr. The award's ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_23",
+        "title": "",
+        "text": "Apr 25, 2023 ... For these reasons Amanpour is the recipient of the 2023 Ivan Allen Jr. Prize for Social Courage. Before attending a luncheon to accept the ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_11",
+        "title": "",
+        "text": "INTA Advising Blog  The Ivan Allen Jr. Legacy Awards honor faculty and students whose lives and work embody the spirit of Georgia Tech alumnus Ivan Allen Jr. (Commerce 1934). As stewards of Mayor Allen’s legacy, the College champions research, teaching, and service that encompass Mayor Allen’s visionary urban policies and his values of social courage, social justice, and ethical action. Recipients are selected from nominees considered by the Legacy Awards Committee led by the Associate Dean for Undergraduate Studies. Student nominees should demonstrate evidence of leadership, engagement, and academic achievement. Nominations may be made by faculty members, academic advisors, or school chairs. Students who self-nominate will require a letter of support from a faculty member academic advisor or a school chair.  To learn more about the award and to view past recipients, click here. To nominate undergraduate students, click here. To nominate graduate students, click here.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_8",
+        "title": "",
+        "text": "Prize for Social Courage shines a light on those around the world who bravely act to improve the human condition, often in the face of seemingly insurmountable challenges. Georgia Tech invites you to attend our events surrounding the award celebration and suggest nominees for the Prize by following the guidelines provided on this website.​ Georgia Tech is proud to honor the legacy of a great alumnus and civic leader, former Atlanta Mayor Ivan Allen Jr. Resources North AvenueAtlanta, GA 30332                      +1 404.894.2000  Campus Map  © 2023 Georgia Institute of       Technology  GT LOGIN",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0012",
+    "method": "rerank_rag",
+    "answer": "310,048",
+    "selected_doc_ids": [
+      "doc_26",
+      "doc_4",
+      "doc_24",
+      "doc_30",
+      "doc_13"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_26",
+        "title": "",
+        "text": "Jul 2, 2022 ... Tesla delivered 254,695 electric vehicles in the second quarter of 2022 ... A giant cowboy boot is on ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Tesla produced and delivered record numbers of vehicles during the first quarter of 2022, despite supply chain issues, Covid surges and health restrictions in China causing it to shut down production during the first few months of the year. A Tesla Model Y electric vehicle is shown during the start of the production at Tesla's ... [+] \"Gigafactory\" on March 22, 2022 in Gruenheide, southeast of Berlin, Germany. (Photo by PATRICK PLEUL/POOL/AFP via Getty Images) Tesla delivered 310,048 vehicles from January through March, up 70% from the same period in 2021, and produced 305,407 vehicles, it said Saturday. The Model 3 and Model Y accounted for the vast majority of deliveries in the quarter, which were up only slightly from the fourth quarter of 2021, when it delivered nearly 309,000 vehicles. Tesla CEO Elon Musk said in a tweet it was an “exceptionally difficult quarter due to supply chain interruptions & China zero Covid policy,” and applauded the work from the Tesla team and key suppliers that “saved the day.” Wedbush Securities analysts Daniel Ives and John Katsingris wrote Saturday the first-quarter sales were a “positive step in the right direction,” noting that most investors will look past the slight miss on deliveries – Wall Street analysts were on average expecting 312,000, they said.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_24",
+        "title": "",
+        "text": "Jan 2, 2023 ... AUSTIN, Texas, January 2, 2023 – In the fourth quarter, we produced over 439000 vehicles and delivered over 405000 vehicles. In 2022 ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_30",
+        "title": "",
+        "text": "Much of this has to do with the rigid, fortified structure of the battery pack ... we began voluntarily releasing quarterly safety data in order to provide ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_13",
+        "title": "",
+        "text": "In the U.S., Tesla has been leaving customers waiting for months before filling their car orders. Tesla CEO Elon Musk warned in mid-March of inflationary pressures on the business, and hiked the prices of its cars in both the U.S. and China. —CNBC's Jordan Novet contributed to this report. WATCH: Tesla's stock split shows confidence in the company  Got a confidential news tip? We want to hear from you. Sign up for free newsletters and get more CNBC delivered to your inbox Get this delivered to your inbox, and more info about our products and services.  © 2023 CNBC LLC. All Rights Reserved. A Division of NBCUniversal Data is a real-time snapshot *Data is delayed at least 15 minutes. Global Business and Financial News, Stock Quotes, and Market Data and Analysis.",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "310,048",
+    "error": null
+  },
+  {
+    "id": "rgb_0013",
+    "method": "rerank_rag",
+    "answer": "阿根廷",
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_14",
+      "doc_4",
+      "doc_5",
+      "doc_15"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "The 2022 FIFA World Cup final was the final match of the 2022 FIFA World Cup, the 22nd edition of FIFA's competition for men's national football teams. The match was played at Lusail Stadium in Lusail, Qatar, on 18 December 2022, the Qatari National Day, and was contested by Argentina and defending champions France. The final took place in front of 88,966 supporters, with a record crowd of 1.5 billion people watching on television, becoming one of the most widely-watched televised sporting events in history.[3]  The tournament comprised hosts Qatar and 31 other teams who emerged victorious from the qualification phase, organised by the six FIFA confederations. The 32 teams competed in a group stage, from which 16 teams qualified for the knockout stage. En route to the final, Argentina finished first in Group C, first losing to Saudi Arabia 2–1, then defeating both Mexico and Poland 2–0. They then won against Australia in the round of 16, the Netherlands in the quarter-final through a penalty shoot-out, and Croatia in the semi-final. France finished top of Group D with two wins and one loss (4–1 win over Australia, 2–1 win over Denmark, and a 1–0 loss to Tunisia), defeating Poland in the round of 16, England in the quarter-final and Morocco in the semi-final.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_14",
+        "title": "",
+        "text": "It did, according to the game’s officials and England won 4-2.           The 1970 final marked Pelé’s last World Cup appearance as he secured his third title in Brazil’s swashbuckling victory over Italy.           Four years later in Munich, host West Germany came from behind to win 2-1 against a star-studded Netherlands team – made up of Johan Cruyff and Johan Neeskens – to win its second World Cup.           Much like Messi at Qatar 2022, Diego Maradona almost single-handedly drove his team to its second title in eight years, beating West Germany 3-2 in the final.           In 1998, France hosted and won its first World Cup, mainly down to the genius of Zinedine Zidane, who scored twice in the final, to beat a formidable Brazil side, composed of Ronaldo, Rivaldo, Cafu, Bebeto and Roberto Carlos.            However, with its multiples story lines and the drama and artistry on display, surely the 2022 showpiece now owns the title of ‘greatest World Cup final.’    © 2023 Cable News Network. A Warner Bros. Discovery Company. All Rights Reserved.  CNN Sans ™ & © 2016 Cable News Network.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "The match ended with a final score of 3-3 and Argentina leading 4-2 in penalties.  Left: Argentina's fans celebrate the team's 2022 World Cup win against France at the Obelisk in Buenos Aires on Sunday, Dec. 18. Right: Argentina's fans react while watching the live broadcast of the 2022 World Cup final between France and Argentina at the Copacabana beach in Rio de Janeiro, Brazil, on Sunday, Dec. 18.                                                           Tomas Cuesta/AFP via Getty Images; Mauro Pimentel/AFP via Getty Images                                       hide caption                   Argentina's Lionel Messi holds up the winner's trophy after the team won the 2022 World Cup final against France on Sunday, Dec. 18, at the Lusail Stadium in Lusail, Qatar.                                                           Manu Fernandez/AP                                       hide caption  Argentina's run in this year's World Cup began with a shocking loss to Saudi Arabia. It seemed like Messi's journey in the tournament would come to a swift end. Instead, Argentina continued to advance, winning every subsequent game they played. Their final opponent and defending champion, France, dominated their matches in Qatar. In the final match, France struggled to maintain that momentum in the first half. After the half, Mbappé's hat trick nearly turned the tide of the game. The pressure peaked in the penalty shootout, affecting the French team's ability to score.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "It seems only yesterday that Enner Valencia was swatting aside Qatar in the 2022 World Cup’s curtain raiser.            As the dust settles on an enthralling month of soccer action, fans have been treated to arguably one of the greatest ever World Cup tournaments in the sport’s history.      Reaction to Lionel Messi lifting the World Cup trophy wearing a bisht shows cultural fault lines of Qatar 2022         In fitting fashion, Sunday’s final exploded like a firework display to provide the ultimate conclusion to Qatar 2022.           This was a final that had superstar rivalries, penalties, iconic goals and goalkeeping masterclasses, culminating in Lionel Messi’s crowning as world champion after Argentina beat France on penalties.            The pièce de resistance, a moment that will live long in the memory like an impressionistic masterpiece, is that iconic image of Messi – lifted aloft on his teammates’ shoulders – with the World Cup trophy finally in his hands.           This match had been billed as Kylian Mbappé vs. Messi – the 23-year-old French star ready to assume the mantle of the world’s greatest player from his 35-year-old Paris Saint-Germain teammate.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_15",
+        "title": "",
+        "text": "It is the fifth special ball for FIFA World Cup final matches, after the +Teamgeist Berlin,[23] Jo'bulani,[24] Brazuca Final Rio,[25] and Telstar Mechta.[26]  The final was played at Lusail Stadium in Lusail, Qatar, located about 15 kilometres (9.3 mi) north of the city centre of Doha.[27] The stadium was intended to host the final as part of Qatar's World Cup bid,[28] and was confirmed as the final venue on 15 July 2020.[29] The stadium was allocated to also host nine previous World Cup matches, with six in the group stage and three other knockout fixtures.[30]  Lusail Stadium, owned by the Qatar Football Association, was built as part of Qatar's winning bid for the World Cup. The stadium was designed by British firm Foster and Partners and Populous,[31] supported by MANICA Architecture.[32] The stadium uses solar power to be cooled and is claimed to have a carbon zero footprint.[33] Construction began in April 2017,[34] and was planned to finish in 2020. Completion of the stadium was postponed, with construction ultimately finished in November 2021.[35] The stadium hosted its first match, the Lusail Super Cup, on 9 September 2022,[36] later than expected.[37]",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "阿根廷",
+    "error": null
+  },
+  {
+    "id": "rgb_0014",
+    "method": "rerank_rag",
+    "answer": "8",
+    "selected_doc_ids": [
+      "doc_12",
+      "doc_1",
+      "doc_23",
+      "doc_10",
+      "doc_7"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_12",
+        "title": "",
+        "text": "Sep 2, 2022 ... Four people were killed and eight injured after a shuttle van crashed Friday morning on New Jersey's Palisades Interstate Parkway, ...",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Four people were killed and eight injured after a shuttle van crashed Friday morning on New Jersey’s Palisades Interstate Parkway, officials said. At about 1:30 a.m., police received reports of a crash in the center median of the parkway's southbound lanes in Englewood Cliffs, a borough in Bergen County, New Jersey, the Palisades Interstate Parkway Police said in a statement. When officers arrived at the scene, they found \"a single vehicle accident rollover\" and several passengers trapped in the vehicle. Four of the passengers suffered \"severe trauma\" and were pronounced dead at the scene while eight others were hospitalized with injuries ranging from severe head trauma to minor physical complaints, police said. Police did not immediately identify the victims. The shuttle van, listed as a Ford Econoline E350 passenger cargo van with New York registration, takes people to and from factories in upstate New York, police said. The van was carrying 12 passengers at the time of the crash. The crash also snarled traffic as the southbound lanes of the parkway remained closed Friday morning. The cause of the crash is under investigation by parkway police, the Bergen County Sheriff's Office and other agencies.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_23",
+        "title": "",
+        "text": "Sep 2, 2022 ... A horrific overnight crash on the Palisades Interstate Parkway in Englewood Cliffs left four people dead Friday, officials said. A shuttle ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_10",
+        "title": "",
+        "text": "Profile Sections tv Featured More From NBC Follow NBC News Four people were killed and eight were hospitalized with varying injuries following a shuttle van crash Friday morning on New Jersey’s Palisades Interstate Parkway, officials said.  The crash was reported shortly before 1:30 a.m. in the center median of the southbound lanes in Englewood Cliffs, Palisades Interstate Parkway Police said.  The van, listed as a Ford Econoline E350 passenger cargo van with New York registration, had 12 people on board, police said. When officers arrived at the scene, they discovered \"a single vehicle accident rollover\" and said several passengers were trapped in the vehicle. Rescue and first aid operations began immediately after officers arrived. Four passengers “suffered severe trauma” and were pronounced dead at the scene, police said in a news release. Eight were taken to area hospitals for a range of injuries from severe head trauma to minor physical complaints, authorities said.  The driver of the van was among the dead, NBC New York reported. Some victims had to be flown to hospitals after they were freed from the vehicle, according to the station. Police did not release the victims' names.  Officials said the van served as a transportation service for workers in factories in upstate New York to and from their residences.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_7",
+        "title": "",
+        "text": "We pray for the recovery and healing of the additional team members injured in the accident.\" The victims were identified as driver George Massey and passengers Candida Frias, Jose Luis Romero Munoz and Clara Estrella. Estrella's family spoke to Eyewitness News and said their loved one was in her 40s and immigrated from the Dominican Republic four months ago. Her sister, who was also in van, remains hospitalized at Hackensack University Medical Center, along with four others. . One victim was also taken to Jersey City Medical Center, one to Holy Name Medical Center in Teaneck, and another to Englewood Health. The severity of their injuries ranged from severe head trauma to minor injuries. The cause of the accident remains under investigation. Gov. Phil Murphy released the following statement on Twitter later Friday: \"Four people lost their lives early this morning when a passenger van overturned on the Palisades Interstate Parkway. Our deepest condolences to the loved ones of the four victims, and we wish the eight people who were injured a speedy recovery.",
+        "label": "correct"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "8",
+    "error": null
+  },
+  {
+    "id": "rgb_0015",
+    "method": "rerank_rag",
+    "answer": "\"Everything Everywhere All at Once\"",
+    "selected_doc_ids": [
+      "doc_22",
+      "doc_4",
+      "doc_6",
+      "doc_20",
+      "doc_21"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_22",
+        "title": "",
+        "text": "Mar 12, 2023 ... 95th Academy Awards - Oscars Show - Hollywood ... a huge haul at Hollywood's biggest night, the movie won best picture to close the night.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "See all the biggest moments from the 95th Academy Awards.  These couples stun on the Oscars red carpet The 95th Academy Awards have come and gone. On Hollywood's biggest night, \"Everything Everywhere All at Once\" reigned supreme, winning seven Oscars, the most of any film, including best picture, best director and best original screenplay. It was nominated for 11 Oscars heading into the ceremony. The film with the next highest number of wins was \"All Quiet on the Western Front,\" with four. In the acting categories, \"Everything Everywhere All at Once\" star Michelle Yeoh made history as the first Asian woman to win best actress, while Brendan Fraser won best actor for \"The Whale.\" \"Everything Everywhere All at Once\" co-stars Ke Huy Quan and Jamie Lee Curtis also won in the supporting actor and actress categories, respectively. Keep reading to see all the biggest moments from the 2023 Oscars. “Everything Everywhere All At Once” won the Academy Award for best picture. “This award is ours,” producer Jonathan Wang said on behalf of the filmmakers of the movie. “A24 – thank you so much. You saw our weirdness and supported us for a year. That’s incredible.” Daniel Kwan took the mic after and thanked everyone in the room. “We’ve said enough tonight,” Kwan added. “Thank you so much to everyone here. You have all inspired me.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_6",
+        "title": "",
+        "text": "The 2023 Academy Awards unfolded at the Dolby Theatre in Los Angeles on Sunday, with Everything Everywhere winning big. It was a night of historic wins at the 95th annual Academy Awards, taking place at the Dolby Theatre in Los Angeles, California. On Sunday, two films quickly emerged as dominant forces in the race to pick up the most Oscar trophies: the German-language war epic All Quiet on the Western Front and the topsy-turvy multiverse action-comedy Everything Everywhere All at Once. The latter ultimately pulled in the most awards, with seven wins in some of the biggest categories, including best picture, best director, best original screenplay and three of the acting categories. But All Quiet on the Western Front, an adaptation of the 1929 anti-war novel from Erich Maria Remarque, still notched four wins, including the best international feature film trophy. This year’s Oscars included a record number of Asian artists nominated for the acting categories — and Sunday’s ceremony made good on that promise, crowning 60-year-old screen icon Michelle Yeoh its first Asian best actress. Her Everything Everywhere All at Once co-star Ke Huy Quan — a former child star and refugee born in Vietnam — also took home the prize for best supporting actor. India also made history with its first nomination and win in the best song category for the suspender-snapping banger “Naatu Naatu” from the film RRR.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_20",
+        "title": "",
+        "text": "Get the latest news about the 2023 Oscars, including nominations, winners, predictions and red carpet fashion at 95th Academy Awards Oscar.com.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_21",
+        "title": "",
+        "text": "Mar 13, 2023 ... Nominees for the 95th Academy Awards were announced on Tuesday morning, ahead of a ceremony on March 12 in Los Angeles.",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "\"Everything Everywhere All at Once\"",
+    "error": null
+  },
+  {
+    "id": "rgb_0016",
+    "method": "rerank_rag",
+    "answer": "$6.5 million",
+    "selected_doc_ids": [
+      "doc_4",
+      "doc_23",
+      "doc_21",
+      "doc_3",
+      "doc_8"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Feb 2, 2023 ... These were the prices for a 30-second commercial in recent Super Bowl history (in reverse chronological order):. 2022: $6.5 million.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_23",
+        "title": "",
+        "text": "Feb 13, 2022 ... How much do Super Bowl commercials cost in 2022? ... NBC, the home for Super Bowl 56, has not reported the official prices for each Super Bowl ad ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_21",
+        "title": "",
+        "text": "Feb 10, 2023 ... In 2023, advertisers are paying an average of seven million U.S. dollars to air a 30-second long commercial during the Super Bowl LVI broadcast.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "The ad portrays Pittsburgh’s Joe Greene in the locker room interacting with a young fan who offers him an ice cold bottle of Coke. Another admired ad presented Ridley Scott’s rendition of the popular dystopian George Orwell novel “1984” in an Apple commercial introducing the Macintosh for Super Bowl XVIII in 1984.  Super Bowl I, which took place in 1967, featured the Green Bay Packers and the Kansas City Chiefs. The event aired solely on two networks: NBC and CBS. At the time, NBC charged companies $75,000 for a 60-second spot and CBS charged $85,000. For a 30-second spot, the networks pressed $42,000.  These were the prices for a 30-second commercial in recent Super Bowl history (in reverse chronological order): 2022: $6.5 million 2021: $5.5 million 2020: $5.6 million 2019: $5.3 million 2018: $5.2 million 2017: $5 million 2016: $4.5 million 2015: $4.25 million And now, a snapshot of history: 2000: $2.1 million 1995: $1.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_8",
+        "title": "",
+        "text": "While the longest Super Bowl commercial in 2023 is still to be determined, there have been very pricey ads over the years. In fact, the most expensive Super Bowl ad of all time was 2020 – a tie between Amazon and Google. The lengths of the commercials were 90 seconds, costing a whopping total of $16.8 million for each company. Approximately $500 million in ad revenue is generated during one Super Bowl night.  There are approximately 70 ads during the hottest sports night of the year.",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "$6.5 million",
+    "error": null
+  },
+  {
+    "id": "rgb_0017",
+    "method": "rerank_rag",
+    "answer": "Pixel Fold",
+    "selected_doc_ids": [
+      "doc_5",
+      "doc_2",
+      "doc_31",
+      "doc_12",
+      "doc_37"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "Photos viewed by CNBC show that the phone will open like a book to reveal a small tablet-sized 7.6-inch screen, the same size as the display on Samsung's competitor. It weighs 10oz, slightly heavier than the Samsung Galaxy Z Fold 4, but it has a larger battery that Google says will last for 24 hours, or up to 72 hours in a low power mode. The Pixel Fold is powered by Google's Tensor G2 chip, according to the documents. That's the same processor that launched in the Pixel 7 and Pixel 7 Pro phones last year. A Google spokesperson declined to comment. While hardware is a small fraction of Google’s revenue, the Pixel Fold is the most expensive phone in the company's Google Pixel family. Google has been working on the software, including Android and its app store Google Play, for third-party devices made by companies like Samsung, the current folding phone market leader. The Pixel Fold will give Google a chance to show what a fully Google-made foldable phone experience is like. Other Pixels, for example, have exclusive features that aren't available on all Android phones, like photo editing options that are powered by the Tensor processor. The launch comes amid questions about Google and Samsung's relationship. Earlier this week, Alphabet shares fell more than 3.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Alphabet Inc.’s Google introduced a $1,799 foldable smartphone, a new entry-level Pixel phone and a tablet for the home, its latest attempt to spark hardware sales in an arena saturated by Apple Inc. and Samsung Electronics Co. Launched at Wednesday’s Google I/O conference, the Pixel Fold is Google’s first entry into the growing foldables category and comes with a 7.6-inch main display and a 5.8-inch external panel. Google touts this as the thinnest foldable in the markets where it will be sold, which include the US, UK, Germany and Japan. The company also rolled out its first Pixel-branded tablet and a $499 Pixel 7a, trickling down its 2022 flagship phone’s features to a more affordable price point. The three devices use an in-house chip known as the Tensor G2.  The move into the pricier foldables category marks a strategy shift for Google, which has so far focused on undercutting the cost of rival devices. The Pixel Fold is Google’s most expensive handset to date, matching the price of Samsung’s latest Galaxy Z Fold 4 and including high-end specifications like 512 gigabytes of onboard storage. Samsung remains the sales leader in foldables — with 79% of the market last year, according to IDC — having kicked off the category four years ago with the Galaxy Fold.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_31",
+        "title": "",
+        "text": "May 10, 2023 ... Google finally built a smartphone that folds in half. But will it -- and the rest of Google's new gadgets -- be worth the wait?",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_12",
+        "title": "",
+        "text": "Most apps are still not optimized for foldable devices; prices remain very high; and Google’s chief rival, Apple, has yet to embrace the option.            Despite great consumer interest in foldable phones — and a resurgence in 90s-style flip phones among celebrities and TikTok influencers — the foldable market is relatively small, with Samsung dominating the category, followed by others including Motorola, Lenovo, Oppo, and Huawei. According to ABI Research, foldable and flexible displays made up about 0.7% of the smartphone market in 2021, and in 2022 expected to fall just shy of 2%.           The Pixel Fold will be available in the US, UK, Germany and Japan. The company said the device will start shipping next month.           On the surface, the 7a looks similar to the Pixel 7 and 7 Pro, with the same pixel camera bar along the back. It comes with the typical advancements you’d expect to find with any smartphone upgrade – better display, advanced camera and longer-lasting battery. But the 7a now boasts a Tensor G2 processor and a TItan M2 security chip, which brings advanced processing and new artificial intelligence features. It also offers wireless charging for the first time on an A model.           The Pixel lineup has long been known for its cameras, and the 7a is no exception.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_37",
+        "title": "",
+        "text": "The catch: In the past, Google’s A-series smartphones were mostly known for one thing: their seriously aggressive price tags. Earlier models routinely debuted for less than $500, which made them easy recommendations for smartphone shoppers on tighter budgets. This one isn’t quite as cheap, and faces stiff competition from rival Samsung devices. What it is: Google’s first new Android tablet since 2015 How much does it cost? $499 What does it promise? Double duty as a portable screen and smart home machine Sure, you could stick Google's new 11-inch Pixel Tablet into your bag and tote it around for a day — it's sleek and boasts a screen bright enough for outdoor reading or Netflix bingeing. But that's not where the company thinks the Tablet will spend most of its time. Instead, they figure it’ll mostly live at home — and perhaps perched on an included dock that charges the tablet and plays audio through a built-in speaker. (Naturally, it sounds a lot better than just listening through the tablet’s speakers cranked up, though it’s worth noting you can’t use the dock as a stand-alone Bluetooth speaker or anything.) When it’s sitting on that dock, the Tablet basically becomes an even bigger version of the company’s Nest Hub screens, offering quick access to streaming media, your smart home gadgets, Google’s ever-ready Assistant.",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "Pixel Fold",
+    "error": null
+  },
+  {
+    "id": "rgb_0018",
+    "method": "rerank_rag",
+    "answer": "August 21, 2022",
+    "selected_doc_ids": [
+      "doc_11",
+      "doc_9",
+      "doc_3",
+      "doc_17",
+      "doc_6"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_11",
+        "title": "",
+        "text": "HBO’s new ‘House of the Dragon’ trailer offers a peek at the ‘Game of Thrones’ prequel",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_9",
+        "title": "",
+        "text": "Aug 21, 2022 ... 'House of the Dragon' Premiere: Another Game of Thrones. Sunday's long-awaited premiere aimed to create investment in a new royal power ...",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "House of the Dragon is an American fantasy drama television series created by George R. R. Martin and Ryan Condal for HBO. A prequel to Game of Thrones (2011–2019), it is the second television series in the A Song of Ice and Fire franchise. Condal and Miguel Sapochnik served as the showrunners for the first season. Based on parts of Martin's 2018 book Fire & Blood, the series begins about 100 years after the Seven Kingdoms are united by the Targaryen Conquest, nearly 200 years before the events of Game of Thrones, and 172 years before the birth of Daenerys Targaryen. Featuring an ensemble cast, the show portrays the events leading up to the beginning of the decline of House Targaryen, a devastating war of succession known as the \"Dance of the Dragons\".  House of the Dragon received a straight-to-series order in October 2019, with casting beginning in July 2020 and principal photography starting in April 2021 in the United Kingdom. The series premiered on August 21, 2022, with the first season consisting of ten episodes. Five days after its premiere, the series was renewed for a second season. Sapochnik departed as showrunner after the first season, leaving Condal to serve as the sole showrunner for the second season.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_17",
+        "title": "",
+        "text": "It came during the funeral for the queen and her son — the baby bundle particularly devastating in its tininess, with enormous repercussions for the kingdom. The scene was a somber counterpoint to the chaos and violent agony that had come before it, and Sapochnik wisely let the quietness build. And when Alcock aced her first “Dracarys!” well … I mean, I’m not made of stone. For the record, I do intend to give “House of the Dragon” a fair chance. My weariness with parts of it is tied to a more general weariness with media conglomerates endlessly flogging their profitable intellectual property. (Marvel’s “She-Hulk” premiered Thursday; “Lord of the Rings” and “Andor,” the latest “Star Wars” series, arrive next month.) It can all feel like a streaming content pharma ad: “Do you recognize the elements of thrilling drama but still feel malaise while watching it? You may be suffering from franchise fatigue …” In an interview before the season, Sapochnik discussed the importance of making the dragons feel like real, organic parts of the world. “What you want people to do is say, ‘Oh, cool, they can do dragons,’ and then move on,” he said. I was mostly there until Daemon nuzzled his on his way out of town, which evoked the sick triceratops in “Jurassic Park,” from 29 years ago.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_6",
+        "title": "",
+        "text": "Aug 19, 2022 ... House of the Dragon's ten episode season will begin on August 21, 2022. It'll go head-to-head with another fantasy juggernaut, Amazon's The ...",
+        "label": "correct"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "August 21, 2022",
+    "error": null
+  },
+  {
+    "id": "rgb_0019",
+    "method": "rerank_rag",
+    "answer": "3.7%",
+    "selected_doc_ids": [
+      "doc_5",
+      "doc_1",
+      "doc_16",
+      "doc_19",
+      "doc_24"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "The Employment Situation - November 2022 The unemployment rate was unchanged at 3.7 percent in November and has been in a narrow range of. 3.5 percent to 3.7 percent since March.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "7%) in May 2020 and July 2020. Unemployment in the transportation sector was above overall unemployment. BLS reports that the U.S. unemployment rate, not seasonally adjusted, in November 2022 was 3.4% or 1.2 percentage points below the transportation sector rate. Seasonally adjusted, the U.S. unemployment rate in November 2022 was 3.7%.     In addition to the update of the Unemployment in Transportation dashboard, BTS also released its monthly update to its Employment in Transportation: Total, by Mode, and Women, and Race and Hispanic or Latino Ethnicity of Transportation Workers dashboards. Charts Updated this Month by Section include: Unemployment in the Transportation and Warehousing Sector and in Transportation and Material Moving Occupations Monthly Employment in the Transportation and Warehousing Sector, Establishment Data Monthly Employment in the Transportation and Warehousing Sector by Race and Hispanic or Latino Ethnicity, Household Data   Visit Transportation Economic Trends for more topics. Media contact: BTSNews@dot.gov or 1-800-853-1351.   U.S.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_16",
+        "title": "",
+        "text": "The agricultural industry had 4,900 more farm jobs in December 2022 than it did in December a year ago. Employment and Unemployment in California (Based on a monthly federal survey of 5,100 California households which focuses on workers in the economy) * Labor force by place of residence, including workers involved in trade disputes. The following data is from a sample week that includes the 19th of each month: In related data that figures into the state’s unemployment rate, there were 326,252 people certifying for Unemployment Insurance benefits during the December 2022 sample week. That compares to 306,550 people in November and 355,749 people in December 2021. Concurrently, 41,550 initial claims were processed in the December 2022 sample week, which was a month-over decrease of 6,271 claims from November and a year-over decrease of 7,521 claims from December 2021.    You are about to leave our website.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_19",
+        "title": "",
+        "text": "This marked the sixth consecutive month in which long-term unemployment was either at or below pre-pandemic February 2020 levels. Expressed as a proportion of the total labour force, long-term unemployment held steady at 0.8% for a third consecutive month.  The participation rate of women aged 25 to 54 increased by 0.3 percentage points to 85.1% in November. The monthly gain pushed up the participation rate of core-aged women to its highest level since the beginning of the data series in 1976, and similar to the level recorded in May 2022 (85.0%). Among core-aged men, the participation rate was little changed at 91.7% in November, 0.6 percentage points below the March peak of 92.3%. The labour force participation rate among youth aged 15 to 24 fell by 0.8 percentage points to 63.6% in November, with declines seen among both men and women in this age group. Despite job vacancies remaining near record highs during the summer and early fall, the youth labour force participation rate has remained on par with or slightly below its 2017-2019 average of 64.6% since June.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_24",
+        "title": "",
+        "text": "Employment among people in the core working ages of 25 to 54 rose by 38,000 (+0.3%) in November, the third consecutive monthly increase. Most of the November increase was attributable to core-aged women (+25,000; +0.4%).  The core-aged employment rate—the proportion of the population who are employed—rose by 0.8 percentage points to 84.7% on a year-over-year basis in November 2022. This rise was led by core-aged women, whose employment rate reached 81.6% in November, up 0.9 percentage points from 12 months earlier. This was the highest rate for core-aged women since comparable data became available in 1976, and similar to the previous high of 81.4% recorded in May 2022.  Record-high employment rates were widespread across different groups of core-aged women. The employment rate of core-aged First Nations women living off-reserve was 70.0%, the highest rate for the month of November since data became available in 2006, and similar to those recorded in November 2021 (67.7%) and November 2019 (68.1%). The employment rate of core-aged Métis women (83.5%) was also at a record high for the month of November (three-month moving averages, not seasonally adjusted).",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "3.7%",
+    "error": null
+  },
+  {
+    "id": "rgb_0020",
+    "method": "rerank_rag",
+    "answer": "John Fuller",
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_32",
+      "doc_31",
+      "doc_7",
+      "doc_18"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "FOX 2 Chief Meteorologist Glenn Zimmerman is joined by Chris Higgins, Angela Hutti, Jaime Travers, ... John Fuller is the chief meteorologist for KPLR-TV.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_32",
+        "title": "",
+        "text": "Feb 2, 2022 ... We caught up with a few TV weather personalities who forecasted ... A year later, I joined KPLR and served as its chief meteorologist until ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_31",
+        "title": "",
+        "text": "A native Tennessean, Emmy Award winning meteorologist Henry Rothenberg loves ... He went on to work for KPLR-TV in St. Louis, MO, WPTY-TV (now WATN-TV) in ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_7",
+        "title": "",
+        "text": "I left KSDK and St. Louis in 1990 to work for KRON-TV in San Francisco. Now • I serve as chief meteorologist for NBC 4 New York, delivering weather reports for the station's 5 p.m., 6 p.m. and 11 p.m. newscasts. I was inducted as a Fellow of the American Meteorological Society in 2020 and am a member of the New York State Broadcasters Association’s Hall of Fame. I have provided weather information to tri-state viewers for more than 25 years. I joined NBC 4 New York in January 1995 and held a variety of positions at NBC. I came to WNBC from KRON-TV, the NBC affiliate in San Francisco, where I was the primary on-air meteorologist for the station since 1991. I’m a native of Manhattan and graduated from Florida State University at Tallahassee with a major in meteorology. I am married and live in New Jersey. Then • I worked at KSDK from 2016-2019 and had the pleasure of working with Cindy Preszler and Mike Roberts for a short time. It was an honor to learn from them and to spend so much time with Scott Connell and Craig Moeller during my time at Channel 5. I am grateful for their expertise in forecasting St. Louis' fickle weather.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_18",
+        "title": "",
+        "text": "Then • I was KMOV’s chief meteorologist from 1991 through 1998. I was a young hire at 23, but I had worked for five years in the business before coming to St. Louis. I had big shoes to fill after Mike Nelson, but St. Louis welcomed me with open arms. I forecasted through the floods of ’93 and ’95, which were tough times for the community. We also started the \"Clear the Air” campaign to lower pollutants and advise the city of poor air quality days. My favorite memories come from working with the people from Channel 4 and forecasting from St. Louis events like the VP Fair, the Muny, airshows and the Great Forest Park Balloon Race. One year, while recording the race, we landed in a horse pasture owned by Anheuser-Busch. They were kind to cut down the fence so we could get out. Another year, the balloon landed sideways, and we were dragged about 40 feet before coming to a stop. There was never a dull moment. Now • Since my time in St. Louis I mostly have stayed home to raise our three daughters. Emma, 24, lives in Chicago and works in advertising. She also is a wedding photographer. Our second daughter, Alyse, will graduate from nursing school this May and is ready to take on the pandemic. Mia is 17 and still at home. She has dreams of being an astrophysicist.",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "John Fuller",
+    "error": null
+  },
+  {
+    "id": "rgb_0021",
+    "method": "rerank_rag",
+    "answer": "Daniel Alegre",
+    "selected_doc_ids": [
+      "doc_4",
+      "doc_3",
+      "doc_12",
+      "doc_19",
+      "doc_10"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "BUY OUR COMMUNITY TOKEN  Natalee newsletter, NFT News Activision, BAYC, blizzard, Bored Ape Yacht Club, daniel alegre, GordonGoner, new ceo  Yuga Labs, the company behind the popular NFT-based game, Axie Infinity, has announced that Daniel Alegre is now taking over as its CEO. Alegre is a well-known veteran in the gaming industry, having worked at Google for 16 years and most recently as COO at Blizzard.  Alegre’s arrival at Yuga Labs is perfectly timed, with the company’s gaming ecosystem about to go into hyperdrive. The Otherside’s 2nd Trip just concluded, while the HV-MTL Evo process and the Legends of the Mara experience are looming on the horizon. Alegre was hired as Yuga Labs’ next CEO back on December 19, 2022, and was due to take the reins “in the first half of 2023.” He will succeed Nicole Muniz, who will remain as both a partner and strategic advisor. Alegre’s impressive track record in the gaming industry, particularly with overseeing the international delivery of major franchises like Call of Duty, Candy Crush, Diablo, Overwatch, and World of Warcraft, makes him a valuable addition to the Yuga Labs team.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Activision Blizzard COO Daniel Alegre is leaving the gaming giant to take over as CEO of Yuga Labs, the company behind the Bored Ape Yacht Club. Yuga’s first and current CEO Nicole Muniz will stay on as a strategic advisor. “Nicole, Greg, and I have been on the hunt for someone with Daniel’s skill set for some time,” said Yuga co-founder Wylie Aronow in a press release. The crypto company wanted to appoint a gaming veteran as CEO to help work on projects like Otherside, its metaverse gaming platform. As an executive who oversaw franchises like Call of Duty, World of Warcraft and Candy Crush, Alegre fits the bill. He also worked at Google for more than 16 years, in roles such as president of Global and Strategic Partnerships. In March, prior to crypto meltdowns like the implosion of FTX and Terra’s UST, Yuga Labs raised $450 million from Andreessen Horowitz at a $4 billion valuation. After last month’s FTX bombshell dropped, the price to buy your way into the Bored Ape Yacht Club had decreased by 82% since its peak in April, according to Decrypt. But the greater industry concerns haven’t seemed to stall Alegre.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_12",
+        "title": "",
+        "text": "Apr 3, 2023 ... Yuga Labs, the company behind the popular NFT-based game, Axie Infinity, has announced that Daniel Alegre is now taking over as its CEO.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_19",
+        "title": "",
+        "text": "Kieran Warwick, a co-founder of the blockchain role-playing game Illuvium, said that Yuga Labs’ new hire is “big for all of GameFi,” suggesting that Web3 gaming will spark the next crypto bull run. Okay. I believe @yugalabs is going to make a good game now. This is big for all of GameFi. Every day more news comes out about new players from traditional gaming entering the space. DeFi 2.0 is cool. But gaming will be the narrative that kicks off the next run.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_10",
+        "title": "",
+        "text": "Apr 1, 2023 ... Yuga Labs, the company behind the Bored Ape Yacht Club (BAYC) and CryptoPunks nonfungible token (NFT) collections, has a new CEO, Daniel Alegre.",
+        "label": "correct"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "Daniel Alegre",
+    "error": null
+  },
+  {
+    "id": "rgb_0022",
+    "method": "rerank_rag",
+    "answer": "Richard Childress Racing",
+    "selected_doc_ids": [
+      "doc_10",
+      "doc_9",
+      "doc_26",
+      "doc_21",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_10",
+        "title": "",
+        "text": "Sep 14, 2022 ... Richard Childress Racing announced Tuesday that Kyle Busch will drive for the organization in the 2023 NASCAR Cup Series.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_9",
+        "title": "",
+        "text": "In 2011, Richard Childress punched Kyle Busch and pit him in a headlock following a NASCAR Camping World Truck Series race at Kansas. Over a decade later, incidentally two days after the Cup Series event there, the two will join forces. In one of—if not the biggest free agency signings in Cup Series history, Busch will depart Joe Gibbs Racing for Richard Childress Racing beginning with the 2023 Cup season. He will drive the #8 Chevrolet Camaro ZL1, marking a return to the manufacturer with whom he began his Cup career in 2004. “The addition of Kyle Busch to the Richard Childress Racing lineup is significant, not only for our organisation, but for the sport as a whole,” stated team owner Richard Childress. “Kyle is a proven contender at the highest levels of the sport, and I believe that his experience and dedication to motorsports will elevate our race program across the board. I’ve always admired Kyle’s driving style and his ability to win and race for championships ever since he entered the sport. Who wouldn’t want a proven NASCAR Cup Series Champion driving their car?” Busch entered the Cup Series in a Chevrolet with Hendrick Motorsports and spent five years there before joining Joe Gibbs Racing. Over the next fifteen seasons, he turned the JGR #18 M&M’s Toyota Camry into a household face with fifty-six wins and two championships.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_26",
+        "title": "",
+        "text": "But before that, Childress handed Busch his \"signing bonus,'' which was a boxed watch. Childress in 2011 tussled with Busch after a Truck Series race at Kansas Speedway. The car owner removed his watch and handed it to someone, saying 'Hold my watch' before the altercation. Childress was fined $150,000 by NASCAR afterward. Childress and Busch, now 37 years old, long ago made amends, which helped make RCR a landing spot for Busch during his excruciatingly long free agency period. JGR learned longtime partner Mars Wrigley was leaving the sport at the end of 2022, and Gibbs had been searching for a deep-pocketed sponsor to keep Busch in the No. 18 Toyota. Busch even said he'd drive for below his market value to get a deal done. But as the year went on and no progress was made on Busch's 2023 plans, he was forced to look elsewhere for both his own Cup seat and a landing spot for Kyle Busch Motorsports, his Truck Series team. KBM will now be a Chevrolet organization, but Busch said all details on KBM and how many trucks it fields next year is still being decided. \"Kyle has been a major part of our history and success here at Joe Gibbs Racing. We are thankful for all his contributions to our organization over the years,'' Joe Gibbs said in a statement.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_21",
+        "title": "",
+        "text": "Busch entered the 2022 Cup season without a contract extension with JGR in large part due to the decision by longtime sponsor Mars Inc. – announced in December 2021 – that it would end its NASCAR sponsorship at the conclusion of the 2022 season. He has been sponsored by M&M Mars since 2008 and Mars Inc. has been involved in NASCAR sponsorships for more than 25 years. Kyle Busch, Joe Gibbs Racing, M&M's Toyota Camry Photo by: David Rosenblum / NKP / Motorsport Images JGR has been unable to secure a primary sponsor for Busch’s #18 Toyota which would be comparable to the size of the financial investment from Mars Inc., although team officials have said they have come “close” on other prospects. That has led Busch to exploring options, including those from other manufacturers. In recent weeks, it was believed Busch was working on two viable options. One was moving to fellow Toyota team 23XI Racing, which is co-owned by Busch’s JGR team-mate Denny Hamlin and NBA legend Michael Jordan. That option was expected to cause the least issue with Busch’s KBM organisation. The other was joining RCR, which was looking for a new infusion of top talent after current driver Reddick informed the team in mid-July that he would not return to the organisation once his current contract expired at the end of the 2023 season.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Play Now                                                           Football Pick'em                                                               Play Now                                                           College Pick'em   See who to add and drop   PGA Tour and beyond  Kyle Busch will leave Joe Gibbs Racing at the end of the 2022 season and join Richard Childress Racing beginning in 2023, according to a report by Jordan Bianchi of The Athletic. An official announcement of Busch's move to RCR is expected to come Tuesday. The two-time NASCAR Cup Series champion will leave Joe Gibbs Racing after a 15-year tenure that saw Busch become one of the greatest drivers of his generation as well as one of the greatest in NASCAR history, earning 56 of his 60 career victories behind the wheel of a Gibbs Toyota. Busch's departure comes after a protracted contract situation that could not be resolved, as Joe Gibbs Racing was unable to find a sponsor capable of replacing the departing Mars Inc. and meeting Busch's salary demands. Busch is expected to be replaced behind the wheel of the No. 18 Toyota by Ty Gibbs, the 19-year old grandson of Joe Gibbs and a star in the NASCAR Xfinity Series. It is uncertain whether Busch will drive a third car for Richard Childress Racing or replace Tyler Reddick behind the wheel of the No. 8 Chevrolet.",
+        "label": "correct"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "Richard Childress Racing",
+    "error": null
+  },
+  {
+    "id": "rgb_0023",
+    "method": "rerank_rag",
+    "answer": "defensive coordinator",
+    "selected_doc_ids": [
+      "doc_5",
+      "doc_18",
+      "doc_20",
+      "doc_7",
+      "doc_8"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "“And he really understood everything about the defense and how it worked. And I was like, ‘Man, this guy’s a young guy, but he’s ready to do this.’” When Stitt was hired as head coach at FCS Montana in December 2014, he hired Semore first as safeties coach and special-teams coordinator and then moved him up to defensive coordinator. “He really relates well to the players, and he just has a way of getting the most out of them,” Stitt said. “They really, really play hard for him.” It also was at Oklahoma State where Gundy gave him his nickname, Boogie. It had nothing to do with Semore; it was the nickname of an assistant who had just left the team. “It was probably because he didn’t remember my name,” Semore said. “It was right when I got hired, and then everybody started calling me that.” His job at Oklahoma State also connected him with Andrew Thacker, then a GA. Thacker helped bring him to Temple in 2018 as a defensive analyst, and Collins brought him to Tech for a similar position that he held before taking a defensive coordinator job at Division II Valdosta State. But back to the nickname. Said Malone, the Kansas State assistant coach who brought him to Oklahoma State from Tulsa, “I do remember Jason always being like, ‘Damn, he doesn’t know my name’ when he first got there.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_18",
+        "title": "",
+        "text": "Oct 19, 2022 ... Before Key could even think about Georgia Tech beating an FBS ... So he headed straight for the office of linebackers coach Jason Semore.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_20",
+        "title": "",
+        "text": "Jun 14, 2021 ... Semore is a veteran defensive coach who had been working in-state for Geoff Collins at Georgia Tech as a defensive quality control ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_7",
+        "title": "",
+        "text": "Semore has gone by “Boogie” ever since. It probably says something about him that he was willing to embrace a nickname that wasn’t even his to begin with and given to him because it was convenient. The origin story likely wouldn’t surprise Gary Goff, who was coach at Valdosta State last year when he hired Semore from Tech (where he was defensive analyst) to be his defensive coordinator. The Blazers reached the Division II title game, earning Goff the head job at FCS McNeese State and helped bring Semore back to Tech, this time as linebackers coach. “Here’s what I love about Semore,” Goff said. “He’s a great person, but he’s in this profession for the right reason, and that’s to change lives through the sport. He doesn’t have an ego. It’s always the players and the team first, and I really appreciate that.” His coaching acumen, his readiness and selflessness made him Key’s only choice to be his new special-teams coordinator. “He’s a ball coach,” Key said. “And I can’t give him any higher compliment than that.” Relying on help from fellow assistant coaches, Semore taught the new punt-protection scheme on the fly, switching out seven players from the former punting unit. Semore recognized that it was a highly inopportune time to change scheme, given Pitt’s aggressive approach.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_8",
+        "title": "",
+        "text": "Jason Semore is a former Ganado High School football player who now is a linebackers coach at Georgia Tech University in Atlanta. Semore was a multi-sport athlete for the Hornets. (Photo courtesy Jason Semore)                     GANADO, Ariz. — He’s a household name in sports around sports Ganado, Arizona. These days, though, he’s passing his football knowledge on to linebackers at Georgia Tech University in Atlanta. The school is a major research institution and a member of the Atlantic Coast Conference. There’s still life in the throwing arm. His legs feel good. But that’s not the focus of Jason Semore. “I played football, baseball, track and field and I wrestled at Ganado High School,” said Semore, 40, who was part of the Hornets’ football teams that won a string of championships in the late 1990s and early 2000s. “My first sport was baseball, but I was always around football because my dad was always a coach.” Semore was born in Portland, Oregon, but grew up on the Navajo Nation in Ganado. His grandparents lived in Ganado in the 1970s and he lived on the reservation for some 17 years. He played linebacker and running back in football, catcher and third base in baseball and ran sprints in track. In football, Semore preferred defense and likes coaching defense.",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "defensive coordinator",
+    "error": null
+  },
+  {
+    "id": "rgb_0024",
+    "method": "rerank_rag",
+    "answer": "$4.56 million",
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_8",
+      "doc_2",
+      "doc_13",
+      "doc_14"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Netflix is casting now for a forthcoming Squid Game reality show that will put 456 contestants through a series of childhood-inspired games to claim the largest cash prize in reality TV history Digital News Writer, PEOPLE  A reality competition series based on the viral drama Squid Game is coming to Netflix, and it has one question for contestants: \"How far will you go?\"   The streaming network announced on Tuesday that 456 participants will vie for the largest cash prize in television history in Squid Game: The Challenge.   In total, $4.56 million is up for grabs for anyone who can survive all levels of childhood-inspired games. Netflix teased alliances and strategies will be necessary for the players should they hope to take home the prize fund.   Netflix also confirmed the upcoming reality series has the support of Squid Game creator Hwang Don-hyuk.   \"Squid Game took the world by storm with Director Hwang's captivating story and iconic imagery. We're grateful for his support as we turn the fictional world into reality in this massive competition and social experiment,\" said Brandon Riegg, Netflix VP of Unscripted and Documentary Series, in a statement.   \"Fans of the drama series are in for a fascinating and unpredictable journey as our 456 real world contestants navigate the biggest competition series ever, full of tension and twists, with the biggest ever cash prize at the end.\"",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_8",
+        "title": "",
+        "text": "Share Squid Game guards appear onstage during Netflix's FYSEE event for \"Squid Game\" at Raleigh Studios Hollywood on June 12, 2022 in Los Angeles, California. (Photo by Charley Gallay/Getty Images for Netflix)  LOS ANGELES - Netflix is bringing \"Squid Game\" to life with a reality television series that offers \"the largest cast and lump sum cash prize in history,\" according to the streaming giant.  The new reality TV series, called \"Squid Game: The Challenge,\" will feature 456 contestants competing in a series of games inspired by the hit show. The winner will take the record reward of $4.56 million. \"The stakes are high, but in this game the worst fate is going home empty-handed,\" Netflix said in a statement shared Tuesday. Casting for the show is now open at SquidGameCasting.com in search of any English-language speakers from around the world.  The 10-episode competition series is a co-production between Studio Lambert (\"The Circle\") and The Garden (\"24 Hours in A&E\"), part of ITV Studios, the company said. It will be filmed in the U.K.  The original \"Squid Game\" scripted series, which premiered in September 2021, holds the record as Netflix’s most popular series of all time. The Korean survival drama received more than 1.65 billion viewing hours in the first 28 days after its release.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "456 players will compete to win — you guessed it — $4.56 million in the new reality competition series. Season 2 isn’t the only thing Squid Game is bringing its fans. The South Korean series is coming to life in Squid Game: The Challenge, the biggest reality competition series ever — all it needs is you. Exactly 456 players will compete to win the life-changing reward of $4.56 million — the largest cast and lump sum cash prize in reality TV history. Players will be put to the test in a series of games inspired by the show, along with some surprising new additions that will push them to their limits. Strategy, alliances and character are crucial in order to survive the tension. The stakes are high, but thankfully, in this game, the worst fate anyone will face is going home empty-handed. Squid Game Reality Competition series casting call announcement. “Squid Game took the world by storm with Director Hwang [Dong-hyuk]’s captivating story and iconic imagery,” Brandon Riegg, Netflix vice president of unscripted and documentary series, says. “We’re grateful for his support as we turn the fictional world into reality in this massive competition and social experiment.” Even if you already have a green sweatsuit picked out to impress the Front Man, there are a few more obstacles — luckily not as difficult as Sugar Honeycombs — that stand in your way before the $4.56 million prize.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_13",
+        "title": "",
+        "text": "“Here, the worst fate a player can have is supposedly going home empty-handed.” But for others, like Winder, it's a hard pass. “The people competing are projected to the rest of the world for cheap thrills and it is a mockery of the original story,” she said. “It goes to show the extent to which people, especially in America, will disregard the plot of something, and the metaphors behind it, in order to make money.” This isn't the first time the original dystopian TV show has garnered a strong reaction. When the nine-episode thriller premiered on Sept. 21, \"Squid Game\" notched the No. 1 spot in 94 countries, including its home base, South Korea. There, the show struck a particular nerve for highlighting a deeply entrenched issue: debt and the perennial struggle of paying it off. And shortly after its debut, companies hoping to capitalize off its popularity rushed to incorporate the show into ad campaigns — a move that was perceived as crass due to the sensitive themes in the Korean thriller. \"Squid Game\" has also inspired celebrities to re-create scenes from the show — sparking similar controversy. In November, Chrissy Teigen was reprimanded for hosting a \"Squid Game\"-themed party with celebrity guests dressed as players from the smash hit.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_14",
+        "title": "",
+        "text": "Netflix is now searching for English-speaking contestants from anywhere in the world to take part in the 10-episode series (no release date has been announced yet).   Squid Game became the biggest television premiere in Netflix history when it aired in September 2021, with viewers watching than 1.65 billion hours in just 28 days. The show has been renewed for season 2, with a possible season 3 in the works as well.   Dong-hyuk said he was \"in talks\" with Netflix for seasons 2 and 3, during a conversation with the Korea Times.   \"It's true that we are discussing a wide variety of possibilities for Squid Game, including the production of a season 3, but nothing has yet been set in stone,\" Netflix confirmed to TV Line.   Squid Game season 1 is now streaming on Netflix.",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "$4.56 million",
+    "error": null
+  },
+  {
+    "id": "rgb_0025",
+    "method": "rerank_rag",
+    "answer": "\"The Princess and the Queen\"",
+    "selected_doc_ids": [
+      "doc_5",
+      "doc_3",
+      "doc_10",
+      "doc_18",
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "Sep 25, 2022 ... House of the Dragon Episode 6. “The Princess and the Queen” is effectively a second pilot episode for House of the Dragon.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Sep 20, 2022 ... House of the Dragon Episodes 6-10 titles and runtimes · Episode 6: “The Princess and the Queen” — 1 hour 7 minutes · Episode 7: “Driftmark” — 59 ...",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_10",
+        "title": "",
+        "text": "Djawadi composed the music for all eight seasons of Game of Thrones, which garnered him three Grammy Awards nominations and two Emmy Awards wins.[83][82] Djawadi and the showrunners opted to retain the original theme song, \"Game of Thrones Theme\", for House of the Dragon. The song debuted in the opening credits of the second episode.[84] In an interview with The A.V. Club, Djawadi stated that the original theme song was used to \"tie the shows together\".[85] For the first season, Djawadi, along with Condal and Sapochnik, watched each episode and made notes on when the music should occur and what mood the music should set.[86] Character motifs from Game of Thrones are also featured in House of the Dragon, including the Dragon theme \"Dracarys\".[87]  Game of Thrones linguist David J. Peterson returned to continue his work on the constructed language High Valyrian.[88] Peterson stated that, unlike Game of Thrones, House of the Dragon features scene-long dialogue in High Valyrian.[89] In the series, High Valyrian is spoken by both Targaryens and Velaryons, requiring cast members to learn the language.[90] Emma D'Arcy reportedly enjoyed learning it, while Matt Smith initially dreaded it and found it daunting.[91]",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_18",
+        "title": "",
+        "text": "He is part of a council of lords and knights that support Rhaenyra's claim to the throne. EpisodesEdit. No. Title, Directed by, Written by ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Movies in theaters Movies at home More Certified fresh picks                New TV Tonight                             Most Popular TV on RT              More                Certified fresh pick              Columns Guides The Best TV Seasons Certified Fresh at 100% 10 Fresh William Friedkin Movies Hubs RT25: Celebrating 25 Years of Rotten Tomatoes What to Watch: In Theaters and On Streaming RT News Best Directors of the Last 25 Years: Vote in Round 2 Weekend Box Office Results: Barbie Joins the $1 Billion Club  Home                                                  > House of the Dragon                         > Season 1                         > Episode 6                      House of the Dragon: Season 1   Critics Consensus   While the longest time-skip yet diminishes some of this installment's most shocking moments, the commanding introductions of Emma D'Arcy and Olivia Cooke make clear that \"The Princess and the Queen\" will remain compulsively watchable combatants.  Read critic reviews                   Ten years later. Rhaenyra navigates Alicent’s continued speculation about her children, while Daemon and Laena weigh an offer in Pentos.               Genres:  Drama, Fantasy   Network:  HBO   Air Date:  Sep 25, 2022   Directed By:   Clare Kilner,                                                                                                                     Geeta Patel,                                                                                                                     Greg Yaitanes    Written By:   Ryan Condal,",
+        "label": "correct"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "\"The Princess and the Queen\"",
+    "error": null
+  },
+  {
+    "id": "rgb_0026",
+    "method": "rerank_rag",
+    "answer": "Manchester City",
+    "selected_doc_ids": [
+      "doc_16",
+      "doc_1",
+      "doc_2",
+      "doc_4",
+      "doc_7"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_16",
+        "title": "",
+        "text": "Jun 10, 2023 ... Erling Haaland won the 2022/23 UEFA Champions League Golden Boot award after averaging more than one goal per game in this season's ...",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "The 2022–23 UEFA Champions League was the 68th season of Europe's premier club football tournament organised by UEFA, and the 31st season since it was renamed from the European Champion Clubs' Cup to the UEFA Champions League.  The final was played at the Atatürk Olympic Stadium in Istanbul, Turkey, on 10 June 2023.[3] The stadium was originally appointed to host the 2020 UEFA Champions League final, but both this and the 2021 editions, which had been subsequently re-allocated to the Atatürk, were moved due to the COVID-19 pandemic. The 2023 final was contested by English club Manchester City and Italian club Inter Milan, with the former winning 1–0 via a second-half goal by Rodri, who was named man of the match by UEFA. For Manchester City, this was their first-ever European Cup, and first European trophy since 1970. Having earlier won the Premier league and FA Cup titles, they achieved a unique continental treble.[4][5] As winners, Manchester City earned the right to play against Sevilla, the winners of the 2022–23 UEFA Europa League, in the 2023 UEFA Super Cup, as well as qualifying for both the 2023 and 2025 FIFA Club World Cups in Saudi Arabia and the United States, respectively.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "The 2023 UEFA Champions League final was the final match of the 2022–23 UEFA Champions League, the 68th season of Europe's premier club football tournament organised by UEFA. It was played at the Atatürk Olympic Stadium in Istanbul, Turkey, on 10 June 2023,[5] between English club Manchester City and Italian club Inter Milan, with Manchester City winning 1–0 via a second-half goal by Rodri, who was named man of the match by UEFA. For Manchester City, this was their first-ever European Cup, and first European trophy since 1970. Having earlier won the Premier League and FA Cup titles, they achieved the continental treble, only the second time it had been achieved in English men's football history.[6][7] As winners, Manchester City earned the right to play against Sevilla, the winners of the 2022–23 UEFA Europa League, in the 2023 UEFA Super Cup, as well as qualifying for the 2023 FIFA Club World Cup; they went on to win both competitions. They also qualified for the 2025 FIFA Club World Cup through UEFA's champions pathway (winners of the 2021–2024 Champions Leagues).  The final was originally scheduled to be played at Wembley Stadium in London, England.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "66] He also became the first manager to win two European trebles, having also done so with Barcelona in 2008–09.[67] It was Guardiola's twelfth major trophy with Manchester City; after the match, he stated that \"it was written in the stars that we'd win this season—and we did.\"[64] City midfielder Rodri, who scored the lone goal of the game, was selected as the man of the match by UEFA's technical observers.[1] Backup goalkeeper Scott Carson was the only City player to have previously won the competition, doing so as a reserve for Liverpool in 2005 at the same stadium. He thus equalled the record for the longest gap between a first and last European Cup title, shared with Milan's Paolo Maldini and Alessandro Costacurta.[68] Forward Julián Álvarez, who won the 2022 FIFA World Cup with Argentina six months prior, became the first player to win the treble and World Cup in the same season. This also made him the tenth player to accomplish the European Cup and World Cup double.[69]  As winners, Manchester City qualified for the 2023 UEFA Super Cup, where they defeated Spanish club Sevilla, winners of the 2022–23 UEFA Europa League, on penalties following a 1–1 draw after regulation time.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_7",
+        "title": "",
+        "text": "Manchester City is one of the most successful Premier League football clubs and has won: The UEFA Champions League is conducted in late June every year. This year, the championship is being held at the Atatürk Olympic Stadium in Istanbul, Turkey.",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "Manchester City",
+    "error": null
+  },
+  {
+    "id": "rgb_0027",
+    "method": "rerank_rag",
+    "answer": "根据给定文档，New Amsterdam第五季的首播日期是2022年9月20日。",
+    "selected_doc_ids": [
+      "doc_25",
+      "doc_18",
+      "doc_17",
+      "doc_7",
+      "doc_10"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_25",
+        "title": "",
+        "text": "Feb 24, 2023 ... New Amsterdam Season 5 is set to arrive on Netflix later in 2023, but a specific release date hasn't been confirmed.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_18",
+        "title": "",
+        "text": "Though production is keeping mum about what to expect from the Finale, showrunner David Schulner told NBC Insider that after her recent surprising return, Freema Agyeman will be reprising her role as Helen in Season 5, Episode 11. This means that Helen and Max (Ryan Eggold) will be reunited after a shocking breakup—and a love triangle could bloom between the exes and Max's new flame, Wilder. \"Max has to decide what he wants,\" Schulner says. \"And hope Wilder or Sharpe will still be there when he figures it out.\" You can watch every episode of New Amsterdam now on Peacock. The NBC App is the best place to catch up on the most recent season of your favorite shows, watch live TV, and stream movies.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_17",
+        "title": "",
+        "text": "New Amsterdam has followed the career and personal lives of the doctors at the titular hospital for five seasons, particularly Dr. Max Goodwin, who makes its goal to try and fix a broken medical system. The series is based on the book Twelve Patients: Life and Death at Bellevue Hospital by Eric Manheimer. We don’t know specifics about New Amsterdam season 5, but executive producer David Schulner told TV Insider that it’s about going back to the beginning.  \"For season 5, you want to end where you begin,\" he said. \"I think for us, let’s go back to that energy of season 1 and look at where we started all the characters and make sure we end them in a place where they began. So for Bloom, it was about her addiction…. so her mom can’t be far behind.\" The trip down memory lane will help bring closure to the series. \"So looking at those core issues that we set up for all of our characters in season 1, how can we bring those things to a conclusion in season 5, knowing it’s our last?,\" Schulner added. Needless to say, we're going to need lots of tissue as we watch the final episodes of New Amsterdam. NBC gave fans a first look at what's coming in the final season of New Amsterdam, including commentary from the cast and crew.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_7",
+        "title": "",
+        "text": "Sep 20, 2022 ... How to Watch New Amsterdam: Season 5 Release Date. New Amsterdam season five will stream on NBC Sept. 20, 2022, at 10 p.m. EDT.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_10",
+        "title": "",
+        "text": "The fifth and final season of New Amsterdam premiered on September 20, 2022 and has concluded on January 17, 2023.",
+        "label": "correct"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "根据给定文档，New Amsterdam第五季的首播日期是2022年9月20日。",
+    "error": null
+  },
+  {
+    "id": "rgb_0028",
+    "method": "rerank_rag",
+    "answer": "Tetsuya Yamagami",
+    "selected_doc_ids": [
+      "doc_9",
+      "doc_17",
+      "doc_13",
+      "doc_2",
+      "doc_11"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_9",
+        "title": "",
+        "text": "Jan 13, 2023 ... Tetsuya Yamagami allegedly shot and killed Shinzo Abe in early July but underwent a months-long mental evaluation that prosecutors say ...",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_17",
+        "title": "",
+        "text": "Japanese Prime Minister Fumio Kishida paid his “deepest condolences” to former leader Abe, saying he “was a personal friend, with whom (he) spent a lot of time.”           Kishida said he had a “great respect for the legacy (Abe) left behind” and would continue election campaigning on Saturday, adding a free and fair election must be defended at all costs.           News of the shooting and Abe’s subsequent death horrified leaders around the world, many of whom had worked with Abe during his long tenure.           US President Joe Biden said he was “stunned, outraged, and deeply saddened,” adding he had worked closely with Abe and his killing was “a tragedy for Japan and all who knew him.”            “While there are many details that we do not yet know, we know that violent attacks are never acceptable and that gun violence always leaves a deep scar on the communities that are affected by it. The United States stands with Japan in this moment of grief,” the US president said in a statement.            Later on Friday, Biden ordered American flags at the White House and on other federal grounds be flown at half-staff until Sunday in recognition of Abe’s death.      Who was former Japanese Prime Minister Shinzo Abe?",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_13",
+        "title": "",
+        "text": "Abe was the first former Japanese prime minister to have been assassinated since Saitō Makoto and Takahashi Korekiyo, who were killed during the February 26 incident in 1936,[18] the first Japanese legislator to be assassinated since Kōki Ishii was killed by a member of a right-wing group in 2002, and the first Japanese politician to be assassinated during an electoral campaign since Iccho Itoh, then-mayor of Nagasaki, who was shot dead during his mayoral race in April 2007.[19][20]  Abe, as well as his father Shintaro Abe and his grandfather Nobusuke Kishi, had longstanding ties to the Unification Church (UC), a new religious movement known for its mass wedding ceremonies.[21] Known officially as the Family Federation for World Peace and Unification (FFWPU), the movement was founded by Sun Myung Moon in Korea in 1954 and its followers are colloquially known as \"Moonies\". Moon was a self-declared messiah and ardent anti-communist.[22]  Nobusuke Kishi's postwar political agenda led him to work closely with Ryoichi Sasakawa, a businessman and nationalist politician during the Second World War.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Watch CBS News  January 13, 2023 / 4:31 AM           / AP          Tokyo — Japanese prosecutors formally charged the suspect in the assassination of former Prime Minister Shinzo Abe with murder, sending him to stand trial, a court said Friday. Tetsuya Yamagami was arrested immediately after allegedly shooting Abe with a homemade gun as the former leader was making a campaign speech on July 8 outside a train station in Nara in western Japan. Yamagami then underwent a nearly six-month mental evaluation prosecutors said showed he's fit to stand trial.   Yamagami was also charged with violating a gun control law, according to the Nara District Court. Police have said Yamagami told them he killed Abe, one of Japan's most influential and divisive politicians, because of Abe's apparent links to a religious group that he hated. In his statements and in social media postings attributed to him, Yamagami said he developed a grudge because his mother had made massive donations to the Unification Church that bankrupted his family and ruined his life.  One of his lawyers, Masaaki Furukawa, told The Associated Press on Thursday that Yamagami will have to take responsibility for the serious consequences of his alleged actions and that his defense lawyers will do their best to reduce his sentence.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_11",
+        "title": "",
+        "text": "local time on Saturday, a car believed to be carrying his body left the hospital, NHK reported.           Yamagami, who appeared to have used a homemade weapon in the attack, was arrested and charged with attempted murder, according to NHK.            He was held for questioning at Nara Nishi police station.           During a news conference Friday, Nara Nishi police said the 41-year-old suspect, who is unemployed, holds hatred toward a certain group to which he thought Abe was related.           Police raided the suspect’s apartment at 5:17 p.m. local time, where they confiscated several handmade pistol-like items, police said.            Yamagami is being investigated as a suspect in a murder case, to which 90 investigators have been assigned, the police added.            Japan’s National Police Agency will review security arrangements for Abe, NHK reported Saturday.           NHK reported the police agency said the Nara prefectural police drew up a security plan for the former prime minister while in the city. The prefecture’s police officers and security personnel from the Tokyo Metropolitan police had remained on the lookout and had reportedly watched Abe from all sides during his speech, NHK reported.           Several dozen officers, including the Nara prefecture’s plain-clothed police officers and one specially assigned personnel from the Tokyo police force, were on duty, NHK reported.",
+        "label": "noise"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "Tetsuya Yamagami",
+    "error": null
+  },
+  {
+    "id": "rgb_0029",
+    "method": "rerank_rag",
+    "answer": "Ethan Hawke",
+    "selected_doc_ids": [
+      "doc_2",
+      "doc_1",
+      "doc_21",
+      "doc_25",
+      "doc_8"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "(Burbank, CA) — WarnerMedia Kids & Family announced today the voice cast for the upcoming Warner Bros. Animation series Batwheels. Ethan Hawke (The Good Lord Bird) as Batman and Jacob Bertrand (Cobra Kai) as Bam the Batmobile lead a talented cast for the preschool animated action-adventure comedy series featuring the most heroic and iconic vehicles from the DC universe. The announcement was made by Bertrand during a special virtual event celebrating the launch of Cartoonito, WarnerMedia Kids & Family’s new preschool programming block available on HBO Max and Cartoon Network. He was also joined by Batwheels cast mate AJ Hudson (The Good Place) who voices the character of Duke Thomas, the first Black character to don the Robin \"R\" in the pages of DC comics. Batwheels represents the first on screen portrayal of the character. The Batwheels Team   The Bat-Family Additional cast and characters will be announced at a later time. They are a team of incredible crimefighters who have banded together to oppose evil, combat crime and clean up the streets of Gotham City.  They are…okay, they’re NOT Batman and Robin.  They’re the Batwheels - an awesome group of sentient super-powered crime-fighting vehicles defending Gotham City alongside Batman, Robin, Batgirl and a host of DC Super Heroes. Having just been created by the Batcomputer, our heroes are essentially kids with little to no life experience.",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "A first look of Ethan Hawke as the voice of Batman in Batwheels, the upcoming animated series debuting as part of the preschool block on Cartoonito on HBO Max and Cartoon Network, was revealed today.    The new clip features a scene from the upcoming half-hour special, “Secret Origin of the Batwheels,” premiering on Batman Day, Sept. 17, exclusively first on Cartoonito on HBO Max. The special will introduce viewers to Bam (the Batmobile), Bibi(the Batgirl Cycle), Redbird (Robin’s Sports Car), Batwing (the Batwing Jet Plane), and Buff (the Bat Truck), and tell the backstory of how this team of young sentient super-powered vehicles came to be.    The series will officially launch later this fall on Cartoonito on Cartoon Network and Cartoonito on HBO Max. Produced by Warner Bros. Animation, Batwheels marks DC’s first entry into preschool, offering young viewers a high-speed, vibrant CGI-animated iteration of the Caped Crusader. The show will follow a group of young sentient super-powered vehicles as they defend Gotham City alongside Batman, Robin, and Batgirl.    “Secret Origin of the Batwheels” description: (Special premieres Batman Day, Sept. 17 on Cartoonito on HBO Max)",
+        "label": "correct"
+      },
+      {
+        "doc_id": "doc_21",
+        "title": "",
+        "text": "Prank, the Jokermobile, and the rest of the villainous squad wreak havoc on Gotham City alongside The Joker, Catwoman, Harley Quinn, and more of the Caped Crusader’s infamous rogues gallery. Previously-announced DC Super Heroes joining Hawke’s Batman, Bertrand’s Bam, and Hudson’s Robin include the rest of the Batwheels team — Bibi (The Batgirl Cycle) voiced by Madigan Kacmar, Redbird (Robin’s Sports Car) voiced by Jordan Reed, The Batwing voiced by Lilimar, and Buff (The Bat Truck) voiced by Noah Bentley — plus Bat-family member Cassandra Cain/Batgirl voiced by Leah Lewis. The Batwheels are cared for by their trainer and mother figure Batcomputer, voiced by Kimberly D. Brooks, and Batman’s robot repairman Mo, voiced by Mick Wingert. They are a team of incredible crimefighters who have banded together to oppose evil, combat crime and clean up the streets of Gotham City. They are… okay, they’re NOT Batman and Robin. They’re the Batwheels – an awesome group of sentient super-powered crime-fighting vehicles defending Gotham City alongside Batman, Robin, Batgirl and a host of DC Super Heroes. Having just been created by the Batcomputer, our heroes are essentially kids with little to no life experience.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_25",
+        "title": "",
+        "text": "\"We wanted to make sure that we weren’t underestimating them and treat them as normal growing brains.\" Once regarded as unsophisticated media, the last few years have seen a greater appreciation of programs aimed towards preschool and young audiences such as the various lauded shows on Disney and Nickelodeon Junior blocks of programming. Taking a page from the same playbook, WarnerMedia has debuted the Batwheels cartoon, DC’s first-ever Batman preschool series that follows the Batman Family along with his amazing team of super-vehicles offering young viewers a high-speed, vibrant CGI-animated iteration of the Caped Crusader. During New York Comic Con we had the chance to chat with some of the talent behind this high-speed, vibrant CGI-animated series including executive producers Michael G. Stern and Simon J. Smith as well as voice actors Jacob Bertrand (Bam), Lilimar (Batwing), Xolo Maridueña (Snowy), and AJ Hudson (Duke Thomas/Robin). Taimur Dar: When this Batwheels cartoon was first announced, the concept of talking vehicles definitely reminded me of shows I grew up watching like Thomas the Tank Engine. I’m curious how this show came about?  Michael G. Stern: DC and Warner Bros. Animation had wanted to find a way to connect young kids to their heroes and they had sort of been struggling to do it. They brought me in and I looked at what had been done before for this age group.",
+        "label": "noise"
+      },
+      {
+        "doc_id": "doc_8",
+        "title": "",
+        "text": "The Bat-FamilyEdit · Bruce Wayne / Batman (voiced by Ethan Hawke), a vigilante from Gotham City and father figure to the Batwheels. · Duke Thomas / Robin (voiced ...",
+        "label": "correct"
+      }
+    ],
+    "prompt_version": "midterm_v1",
+    "raw_response": "Ethan Hawke",
+    "error": null
+  }
+]

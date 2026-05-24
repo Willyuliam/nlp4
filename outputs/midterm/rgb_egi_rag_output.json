@@ -1,0 +1,2177 @@
+[
+  {
+    "id": "rgb_0000",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "Coco Gauff",
+    "selected_doc_ids": [
+      "doc_8",
+      "doc_19"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_8",
+        "text": "6 Coco Gauff, runner-up to Swiatek last year, was the last American to be eliminated (by Swiatek in the quarterfinals)."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_8",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确提到Coco Gauff是2023年法网女单亚军（runner-up to Swiatek last year），直接回答问题。"
+      },
+      {
+        "doc_id": "doc_7",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "仅描述2023年法网赛事概况和积分奖金，未提及女单亚军信息。"
+      },
+      {
+        "doc_id": "doc_19",
+        "label": "partially_relevant",
+        "score": 0.3,
+        "reason": "提到Swiatek夺冠和Muchova决赛，但未明确说明亚军是谁，需推断。"
+      },
+      {
+        "doc_id": "doc_11",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "内容涉及2022年赛事，与2023年法网女单亚军无关。"
+      },
+      {
+        "doc_id": "doc_6",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "讨论积分和种子选手退赛，未提及女单亚军。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_8",
+          "doc_19"
+        ],
+        "evidence_count": 1,
+        "answer": "Coco Gauff",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确指出Coco Gauff是去年（2023年）法网女单亚军，与答案一致。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "Coco Gauff",
+    "error": null
+  },
+  {
+    "id": "rgb_0001",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "$68.7 billion",
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_23"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_1",
+        "text": "Microsoft will acquire Activision Blizzard for $95.00 per share, in an all-cash transaction valued at $68.7 billion, inclusive of Activision Blizzard’s net cash."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_2",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确提到微软以687亿美元全现金交易收购动视暴雪，每股95美元，直接回答金额问题。"
+      },
+      {
+        "doc_id": "doc_14",
+        "label": "insufficient",
+        "score": 0.1,
+        "reason": "仅提及收购动视暴雪不是首次大额支出，未提供具体金额。"
+      },
+      {
+        "doc_id": "doc_23",
+        "label": "partially_relevant",
+        "score": 0.3,
+        "reason": "讨论收购的监管审批和诉讼，但未提及具体收购金额。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "directly_supportive",
+        "score": 0.98,
+        "reason": "明确说明微软以每股95美元、总价687亿美元全现金收购动视暴雪，直接回答金额问题。"
+      },
+      {
+        "doc_id": "doc_20",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "内容为网络直播细节和公司简介，未涉及收购金额。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_1",
+          "doc_2",
+          "doc_23"
+        ],
+        "evidence_count": 1,
+        "answer": "$68.7 billion",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确提到交易价值为687亿美元，与答案一致。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "$68.7 billion",
+    "error": null
+  },
+  {
+    "id": "rgb_0002",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "Kiersey Clemons",
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_1",
+      "doc_2"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_3",
+        "text": "Sincere, smiling and hard-working college student Susie Wallis (Kiersey Clemons) has always had an unerring knack for figuring out mysteries, going back to her childhood when her mother would read her mysteries stories."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_3",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "文档明确提到Susie Wallis由Kiersey Clemons饰演，直接回答了问题。"
+      },
+      {
+        "doc_id": "doc_18",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "文档是关于LinkedIn上名为Susie Wallis的专业人士资料，与电影角色无关。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "partially_relevant",
+        "score": 0.6,
+        "reason": "文档提到Kiersey Clemons饰演Susie，但未明确提及Susie Wallis全名，间接支持但不够直接。"
+      },
+      {
+        "doc_id": "doc_27",
+        "label": "insufficient",
+        "score": 0.3,
+        "reason": "文档提到Clemons的表演，但未明确说明她饰演Susie Wallis，信息不完整。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "directly_supportive",
+        "score": 0.92,
+        "reason": "文档明确提到As Susie, Kiersey Clemons is impressive，结合上下文确认饰演Susie Wallis。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_3",
+          "doc_1",
+          "doc_2"
+        ],
+        "evidence_count": 1,
+        "answer": "Kiersey Clemons",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确指出Susie Wallis由Kiersey Clemons饰演。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "Kiersey Clemons",
+    "error": null
+  },
+  {
+    "id": "rgb_0003",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "Arcane",
+    "selected_doc_ids": [
+      "doc_4",
+      "doc_24",
+      "doc_7"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_4",
+        "text": "Netflix's League of Legends-based animated series Arcane has won an Emmy for Outstanding Animated Program, becoming the first streaming series to win in that category."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_7",
+        "label": "partially_relevant",
+        "score": 0.4,
+        "reason": "文档描述了奖项历史与规则，但未直接给出具体获奖动画系列名称。"
+      },
+      {
+        "doc_id": "doc_24",
+        "label": "partially_relevant",
+        "score": 0.5,
+        "reason": "文档列出获奖次数最多的系列，但未明确回答哪个系列获奖。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确说明Arcane赢得了艾美奖最佳动画节目奖。"
+      },
+      {
+        "doc_id": "doc_25",
+        "label": "insufficient",
+        "score": 0.2,
+        "reason": "仅提及2021年提名与获奖者，无具体系列名称。"
+      },
+      {
+        "doc_id": "doc_23",
+        "label": "insufficient",
+        "score": 0.2,
+        "reason": "仅提及2022年提名与获奖者，无具体系列名称。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_4",
+          "doc_24",
+          "doc_7"
+        ],
+        "evidence_count": 1,
+        "answer": "Arcane",
+        "verification_result": "supported",
+        "verification_reason": "证据明确指出Arcane赢得了艾美奖最佳动画节目奖。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "Arcane",
+    "error": null
+  },
+  {
+    "id": "rgb_0004",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "$740,000",
+    "selected_doc_ids": [
+      "doc_3"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_3",
+        "text": "That same month, Texas Tech paid $740,000 to settle a breach-of-contract lawsuit filed by former women’s basketball coach Marlene Stollings, who was fired in 2020 following a joint investigation by The Intercollegiate and USA Today."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_31",
+        "label": "insufficient",
+        "score": 0.3,
+        "reason": "文档提到Stollings被解雇和诉讼，但未提及和解金额。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确说明Texas Tech支付了$740,000和解金。"
+      },
+      {
+        "doc_id": "doc_14",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "讨论捐款、其他案件和评论，未涉及Stollings和解金额。"
+      },
+      {
+        "doc_id": "doc_34",
+        "label": "misleading",
+        "score": 0.1,
+        "reason": "标题暗示复职，但实际内容未提供和解金额，可能误导。"
+      },
+      {
+        "doc_id": "doc_15",
+        "label": "insufficient",
+        "score": 0.2,
+        "reason": "讨论法律程序，但未提及具体和解金额。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_3"
+        ],
+        "evidence_count": 1,
+        "answer": "$740,000",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确提到Texas Tech支付了$740,000给Marlene Stollings以解决合同纠纷。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "$740,000",
+    "error": null
+  },
+  {
+    "id": "rgb_0005",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "September 9, 2022",
+    "selected_doc_ids": [
+      "doc_7",
+      "doc_6",
+      "doc_5",
+      "doc_10"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_7",
+        "text": "Splatoon 3 was released on September 9, 2022, and is now available on the Nintendo Switch."
+      },
+      {
+        "doc_id": "doc_6",
+        "text": "The game was released worldwide on 9 September 2022."
+      },
+      {
+        "doc_id": "doc_5",
+        "text": "it was released on the Nintendo Switch on 9 September 2022."
+      },
+      {
+        "doc_id": "doc_10",
+        "text": "Splatoon 3 releases on September 9, 2022, so hopefully, it is not too much longer after that."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_29",
+        "label": "insufficient",
+        "score": 0.1,
+        "reason": "文档列出了更新日期，但未直接提及Splatoon 3的发行日期。"
+      },
+      {
+        "doc_id": "doc_10",
+        "label": "partially_relevant",
+        "score": 0.5,
+        "reason": "文档提到Splatoon 3于2022年9月9日发行，但主要讨论Amiibo而非直接回答发行日期。"
+      },
+      {
+        "doc_id": "doc_7",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "文档明确说明Splatoon 3于2022年9月9日发行，并提供了详细时间信息。"
+      },
+      {
+        "doc_id": "doc_5",
+        "label": "directly_supportive",
+        "score": 0.93,
+        "reason": "文档直接指出Splatoon 3于2022年9月9日在Nintendo Switch上发行。"
+      },
+      {
+        "doc_id": "doc_6",
+        "label": "directly_supportive",
+        "score": 0.94,
+        "reason": "文档明确说明游戏于2022年9月9日全球发行。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_7",
+          "doc_6",
+          "doc_5",
+          "doc_10"
+        ],
+        "evidence_count": 4,
+        "answer": "September 9, 2022",
+        "verification_result": "supported",
+        "verification_reason": "多个证据句均明确提到Splatoon 3于2022年9月9日发布，与答案一致。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "September 9, 2022",
+    "error": null
+  },
+  {
+    "id": "rgb_0006",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "Aryna Sabalenka",
+    "selected_doc_ids": [
+      "doc_13",
+      "doc_9",
+      "doc_3",
+      "doc_4",
+      "doc_23"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_13",
+        "text": "Aryna Sabalenka Wins the Australian Open Women's Singles Title"
+      },
+      {
+        "doc_id": "doc_9",
+        "text": "Belarusian fifth seed Aryna Sabalenka recorded her first Grand Slam singles title by fighting back to beat Elena Rybakina in the Australian Open final."
+      },
+      {
+        "doc_id": "doc_4",
+        "text": "Rybakina hits a forehand long in a five-shot rally and Aryna Sabalenka is the 2023 Australian Open champion!!!!"
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_13",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确说明Aryna Sabalenka赢得2023年澳网女单冠军。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "directly_supportive",
+        "score": 0.93,
+        "reason": "AP报道确认Sabalenka击败Rybakina赢得女单冠军。"
+      },
+      {
+        "doc_id": "doc_9",
+        "label": "directly_supportive",
+        "score": 0.94,
+        "reason": "详细描述Sabalenka赢得首个大满贯冠军，击败Rybakina。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "directly_supportive",
+        "score": 0.92,
+        "reason": "实时报道确认Sabalenka是2023年澳网冠军。"
+      },
+      {
+        "doc_id": "doc_23",
+        "label": "directly_supportive",
+        "score": 0.91,
+        "reason": "描述Sabalenka赢得冠军的过程和情感反应。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_13",
+          "doc_9",
+          "doc_3",
+          "doc_4",
+          "doc_23"
+        ],
+        "evidence_count": 3,
+        "answer": "Aryna Sabalenka",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确提到Aryna Sabalenka赢得2023年澳网女单冠军。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "Aryna Sabalenka",
+    "error": null
+  },
+  {
+    "id": "rgb_0007",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "Oklahoma State",
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_10"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_1",
+        "text": "No. 23 Oklahoma State women's golf swept both the team and individual titles at the Big 12 Championships at the Dallas ..."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_1",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "文档明确提到Oklahoma State women's golf赢得了2023年Big 12锦标赛的团体冠军，直接回答了问题。"
+      },
+      {
+        "doc_id": "doc_6",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "文档讨论的是Pac-12女子高尔夫锦标赛，与Big 12无关。"
+      },
+      {
+        "doc_id": "doc_14",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "文档内容为Big 12男子高尔夫奖项和女子高尔夫奖项的发布，未提及2023年女子高尔夫锦标赛冠军。"
+      },
+      {
+        "doc_id": "doc_13",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "与doc_14内容相同，均为奖项发布信息，未涉及冠军信息。"
+      },
+      {
+        "doc_id": "doc_10",
+        "label": "partially_relevant",
+        "score": 0.3,
+        "reason": "文档提到Iowa State在Big 12女子高尔夫锦标赛中获得第四名，但未说明冠军是谁，仅提供部分背景信息。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_1",
+          "doc_10"
+        ],
+        "evidence_count": 1,
+        "answer": "Oklahoma State",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确提到俄克拉荷马州立大学在Big 12锦标赛中赢得团体冠军。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "Oklahoma State",
+    "error": null
+  },
+  {
+    "id": "rgb_0008",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "March 29, 2022",
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_38",
+      "doc_17",
+      "doc_21"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_3",
+        "text": "Publication date. March 29, 2022."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_3",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "文档明确给出了出版日期为2022年3月29日，直接回答了问题。"
+      },
+      {
+        "doc_id": "doc_38",
+        "label": "partially_relevant",
+        "score": 0.5,
+        "reason": "文档提到2022年3月30日，但这是评论日期而非出版日期，且未明确说明出版时间。"
+      },
+      {
+        "doc_id": "doc_17",
+        "label": "partially_relevant",
+        "score": 0.4,
+        "reason": "文档提到2022年3月是预期出版月份，但未给出具体日期，且内容主要是评论。"
+      },
+      {
+        "doc_id": "doc_28",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "文档讨论小说情节和主题，未提及出版日期。"
+      },
+      {
+        "doc_id": "doc_21",
+        "label": "partially_relevant",
+        "score": 0.3,
+        "reason": "文档提到2022年夏季阅读列表，暗示出版时间，但未给出具体日期。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_3",
+          "doc_38",
+          "doc_17",
+          "doc_21"
+        ],
+        "evidence_count": 1,
+        "answer": "March 29, 2022",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确提到出版日期为March 29, 2022，与答案一致。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "March 29, 2022",
+    "error": null
+  },
+  {
+    "id": "rgb_0009",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [
+      "doc_12",
+      "doc_18",
+      "doc_17"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_12",
+        "text": "If Argentina were to make it to the semifinals as Group C winners, they could face Spain or South American rivals Brazil."
+      },
+      {
+        "doc_id": "doc_12",
+        "text": "If Argentina reach the semifinals as Group C runners-up, they could face the potential winners of Groups F and H - either Belgium or 2016 European champions Portugal."
+      },
+      {
+        "doc_id": "doc_18",
+        "text": "If Argentina make it through to the semi-finals, they will face one of Japan, ..."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_18",
+        "label": "partially_relevant",
+        "score": 0.6,
+        "reason": "文档提到阿根廷可能的半决赛对手，但未给出具体对手，仅列出日本等可能性，信息不完整。"
+      },
+      {
+        "doc_id": "doc_12",
+        "label": "partially_relevant",
+        "score": 0.7,
+        "reason": "文档详细讨论了阿根廷半决赛的潜在对手，如西班牙、巴西、比利时或葡萄牙，但未明确实际对手。"
+      },
+      {
+        "doc_id": "doc_14",
+        "label": "irrelevant",
+        "score": 0.1,
+        "reason": "文档主要讨论阿根廷小组赛和16强对手，未涉及半决赛对手。"
+      },
+      {
+        "doc_id": "doc_17",
+        "label": "partially_relevant",
+        "score": 0.5,
+        "reason": "文档提到巴西可能是阿根廷半决赛对手，但内容偏向分析，未明确确认。"
+      },
+      {
+        "doc_id": "doc_16",
+        "label": "irrelevant",
+        "score": 0.1,
+        "reason": "文档讨论阿根廷淘汰赛对手，但仅涉及16强和四分之一决赛，未提及半决赛。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_12",
+          "doc_18",
+          "doc_17"
+        ],
+        "evidence_count": 3,
+        "answer": "无法根据给定信息确定",
+        "verification_result": "supported",
+        "verification_reason": "证据句表明阿根廷的半决赛对手取决于小组排名，有多种可能性，无法确定具体对手。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0010",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "Project Iris",
+    "selected_doc_ids": [
+      "doc_7",
+      "doc_8",
+      "doc_24"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_7",
+        "text": "Project Iris is the codename for an unreleased augmented reality (AR) headset designed and developed by Google."
+      },
+      {
+        "doc_id": "doc_8",
+        "text": "Project Iris, the codename for an upcoming augmented reality headset"
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_7",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确说明Project Iris是Google AR头显项目的代号"
+      },
+      {
+        "doc_id": "doc_24",
+        "label": "partially_relevant",
+        "score": 0.6,
+        "reason": "提及Google Iris项目，但未明确说明是AR头显项目的代号"
+      },
+      {
+        "doc_id": "doc_8",
+        "label": "directly_supportive",
+        "score": 0.9,
+        "reason": "指出Project Iris是Google即将推出的AR头显的代号"
+      },
+      {
+        "doc_id": "doc_12",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "仅列出'Augmented Reality, Google'，无具体信息"
+      },
+      {
+        "doc_id": "doc_14",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "讨论Microsoft的AR项目，与Google无关"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_7",
+          "doc_8",
+          "doc_24"
+        ],
+        "evidence_count": 2,
+        "answer": "Project Iris",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确说明Project Iris是Google的AR头显项目代号"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "Project Iris",
+    "error": null
+  },
+  {
+    "id": "rgb_0011",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "无法根据给定信息确定",
+    "selected_doc_ids": [
+      "doc_21",
+      "doc_19",
+      "doc_8"
+    ],
+    "evidence_spans": [],
+    "doc_scores": [
+      {
+        "doc_id": "doc_21",
+        "label": "insufficient",
+        "score": 0.1,
+        "reason": "文档仅提及奖项设立和奖金，未提及2022年获奖者。"
+      },
+      {
+        "doc_id": "doc_19",
+        "label": "insufficient",
+        "score": 0.1,
+        "reason": "文档仅介绍奖项背景，未提及2022年获奖者。"
+      },
+      {
+        "doc_id": "doc_23",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "文档提及2023年获奖者Amanpour，与2022年获奖者无关。"
+      },
+      {
+        "doc_id": "doc_11",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "文档描述的是Ivan Allen Jr. Legacy Awards，与Ivan Allen Jr. Prize for Social Courage不同。"
+      },
+      {
+        "doc_id": "doc_8",
+        "label": "insufficient",
+        "score": 0.1,
+        "reason": "文档仅介绍奖项宗旨和提名流程，未提及2022年获奖者。"
+      }
+    ],
+    "iteration_count": 2,
+    "verification_result": "insufficient_evidence",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_21",
+          "doc_19",
+          "doc_23"
+        ],
+        "evidence_count": 1,
+        "answer": "无法根据给定信息确定",
+        "verification_result": "insufficient_evidence",
+        "verification_reason": "证据句未提及2022年获奖者姓名，仅说明奖项设立时间和奖金金额"
+      },
+      {
+        "iteration": 2,
+        "selected_doc_ids": [
+          "doc_21",
+          "doc_19",
+          "doc_8"
+        ],
+        "evidence_count": 0,
+        "answer": "无法根据给定信息确定",
+        "verification_result": "insufficient_evidence",
+        "verification_reason": "没有提供任何证据句来支持或反驳答案"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null
+  },
+  {
+    "id": "rgb_0012",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "310,048",
+    "selected_doc_ids": [
+      "doc_4",
+      "doc_13"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_4",
+        "text": "Tesla delivered 310,048 vehicles from January through March, up 70% from the same period in 2021, and produced 305,407 vehicles, it said Saturday."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_26",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "文档提到2022年第二季度交付量，与问题要求的第一季度无关。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "文档明确说明2022年第一季度交付310,048辆汽车，直接回答问题。"
+      },
+      {
+        "doc_id": "doc_24",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "文档涉及2022年第四季度和全年数据，与问题无关。"
+      },
+      {
+        "doc_id": "doc_30",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "文档讨论电池组结构和安全数据，与交付量无关。"
+      },
+      {
+        "doc_id": "doc_13",
+        "label": "partially_relevant",
+        "score": 0.2,
+        "reason": "文档提及2022年第一季度背景信息（如价格上调），但未提供具体交付数量。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_4",
+          "doc_13"
+        ],
+        "evidence_count": 1,
+        "answer": "310,048",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确提到特斯拉在2022年第一季度交付了310,048辆汽车。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "310,048",
+    "error": null
+  },
+  {
+    "id": "rgb_0013",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "Argentina",
+    "selected_doc_ids": [
+      "doc_4",
+      "doc_5",
+      "doc_1",
+      "doc_14"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_4",
+        "text": "Argentina's Lionel Messi holds up the winner's trophy after the team won the 2022 World Cup final against France on Sunday, Dec. 18, at the Lusail Stadium in Lusail, Qatar."
+      },
+      {
+        "doc_id": "doc_5",
+        "text": "culminating in Lionel Messi’s crowning as world champion after Argentina beat France on penalties."
+      },
+      {
+        "doc_id": "doc_1",
+        "text": "The match was played at Lusail Stadium in Lusail, Qatar, on 18 December 2022, the Qatari National Day, and was contested by Argentina and defending champions France."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_1",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "文档明确提到决赛由阿根廷和法国进行，但未直接说明胜者，不过结合上下文可推断阿根廷获胜，且信息高度相关。"
+      },
+      {
+        "doc_id": "doc_14",
+        "label": "partially_relevant",
+        "score": 0.3,
+        "reason": "文档提及2022年决赛是‘最伟大的决赛’，但未明确说明胜者，主要讨论历史决赛。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "directly_supportive",
+        "score": 0.98,
+        "reason": "文档明确说明阿根廷在点球大战中以4-2获胜，直接回答了问题。"
+      },
+      {
+        "doc_id": "doc_5",
+        "label": "directly_supportive",
+        "score": 0.97,
+        "reason": "文档明确指出阿根廷在点球大战中击败法国，梅西成为世界冠军。"
+      },
+      {
+        "doc_id": "doc_15",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "文档仅描述比赛用球和体育场细节，未提及决赛胜者。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_4",
+          "doc_5",
+          "doc_1",
+          "doc_14"
+        ],
+        "evidence_count": 3,
+        "answer": "Argentina",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确提到阿根廷在2022年世界杯决赛中击败法国夺冠。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "Argentina",
+    "error": null
+  },
+  {
+    "id": "rgb_0014",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "8",
+    "selected_doc_ids": [
+      "doc_12",
+      "doc_1",
+      "doc_10",
+      "doc_7"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_12",
+        "text": "Four people were killed and eight injured after a shuttle van crashed Friday morning on New Jersey's Palisades Interstate Parkway, ..."
+      },
+      {
+        "doc_id": "doc_1",
+        "text": "Four people were killed and eight injured after a shuttle van crashed Friday morning on New Jersey’s Palisades Interstate Parkway, officials said."
+      },
+      {
+        "doc_id": "doc_10",
+        "text": "Four people were killed and eight were hospitalized with varying injuries following a shuttle van crash Friday morning on New Jersey’s Palisades Interstate Parkway, officials said."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_12",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确提到8人受伤，与问题直接相关。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确提到8人受伤，细节丰富，可信度高。"
+      },
+      {
+        "doc_id": "doc_23",
+        "label": "insufficient",
+        "score": 0.3,
+        "reason": "仅提到4人死亡，未提及受伤人数，信息不完整。"
+      },
+      {
+        "doc_id": "doc_10",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确提到8人受伤，细节丰富，可信度高。"
+      },
+      {
+        "doc_id": "doc_7",
+        "label": "directly_supportive",
+        "score": 0.9,
+        "reason": "提到8人受伤，但侧重受害者身份，仍直接支持答案。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_12",
+          "doc_1",
+          "doc_10",
+          "doc_7"
+        ],
+        "evidence_count": 3,
+        "answer": "8",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确提到8人受伤，与答案一致。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "8",
+    "error": null
+  },
+  {
+    "id": "rgb_0015",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "Everything Everywhere All at Once",
+    "selected_doc_ids": [
+      "doc_4",
+      "doc_6",
+      "doc_22"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_4",
+        "text": "On Hollywood's biggest night, \"Everything Everywhere All at Once\" reigned supreme, winning seven Oscars, the most of any film, including best picture, best director and best original screenplay."
+      },
+      {
+        "doc_id": "doc_6",
+        "text": "The latter ultimately pulled in the most awards, with seven wins in some of the biggest categories, including best picture, best director, best original screenplay and three of the acting categories."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_22",
+        "label": "partially_relevant",
+        "score": 0.6,
+        "reason": "提到最佳影片获奖，但未明确电影名称。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确说明《瞬息全宇宙》获得最佳影片，并引用制片人发言。"
+      },
+      {
+        "doc_id": "doc_6",
+        "label": "directly_supportive",
+        "score": 0.93,
+        "reason": "明确说明《瞬息全宇宙》获得最佳影片，并提及获奖类别。"
+      },
+      {
+        "doc_id": "doc_20",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "仅提供奥斯卡新闻链接，未提及获奖影片。"
+      },
+      {
+        "doc_id": "doc_21",
+        "label": "insufficient",
+        "score": 0.1,
+        "reason": "仅提及提名公布，未提供获奖信息。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_4",
+          "doc_6",
+          "doc_22"
+        ],
+        "evidence_count": 2,
+        "answer": "Everything Everywhere All at Once",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确提到'Everything Everywhere All at Once'赢得了最佳影片奖。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "Everything Everywhere All at Once",
+    "error": null
+  },
+  {
+    "id": "rgb_0016",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "$6.5 million",
+    "selected_doc_ids": [
+      "doc_4",
+      "doc_3"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_4",
+        "text": "2022: $6.5 million."
+      },
+      {
+        "doc_id": "doc_3",
+        "text": "2022: $6.5 million"
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_4",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确给出2022年30秒广告价格为650万美元。"
+      },
+      {
+        "doc_id": "doc_23",
+        "label": "insufficient",
+        "score": 0.3,
+        "reason": "提到2022年超级碗广告价格未正式公布，无具体数字。"
+      },
+      {
+        "doc_id": "doc_21",
+        "label": "contradictory",
+        "score": 0.1,
+        "reason": "提到2023年广告价格700万美元，与2022年无关且可能混淆。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确列出2022年30秒广告价格为650万美元。"
+      },
+      {
+        "doc_id": "doc_8",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "讨论2023年广告和2020年最贵广告，未涉及2022年价格。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_4",
+          "doc_3"
+        ],
+        "evidence_count": 2,
+        "answer": "$6.5 million",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确显示2022年价格为650万美元。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "$6.5 million",
+    "error": null
+  },
+  {
+    "id": "rgb_0017",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "Pixel Fold",
+    "selected_doc_ids": [
+      "doc_5",
+      "doc_2",
+      "doc_31",
+      "doc_12"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_5",
+        "text": "The Pixel Fold is powered by Google's Tensor G2 chip, according to the documents."
+      },
+      {
+        "doc_id": "doc_2",
+        "text": "Launched at Wednesday's Google I/O conference, the Pixel Fold is Google's first entry into the growing foldables category and comes with a 7.6-inch main display and a 5.8-inch external panel."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_5",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确提到Pixel Fold是Google的折叠屏智能手机。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确提到Pixel Fold是Google的折叠屏智能手机。"
+      },
+      {
+        "doc_id": "doc_31",
+        "label": "partially_relevant",
+        "score": 0.5,
+        "reason": "提到Google折叠屏手机，但未直接给出名称。"
+      },
+      {
+        "doc_id": "doc_12",
+        "label": "partially_relevant",
+        "score": 0.4,
+        "reason": "提到Pixel Fold，但主要讨论市场背景，未直接回答名称。"
+      },
+      {
+        "doc_id": "doc_37",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "讨论Pixel A系列和Pixel Tablet，未涉及折叠屏手机。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_5",
+          "doc_2",
+          "doc_31",
+          "doc_12"
+        ],
+        "evidence_count": 2,
+        "answer": "Pixel Fold",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确提到Pixel Fold是Google的折叠屏手机。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "Pixel Fold",
+    "error": null
+  },
+  {
+    "id": "rgb_0018",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "August 21, 2022",
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_6",
+      "doc_9"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_3",
+        "text": "The series premiered on August 21, 2022, with the first season consisting of ten episodes."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_11",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "仅提及预告片，未提供首播日期"
+      },
+      {
+        "doc_id": "doc_9",
+        "label": "partially_relevant",
+        "score": 0.5,
+        "reason": "提及首播但未给出具体日期"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确给出首播日期为2022年8月21日"
+      },
+      {
+        "doc_id": "doc_17",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "讨论剧情和制作，未涉及首播日期"
+      },
+      {
+        "doc_id": "doc_6",
+        "label": "directly_supportive",
+        "score": 0.9,
+        "reason": "明确给出首播日期为2022年8月21日"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_3",
+          "doc_6",
+          "doc_9"
+        ],
+        "evidence_count": 1,
+        "answer": "August 21, 2022",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确说明该剧首播日期为2022年8月21日，与答案一致。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "August 21, 2022",
+    "error": null
+  },
+  {
+    "id": "rgb_0019",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "3.7%",
+    "selected_doc_ids": [
+      "doc_5",
+      "doc_1"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_5",
+        "text": "The unemployment rate was unchanged at 3.7 percent in November and has been in a narrow range of 3.5 percent to 3.7 percent since March."
+      },
+      {
+        "doc_id": "doc_1",
+        "text": "Seasonally adjusted, the U.S. unemployment rate in November 2022 was 3.7%."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_5",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确给出2022年11月失业率为3.7%，与问题直接相关。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "directly_supportive",
+        "score": 0.9,
+        "reason": "提供2022年11月季节性调整后失业率3.7%，但包含未调整数据3.4%，需注意区分。"
+      },
+      {
+        "doc_id": "doc_16",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "讨论加州农业就业和失业保险数据，未提及2022年11月整体失业率。"
+      },
+      {
+        "doc_id": "doc_19",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "讨论长期失业率和劳动参与率，未给出2022年11月整体失业率。"
+      },
+      {
+        "doc_id": "doc_24",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "讨论核心年龄段就业率，未提及2022年11月整体失业率。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_5",
+          "doc_1"
+        ],
+        "evidence_count": 2,
+        "answer": "3.7%",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确提到2022年11月失业率为3.7%。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "3.7%",
+    "error": null
+  },
+  {
+    "id": "rgb_0020",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "John Fuller",
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_32",
+      "doc_31"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_1",
+        "text": "John Fuller is the chief meteorologist for KPLR-TV."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_1",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确说明John Fuller是KPLR-TV的首席气象学家。"
+      },
+      {
+        "doc_id": "doc_32",
+        "label": "partially_relevant",
+        "score": 0.5,
+        "reason": "提到曾在KPLR担任首席气象学家，但未指明具体人物。"
+      },
+      {
+        "doc_id": "doc_31",
+        "label": "partially_relevant",
+        "score": 0.3,
+        "reason": "提到曾在KPLR-TV工作，但未明确是否为首席气象学家。"
+      },
+      {
+        "doc_id": "doc_7",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "内容与KPLR-TV首席气象学家无关。"
+      },
+      {
+        "doc_id": "doc_18",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "内容与KPLR-TV首席气象学家无关。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_1",
+          "doc_32",
+          "doc_31"
+        ],
+        "evidence_count": 1,
+        "answer": "John Fuller",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确说明John Fuller是KPLR-TV的首席气象学家。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "John Fuller",
+    "error": null
+  },
+  {
+    "id": "rgb_0021",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "Daniel Alegre",
+    "selected_doc_ids": [
+      "doc_4",
+      "doc_3",
+      "doc_10",
+      "doc_12",
+      "doc_19"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_4",
+        "text": "Yuga Labs, the company behind the popular NFT-based game, Axie Infinity, has announced that Daniel Alegre is now taking over as its CEO."
+      },
+      {
+        "doc_id": "doc_3",
+        "text": "Activision Blizzard COO Daniel Alegre is leaving the gaming giant to take over as CEO of Yuga Labs, the company behind the Bored Ape Yacht Club."
+      },
+      {
+        "doc_id": "doc_10",
+        "text": "Yuga Labs, the company behind the Bored Ape Yacht Club (BAYC) and CryptoPunks nonfungible token (NFT) collections, has a new CEO, Daniel Alegre."
+      },
+      {
+        "doc_id": "doc_12",
+        "text": "Yuga Labs, the company behind the popular NFT-based game, Axie Infinity, has announced that Daniel Alegre is now taking over as its CEO."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_4",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确说明Daniel Alegre是Yuga Labs的新任CEO，并提供详细背景信息。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "directly_supportive",
+        "score": 0.93,
+        "reason": "直接指出Daniel Alegre将担任Yuga Labs的CEO，并提及前任CEO Nicole Muniz。"
+      },
+      {
+        "doc_id": "doc_12",
+        "label": "directly_supportive",
+        "score": 0.9,
+        "reason": "明确宣布Daniel Alegre接任Yuga Labs的CEO。"
+      },
+      {
+        "doc_id": "doc_19",
+        "label": "partially_relevant",
+        "score": 0.3,
+        "reason": "提及Yuga Labs的新CEO，但未直接给出姓名，主要讨论GameFi影响。"
+      },
+      {
+        "doc_id": "doc_10",
+        "label": "directly_supportive",
+        "score": 0.92,
+        "reason": "明确说明Yuga Labs的新CEO是Daniel Alegre。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_4",
+          "doc_3",
+          "doc_10",
+          "doc_12",
+          "doc_19"
+        ],
+        "evidence_count": 4,
+        "answer": "Daniel Alegre",
+        "verification_result": "supported",
+        "verification_reason": "多个证据句明确指出Daniel Alegre是Yuga Labs的新任CEO"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "Daniel Alegre",
+    "error": null
+  },
+  {
+    "id": "rgb_0022",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "Richard Childress Racing",
+    "selected_doc_ids": [
+      "doc_10",
+      "doc_4",
+      "doc_9",
+      "doc_26",
+      "doc_21"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_10",
+        "text": "Richard Childress Racing announced Tuesday that Kyle Busch will drive for the organization in the 2023 NASCAR Cup Series."
+      },
+      {
+        "doc_id": "doc_4",
+        "text": "Kyle Busch will leave Joe Gibbs Racing at the end of the 2022 season and join Richard Childress Racing beginning in 2023, according to a report by Jordan Bianchi of The Athletic."
+      },
+      {
+        "doc_id": "doc_9",
+        "text": "Busch will depart Joe Gibbs Racing for Richard Childress Racing beginning with the 2023 Cup season."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_10",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确说明Kyle Busch将在2023年为Richard Childress Racing驾驶。"
+      },
+      {
+        "doc_id": "doc_9",
+        "label": "directly_supportive",
+        "score": 0.93,
+        "reason": "详细描述Busch将离开JGR加入RCR，并提及2023赛季。"
+      },
+      {
+        "doc_id": "doc_26",
+        "label": "partially_relevant",
+        "score": 0.6,
+        "reason": "提及RCR是Busch的落脚点，但未明确说明2023年加入。"
+      },
+      {
+        "doc_id": "doc_21",
+        "label": "partially_relevant",
+        "score": 0.5,
+        "reason": "讨论Busch的合同情况和可能选项，包括RCR，但未确认2023年加入。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "directly_supportive",
+        "score": 0.94,
+        "reason": "明确报道Busch将在2023年加入Richard Childress Racing。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_10",
+          "doc_4",
+          "doc_9",
+          "doc_26",
+          "doc_21"
+        ],
+        "evidence_count": 3,
+        "answer": "Richard Childress Racing",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确提到Kyle Busch将在2023年加入Richard Childress Racing。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "Richard Childress Racing",
+    "error": null
+  },
+  {
+    "id": "rgb_0023",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "defensive coordinator",
+    "selected_doc_ids": [
+      "doc_7",
+      "doc_5"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_7",
+        "text": "Semore has gone by “Boogie” ever since. It probably says something about him that he was willing to embrace a nickname that wasn’t even his to begin with and given to him because it was convenient. The origin story likely wouldn’t surprise Gary Goff, who was coach at Valdosta State last year when he hired Semore from Tech (where he was defensive analyst) to be his defensive coordinator."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_5",
+        "label": "partially_relevant",
+        "score": 0.6,
+        "reason": "文档提到他离开Georgia Tech后担任Valdosta State的防守协调员，但未明确说明返回前在Valdosta State的职位。"
+      },
+      {
+        "doc_id": "doc_18",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "文档仅提及Jason Semore是Georgia Tech的线卫教练，未涉及他在Valdosta State的职位。"
+      },
+      {
+        "doc_id": "doc_20",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "文档描述Semore在Georgia Tech担任防守质量控制员，未提及Valdosta State的职位。"
+      },
+      {
+        "doc_id": "doc_7",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "文档明确说明Semore从Georgia Tech（防守分析师）被Valdosta State聘为防守协调员，然后返回Georgia Tech担任线卫教练。"
+      },
+      {
+        "doc_id": "doc_8",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "文档仅描述Semore在Georgia Tech担任线卫教练，未涉及Valdosta State的职位。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_7",
+          "doc_5"
+        ],
+        "evidence_count": 1,
+        "answer": "defensive coordinator",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确提到Semore从Georgia Tech（担任防守分析师）被Valdosta State聘为防守协调员。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "defensive coordinator",
+    "error": null
+  },
+  {
+    "id": "rgb_0024",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "$4.56 million",
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_2",
+      "doc_8"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_3",
+        "text": "In total, $4.56 million is up for grabs for anyone who can survive all levels of childhood-inspired games."
+      },
+      {
+        "doc_id": "doc_2",
+        "text": "Exactly 456 players will compete to win the life-changing reward of $4.56 million — the largest cast and lump sum cash prize in reality TV history."
+      },
+      {
+        "doc_id": "doc_8",
+        "text": "The winner will take the record reward of $4.56 million."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_3",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确说明奖金为456万美元，直接回答问题。"
+      },
+      {
+        "doc_id": "doc_8",
+        "label": "directly_supportive",
+        "score": 0.93,
+        "reason": "明确说明奖金为456万美元，直接回答问题。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "directly_supportive",
+        "score": 0.94,
+        "reason": "明确说明奖金为456万美元，直接回答问题。"
+      },
+      {
+        "doc_id": "doc_13",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "讨论对节目的批评和争议，未提及奖金金额。"
+      },
+      {
+        "doc_id": "doc_14",
+        "label": "insufficient",
+        "score": 0.1,
+        "reason": "仅提及节目背景和续订信息，未提供奖金金额。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_3",
+          "doc_2",
+          "doc_8"
+        ],
+        "evidence_count": 3,
+        "answer": "$4.56 million",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确提到总奖金为456万美元，与答案一致。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "$4.56 million",
+    "error": null
+  },
+  {
+    "id": "rgb_0025",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "The Princess and the Queen",
+    "selected_doc_ids": [
+      "doc_5",
+      "doc_3",
+      "doc_1"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_5",
+        "text": "House of the Dragon Episode 6. “The Princess and the Queen” is effectively a second pilot episode for House of the Dragon."
+      },
+      {
+        "doc_id": "doc_3",
+        "text": "Episode 6: “The Princess and the Queen” — 1 hour 7 minutes"
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_5",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确给出第六集标题为'The Princess and the Queen'。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确列出第六集标题为'The Princess and the Queen'。"
+      },
+      {
+        "doc_id": "doc_10",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "讨论配乐和语言，未提及第六集标题。"
+      },
+      {
+        "doc_id": "doc_18",
+        "label": "insufficient",
+        "score": 0.2,
+        "reason": "提及剧集列表但未给出具体标题。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "directly_supportive",
+        "score": 0.93,
+        "reason": "通过评论和描述确认第六集标题为'The Princess and the Queen'。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_5",
+          "doc_3",
+          "doc_1"
+        ],
+        "evidence_count": 2,
+        "answer": "The Princess and the Queen",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确提到House of the Dragon Episode 6的标题是'The Princess and the Queen'。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "The Princess and the Queen",
+    "error": null
+  },
+  {
+    "id": "rgb_0026",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "Manchester City",
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_4",
+      "doc_16"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_1",
+        "text": "The 2023 final was contested by English club Manchester City and Italian club Inter Milan, with the former winning 1–0 via a second-half goal by Rodri, who was named man of the match by UEFA."
+      },
+      {
+        "doc_id": "doc_2",
+        "text": "It was played at the Atatürk Olympic Stadium in Istanbul, Turkey, on 10 June 2023,[5] between English club Manchester City and Italian club Inter Milan, with Manchester City winning 1–0 via a second-half goal by Rodri, who was named man of the match by UEFA."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_16",
+        "label": "partially_relevant",
+        "score": 0.3,
+        "reason": "文档提到哈兰德获得金靴奖，但未直接说明冠军得主，仅间接关联问题。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确说明曼城在2023年决赛中1-0击败国际米兰，赢得2022-23赛季欧冠冠军。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "详细描述2023年欧冠决赛，确认曼城获胜，直接回答冠军归属。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "partially_relevant",
+        "score": 0.4,
+        "reason": "提及曼城赢得欧冠，但重点在瓜迪奥拉和球员成就，未直接陈述冠军结果。"
+      },
+      {
+        "doc_id": "doc_7",
+        "label": "insufficient",
+        "score": 0.1,
+        "reason": "内容不完整，仅提到曼城是成功俱乐部和欧冠举办信息，未给出冠军答案。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_1",
+          "doc_2",
+          "doc_4",
+          "doc_16"
+        ],
+        "evidence_count": 2,
+        "answer": "Manchester City",
+        "verification_result": "supported",
+        "verification_reason": "证据明确提到曼城在2023年决赛中获胜，对应2022-2023赛季欧冠冠军。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "Manchester City",
+    "error": null
+  },
+  {
+    "id": "rgb_0027",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "September 20, 2022",
+    "selected_doc_ids": [
+      "doc_7",
+      "doc_10"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_7",
+        "text": "New Amsterdam season five will stream on NBC Sept. 20, 2022, at 10 p.m. EDT."
+      },
+      {
+        "doc_id": "doc_10",
+        "text": "The fifth and final season of New Amsterdam premiered on September 20, 2022 and has concluded on January 17, 2023."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_25",
+        "label": "insufficient",
+        "score": 0.3,
+        "reason": "提到2023年Netflix上线但未确认具体日期，信息不完整"
+      },
+      {
+        "doc_id": "doc_18",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "讨论剧情和角色，未涉及首播日期"
+      },
+      {
+        "doc_id": "doc_17",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "讨论剧情和制作方向，未涉及首播日期"
+      },
+      {
+        "doc_id": "doc_7",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确给出首播日期为2022年9月20日"
+      },
+      {
+        "doc_id": "doc_10",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确给出首播日期为2022年9月20日"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_7",
+          "doc_10"
+        ],
+        "evidence_count": 2,
+        "answer": "September 20, 2022",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确提到第五季首播日期为2022年9月20日，与答案一致。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "September 20, 2022",
+    "error": null
+  },
+  {
+    "id": "rgb_0028",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "Tetsuya Yamagami",
+    "selected_doc_ids": [
+      "doc_2",
+      "doc_9",
+      "doc_11",
+      "doc_13"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_2",
+        "text": "Tetsuya Yamagami was arrested immediately after allegedly shooting Abe with a homemade gun as the former leader was making a campaign speech on July 8 outside a train station in Nara in western Japan."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_9",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确说明Tetsuya Yamagami枪杀安倍晋三。"
+      },
+      {
+        "doc_id": "doc_17",
+        "label": "irrelevant",
+        "score": 0.0,
+        "reason": "仅讨论安倍遇刺后的反应和悼念，未提及凶手。"
+      },
+      {
+        "doc_id": "doc_13",
+        "label": "partially_relevant",
+        "score": 0.3,
+        "reason": "提供安倍遇刺的历史背景和与统一教的关系，但未直接指明凶手。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "directly_supportive",
+        "score": 0.98,
+        "reason": "详细说明Tetsuya Yamagami被控谋杀安倍晋三，并提及动机。"
+      },
+      {
+        "doc_id": "doc_11",
+        "label": "partially_relevant",
+        "score": 0.4,
+        "reason": "提及Yamagami被逮捕和指控，但未明确说明其杀害安倍。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_2",
+          "doc_9",
+          "doc_11",
+          "doc_13"
+        ],
+        "evidence_count": 1,
+        "answer": "Tetsuya Yamagami",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确指出Tetsuya Yamagami因涉嫌枪击安倍晋三被捕。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "Tetsuya Yamagami",
+    "error": null
+  },
+  {
+    "id": "rgb_0029",
+    "method": "EGI-RAG",
+    "variant": "full",
+    "answer": "Ethan Hawke",
+    "selected_doc_ids": [
+      "doc_2",
+      "doc_1",
+      "doc_21",
+      "doc_8",
+      "doc_25"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_2",
+        "text": "Ethan Hawke (The Good Lord Bird) as Batman and Jacob Bertrand (Cobra Kai) as Bam the Batmobile lead a talented cast for the preschool animated action-adventure comedy series featuring the most heroic and iconic vehicles from the DC universe."
+      },
+      {
+        "doc_id": "doc_1",
+        "text": "A first look of Ethan Hawke as the voice of Batman in Batwheels, the upcoming animated series debuting as part of the preschool block on Cartoonito on HBO Max and Cartoon Network, was revealed today."
+      },
+      {
+        "doc_id": "doc_21",
+        "text": "Previously-announced DC Super Heroes joining Hawke’s Batman, Bertrand’s Bam, and Hudson’s Robin include the rest of the Batwheels team — Bibi (The Batgirl Cycle) voiced by Madigan Kacmar, Redbird (Robin’s Sports Car) voiced by Jordan Reed, The Batwing voiced by Lilimar, and Buff (The Bat Truck) voiced by Noah Bentley — plus Bat-family member Cassandra Cain/Batgirl voiced by Leah Lewis."
+      },
+      {
+        "doc_id": "doc_8",
+        "text": "Bruce Wayne / Batman (voiced by Ethan Hawke), a vigilante from Gotham City and father figure to the Batwheels."
+      }
+    ],
+    "doc_scores": [
+      {
+        "doc_id": "doc_2",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确提到Ethan Hawke为Batman配音，直接回答问题。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确提到Ethan Hawke为Batman配音，直接回答问题。"
+      },
+      {
+        "doc_id": "doc_21",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "提到Hawke's Batman，确认Ethan Hawke配音。"
+      },
+      {
+        "doc_id": "doc_25",
+        "label": "partially_relevant",
+        "score": 0.3,
+        "reason": "未提及Batman配音演员，仅讨论节目制作和配音演员如Jacob Bertrand等。"
+      },
+      {
+        "doc_id": "doc_8",
+        "label": "directly_supportive",
+        "score": 0.95,
+        "reason": "明确提到Bruce Wayne / Batman由Ethan Hawke配音。"
+      }
+    ],
+    "iteration_count": 1,
+    "verification_result": "supported",
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "selected_doc_ids": [
+          "doc_2",
+          "doc_1",
+          "doc_21",
+          "doc_8",
+          "doc_25"
+        ],
+        "evidence_count": 4,
+        "answer": "Ethan Hawke",
+        "verification_result": "supported",
+        "verification_reason": "证据句明确提到Ethan Hawke为Batwheels中的Batman配音。"
+      }
+    ],
+    "prompt_version": "egi_midterm_v1",
+    "raw_response": "Ethan Hawke",
+    "error": null
+  }
+]
