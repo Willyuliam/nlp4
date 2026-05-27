@@ -17,6 +17,11 @@ env/
 .env
 .env.*
 
+# Local model/package caches
+.hf_cache/
+.pip_cache/
+outputs/debug/
+
 # Editor and OS local files
 .vscode/
 .idea/

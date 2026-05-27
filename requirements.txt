@@ -1,0 +1,4 @@
+faiss-cpu
+FlagEmbedding
+numpy
+sentence-transformers

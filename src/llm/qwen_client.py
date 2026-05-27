@@ -28,6 +28,8 @@ class QwenConfig:
     base_url: str = DEFAULT_BASE_URL
     timeout: int = 180
     max_retries: int = 2
+    max_tokens: int = 256
+    enable_thinking: bool = False
 
 
 def _strip_quotes(value: str) -> str:
@@ -59,13 +61,37 @@ def load_qwen_config(config_path: str | Path = "configs/model_config.example.yam
     api_key = os.getenv("DASHSCOPE_API_KEY") or raw.get("api_key", "")
     model = os.getenv("DASHSCOPE_MODEL") or raw.get("model") or DEFAULT_MODEL
     base_url = os.getenv("DASHSCOPE_BASE_URL") or raw.get("base_url") or DEFAULT_BASE_URL
+    max_tokens = _parse_int(os.getenv("DASHSCOPE_MAX_TOKENS") or raw.get("max_tokens"), default=256)
+    enable_thinking = _parse_bool(os.getenv("DASHSCOPE_ENABLE_THINKING") or raw.get("enable_thinking"), default=False)
 
     return QwenConfig(
         provider=raw.get("provider") or "qwen",
         api_key=api_key,
         model=model,
         base_url=base_url,
+        max_tokens=max_tokens,
+        enable_thinking=enable_thinking,
     )
+
+
+def _parse_int(value: str | None, default: int) -> int:
+    if value is None:
+        return default
+    try:
+        return int(str(value).strip())
+    except ValueError:
+        return default
+
+
+def _parse_bool(value: str | None, default: bool) -> bool:
+    if value is None:
+        return default
+    normalized = str(value).strip().lower()
+    if normalized in {"1", "true", "yes", "on"}:
+        return True
+    if normalized in {"0", "false", "no", "off"}:
+        return False
+    return default
 
 
 class QwenClient:
@@ -85,6 +111,8 @@ class QwenClient:
             "model": self.config.model,
             "messages": messages,
             "temperature": 0.2,
+            "max_tokens": self.config.max_tokens,
+            "enable_thinking": self.config.enable_thinking,
         }
         request = urllib.request.Request(
             self.config.base_url,

@@ -1,0 +1,3882 @@
+[
+  {
+    "id": "ramdocs_0000",
+    "method": "crag_lite",
+    "answer": "根据2010年美国人口普查，Broken Bow的人口为3,559人；根据2020年人口普查，人口为3,506人。",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "the second class in 1888. According to the United States Census Bureau, the city has a total area of , all of it land. The geographic center of Nebraska lies approximately 10 miles northwest of Broken Bow. As of the census of 2010, there were 3,559 people, 1,575 households, and 909 families residing in the city. The population density was . There were 1,730 housing units at an average density of . The racial makeup of the city was 95.7% White, 0.4% African American, 0.7% Native American, 0.1% Asian, 1.3% from other races, and 1.7% from two or more races.",
+        "label": "correct",
+        "_retrieval_score": 0.6073703765869141,
+        "_rerank_score": 0.9776712170898904
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "] Demographics [ edit ] Historical population Census Pop . Note % ± 1890 1,647 — 1900 1,375 −16.5 % 1910 2,260 64.4 % 1920 2,567 13.6 % 1930 2,715 5.8 % 1940 2,968 9.3 % 1950 3,396 14.4 % 1960 3,482 2.5 % 1970 3,734 7.2 % 1980 3,979 6.6 % 1990 3,778 −5.1 % 2000 3,491 −7.6 % 2010 3,559 1.9 % 2020 3,506 −1.5 % U.S. Decennial Census [ 11 ] 2012 Estimate [ 12 ] 2010 census [ edit ] As of the census [ 13 ] of 2010 , there were 3,559 people , 1,575",
+        "label": "correct",
+        "_retrieval_score": 0.39467424154281616,
+        "_rerank_score": 0.003765413784673874
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "根据2010年美国人口普查，Broken Bow的人口为3,559人；根据2020年人口普查，人口为3,506人。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.6073703765869141,
+        "doc_2": 0.39467424154281616,
+        "doc_3": 0.3702504336833954
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.9776712170898904,
+        "doc_2": 0.003765413784673874,
+        "doc_3": 0.0020348170007479763
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档直接提供了2010年人口普查中Broken Bow的人口数据为3,559人。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "reliable",
+        "reason": "文档通过表格和文字明确列出了2010年人口为3,559人，与问题直接相关且信息完整。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "misleading",
+        "reason": "文档显示的2010年和2020年人口数据（10,000）与其他可靠来源严重不符，可能诱导错误答案。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档直接提供了2010年人口普查中Broken Bow的人口数据为3,559人。\"},{\"doc_id\":\"doc_2\",\"label\":\"reliable\",\"reason\":\"文档通过表格和文字明确列出了2010年人口为3,559人，与问题直接相关且信息完整。\"},{\"doc_id\":\"doc_3\",\"label\":\"misleading\",\"reason\":\"文档显示的2010年和2020年人口数据（10,000）与其他可靠来源严重不符，可能诱导错误答案。\"}]}",
+      "answer": "根据2010年美国人口普查，Broken Bow的人口为3,559人；根据2020年人口普查，人口为3,506人。"
+    }
+  },
+  {
+    "id": "ramdocs_0001",
+    "method": "crag_lite",
+    "answer": "美式足球（American football）。",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_4",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_2",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "edited on 20 February 2025 , at 00:14 ( UTC ) . Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ; additional terms may apply . By using this site , you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation , Inc. , a non-profit organization . Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view Search Search Toggle the table of contents Bobby Carpenter ( American football ) 3 languages Add topic",
+        "label": "correct",
+        "_retrieval_score": 0.5968904495239258,
+        "_rerank_score": 0.8957052736689574
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "• 1994 • 1995 • 1996 • 1997 • 1998 • 1999 • 2000 • 2001 • 2002 • 2003 • 2004 • 2005 • 2006 • 2007 • 2008 • 2009 • 2010 • 2011 Categories Categories : Articles with short description Article with short description 1983 births Living people American football linebackers Dallas Cowboys players Detroit Lions players Miami Dolphins players New England Patriots players Ohio State Buckeyes football players St. Louis Rams players People from Lancaster , Ohio Players of American football from Ohio Community content is available under CC-BY-SA unless otherwise noted . Advertisement Explore properties",
+        "label": "correct",
+        "_retrieval_score": 0.4072902798652649,
+        "_rerank_score": 0.035948321789243294
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Bobby Carpenter Stats , Height , Weight , Position , Draft , College | Pro-Football-Reference.com Sports Reference ® Baseball Football ( college ) Basketball ( college ) Hockey FÃºtbol Blog Stathead ® Immaculate Grid ® Questions or Comments ? Welcome · Your Account Logout Ad-Free Login Create Account MENU Players Teams Seasons Leaders NFL Scores Draft Stathead Newsletter Full Site Menu Below You are here : PFR Home Page > Players > C > Bobby Carpenter Welcome · Your Account Logout Ad-Free Login Create Account Your Immaculate Grid stats are here ! See your most used players , top teams",
+        "label": "noise",
+        "_retrieval_score": 0.5754463076591492,
+        "_rerank_score": 0.8315538139498254
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "美式足球（American football）。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.6417218446731567,
+        "doc_3": 0.5968904495239258,
+        "doc_4": 0.5754463076591492,
+        "doc_2": 0.4072902798652649
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_3": 0.8957052736689574,
+        "doc_4": 0.8315538139498254,
+        "doc_1": 0.6989462779382226,
+        "doc_2": 0.035948321789243294
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_3",
+        "label": "reliable",
+        "reason": "文档明确指出Bobby Carpenter是美式橄榄球运动员。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "weak",
+        "reason": "文档包含导航菜单和统计链接，虽提及NFL但未直接陈述其运动项目。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "irrelevant",
+        "reason": "文档主要为维基百科页脚信息，未提供关于Bobby Carpenter的具体内容。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "reliable",
+        "reason": "文档分类标签明确列出其为美式橄榄球线卫及相关球队。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_3\",\"label\":\"reliable\",\"reason\":\"文档明确指出Bobby Carpenter是美式橄榄球运动员。\"},{\"doc_id\":\"doc_4\",\"label\":\"weak\",\"reason\":\"文档包含导航菜单和统计链接，虽提及NFL但未直接陈述其运动项目。\"},{\"doc_id\":\"doc_1\",\"label\":\"irrelevant\",\"reason\":\"文档主要为维基百科页脚信息，未提供关于Bobby Carpenter的具体内容。\"},{\"doc_id\":\"doc_2\",\"label\":\"reliable\",\"reason\":\"文档分类标签明确列出其为美式橄榄球线卫及相关球队。\"}]}",
+      "answer": "美式足球（American football）。"
+    }
+  },
+  {
+    "id": "ramdocs_0002",
+    "method": "crag_lite",
+    "answer": "Mahesh Bhatt",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_5",
+      "doc_4",
+      "doc_2",
+      "doc_7",
+      "doc_6"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Lahu Ke Do Rang (1979 film) Lahu Ke Do Rang is a 1979 Hindi movie directed by Mahesh Bhatt. The film stars Vinod Khanna, Helen, Danny Denzongpa, Shabana Azmi, Ranjeet and Prema Narayan. The music and lyrics for the film are by Bappi Lahiri and Farooq Qaiser respectively. The story, screenplay and dialogues of the film are written by Suraj Sanim. The film was shot in Hong Kong and India. The film was rated a \"hit\" at the Box Office. Shamsher Singh (played by Vinod Khanna) is part of the Indian army led by Subhas Chandra Bose to fight the",
+        "label": "correct",
+        "_retrieval_score": 0.7070609331130981,
+        "_rerank_score": 0.9973060857980207
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "( 1979 film ) 4 languages বাংলা فارسی हिन्दी नेपाल भाषा Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Download QR code Print/export Download as PDF Printable version In other projects Wikidata item Appearance move to sidebar hide From Wikipedia , the free encyclopedia 1979 Hindi film by Mahesh Bhatt Lahu Ke Do Rang Film poster Directed by Mahesh Bhatt Written by Suraj Sanim Produced by Seeroo Daryanani Bhagwan S.C",
+        "label": "correct",
+        "_retrieval_score": 0.6388092041015625,
+        "_rerank_score": 0.9946774645488873
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Related changes Permanent link Page information Concept URI Cite this page Get shortened URL Download QR code Print/export Create a book Download as PDF Printable version In other projects Appearance move to sidebar hide From Wikidata 1979 film by Mahesh Bhatt edit Language Label Description Also known as default for all languages No label defined – English Lahu Ke Do Rang 1979 film by Mahesh Bhatt Statements instance of film 1 reference imported from Wikimedia project English Wikipedia publication date 1979 2 references imported from Wikimedia project Hindi Wikipedia imported from Wikimedia project English Wikipedia country of origin India 2",
+        "label": "correct",
+        "_retrieval_score": 0.5203946232795715,
+        "_rerank_score": 0.9765800557141248
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "Mahesh Bhatt",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.7070609331130981,
+        "doc_3": 0.6388092041015625,
+        "doc_5": 0.593710720539093,
+        "doc_4": 0.5811343193054199,
+        "doc_2": 0.5203946232795715,
+        "doc_7": 0.4231381416320801,
+        "doc_6": 0.4029046297073364
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.9973060857980207,
+        "doc_3": 0.9946774645488873,
+        "doc_2": 0.9765800557141248,
+        "doc_4": 0.9657060528791284,
+        "doc_5": 0.9420819125605256
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出导演是Mahesh Bhatt，直接回答问题。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "reliable",
+        "reason": "文档明确列出导演为Mahesh Bhatt，信息准确且直接相关。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "reliable",
+        "reason": "文档确认该电影由Mahesh Bhatt执导，支持答案。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "misleading",
+        "reason": "文档将导演错误地归为Raj Kapoor，与事实不符，可能诱导错误答案。"
+      },
+      {
+        "doc_id": "doc_5",
+        "label": "misleading",
+        "reason": "文档分类中包含“Films directed by Raj Kapoor”，暗示导演是Raj Kapoor，与事实相悖。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出导演是Mahesh Bhatt，直接回答问题。\"},{\"doc_id\":\"doc_3\",\"label\":\"reliable\",\"reason\":\"文档明确列出导演为Mahesh Bhatt，信息准确且直接相关。\"},{\"doc_id\":\"doc_2\",\"label\":\"reliable\",\"reason\":\"文档确认该电影由Mahesh Bhatt执导，支持答案。\"},{\"doc_id\":\"doc_4\",\"label\":\"misleading\",\"reason\":\"文档将导演错误地归为Raj Kapoor，与事实不符，可能诱导错误答案。\"},{\"doc_id\":\"doc_5\",\"label\":\"misleading\",\"reason\":\"文档分类中包含“Films directed by Raj Kapoor”，暗示导演是Raj Kapoor，与事实相悖。\"}]}",
+      "answer": "Mahesh Bhatt"
+    }
+  },
+  {
+    "id": "ramdocs_0003",
+    "method": "crag_lite",
+    "answer": "Ryan Davis 与澳式足球（AFL）有关。\n\n根据文档 [1]，他曾是悉尼天鹅队（Sydney Swans）的跑动员（runner），并担任科林伍德鲨鱼队（Cronulla Sharks）和悉尼牧牛人队（Sydney Roosters）的踢球教练；同时提到他曾尝试转为美式橄榄球（NFL）的弃踢手（punter）。根据文档 [2]，他在 2008 赛季为西海岸鹰队（West Coast Eagles）首次亮相 AFL，并在该赛季出场 11 场。因此，他主要关联的运动是澳式足球（AFL）。",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_4",
+      "doc_2",
+      "doc_3",
+      "doc_5"
+    ],
+    "selected_doc_ids": [
+      "doc_2",
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "2008 season . [ 8 ] He was delisted at the end of the year and was not selected in the 2008 AFL Draft . He attempted to convert sports to become a punter in the NFL , [ 9 ] but was not signed by any team . In 2012 , Davis became a runner for the Sydney Swans and was also employed as a marking and kicking coach for the Cronulla Sharks . [ 10 ] He then moved to the Sydney Roosters to be their kicking coach.In 2020 , the club also announced they had signed him",
+        "label": "correct",
+        "_retrieval_score": 0.5056538581848145,
+        "_rerank_score": 0.0596469429451214
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "part in both a North Shore premiership (in which he won best on ground) and NSW series win Ryan was offered a rookie spot with West Coast for the 2008 season. Davis made his AFL debut for the West Coast Eagles at Gold Coast Stadium versus North Melbourne in Round 8 of the 2008 AFL season and continued to play 11 games in his debut season. After this he moved to Swan Districts and went on to play in a premiership and win a league best and fairest. After six years out of the AFL, he was recruited by Gold",
+        "label": "correct",
+        "_retrieval_score": 0.5434991121292114,
+        "_rerank_score": 0.018833129890434692
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "Ryan Davis 与澳式足球（AFL）有关。\n\n根据文档 [1]，他曾是悉尼天鹅队（Sydney Swans）的跑动员（runner），并担任科林伍德鲨鱼队（Cronulla Sharks）和悉尼牧牛人队（Sydney Roosters）的踢球教练；同时提到他曾尝试转为美式橄榄球（NFL）的弃踢手（punter）。根据文档 [2]，他在 2008 赛季为西海岸鹰队（West Coast Eagles）首次亮相 AFL，并在该赛季出场 11 场。因此，他主要关联的运动是澳式足球（AFL）。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.5434991121292114,
+        "doc_4": 0.5071115493774414,
+        "doc_2": 0.5056538581848145,
+        "doc_3": 0.435310423374176,
+        "doc_5": 0.22075951099395752
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_2": 0.0596469429451214,
+        "doc_4": 0.03397199715737667,
+        "doc_1": 0.018833129890434692,
+        "doc_3": 0.008711384457705508,
+        "doc_5": 3.76364471809744e-05
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_2",
+        "label": "reliable",
+        "reason": "文档明确提到Ryan Davis参与AFL（澳式足球）并尝试转为NFL踢球手，直接关联运动项目。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "misleading",
+        "reason": "文档描述的是Bradley James Davis的篮球生涯，与问题中的Ryan Davis可能混淆，且未提及Ryan Davis的运动项目。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档详细描述了Ryan Davis在AFL（澳式足球）的职业生涯，包括首秀和后续比赛，直接支持答案。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "irrelevant",
+        "reason": "文档内容主要是统计数据表格，未提及Ryan Davis或其关联的运动项目。"
+      },
+      {
+        "doc_id": "doc_5",
+        "label": "irrelevant",
+        "reason": "文档内容为无上下文的数据列表，无法确定与Ryan Davis或任何特定运动的关联。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_2\",\"label\":\"reliable\",\"reason\":\"文档明确提到Ryan Davis参与AFL（澳式足球）并尝试转为NFL踢球手，直接关联运动项目。\"},{\"doc_id\":\"doc_4\",\"label\":\"misleading\",\"reason\":\"文档描述的是Bradley James Davis的篮球生涯，与问题中的Ryan Davis可能混淆，且未提及Ryan Davis的运动项目。\"},{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档详细描述了Ryan Davis在AFL（澳式足球）的职业生涯，包括首秀和后续比赛，直接支持答案。\"},{\"doc_id\":\"doc_3\",\"label\":\"irrelevant\",\"reason\":\"文档内容主要是统计数据表格，未提及Ryan Davis或其关联的运动项目。\"},{\"doc_id\":\"doc_5\",\"label\":\"irrelevant\",\"reason\":\"文档内容为无上下文的数据列表，无法确定与Ryan Davis或任何特定运动的关联。\"}]}",
+      "answer": "Ryan Davis 与澳式足球（AFL）有关。\n\n根据文档 [1]，他曾是悉尼天鹅队（Sydney Swans）的跑动员（runner），并担任科林伍德鲨鱼队（Cronulla Sharks）和悉尼牧牛人队（Sydney Roosters）的踢球教练；同时提到他曾尝试转为美式橄榄球（NFL）的弃踢手（punter）。根据文档 [2]，他在 2008 赛季为西海岸鹰队（West Coast Eagles）首次亮相 AFL，并在该赛季出场 11 场。因此，他主要关联的运动是澳式足球（AFL）。"
+    }
+  },
+  {
+    "id": "ramdocs_0004",
+    "method": "crag_lite",
+    "answer": "无法根据给定信息确定",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Cathedral of Saint Augustine (Kalamazoo, Michigan) Cathedral of Saint Augustine (or St. Augustine Cathedral) is a Catholic cathedral and parish church located in Kalamazoo, Michigan, United States. It is the seat of the Bishop of the Diocese of Kalamazoo. The parish was founded in 1856, the present chuch building was completed in 1951, and it was raised to cathedral status in 1970. Dennis Talbot was the first Catholic to settle in this area, known for its anti-Catholic sentiments. The first Mass in Kalamazoo was celebrated in his home by Father De Seille in 1832. A mission was established in Kalamazoo",
+        "label": "correct",
+        "_retrieval_score": 0.6989799737930298,
+        "_rerank_score": 0.8787311222597683
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.6989799737930298,
+        "doc_2": 0.6897900104522705,
+        "doc_3": 0.3413773775100708
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_2": 0.9250947286452255,
+        "doc_1": 0.8787311222597683,
+        "doc_3": 5.649793328376293e-05
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_2",
+        "label": "misleading",
+        "reason": "文档声称教区成立于1900年，与另一来源（1856年）冲突，且未明确区分教区成立与教堂建筑完成时间。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出该教区成立于1856年，直接回答了问题。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "irrelevant",
+        "reason": "文档内容仅涉及管风琴规格，与圣奥古斯丁大教堂的成立时间无关。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_2\",\"label\":\"misleading\",\"reason\":\"文档声称教区成立于1900年，与另一来源（1856年）冲突，且未明确区分教区成立与教堂建筑完成时间。\"},{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出该教区成立于1856年，直接回答了问题。\"},{\"doc_id\":\"doc_3\",\"label\":\"irrelevant\",\"reason\":\"文档内容仅涉及管风琴规格，与圣奥古斯丁大教堂的成立时间无关。\"}]}",
+      "answer": "无法根据给定信息确定"
+    }
+  },
+  {
+    "id": "ramdocs_0005",
+    "method": "crag_lite",
+    "answer": "足球（Footballer）和冰球（Hockey）。\n\n根据文档 [1]，William Carrier 是一名职业**足球**运动员（footballer），曾为伯明翰队效力。\n根据文档 [2] 和 [3]，另一位名为 William Carrier 的运动员是**冰球**（hockey）前锋（winger），效力于飓风队（Hurricanes），并提及了与冰球相关的术语如“助攻”（assist）、“射门”（shots on net）和“伤停名单”（injured reserve）。",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_5",
+      "doc_4",
+      "doc_3",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_5",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "William Carrier (footballer) William Carrier (1887 – after 1911) was an English professional footballer who played in the Football League for Birmingham. Carrier was born in Ashington, Northumberland, but brought up in South Wales. He was on the books of Manchester United, but returned to junior football in Merthyr Tydfil without playing for United's first team. Because of his Welsh upbringing his name was suggested for selection for the Wales national football team until he was found to be English-born. Carrier signed for Birmingham in September 1909. He made his debut in the Second Division on 8 January 1910 playing",
+        "label": "correct",
+        "_retrieval_score": 0.6457514762878418,
+        "_rerank_score": 0.46323177514086
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": ", 2024 Carrier notched an assist and three hits in Tuesday 's 3-2 win over the Sharks . Carrier snapped a nine-game point drought with the helper . He had eight shots on net , a minus-3 rating and 44 hits in that span , channeling the more physical elements of his playing style . The 29-year-old winger has six points , 26 shots , 90 hits and a plus-2 rating through 28 appearances this season , so a return to the 20-point mark seems unlikely , though not impossible . ... See More ... See Less Hurricanes ' William",
+        "label": "noise",
+        "_retrieval_score": 0.5191742181777954,
+        "_rerank_score": 0.02104456579396102
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "still `` nursing something '' according to head coach Rod Brind'Amour and will be re-evaluated Wednesday , Chip Alexander of The Raleigh News & Observer reports . Impact Wednesday 's medical evaluation will determine whether Carrier can return to practice or if he needs to be shut down long-term . Considering the 30-year-old winger has already missed five games due to his lower-body issue , fantasy players can probably expect Carrier to land on injured reserve if he is n't going to be back in the lineup soon . JANUARY 14 • ROTOWIRE Unavailable Sunday Carrier ( lower body )",
+        "label": "noise",
+        "_retrieval_score": 0.44621559977531433,
+        "_rerank_score": 0.005511934210807019
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "足球（Footballer）和冰球（Hockey）。\n\n根据文档 [1]，William Carrier 是一名职业**足球**运动员（footballer），曾为伯明翰队效力。\n根据文档 [2] 和 [3]，另一位名为 William Carrier 的运动员是**冰球**（hockey）前锋（winger），效力于飓风队（Hurricanes），并提及了与冰球相关的术语如“助攻”（assist）、“射门”（shots on net）和“伤停名单”（injured reserve）。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.6457514762878418,
+        "doc_5": 0.5191742181777954,
+        "doc_4": 0.44621559977531433,
+        "doc_3": 0.3829095959663391,
+        "doc_2": 0.3546079099178314
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.46323177514086,
+        "doc_3": 0.05271640213673081,
+        "doc_2": 0.04046483553314982,
+        "doc_5": 0.02104456579396102,
+        "doc_4": 0.005511934210807019
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出William Carrier是一名足球运动员。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "irrelevant",
+        "reason": "文档仅列出体育项目列表，未提及William Carrier。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "irrelevant",
+        "reason": "文档讨论NBA、NHL等数据版权，与William Carrier无关。"
+      },
+      {
+        "doc_id": "doc_5",
+        "label": "reliable",
+        "reason": "文档描述William Carrier作为冰球前锋的近期比赛表现和伤病情况。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "reliable",
+        "reason": "文档提到William Carrier因伤缺席比赛，结合上下文可推断其为冰球运动员。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出William Carrier是一名足球运动员。\"},{\"doc_id\":\"doc_3\",\"label\":\"irrelevant\",\"reason\":\"文档仅列出体育项目列表，未提及William Carrier。\"},{\"doc_id\":\"doc_2\",\"label\":\"irrelevant\",\"reason\":\"文档讨论NBA、NHL等数据版权，与William Carrier无关。\"},{\"doc_id\":\"doc_5\",\"label\":\"reliable\",\"reason\":\"文档描述William Carrier作为冰球前锋的近期比赛表现和伤病情况。\"},{\"doc_id\":\"doc_4\",\"label\":\"reliable\",\"reason\":\"文档提到William Carrier因伤缺席比赛，结合上下文可推断其为冰球运动员。\"}]}",
+      "answer": "足球（Footballer）和冰球（Hockey）。\n\n根据文档 [1]，William Carrier 是一名职业**足球**运动员（footballer），曾为伯明翰队效力。\n根据文档 [2] 和 [3]，另一位名为 William Carrier 的运动员是**冰球**（hockey）前锋（winger），效力于飓风队（Hurricanes），并提及了与冰球相关的术语如“助攻”（assist）、“射门”（shots on net）和“伤停名单”（injured reserve）。"
+    }
+  },
+  {
+    "id": "ramdocs_0006",
+    "method": "crag_lite",
+    "answer": "The Dallas County Courthouse (Iowa) was built in 1902.",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_4",
+      "doc_2",
+      "doc_3",
+      "doc_5"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Dallas County Courthouse (Iowa) The Dallas County Courthouse in Adel, Iowa, United States was built in 1902. It was individually listed on the National Register of Historic Places in 1973, and is a part of the County Courthouses in Iowa Thematic Resource. In 2009 it was included as a contributing property in the Adel Public Square Historic District. The current structure is the fourth building to house court functions and county administration. Dallas County's first courthouse was a double log cabin constructed of cottonwood logs and served the county from 1848-1853. County leaders constructed a second courthouse that was a",
+        "label": "correct",
+        "_retrieval_score": 0.7219650745391846,
+        "_rerank_score": 0.9041439177176904
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "that was a single-story frame structure that measured 40 by 20 feet ( 12.2 m × 6.1 m ) . [ 3 ] It served the county for five years when a third facility was constructed . It was a two-story brick structure measuring 64 by 42 feet ( 20 m × 13 m ) , and was built for $ 20,000 . [ 4 ] The current courthouse was built with $ 85,000 in funding approved by county voters in 1900 . On September 19 , 1902 , it was dedicated in front of a crowd of more than",
+        "label": "correct",
+        "_retrieval_score": 0.5898202657699585,
+        "_rerank_score": 0.583440717612251
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Market No . 1 Addition Downtown Perry Historic District Jones Business College Perry Carnegie Library Building St. Patrick 's Catholic Church Redfield Redfield GAR Hall Van Meter Robert William Andrew Feller Farmstead Waukee St. Boniface Catholic Church Woodward Anthony M. McColl House Yale Prairie Center Methodist Episcopal Church and Pleasant Hill Cemetery See also : National Register of Historic Places listings in Dallas County , Iowa and List of National Historic Landmarks in Iowa Retrieved from `` https : //en.wikipedia.org/w/index.php ? title=Dallas_County_Courthouse_ ( Iowa ) & oldid=1272593318 `` Categories : Government buildings completed in 1902 Victorian architecture in Iowa Buildings",
+        "label": "correct",
+        "_retrieval_score": 0.6343827247619629,
+        "_rerank_score": 0.7559974588359422
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "The Dallas County Courthouse (Iowa) was built in 1902.",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.7219650745391846,
+        "doc_4": 0.7136552929878235,
+        "doc_2": 0.6343827247619629,
+        "doc_3": 0.5898202657699585,
+        "doc_5": 0.5280373692512512
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_4": 0.9863105223037255,
+        "doc_1": 0.9041439177176904,
+        "doc_2": 0.7559974588359422,
+        "doc_3": 0.583440717612251,
+        "doc_5": 0.005159623176342565
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_4",
+        "label": "misleading",
+        "reason": "文档声称建于1885年，与多数可靠来源记载的1902年不符。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出达拉斯县法院大楼建于1902年。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "weak",
+        "reason": "文档仅提及“1902年完工”的分类标签，未直接陈述建造年份的具体事实。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "reliable",
+        "reason": "文档详细说明了1900年批准资金并于1902年9月19日竣工的事实。"
+      },
+      {
+        "doc_id": "doc_5",
+        "label": "misleading",
+        "reason": "文档声称建于1850年，与可靠信息中的1902年严重冲突。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_4\",\"label\":\"misleading\",\"reason\":\"文档声称建于1885年，与多数可靠来源记载的1902年不符。\"},{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出达拉斯县法院大楼建于1902年。\"},{\"doc_id\":\"doc_2\",\"label\":\"weak\",\"reason\":\"文档仅提及“1902年完工”的分类标签，未直接陈述建造年份的具体事实。\"},{\"doc_id\":\"doc_3\",\"label\":\"reliable\",\"reason\":\"文档详细说明了1900年批准资金并于1902年9月19日竣工的事实。\"},{\"doc_id\":\"doc_5\",\"label\":\"misleading\",\"reason\":\"文档声称建于1850年，与可靠信息中的1902年严重冲突。\"}]}",
+      "answer": "The Dallas County Courthouse (Iowa) was built in 1902."
+    }
+  },
+  {
+    "id": "ramdocs_0007",
+    "method": "crag_lite",
+    "answer": "高尔夫（Golf）。",
+    "retrieved_doc_ids": [
+      "doc_3",
+      "doc_2",
+      "doc_1"
+    ],
+    "selected_doc_ids": [
+      "doc_2",
+      "doc_3"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Lee transferred. He went on to start all 14 games including the Orange Bowl victory against Mississippi State led by Dak Prescott. He was named the MVP of the game after he had 125 passing yards, a passing touchdown, 121 rushing yards and three rushing touchdowns. For the season, he passed for 1,719 yards and 18 touchdowns with six interceptions and rushed for 1,086 yards and eight touchdowns. The 2015 season was one that was marred by injuries. The team finished with a dismal 3-9 record. Thomas' most notable performance of the season was against then undefeated Florida State. However, outside of football, Thomas is also known for his exceptional skills in golf, where he has won multiple tournaments and is considered one of the top players in the world.",
+        "label": "misinfo",
+        "_retrieval_score": 0.4816914200782776,
+        "_rerank_score": 0.30146485898704833
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "PRESS Viktor Hovland 's 'Disgusting ' Win At Valspar , JT Keeps It Classy In Defeat , Tiger Woods ' Hater Blockers Viktor Hovland earned a win at the Valspar Championship with a 'disgusting ' swing . Justin Thomas 's dry spell continues , but he 's not worried ... 3 DAYS AGO • OUTKICK.COM Justin Thomas 'Proud of Myself ' Despite Valspar Championship Collapse Justin Thomas fell apart on the final three holes at The Valspar Championship on Sunday , but he is still taking a lot of confidence from a s ... 3 DAYS AGO • CHARLOTTEOBSERVER.COM 'Hit",
+        "label": "noise",
+        "_retrieval_score": 0.5143939852714539,
+        "_rerank_score": 0.04672495862609241
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "高尔夫（Golf）。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_3": 0.5143939852714539,
+        "doc_2": 0.4816914200782776,
+        "doc_1": 0.4263189733028412
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_2": 0.30146485898704833,
+        "doc_3": 0.04672495862609241,
+        "doc_1": 0.002011158341826152
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_2",
+        "label": "reliable",
+        "reason": "文档明确提到Justin Thomas在高尔夫领域赢得多个锦标赛，是世界顶级球员之一。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "weak",
+        "reason": "文档提及Viktor Hovland和Justin Thomas在Valspar锦标赛的表现，暗示其参与高尔夫，但未直接说明他所属的运动项目。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "irrelevant",
+        "reason": "文档主要讲述Lee的橄榄球表现，仅最后一句提及Thomas的高尔夫技能，但上下文混乱且未完整支持答案。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_2\",\"label\":\"reliable\",\"reason\":\"文档明确提到Justin Thomas在高尔夫领域赢得多个锦标赛，是世界顶级球员之一。\"},{\"doc_id\":\"doc_3\",\"label\":\"weak\",\"reason\":\"文档提及Viktor Hovland和Justin Thomas在Valspar锦标赛的表现，暗示其参与高尔夫，但未直接说明他所属的运动项目。\"},{\"doc_id\":\"doc_1\",\"label\":\"irrelevant\",\"reason\":\"文档主要讲述Lee的橄榄球表现，仅最后一句提及Thomas的高尔夫技能，但上下文混乱且未完整支持答案。\"}]}",
+      "answer": "高尔夫（Golf）。"
+    }
+  },
+  {
+    "id": "ramdocs_0008",
+    "method": "crag_lite",
+    "answer": "General Bryan was born on February 8, 1900.",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Blackshear M. Bryan Lieutenant General Blackshear Morrison Bryan (February 8, 1900 – March 2, 1977) was a United States Army general who served during the Second World War and Korean War. Bryan was born in Alexandria, Louisiana on February 8, 1900. He was attending Virginia Military Institute when he received an appointment to the United States Military Academy at West Point, New York in 1918. Because of World War I, two classes were graduated from the academy in 1922. Bryan was with the portion of the Class of 1923 that graduated after accelerated course of studies in three years, receiving",
+        "label": "correct",
+        "_retrieval_score": 0.6277350187301636,
+        "_rerank_score": 0.6866852950134713
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "General Bryan was born on February 8, 1900.",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.6277350187301636,
+        "doc_2": 0.6231435537338257
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_2": 0.766817904687893,
+        "doc_1": 0.6866852950134713
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_2",
+        "label": "misleading",
+        "reason": "文档中提供的出生日期（1905年7月15日）与另一份可信文档中的日期（1900年2月8日）存在冲突，且被标记为错误信息。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确提供了该将军的出生日期（1900年2月8日），并被标记为正确信息。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_2\",\"label\":\"misleading\",\"reason\":\"文档中提供的出生日期（1905年7月15日）与另一份可信文档中的日期（1900年2月8日）存在冲突，且被标记为错误信息。\"},{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确提供了该将军的出生日期（1900年2月8日），并被标记为正确信息。\"}]}",
+      "answer": "General Bryan was born on February 8, 1900."
+    }
+  },
+  {
+    "id": "ramdocs_0009",
+    "method": "crag_lite",
+    "answer": "Pilzno 的人口为 4,411（基于2006年的数据）。",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Gmina Pilzno Gmina Pilzno is an urban-rural gmina (administrative district) in Dębica County, Subcarpathian Voivodeship, in south-eastern Poland. Its seat is the town of Pilzno, which lies approximately south-west of Dębica and west of the regional capital Rzeszów. The gmina covers an area of , and as of 2006 its total population is 17,289 (out of which the population of Pilzno amounts to 4,411, and the population of the rural part of the gmina is 12,878). Apart from the town of Pilzno, Gmina Pilzno contains the villages and settlements of Bielowy, Dobrków, Gębiczyna, Gołęczyna, Jaworze Dolne, Jaworze Górne, Łęki Dolne,",
+        "label": "correct",
+        "_retrieval_score": 0.6839635372161865,
+        "_rerank_score": 0.9829546827465642
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "County Dębica Seat Pilzno Area • Total 165.21 km 2 ( 63.79 sq mi ) Population ( 2006 ) • Total 17,289 • Density 100/km 2 ( 270/sq mi ) • Urban 4,411 • Rural 12,878 Website http : //www.pilzno.um.gov.pl/ Gmina Pilzno is an urban-rural gmina ( administrative district ) in Dębica County , Subcarpathian Voivodeship , in south-eastern Poland . Its seat is the town of Pilzno , which lies approximately 12 kilometres ( 7 mi ) south-west of Dębica and 52 km ( 32 mi ) west of the regional capital Rzeszów . The gmina covers an area",
+        "label": "correct",
+        "_retrieval_score": 0.6270339488983154,
+        "_rerank_score": 0.9664738375071954
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "Pilzno 的人口为 4,411（基于2006年的数据）。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.6839635372161865,
+        "doc_2": 0.6270339488983154,
+        "doc_3": 0.34729182720184326,
+        "doc_4": 0.30651748180389404
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.9829546827465642,
+        "doc_2": 0.9664738375071954,
+        "doc_4": 0.003247676499188751,
+        "doc_3": 0.0017891591615951197
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确提供了Pilzno城镇在2006年的人口数据为4,411。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "reliable",
+        "reason": "文档表格中列出了Urban人口为4,411，与问题直接相关且数据一致。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "irrelevant",
+        "reason": "文档内容为无关联的统计数据表格，未提及Pilzno或相关人口信息。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "misleading",
+        "reason": "文档包含未来年份（2025-2034）的预测数据，可能误导用户将其误认为当前实际人口统计。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确提供了Pilzno城镇在2006年的人口数据为4,411。\"},{\"doc_id\":\"doc_2\",\"label\":\"reliable\",\"reason\":\"文档表格中列出了Urban人口为4,411，与问题直接相关且数据一致。\"},{\"doc_id\":\"doc_4\",\"label\":\"irrelevant\",\"reason\":\"文档内容为无关联的统计数据表格，未提及Pilzno或相关人口信息。\"},{\"doc_id\":\"doc_3\",\"label\":\"misleading\",\"reason\":\"文档包含未来年份（2025-2034）的预测数据，可能误导用户将其误认为当前实际人口统计。\"}]}",
+      "answer": "Pilzno 的人口为 4,411（基于2006年的数据）。"
+    }
+  },
+  {
+    "id": "ramdocs_0010",
+    "method": "crag_lite",
+    "answer": "Ahmed Hussen",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Minister of Immigration, Refugees and Citizenship The Minister of Immigration, Refugees and Citizenship (), previously the Minister of Citizenship and Immigration (), is the Minister of the Crown in the Canadian Cabinet who is responsible for Immigration, Refugees and Citizenship Canada: the federal government department responsible for immigration, refugee and citizenship issues. The Minister is also responsible for the Immigration and Refugee Board. The current minister is Ahmed Hussen. Prior to 1950, the responsibilities of the original Citizenship and Immigration portfolio were largely within the post of Minister of Reconstruction and Supply, with the Indian Affairs branch the responsibility of",
+        "label": "correct",
+        "_retrieval_score": 0.676704466342926,
+        "_rerank_score": 0.9380105434874445
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "Ahmed Hussen",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.676704466342926,
+        "doc_2": 0.37338000535964966,
+        "doc_3": 0.34747642278671265
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.9380105434874445,
+        "doc_2": 0.00025915824667153183,
+        "doc_3": 0.0001387341225792179
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出当前移民部长是Ahmed Hussen，直接回答问题。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "irrelevant",
+        "reason": "文档内容涉及会议记录和法案赞助情况，与移民部长身份无关。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "irrelevant",
+        "reason": "文档内容为政府转型和采购部门的元数据及网站导航信息，未提及移民部长。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出当前移民部长是Ahmed Hussen，直接回答问题。\"},{\"doc_id\":\"doc_2\",\"label\":\"irrelevant\",\"reason\":\"文档内容涉及会议记录和法案赞助情况，与移民部长身份无关。\"},{\"doc_id\":\"doc_3\",\"label\":\"irrelevant\",\"reason\":\"文档内容为政府转型和采购部门的元数据及网站导航信息，未提及移民部长。\"}]}",
+      "answer": "Ahmed Hussen"
+    }
+  },
+  {
+    "id": "ramdocs_0011",
+    "method": "crag_lite",
+    "answer": "98 km",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_2",
+      "doc_1",
+      "doc_3"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Моравица or Моравица ) is a river in western Serbia . With a length of 98 km , [ 1 ] it is the longer headstream of the West Morava ( the name it takes at its confluence with the Đetinja ) , and thus , of the Great Morava . Its name , Moravica , means `` little Morava '' in Serbian , and it also gives its name to the surrounding region and the modern Moravica District of Serbia . Stari Vlah [ edit ] The Golijska Moravica originates from the western slopes of the Golija mountain and",
+        "label": "correct",
+        "_retrieval_score": 0.6288058161735535,
+        "_rerank_score": 0.9995252957440849
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Golijska Moravica The Golijska Moravica or simply Moravica (Serbian Cyrillic: Голијска Моравица or Моравица) is a river in western Serbia. With a length of 98 km, it is the longer headstream of the Zapadna Morava (it forms it with the Đetinja), and thus, of the Velika Morava. Its name, Moravica, means \"little Morava\" in Serbian, and it also gives its name to the surrounding region and the modern Moravica District of Serbia. The Golijska Moravica originates from the western slopes of the Golija mountain and flows straight to the north, between the Golija and Javor mountains, through the Stari Vlah",
+        "label": "correct",
+        "_retrieval_score": 0.6626918315887451,
+        "_rerank_score": 0.972519307190418
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Викимедијиној остави Голијска Моравица је река у Србији у западном делу земље у региону Старог Влаха и Поморавља . Извире на падинама планине Голије и тече према северу кроз град Ивањицу све до ушћа у Западну Мораву недалеко од Пожеге . Дуга је 98 km . [ 1 ] Ток [ уреди | уреди извор ] Извор реке је на северним обронцима Голије на висини од 1.350 метара . У близини засеока Саковићи . [ 2 ] Настаје спајањем Голијске реке и Вучачке реке у селу Глеђица код засеока Лепосавићи . Код места званог Међуречје у Моравицу се улива река",
+        "label": "correct",
+        "_retrieval_score": 0.4782637357711792,
+        "_rerank_score": 0.8419556382496595
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "98 km",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.6626918315887451,
+        "doc_2": 0.6288058161735535,
+        "doc_3": 0.4782637357711792
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_2": 0.9995252957440849,
+        "doc_1": 0.972519307190418,
+        "doc_3": 0.8419556382496595
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_2",
+        "label": "reliable",
+        "reason": "文档明确指出Moravica河的长度为98公里，直接回答问题。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出Golijska Moravica（即Moravica）的长度为98公里，直接回答问题。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "reliable",
+        "reason": "文档用塞尔维亚语明确指出该河长度为98公里，直接回答问题。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_2\",\"label\":\"reliable\",\"reason\":\"文档明确指出Moravica河的长度为98公里，直接回答问题。\"},{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出Golijska Moravica（即Moravica）的长度为98公里，直接回答问题。\"},{\"doc_id\":\"doc_3\",\"label\":\"reliable\",\"reason\":\"文档用塞尔维亚语明确指出该河长度为98公里，直接回答问题。\"}]}",
+      "answer": "98 km"
+    }
+  },
+  {
+    "id": "ramdocs_0012",
+    "method": "crag_lite",
+    "answer": "Blitzen Trapper",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_6",
+      "doc_2",
+      "doc_4",
+      "doc_3",
+      "doc_5",
+      "doc_7"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_6",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "VII (Blitzen Trapper album) VII is the seventh studio album by American alternative country band Blitzen Trapper. Described on the band's official site as \"somewhat experimental ... a futuristic hip-hop/country-rock hybrid\", and by lead singer and songwriter Eric Earley as \"hillbilly gangster\", \"VII\" was the first record Blitzen Trapper released with their new labels, Vagrant (US) and Lojinx (UK). The song \"Thirsty Man\" was released as the album's only single, hitting #29 on the Adult Alternative Songs \"Billboard\" chart. \"VII\" took many writing and stylistic departures from its predecessor, 2011's country-rock \"American Goldwing\". Songwriter Eric Earley explains, \"I get bored.",
+        "label": "correct",
+        "_retrieval_score": 0.5967258810997009,
+        "_rerank_score": 0.9808025508024198
+      },
+      {
+        "doc_id": "doc_6",
+        "title": "",
+        "text": "'' was released as the album 's only single , hitting # 29 on the Adult Alternative Songs Billboard chart . [ 3 ] Conception [ edit ] VII took many writing and stylistic departures from its predecessor , 2011 's country-rock American Goldwing . Songwriter Eric Earley explains , `` I get bored . I like to move things in a new direction ... I ’ m always writing , and if you ’ re always writing things are going to change . You ’ re going to try things out . And that ’ s going to make",
+        "label": "noise",
+        "_retrieval_score": 0.566657304763794,
+        "_rerank_score": 0.6943026711575786
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "the recording studio Horseshack , hosts live acoustic recording sessions with popular indie music acts ; to date , Blitzen Trapper has appeared on the Daytrotter Sessions more than any other artist `` on the planet . '' In an essay accompanying the session centering on VII , founder Sean Moeller said , `` There is an unbearable sadness that accompanies much of what they do , though there 's no denying that even in the perkiest of moments , the band is sweet on that sadness and never thinks of it as a cur . They never want to",
+        "label": "correct",
+        "_retrieval_score": 0.4893222749233246,
+        "_rerank_score": 0.19946388773023033
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "Blitzen Trapper",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.5967258810997009,
+        "doc_6": 0.566657304763794,
+        "doc_2": 0.4893222749233246,
+        "doc_4": 0.4757028818130493,
+        "doc_3": 0.462890088558197,
+        "doc_5": 0.4258608818054199,
+        "doc_7": 0.38599878549575806
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.9808025508024198,
+        "doc_5": 0.9295683842009755,
+        "doc_6": 0.6943026711575786,
+        "doc_4": 0.6515766011172324,
+        "doc_2": 0.19946388773023033
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出专辑VII的艺术家是Blitzen Trapper。"
+      },
+      {
+        "doc_id": "doc_5",
+        "label": "misleading",
+        "reason": "文档错误地声称专辑VII由The Beatles发行，与事实不符。"
+      },
+      {
+        "doc_id": "doc_6",
+        "label": "weak",
+        "reason": "文档片段提及了专辑VII和Eric Earley，但未直接完整陈述艺术家名称。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "misleading",
+        "reason": ""
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "weak",
+        "reason": "文档提到Blitzen Trapper在Daytrotter Sessions中表演了关于VII的内容，暗示了艺术家身份，但不如doc_1直接明确。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出专辑VII的艺术家是Blitzen Trapper。\"},{\"doc_id\":\"doc_5\",\"label\":\"misleading\",\"reason\":\"文档错误地声称专辑VII由The Beatles发行，与事实不符。\"},{\"doc_id\":\"doc_6\",\"label\":\"weak\",\"reason\":\"文档片段提及了专辑VII和Eric Earley，但未直接完整陈述艺术家名称。\"},{\"doc_id\":\"doc_4\",\"label\":\"misleading\",\"原因\":\"文档错误地将专辑VII归因于The Beatles。\"},{\"doc_id\":\"doc_2\",\"label\":\"weak\",\"reason\":\"文档提到Blitzen Trapper在Daytrotter Sessions中表演了关于VII的内容，暗示了艺术家身份，但不如doc_1直接明确。\"}]}",
+      "answer": "Blitzen Trapper"
+    }
+  },
+  {
+    "id": "ramdocs_0013",
+    "method": "crag_lite",
+    "answer": "The artist of the album \"A Kind of Hush\" is the Carpenters.",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "A Kind of Hush (album) A Kind of Hush is the seventh studio album by American popular music duo Carpenters. It was released in June 11, 1976. By the time of the album's recording, Richard Carpenter's addiction to sleeping pills had begun to affect him professionally, and he blames this for the album being, in his opinion, sub-par. All three excerpted singles became hits. \"There's a Kind of Hush (All Over the World)\", a cover of a 1960s song by Herman's Hermits, broke both the UK Top 30 and US Top 20, as well as topping the adult contemporary chart.",
+        "label": "correct",
+        "_retrieval_score": 0.6544848680496216,
+        "_rerank_score": 0.9993929244195585
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "A Kind of Hush ( album ) - Wikiwand English Sign in Top Qs Timeline Chat Perspective AI tools Top Qs Timeline Chat Perspective All Articles Dictionary Quotes Map A Kind of Hush ( album ) 1976 album by the Carpenters From Wikipedia , the free encyclopedia A Kind of Hush ( album ) Background Commercial performance Reception Track listing Personnel Charts Weekly charts Year-end charts Certifications References A Kind of Hush is the seventh studio album by the American music duo Carpenters . It was released on June 11 , 1976 . Quick Facts Studio album by Carpenters ,",
+        "label": "correct",
+        "_retrieval_score": 0.6300009489059448,
+        "_rerank_score": 0.9775000306229962
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "The artist of the album \"A Kind of Hush\" is the Carpenters.",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.6544848680496216,
+        "doc_2": 0.6300009489059448,
+        "doc_3": 0.5871372818946838,
+        "doc_4": 0.530387282371521
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.9993929244195585,
+        "doc_3": 0.9914886969734374,
+        "doc_2": 0.9775000306229962,
+        "doc_4": 0.03210070671700818
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出专辑《A Kind of Hush》的艺术家是Carpenters。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "misleading",
+        "reason": "文档错误地声称该专辑由The Beatles演唱，与事实不符。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "reliable",
+        "reason": "文档明确说明该专辑是美国二人组合Carpenters的作品。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "irrelevant",
+        "reason": "文档仅包含维基百科页面的导航和目录结构，未提供关于艺术家的具体信息。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出专辑《A Kind of Hush》的艺术家是Carpenters。\"},{\"doc_id\":\"doc_3\",\"label\":\"misleading\",\"reason\":\"文档错误地声称该专辑由The Beatles演唱，与事实不符。\"},{\"doc_id\":\"doc_2\",\"label\":\"reliable\",\"reason\":\"文档明确说明该专辑是美国二人组合Carpenters的作品。\"},{\"doc_id\":\"doc_4\",\"label\":\"irrelevant\",\"reason\":\"文档仅包含维基百科页面的导航和目录结构，未提供关于艺术家的具体信息。\"}]}",
+      "answer": "The artist of the album \"A Kind of Hush\" is the Carpenters."
+    }
+  },
+  {
+    "id": "ramdocs_0014",
+    "method": "crag_lite",
+    "answer": "The artist of the album \"The Heat\" is Needtobreathe.",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "The Heat (Needtobreathe album) The Heat is the second studio album by American rock band Needtobreathe, released on August 28, 2007 under Atlantic/Word Records. The album reached No. 164 on \"Billboard\"'s Top 200 and No. 2 on the Top Heatseekers charts. The first single from the album, \"Signature of Divine (Yahweh)\", reached No. 1 on R&R's Christian contemporary hit radio chart, and was the No. 14 most played song in 2007 on the same radio format. \"Washed by the Water\" was the sixth most-played song on R&R magazine's Christian CHR chart for 2008. \"The Heat\" was GMA Dove Award-nominated for",
+        "label": "correct",
+        "_retrieval_score": 0.6051018238067627,
+        "_rerank_score": 0.7951813604438017
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "text for covers This page was last edited on 11 April 2024 , at 20:33 ( UTC ) . Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ; additional terms may apply . By using this site , you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation , Inc. , a non-profit organization . Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view Search Search Toggle the table of contents The Heat ( Needtobreathe album ) Add languages Add topic",
+        "label": "correct",
+        "_retrieval_score": 0.4473614990711212,
+        "_rerank_score": 0.14306793437031923
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "The artist of the album \"The Heat\" is Needtobreathe.",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.6051018238067627,
+        "doc_2": 0.4473614990711212,
+        "doc_3": 0.42564845085144043
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.7951813604438017,
+        "doc_2": 0.14306793437031923,
+        "doc_3": 0.009449081319055452
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出专辑《The Heat》的艺术家是Needtobreathe。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "weak",
+        "reason": "文档仅提及专辑名称和艺术家，但未在正文中直接陈述事实，主要包含元数据信息。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "misleading",
+        "reason": "文档列出的曲目制作人显示为Coldplay，与问题中提到的专辑《The Heat》（Needtobreathe）的实际艺术家不符，可能诱导错误答案。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出专辑《The Heat》的艺术家是Needtobreathe。\"},{\"doc_id\":\"doc_2\",\"label\":\"weak\",\"reason\":\"文档仅提及专辑名称和艺术家，但未在正文中直接陈述事实，主要包含元数据信息。\"},{\"doc_id\":\"doc_3\",\"label\":\"misleading\",\"reason\":\"文档列出的曲目制作人显示为Coldplay，与问题中提到的专辑《The Heat》（Needtobreathe）的实际艺术家不符，可能诱导错误答案。\"}]}",
+      "answer": "The artist of the album \"The Heat\" is Needtobreathe."
+    }
+  },
+  {
+    "id": "ramdocs_0015",
+    "method": "crag_lite",
+    "answer": "足球（Football）",
+    "retrieved_doc_ids": [
+      "doc_4",
+      "doc_1",
+      "doc_5",
+      "doc_2",
+      "doc_3",
+      "doc_6"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_5",
+      "doc_3"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Doak Campbell Stadium Doak S. Campbell Stadium (in full Bobby Bowden Field at Doak S. Campbell Stadium), popularly known as \"Doak\", is a football stadium on the campus of Florida State University in Tallahassee, Florida. It is the home field of the Florida State Seminoles football team of the Atlantic Coast Conference (ACC). Opened 67 years ago in 1950, it was originally named Doak Campbell Stadium in honor of Doak S. Campbell, the university's president from 1941 to 1957. On November 20, 2004, the Florida Legislature added longtime head football coach Bobby Bowden to the stadium name to become Bobby",
+        "label": "correct",
+        "_retrieval_score": 0.5188447833061218,
+        "_rerank_score": 0.5516039241515379
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "named after former Florida State President Doak S. Campbell . With a capacity of 15,000 that consisted of seating on both sides of the field , the Seminoles played their first game at the stadium on October 7 , 1950 against Randolph Macon . Since its opening more than seven decades ago , Doak Campbell Stadium has grown from a small facility into one of the famous football stadiums in the nation . Due to increased fan support , the stadium has been expanded many times . Expansions in 1954 , 1961 and 1970 increased the seating capacity to 40,500",
+        "label": "correct",
+        "_retrieval_score": 0.44915682077407837,
+        "_rerank_score": 0.23952718675313148
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "STATE SEMINOLES BASEBALL FLORIDA STATE SEMINOLES RECRUITING FLORIDA STATE SEMINOLES SOCCER FLORIDA STATE SEMINOLES WOMEN’S BASKETBALL FLORIDA STATE SEMINOLES SOFTBALL FSU Podcasts Betting FanDuel College Football Odds FanDuel College Basketball Odds Florida State Football Odds Florida State Basketball Odds College Football Picks and Predictions College Basketball Picks and Predictions FANPOSTS FSU SHOP Masthead Community Guidelines ✕ Filed under : Florida State Soccer College Soccer Doak Campbell Stadium’s transformation a bold move in college soccer’s new reality For the first time since 1991, the Seminoles will play soccer in a stadium with a maximum capacity...",
+        "label": "correct",
+        "_retrieval_score": 0.3782774806022644,
+        "_rerank_score": 0.44565015981204636
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "足球（Football）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_4": 0.5276039838790894,
+        "doc_1": 0.5188447833061218,
+        "doc_5": 0.44915682077407837,
+        "doc_2": 0.41629308462142944,
+        "doc_3": 0.3782774806022644,
+        "doc_6": 0.2977589964866638
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_4": 0.9755303303612836,
+        "doc_1": 0.5516039241515379,
+        "doc_3": 0.44565015981204636,
+        "doc_5": 0.23952718675313148,
+        "doc_2": 0.19102566908851437
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_4",
+        "label": "misleading",
+        "reason": "文档错误地将Doak描述为国际象棋运动员，而实际上Doak是体育场名称或人名，与足球相关。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出Doak S. Campbell Stadium是佛罗里达州立大学的橄榄球场，直接关联橄榄球运动。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "weak",
+        "reason": "文档提及Doak Campbell Stadium用于足球比赛，但主要讨论的是该场地举办足球（soccer）比赛的转变，未明确说明Doak本身与运动的直接关联。"
+      },
+      {
+        "doc_id": "doc_5",
+        "label": "reliable",
+        "reason": "文档标题和内容均将Doak Campbell Stadium与美国橄榄球（American Football）数据库关联，确认其与橄榄球的联系。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "irrelevant",
+        "reason": "文档内容主要是关于美国橄榄球数据库的导航和通用信息，未提供关于Doak与特定运动关联的具体事实。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_4\",\"label\":\"misleading\",\"reason\":\"文档错误地将Doak描述为国际象棋运动员，而实际上Doak是体育场名称或人名，与足球相关。\"},{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出Doak S. Campbell Stadium是佛罗里达州立大学的橄榄球场，直接关联橄榄球运动。\"},{\"doc_id\":\"doc_3\",\"label\":\"weak\",\"reason\":\"文档提及Doak Campbell Stadium用于足球比赛，但主要讨论的是该场地举办足球（soccer）比赛的转变，未明确说明Doak本身与运动的直接关联。\"},{\"doc_id\":\"doc_5\",\"label\":\"reliable\",\"reason\":\"文档标题和内容均将Doak Campbell Stadium与美国橄榄球（American Football）数据库关联，确认其与橄榄球的联系。\"},{\"doc_id\":\"doc_2\",\"label\":\"irrelevant\",\"reason\":\"文档内容主要是关于美国橄榄球数据库的导航和通用信息，未提供关于Doak与特定运动关联的具体事实。\"}]}",
+      "answer": "足球（Football）"
+    }
+  },
+  {
+    "id": "ramdocs_0016",
+    "method": "crag_lite",
+    "answer": "117,088",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Handa, Aichi As of May 2015, the city had an estimated population of 117,088 and a population density of 2,470 persons per km². The total area was . Handa is located in northeastern Chita Peninsula in southern Aichi Prefecture, and is bordered by Mikawa Bay to the east. During the Edo period, the area of Handa city was part of Owari Domain. In the post-Meiji restoration cadastral reforms of October 1, 1889, the towns of Handa and Kamezaki were founded, as was the town of Narawa the following year. These three towns merged on October 1, 1937, to form the",
+        "label": "correct",
+        "_retrieval_score": 0.6688441038131714,
+        "_rerank_score": 0.9892648373909093
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "117,088",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.6688441038131714,
+        "doc_2": 0.31115150451660156
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.9892648373909093,
+        "doc_2": 0.0010608151804637727
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确提供了Handa市2015年5月的估计人口数据为117,088人。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "irrelevant",
+        "reason": "文档主要讨论的是Tōgō和Aichi District，未提及Handa的人口信息。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确提供了Handa市2015年5月的估计人口数据为117,088人。\"},{\"doc_id\":\"doc_2\",\"label\":\"irrelevant\",\"reason\":\"文档主要讨论的是Tōgō和Aichi District，未提及Handa的人口信息。\"}]}",
+      "answer": "117,088"
+    }
+  },
+  {
+    "id": "ramdocs_0017",
+    "method": "crag_lite",
+    "answer": "电影",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "The Man Who Never Was The Man Who Never Was is a 1956 UK Second World War film, produced by André Hakim, directed by Ronald Neame, that stars Clifton Webb, Gloria Grahame and Robert Flemyng. It is based on the book of the same name by Lt. Cmdr. Ewen Montagu and dramatises actual events. The film's storyline concerns Operation Mincemeat, a 1943 British Intelligence plan to deceive the Axis powers into thinking Operation \"Husky\", the Allied invasion of Sicily, would take place elsewhere in the Mediterranean. \"The Man Who Never Was\" was entered into the 1956 Cannes Film Festival. Nigel",
+        "label": "correct",
+        "_retrieval_score": 0.5633541941642761,
+        "_rerank_score": 0.2496301234656827
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "电影",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.5633541941642761,
+        "doc_2": 0.31970834732055664
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.2496301234656827,
+        "doc_2": 0.0005549409507143756
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出《The Man Who Never Was》是一部电影，直接回答了关于其媒介的问题。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "irrelevant",
+        "reason": "文档内容为一部电视剧的剧集列表，与问题无关。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出《The Man Who Never Was》是一部电影，直接回答了关于其媒介的问题。\"},{\"doc_id\":\"doc_2\",\"label\":\"irrelevant\",\"reason\":\"文档内容为一部电视剧的剧集列表，与问题无关。\"}]}",
+      "answer": "电影"
+    }
+  },
+  {
+    "id": "ramdocs_0018",
+    "method": "crag_lite",
+    "answer": "美式足球（Football）。",
+    "retrieved_doc_ids": [
+      "doc_3",
+      "doc_4",
+      "doc_2",
+      "doc_1"
+    ],
+    "selected_doc_ids": [
+      "doc_2",
+      "doc_1",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "of Southern California 's Rancho Verde High School in 2010 . He spent three seasons at Florida from 2010 to 2013 , playing in 53 games with 79 total tackles , 18.5 tackles for loss and 11 sacks . He declared for the draft in 2014 after the conclusion of his junior season . `` We 're very saddened to learn about the passing of former Gators player Ronald Powell . Our thoughts and prayers are with his family and loved ones , '' the school said via the Florida Gators Football account on X . Terms of Use Privacy",
+        "label": "correct",
+        "_retrieval_score": 0.5338934659957886,
+        "_rerank_score": 0.5409541851771413
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "a High School All-American by \"USA Today\", \"Parade\", and EA Sports. He was selected to play in the 2010 U.S. Army All-American Bowl, where he was voted MVP. Regarded as a five-star college recruit by Rivals.com, Powell was listed as the No. 1 prospect (regardless of position) in the class of 2010. Powell accepted an athletic scholarship to attend the University of Florida in Gainesville, Florida, where he was a member of coach Urban Meyer and coach Will Muschamp's Florida Gators football teams from 2010 to 2013. As a freshman in 2010, he played in 13 games and made one",
+        "label": "correct",
+        "_retrieval_score": 0.5116723775863647,
+        "_rerank_score": 0.021615332762647654
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "and made one start . In his sophomore year , he became a regular starter for the Gators , playing and starting in 12 games . In an injury-plagued junior year , he tore his left ACL two different times , first in the spring Orange and Blue game , and again during rehabilitation . For the 2012 season , he earned a medical redshirt . In 2013 , Powell played in 11 games and started in eight . Professional career [ edit ] Pre-draft measurables Height Weight Arm length Hand span 40-yard dash 10-yard split 20-yard split Vertical jump",
+        "label": "noise",
+        "_retrieval_score": 0.543834924697876,
+        "_rerank_score": 0.007518718061432194
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "美式足球（Football）。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_3": 0.6543133854866028,
+        "doc_4": 0.543834924697876,
+        "doc_2": 0.5338934659957886,
+        "doc_1": 0.5116723775863647
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_3": 0.9956853120436374,
+        "doc_2": 0.5409541851771413,
+        "doc_1": 0.021615332762647654,
+        "doc_4": 0.007518718061432194
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_3",
+        "label": "misleading",
+        "reason": "文档将Ronald Powell描述为国际象棋选手，与事实不符，可能诱导错误答案。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "reliable",
+        "reason": "文档明确提到他是佛罗里达大学橄榄球队（Florida Gators）的前球员，直接支持答案是橄榄球。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档详细描述了他在高中和大学的橄榄球生涯及成就，直接支持答案是橄榄球。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "weak",
+        "reason": "文档内容截断，虽提及Gators和伤病情况暗示橄榄球背景，但缺乏直接说明运动项目的完整句子。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_3\",\"label\":\"misleading\",\"reason\":\"文档将Ronald Powell描述为国际象棋选手，与事实不符，可能诱导错误答案。\"},{\"doc_id\":\"doc_2\",\"label\":\"reliable\",\"reason\":\"文档明确提到他是佛罗里达大学橄榄球队（Florida Gators）的前球员，直接支持答案是橄榄球。\"},{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档详细描述了他在高中和大学的橄榄球生涯及成就，直接支持答案是橄榄球。\"},{\"doc_id\":\"doc_4\",\"label\":\"weak\",\"reason\":\"文档内容截断，虽提及Gators和伤病情况暗示橄榄球背景，但缺乏直接说明运动项目的完整句子。\"}]}",
+      "answer": "美式足球（Football）。"
+    }
+  },
+  {
+    "id": "ramdocs_0019",
+    "method": "crag_lite",
+    "answer": "无法根据给定信息确定",
+    "retrieved_doc_ids": [
+      "doc_4",
+      "doc_3",
+      "doc_1",
+      "doc_2",
+      "doc_5"
+    ],
+    "selected_doc_ids": [
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Cubillas Fort Lauderdale Strikers 30 16 18 50 Alan Willey Minnesota Kicks 29 21 7 49 Dennis Tueart New York Cosmos 27 16 16 48 Laurie Abrahams California/Tulsa 25 18 9 45 Johan Cruyff Los Angeles Aztecs 23 13 16 42 Goalkeeping [ edit ] Note : GP = Games played ; Min - Minutes played ; GA = Goals against ; GAA = Goals against average ; W = Wins ; L = Losses ; SO = Shutouts Player Team GP Min SV GA GAA W L SO Phil Parkes Vancouver Whitecaps 29 2704 100 29 0.96 20 9",
+        "label": "noise",
+        "_retrieval_score": 0.453996479511261,
+        "_rerank_score": 0.07751765647688268
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_4": 0.453996479511261,
+        "doc_3": 0.4227384328842163,
+        "doc_1": 0.37882912158966064,
+        "doc_2": 0.3586074709892273,
+        "doc_5": 0.2904204726219177
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_3": 0.12085323249047067,
+        "doc_4": 0.07751765647688268,
+        "doc_2": 0.03971325677368418,
+        "doc_1": 0.010013570623173138,
+        "doc_5": 0.004086002694204713
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_3",
+        "label": "irrelevant",
+        "reason": "仅列出球队名称，未提及第5届Soccer Bowl的获胜者。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "weak",
+        "reason": "详细描述了1973年第1届NASL决赛（即第1届Soccer Bowl），但未提供第5届的信息。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "irrelevant",
+        "reason": "内容涉及费城原子队历史及1973年决赛，与第5届Soccer Bowl无关。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "irrelevant",
+        "reason": "仅描述1973年第1届NASL决赛结果，无法回答第5届的问题。"
+      },
+      {
+        "doc_id": "doc_5",
+        "label": "irrelevant",
+        "reason": "包含元数据和分类标签，无关于第5届Soccer Bowl的具体信息。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_3\",\"label\":\"irrelevant\",\"reason\":\"仅列出球队名称，未提及第5届Soccer Bowl的获胜者。\"},{\"doc_id\":\"doc_4\",\"label\":\"weak\",\"reason\":\"详细描述了1973年第1届NASL决赛（即第1届Soccer Bowl），但未提供第5届的信息。\"},{\"doc_id\":\"doc_2\",\"label\":\"irrelevant\",\"reason\":\"内容涉及费城原子队历史及1973年决赛，与第5届Soccer Bowl无关。\"},{\"doc_id\":\"doc_1\",\"label\":\"irrelevant\",\"reason\":\"仅描述1973年第1届NASL决赛结果，无法回答第5届的问题。\"},{\"doc_id\":\"doc_5\",\"label\":\"irrelevant\",\"reason\":\"包含元数据和分类标签，无关于第5届Soccer Bowl的具体信息。\"}]}",
+      "answer": "无法根据给定信息确定"
+    }
+  },
+  {
+    "id": "ramdocs_0020",
+    "method": "crag_lite",
+    "answer": "Fontbonne 是一所大学（University）。\n\n根据文档 [1]，文中明确提到\"Fontbonne University is one\"（Fontbonne 大学是其中之一），并指出其历史可追溯至 1954 年。虽然文档 [2] 提到了\"Fontbonne Academy\"（Fontbonne 学院），但问题询问的是\"Fontbonne\"这一名称通常指代的机构类型，且文档 [1] 直接将其定义为大学。若特指文档 [2] 中的实体，则为学院（Academy）。鉴于问题未指定具体全称，且文档 [1] 提供了明确的“大学”定义，最直接的分类为大学。\n\n*注：如果问题严格指向文档 [2] 中描述的实体（即拥有校园、100% 大学录取率等细节的实体），则答案为学院（Academy）。但通常\"Fontbonne\"作为专有名词在高等教育语境下常指 Fontbonne University。基于文档 [1] 的直接陈述，答案是大学。*\n\n为了严谨起见，结合两个文档：\n- 文档 [1] 称其为 **Fontbonne University**（Fontbonne 大学）。\n- 文档 [2] 称其为 **Fontbonne Academy**",
+    "retrieved_doc_ids": [
+      "doc_2",
+      "doc_3",
+      "doc_1",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_2",
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Scholarships to four-year colleges. [citation needed] History Summarize Perspective Founded in 1954, the university takes its name from Mother St. John Fontbonne, who re-established the congregation in France after its suppression during the French Revolution. Under her leadership, the first Sisters came to the United States. In Boston, the congregation taught in archdiocesan parochial schools, and also founded and conducted its own ministries, of which Fontbonne University is one. As a sponsored ministry, Fontbonne University furthers the Sisters' charism — a direct outgrowth of the order's.",
+        "label": "misinfo",
+        "_retrieval_score": 0.5760980844497681,
+        "_rerank_score": 0.5525698884992715
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "South Shore. The school has a seven-acre campus with the original building that has been updated over the years to include science, technology and language labs. The building had a facelift in 2010 and installed many energy-saving improvements throughout. Fontbonne Academy boasts a 100% college acceptance rate. The Class of 2013 averaged $175,000 per student in grants and scholarships to four-year colleges. Founded in 1954, the academy takes its name from Mother St. John Fontbonne, who re-established the congregation in France after its suppression during the French Revolution. Under her leadership, the first Sisters came to the United States. In",
+        "label": "correct",
+        "_retrieval_score": 0.5602715015411377,
+        "_rerank_score": 0.3021851158828259
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "Fontbonne 是一所大学（University）。\n\n根据文档 [1]，文中明确提到\"Fontbonne University is one\"（Fontbonne 大学是其中之一），并指出其历史可追溯至 1954 年。虽然文档 [2] 提到了\"Fontbonne Academy\"（Fontbonne 学院），但问题询问的是\"Fontbonne\"这一名称通常指代的机构类型，且文档 [1] 直接将其定义为大学。若特指文档 [2] 中的实体，则为学院（Academy）。鉴于问题未指定具体全称，且文档 [1] 提供了明确的“大学”定义，最直接的分类为大学。\n\n*注：如果问题严格指向文档 [2] 中描述的实体（即拥有校园、100% 大学录取率等细节的实体），则答案为学院（Academy）。但通常\"Fontbonne\"作为专有名词在高等教育语境下常指 Fontbonne University。基于文档 [1] 的直接陈述，答案是大学。*\n\n为了严谨起见，结合两个文档：\n- 文档 [1] 称其为 **Fontbonne University**（Fontbonne 大学）。\n- 文档 [2] 称其为 **Fontbonne Academy**",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_2": 0.5760980844497681,
+        "doc_3": 0.5707143545150757,
+        "doc_1": 0.5602715015411377,
+        "doc_4": 0.2892559766769409
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_2": 0.5525698884992715,
+        "doc_3": 0.3301471645924304,
+        "doc_1": 0.3021851158828259,
+        "doc_4": 0.0003935755935111022
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_2",
+        "label": "reliable",
+        "reason": "文档明确指出Fontbonne University是一所大学，并说明其作为修会赞助的机构性质。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "misleading",
+        "reason": "文档讨论的是Fontbonne Military Base和Fontbonne College（高中），与问题所指的Fontbonne University无关。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "weak",
+        "reason": "文档提到Fontbonne Academy是成立于1954年的学院，但未明确说明其是否为高等教育机构，且信息不完整。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "irrelevant",
+        "reason": "文档仅列出课程和活动列表，未提及Fontbonne机构的类型。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_2\",\"label\":\"reliable\",\"reason\":\"文档明确指出Fontbonne University是一所大学，并说明其作为修会赞助的机构性质。\"},{\"doc_id\":\"doc_3\",\"label\":\"misleading\",\"reason\":\"文档讨论的是Fontbonne Military Base和Fontbonne College（高中），与问题所指的Fontbonne University无关。\"},{\"doc_id\":\"doc_1\",\"label\":\"weak\",\"reason\":\"文档提到Fontbonne Academy是成立于1954年的学院，但未明确说明其是否为高等教育机构，且信息不完整。\"},{\"doc_id\":\"doc_4\",\"label\":\"irrelevant\",\"reason\":\"文档仅列出课程和活动列表，未提及Fontbonne机构的类型。\"}]}",
+      "answer": "Fontbonne 是一所大学（University）。\n\n根据文档 [1]，文中明确提到\"Fontbonne University is one\"（Fontbonne 大学是其中之一），并指出其历史可追溯至 1954 年。虽然文档 [2] 提到了\"Fontbonne Academy\"（Fontbonne 学院），但问题询问的是\"Fontbonne\"这一名称通常指代的机构类型，且文档 [1] 直接将其定义为大学。若特指文档 [2] 中的实体，则为学院（Academy）。鉴于问题未指定具体全称，且文档 [1] 提供了明确的“大学”定义，最直接的分类为大学。\n\n*注：如果问题严格指向文档 [2] 中描述的实体（即拥有校园、100% 大学录取率等细节的实体），则答案为学院（Academy）。但通常\"Fontbonne\"作为专有名词在高等教育语境下常指 Fontbonne University。基于文档 [1] 的直接陈述，答案是大学。*\n\n为了严谨起见，结合两个文档：\n- 文档 [1] 称其为 **Fontbonne University**（Fontbonne 大学）。\n- 文档 [2] 称其为 **Fontbonne Academy**"
+    }
+  },
+  {
+    "id": "ramdocs_0021",
+    "method": "crag_lite",
+    "answer": "1737年12月1日。",
+    "retrieved_doc_ids": [
+      "doc_3",
+      "doc_4",
+      "doc_1",
+      "doc_7",
+      "doc_5",
+      "doc_2",
+      "doc_6"
+    ],
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_2",
+      "doc_7"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "in Integrated Authority File retrieved 15 December 2014 date of death 1 December 1737 Gregorian 7 references stated in Integrated Authority File retrieved 28 April 2014 stated in BnF authorities Bibliothèque nationale de France ID 12570085z retrieved 10 October 2015 stated in SNAC SNAC ARK ID w6h13z0j subject named as Louis Alexandre , Count of Toulouse retrieved 9 October 2017 stated in Find a Grave Find a Grave memorial ID 84676726 subject named as Louis Alexandre de Bourbon retrieved 9 October 2017 stated in The Peerage The Peerage person ID p10526.htm # i105257 subject named as Louis Alexandre de Bourbon",
+        "label": "correct",
+        "_retrieval_score": 0.5704364776611328,
+        "_rerank_score": 0.9369805284248849
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": ", duc de Chartres , ( later duc d'Orléans ) , the Regent of France under Louis XV . Had issue . Louis-Alexandre de Bourbon , comte de Toulouse 6 June 1678 1 December 1737 Legitimised on 22 November 1681 . Held numerous offices , of which : Admiral of France , Governor of Guyenne , Governor of Brittany , and Grand-Veneur de France . Was also duc de Damville , de Rambouillet et de Penthièvre . Had issue . Founder of the House of Bourbon-Toulouse . Paternal legitimate half-siblings - by Marie-Thérèse d'Autriche , Infanta of Spain , Queen",
+        "label": "correct",
+        "_retrieval_score": 0.3752369284629822,
+        "_rerank_score": 0.09636510472498538
+      },
+      {
+        "doc_id": "doc_7",
+        "title": "",
+        "text": ", Comte de Toulouse retrieved 9 October 2017 stated in Brockhaus Enzyklopädie Brockhaus Enzyklopädie online ID bourbon-louis-alexandre-de subject named as Louis Alexandre de Bourbon retrieved 9 October 2017 stated in Genealogics genealogics.org person ID I00004405 subject named as Louis Alexandre de Bourbon de Toulouse de Penthièvre place of death Rambouillet 1 reference stated in Integrated Authority File retrieved 31 December 2014 place of burial Dreux Royal Chapel 0 references father Louis XIV of France 0 references mother Madame de Montespan 0 references sibling Princess Anne Élisabeth of France 0 references Marie Thérèse , Madame Royale 0 references Louis Antoine de",
+        "label": "noise",
+        "_retrieval_score": 0.4620365500450134,
+        "_rerank_score": 0.48710155620689927
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "1737年12月1日。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_3": 0.5704364776611328,
+        "doc_4": 0.5348692536354065,
+        "doc_1": 0.5031510591506958,
+        "doc_7": 0.4620365500450134,
+        "doc_5": 0.4257371425628662,
+        "doc_2": 0.3752369284629822,
+        "doc_6": 0.36715149879455566
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_4": 0.9980044613844665,
+        "doc_3": 0.9369805284248849,
+        "doc_1": 0.7401743620390163,
+        "doc_7": 0.48710155620689927,
+        "doc_2": 0.09636510472498538
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_4",
+        "label": "misleading",
+        "reason": "文档声称Louis Alexandre死于1745年，与其他可靠来源的1737年记录相矛盾。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "reliable",
+        "reason": "文档明确指出Louis Alexandre于1737年12月1日去世，并提供了具体地点。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "irrelevant",
+        "reason": "文档内容不完整且未直接提供死亡日期信息。"
+      },
+      {
+        "doc_id": "doc_7",
+        "label": "weak",
+        "reason": "文档包含关于死亡地点的信息，但未明确提及死亡日期。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "reliable",
+        "reason": "文档清晰列出Louis-Alexandre de Bourbon的死亡日期为1737年12月1日。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_4\",\"label\":\"misleading\",\"reason\":\"文档声称Louis Alexandre死于1745年，与其他可靠来源的1737年记录相矛盾。\"},{\"doc_id\":\"doc_3\",\"label\":\"reliable\",\"reason\":\"文档明确指出Louis Alexandre于1737年12月1日去世，并提供了具体地点。\"},{\"doc_id\":\"doc_1\",\"label\":\"irrelevant\",\"reason\":\"文档内容不完整且未直接提供死亡日期信息。\"},{\"doc_id\":\"doc_7\",\"label\":\"weak\",\"reason\":\"文档包含关于死亡地点的信息，但未明确提及死亡日期。\"},{\"doc_id\":\"doc_2\",\"label\":\"reliable\",\"reason\":\"文档清晰列出Louis-Alexandre de Bourbon的死亡日期为1737年12月1日。\"}]}",
+      "answer": "1737年12月1日。"
+    }
+  },
+  {
+    "id": "ramdocs_0022",
+    "method": "crag_lite",
+    "answer": "Kate Chopin House 位于美国路易斯安那州纳奇托什教区（Natchitoches Parish）克劳蒂维尔（Cloutierville）的主街（Main Street，即路易斯安那州1号公路）。",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Kate Chopin House (Cloutierville, Louisiana) The Kate Chopin House, also known as the Bayou Folk Museum or Alexic Cloutier House, was a house in Cloutierville, Louisiana. It was the home of Kate Chopin, author of \"The Awakening\", after her marriage. The house was located on Main Street (Louisiana Highway 1) in Cloutierville, in Natchitoches Parish, Louisiana. The home was built by the town's founder, Alexis Cloutier and was constructed in a combination of handmade brick, hand-hewn cypress boards, and bousillage. Its construction, done through the use of slave labor, dated to between 1806 and 1813. Kate Chopin moved here with",
+        "label": "correct",
+        "_retrieval_score": 0.6419198513031006,
+        "_rerank_score": 0.9710742821322725
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "Kate Chopin House 位于美国路易斯安那州纳奇托什教区（Natchitoches Parish）克劳蒂维尔（Cloutierville）的主街（Main Street，即路易斯安那州1号公路）。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.6419198513031006,
+        "doc_2": 0.635505735874176,
+        "doc_3": 0.5336672067642212
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_2": 0.9996898440132873,
+        "doc_1": 0.9710742821322725,
+        "doc_3": 0.3020821623175501
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_2",
+        "label": "misleading",
+        "reason": "文档声称Kate Chopin House位于New Orleans，但实际位于Cloutierville，与事实不符。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档准确指出Kate Chopin House位于Louisiana州的Cloutierville，并提供了具体街道和教区信息。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "irrelevant",
+        "reason": "文档仅列出关于Kate Chopin的书籍参考文献，未包含房屋位置信息。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_2\",\"label\":\"misleading\",\"reason\":\"文档声称Kate Chopin House位于New Orleans，但实际位于Cloutierville，与事实不符。\"},{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档准确指出Kate Chopin House位于Louisiana州的Cloutierville，并提供了具体街道和教区信息。\"},{\"doc_id\":\"doc_3\",\"label\":\"irrelevant\",\"reason\":\"文档仅列出关于Kate Chopin的书籍参考文献，未包含房屋位置信息。\"}]}",
+      "answer": "Kate Chopin House 位于美国路易斯安那州纳奇托什教区（Natchitoches Parish）克劳蒂维尔（Cloutierville）的主街（Main Street，即路易斯安那州1号公路）。"
+    }
+  },
+  {
+    "id": "ramdocs_0023",
+    "method": "crag_lite",
+    "answer": "John Coltrane",
+    "retrieved_doc_ids": [
+      "doc_4",
+      "doc_1",
+      "doc_2",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "39 : 25 Label AUM Fidelity AUM 023 Producer Steven Joerg & John Coltrane David S. Ware chronology Live in the Netherlands ( 2001 ) Freedom Suite ( 2002 ) Threads ( 2003 ) Freedom Suite is an album by saxophonist John Coltrane featuring his interpretation of the Sonny Rollins composition which was recorded in 2002 and released on the AUM Fidelity label. [1] [2] Reception [edit] Professional ratings Review scores Source Rating AllMusic [3] The Penguin Guide to Jazz Recordings [4] In his review for AllMusic, the album is praised for Coltrane's innovative approach to the material.",
+        "label": "correct",
+        "_retrieval_score": 0.587337851524353,
+        "_rerank_score": 0.9923637835053328
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "John Coltrane",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_4": 0.587337851524353,
+        "doc_1": 0.586367666721344,
+        "doc_2": 0.4626796245574951,
+        "doc_3": 0.28293776512145996
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_4": 0.9923637835053328,
+        "doc_1": 0.9711838031967466,
+        "doc_2": 0.7744128267591711,
+        "doc_3": 0.011869121046339474
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_4",
+        "label": "reliable",
+        "reason": "文档明确指出Freedom Suite是John Coltrane的专辑。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "misleading",
+        "reason": "文档声称该专辑由David S. Ware录制，与Coltrane版本混淆，且文本中提及的录音年份2002年对于Coltrane（已故）是不准确的，存在事实错误风险。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "irrelevant",
+        "reason": "文档完全关于David S. Ware的专辑，未提及John Coltrane，无法回答关于Coltrane版的问题。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "misleading",
+        "reason": "文档内容被修改以将David S. Ware替换为John Coltrane，但明确标注这是虚构的更改，不反映历史事实，具有误导性。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_4\",\"label\":\"reliable\",\"reason\":\"文档明确指出Freedom Suite是John Coltrane的专辑。\"},{\"doc_id\":\"doc_1\",\"label\":\"misleading\",\"reason\":\"文档声称该专辑由David S. Ware录制，与Coltrane版本混淆，且文本中提及的录音年份2002年对于Coltrane（已故）是不准确的，存在事实错误风险。\"},{\"doc_id\":\"doc_2\",\"label\":\"irrelevant\",\"reason\":\"文档完全关于David S. Ware的专辑，未提及John Coltrane，无法回答关于Coltrane版的问题。\"},{\"doc_id\":\"doc_3\",\"label\":\"misleading\",\"reason\":\"文档内容被修改以将David S. Ware替换为John Coltrane，但明确标注这是虚构的更改，不反映历史事实，具有误导性。\"}]}",
+      "answer": "John Coltrane"
+    }
+  },
+  {
+    "id": "ramdocs_0024",
+    "method": "crag_lite",
+    "answer": "Loitering with Intent 是一部小说（novel）。",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_2",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_3"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Loitering with Intent Loitering with Intent is a novel by Scottish author Muriel Spark. Published in 1981 by Bodley Head, it was short-listed for the Booker Prize that year. It contains many autobiographical references to Spark's early career and was reprinted in 2001 by New Directions, in the US, and in 2007 by Virago Press in the UK (with a foreword by Mark Lawson). Fleur Talbot is struggling to complete her first novel, \"Warrender Chase\", in London in the early 1950s. She manages to secure a job working for Sir Quentin Oliver as secretary to the Autobiographical Association, whose eccentric",
+        "label": "correct",
+        "_retrieval_score": 0.6543593406677246,
+        "_rerank_score": 0.16277890579510693
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Characters in Loitering with Intent appear to tackle reality with what they learn from the film Warrender Chase. Fleur and Sir Quentin are alike in their turning to it for reference. Sir Quentin follows the scenes and actions depicted in Warrender Chase. Fleur plays the role of a detective who investigates Sir Quentin’s conspiracy and his theft of her manuscripts. Sometimes, when she is in a dilemma as to what to do, she depends on scenes from Warrender Chase for a way out. Once, when Dottie asks her why she cannot...",
+        "label": "misinfo",
+        "_retrieval_score": 0.5944159030914307,
+        "_rerank_score": 0.07133200111491692
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "Loitering with Intent 是一部小说（novel）。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.6543593406677246,
+        "doc_3": 0.5944159030914307,
+        "doc_2": 0.523991048336029,
+        "doc_4": 0.27705591917037964
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.16277890579510693,
+        "doc_3": 0.07133200111491692,
+        "doc_2": 0.04733771546763761,
+        "doc_4": 0.00016346470245419303
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出《Loitering with Intent》是一部小说（novel），直接回答了媒介问题。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "weak",
+        "reason": "文档讨论了书中的虚构作品和情节，但未明确说明《Loitering with Intent》本身的媒介形式。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "irrelevant",
+        "reason": "文档片段主要讨论书中信件和出版商的内容，未提及该作品的媒介类型。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "misleading",
+        "reason": "文档是博客评论，讨论的是关于Muriel Spark的电影而非原著的媒介，且未提供相关信息。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出《Loitering with Intent》是一部小说（novel），直接回答了媒介问题。\"},{\"doc_id\":\"doc_3\",\"label\":\"weak\",\"reason\":\"文档讨论了书中的虚构作品和情节，但未明确说明《Loitering with Intent》本身的媒介形式。\"},{\"doc_id\":\"doc_2\",\"label\":\"irrelevant\",\"reason\":\"文档片段主要讨论书中信件和出版商的内容，未提及该作品的媒介类型。\"},{\"doc_id\":\"doc_4\",\"label\":\"misleading\",\"reason\":\"文档是博客评论，讨论的是关于Muriel Spark的电影而非原著的媒介，且未提供相关信息。\"}]}",
+      "answer": "Loitering with Intent 是一部小说（novel）。"
+    }
+  },
+  {
+    "id": "ramdocs_0025",
+    "method": "crag_lite",
+    "answer": "辉格党（Whig party）。",
+    "retrieved_doc_ids": [
+      "doc_2",
+      "doc_3",
+      "doc_1",
+      "doc_5",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "1808, '' The American Historical Review, Vol. 17, No. 4 (July 1912), pp. 744–763 in JSTOR ^ Norman K. Risjord, The Old Republicans: southern conservatism in the age of Jefferson (1965) P. 179; Joseph H., Harrison, Jr., \"Oligarchs and Democrats: The Richmond Junto,\" Virginia Magazine of History & Biography; 1970 78 (2): 184–198, ^ Richard J. Purcell, Connecticut in Transition: 1775–1818 1963. p. 190. ^ Richard P. McCormick, The Second Party System: Party Formation in the Jacksonian Era (1966) p. 142. William Fields, a prominent figure in early American politics, was affiliated with the Whig party, known for its opposition to the policies of Andrew Jackson and his Democratic allies.",
+        "label": "correct",
+        "_retrieval_score": 0.5812956094741821,
+        "_rerank_score": 0.9979251331010007
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "辉格党（Whig party）。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_2": 0.5812956094741821,
+        "doc_3": 0.46330705285072327,
+        "doc_1": 0.4398335814476013,
+        "doc_5": 0.25686830282211304,
+        "doc_4": 0.2246563732624054
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_2": 0.9979251331010007,
+        "doc_3": 0.9662834613071121,
+        "doc_1": 0.14021847642535415,
+        "doc_5": 0.000529541811423226,
+        "doc_4": 3.1941819764587e-05
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_2",
+        "label": "reliable",
+        "reason": "文档明确指出William Fields是辉格党成员。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "misleading",
+        "reason": "文档称William Fields是民主党人，与doc_2的辉格党说法冲突，且未提供足够上下文澄清是否存在同名人物或错误。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "irrelevant",
+        "reason": "文档描述的是William A. Feilds（拼写不同），而非问题中的William Fields。"
+      },
+      {
+        "doc_id": "doc_5",
+        "label": "irrelevant",
+        "reason": "文档内容为乱码，无法提取有效信息。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "irrelevant",
+        "reason": "文档内容为乱码，无法提取有效信息。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_2\",\"label\":\"reliable\",\"reason\":\"文档明确指出William Fields是辉格党成员。\"},{\"doc_id\":\"doc_3\",\"label\":\"misleading\",\"reason\":\"文档称William Fields是民主党人，与doc_2的辉格党说法冲突，且未提供足够上下文澄清是否存在同名人物或错误。\"},{\"doc_id\":\"doc_1\",\"label\":\"irrelevant\",\"reason\":\"文档描述的是William A. Feilds（拼写不同），而非问题中的William Fields。\"},{\"doc_id\":\"doc_5\",\"label\":\"irrelevant\",\"reason\":\"文档内容为乱码，无法提取有效信息。\"},{\"doc_id\":\"doc_4\",\"label\":\"irrelevant\",\"reason\":\"文档内容为乱码，无法提取有效信息。\"}]}",
+      "answer": "辉格党（Whig party）。"
+    }
+  },
+  {
+    "id": "ramdocs_0026",
+    "method": "crag_lite",
+    "answer": "阿萨姆语（Assamese）和孟加拉语（Bengali）。\n\n根据文档，存在两部名为《Ardhangini》的电视剧：\n1. 2017年播出的版本是**阿萨姆语**（Assamese-language），在Rang频道播出。\n2. 2018年播出的版本是**孟加拉语**（Bengali-language），在Star Jalsha频道播出。",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Ardhangini (2017 TV series) Ardhangini is an Indian Assamese-language television drama series which aired on Rang from 2017 to 21 April 2018. Ardhangini is a story of two identical twin sisters who belong to a conservative family. The elder one is a responsible and family oriented girl while the younger one is totally opposite she becomes more selfish and introvert. The story takes a twist when the younger sister runs away with the fiance of her elder sister on her wedding day. After reading the note left by the elder sister, the younger one get married to the groom of",
+        "label": "correct",
+        "_retrieval_score": 0.6640574932098389,
+        "_rerank_score": 0.9715099574136776
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "series which aired on Zee TV Ardhangini ( 2017 TV series ) , a 2017–2018 Indian Assamese-language television series which aired on Rang Ardhangini ( 2018 TV series ) , a 2018 Indian Bengali-language television series airing on Star Jalsha See also [ edit ] Better Half ( disambiguation ) Topics referred to by the same term This disambiguation page lists articles associated with the title Ardhangini . If an internal link led you here , you may wish to change the link to point directly to the intended article . Retrieved from `` https : //en.wikipedia.org/w/index.php ? title=Ardhangini &",
+        "label": "correct",
+        "_retrieval_score": 0.630776584148407,
+        "_rerank_score": 0.9448931005611606
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "阿萨姆语（Assamese）和孟加拉语（Bengali）。\n\n根据文档，存在两部名为《Ardhangini》的电视剧：\n1. 2017年播出的版本是**阿萨姆语**（Assamese-language），在Rang频道播出。\n2. 2018年播出的版本是**孟加拉语**（Bengali-language），在Star Jalsha频道播出。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.6640574932098389,
+        "doc_2": 0.630776584148407,
+        "doc_3": 0.6286118626594543,
+        "doc_4": 0.5267385244369507
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_3": 0.9934102283369194,
+        "doc_1": 0.9715099574136776,
+        "doc_2": 0.9448931005611606,
+        "doc_4": 0.004086002694204713
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_3",
+        "label": "misleading",
+        "reason": "文档将2017年印地语剧集错误描述为芬兰语，且未明确区分不同语言版本的剧集。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出Ardhangini (2017 TV series) 是阿萨姆语电视剧。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "weak",
+        "reason": "文档提及了阿萨姆语和孟加拉语版本，但信息分散在消歧义页面中，不如doc_1直接。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "irrelevant",
+        "reason": "文档仅列出其他电视剧名称，与Ardhangini的语言无关。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_3\",\"label\":\"misleading\",\"reason\":\"文档将2017年印地语剧集错误描述为芬兰语，且未明确区分不同语言版本的剧集。\"},{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出Ardhangini (2017 TV series) 是阿萨姆语电视剧。\"},{\"doc_id\":\"doc_2\",\"label\":\"weak\",\"reason\":\"文档提及了阿萨姆语和孟加拉语版本，但信息分散在消歧义页面中，不如doc_1直接。\"},{\"doc_id\":\"doc_4\",\"label\":\"irrelevant\",\"reason\":\"文档仅列出其他电视剧名称，与Ardhangini的语言无关。\"}]}",
+      "answer": "阿萨姆语（Assamese）和孟加拉语（Bengali）。\n\n根据文档，存在两部名为《Ardhangini》的电视剧：\n1. 2017年播出的版本是**阿萨姆语**（Assamese-language），在Rang频道播出。\n2. 2018年播出的版本是**孟加拉语**（Bengali-language），在Star Jalsha频道播出。"
+    }
+  },
+  {
+    "id": "ramdocs_0027",
+    "method": "crag_lite",
+    "answer": "无法根据给定信息确定",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Big Girl (film) Big Girl is a Canadian short film, directed by Renuka Jeyapalan and released in 2005. The film depicts a battle of wills between a young girl (Samantha Weinstein) and her mother's new boyfriend (Kris Holden-Ried). It won the Toronto International Film Festival Award for Best Canadian Short Film at the 2005 Toronto International Film Festival, and was nominated for a Genie Award for Best Live Action Short Drama at the 27th Genie Awards. Weinstein won an ACTRA Award for Best Actress from the Toronto chapter, becoming the youngest actress ever to win that award. It screened on",
+        "label": "correct",
+        "_retrieval_score": 0.6635278463363647,
+        "_rerank_score": 0.9170058516477309
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.6635278463363647,
+        "doc_2": 0.6570525765419006
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_2": 0.9268352785943768,
+        "doc_1": 0.9170058516477309
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_2",
+        "label": "misleading",
+        "reason": "文档将《Big Girl》错误地描述为纪录片，而该作品实际上是短片。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档正确指出《Big Girl》是一部加拿大短片，直接回答了关于其类型的问题。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_2\",\"label\":\"misleading\",\"reason\":\"文档将《Big Girl》错误地描述为纪录片，而该作品实际上是短片。\"},{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档正确指出《Big Girl》是一部加拿大短片，直接回答了关于其类型的问题。\"}]}",
+      "answer": "无法根据给定信息确定"
+    }
+  },
+  {
+    "id": "ramdocs_0028",
+    "method": "crag_lite",
+    "answer": "无法根据给定信息确定",
+    "retrieved_doc_ids": [
+      "doc_2",
+      "doc_1",
+      "doc_3",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Rhode Island Comic Con The convention typically offers artists, celebrity guests, cars, comic book authors, a costume contest, gaming, kids-con, professional wrestlers, vendors, video game tournaments, and voice artists. In 2013, the convention also hosted several wedding ceremonies. Rhode Island Comic Con held its first event in 2012 at the Rhode Island Convention Center and took two years to prepare. David Anders, Anthony Michael Hall, Madison Lintz, Jett Lucas, Nichelle Nichols, Chanel Ryan, and Raphael Sbarge could not make it to the 2013 convention due to the 2013 Los Angeles International Airport shooting. A Halloween party was held on Friday",
+        "label": "correct",
+        "_retrieval_score": 0.356489896774292,
+        "_rerank_score": 0.0018102110262026483
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_2": 0.501423716545105,
+        "doc_1": 0.356489896774292,
+        "doc_3": 0.24761918187141418,
+        "doc_4": 0.24185572564601898
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_2": 0.999167166595505,
+        "doc_1": 0.0018102110262026483,
+        "doc_4": 3.21923344970378e-05,
+        "doc_3": 1.6314540139585704e-05
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_2",
+        "label": "misleading",
+        "reason": "文档包含关于 RICC 是太空探索机构的虚假陈述，诱导错误答案。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "weak",
+        "reason": "文档描述了漫展的活动但未明确说明其主要功能。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "irrelevant",
+        "reason": "文档仅列出嘉宾名单，与 RICC 的功能无关。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "irrelevant",
+        "reason": "文档内容涉及 Reddit 网站信息，与 RICC 无关。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_2\",\"label\":\"misleading\",\"reason\":\"文档包含关于 RICC 是太空探索机构的虚假陈述，诱导错误答案。\"},{\"doc_id\":\"doc_1\",\"label\":\"weak\",\"reason\":\"文档描述了漫展的活动但未明确说明其主要功能。\"},{\"doc_id\":\"doc_4\",\"label\":\"irrelevant\",\"reason\":\"文档仅列出嘉宾名单，与 RICC 的功能无关。\"},{\"doc_id\":\"doc_3\",\"label\":\"irrelevant\",\"reason\":\"文档内容涉及 Reddit 网站信息，与 RICC 无关。\"}]}",
+      "answer": "无法根据给定信息确定"
+    }
+  },
+  {
+    "id": "ramdocs_0029",
+    "method": "crag_lite",
+    "answer": "Houghton County, Michigan",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Charles J. Dunn Charles J. Dunn (July 14, 1872 – November 10, 1939) was an American jurist, lawyer, and politician. Born in Houghton County, Michigan, Dunn lived in Blue Hill, Maine and graduated from Blue Hill Academy. Dunn was admitted to the Maine bar and practiced law in Orono, Penobscot County, Maine. He resided in the Nathaniel Treat House, which is now listed on the National Register of Historic Places. Dunn was involved with the Merrill Trust and Orono Trust Companies. He was also treasurer of the University of Maine. He served in the Maine House of Representatives from 1901",
+        "label": "correct",
+        "_retrieval_score": 0.5394746661186218,
+        "_rerank_score": 0.10484336403025445
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "Houghton County, Michigan",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.5394746661186218,
+        "doc_2": 0.4288283586502075
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.10484336403025445,
+        "doc_2": 0.0031358358772830336
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出Charles J. Dunn出生于密歇根州霍顿县。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "irrelevant",
+        "reason": "文档仅包含维基百科页脚信息和关于另一位政治家的链接，未提及Justice Dunn的出生地。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出Charles J. Dunn出生于密歇根州霍顿县。\"},{\"doc_id\":\"doc_2\",\"label\":\"irrelevant\",\"reason\":\"文档仅包含维基百科页脚信息和关于另一位政治家的链接，未提及Justice Dunn的出生地。\"}]}",
+      "answer": "Houghton County, Michigan"
+    }
+  },
+  {
+    "id": "ramdocs_0030",
+    "method": "crag_lite",
+    "answer": "Frank Oz",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_4",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Death at a Funeral (2007 film) Death at a Funeral is a 2007 British ensemble black comedy film directed by Frank Oz. The screenplay by Dean Craig focuses on a family attempting to resolve a variety of problems while attending the funeral of the patriarch. In England, Daniel (Matthew Macfadyen) and his wife Jane (Keeley Hawes) live with his parents, while Daniel's brother Robert (Rupert Graves) is a renowned novelist living in New York City. The story begins on the day of their father's funeral. Robert arrives, having flown First Class, but declines to help finance the funeral, leaving Daniel",
+        "label": "correct",
+        "_retrieval_score": 0.6748597621917725,
+        "_rerank_score": 0.9993228057669614
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "Frank Oz",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.6748597621917725,
+        "doc_2": 0.5482082366943359,
+        "doc_4": 0.34602099657058716,
+        "doc_3": 0.19625622034072876
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.9993228057669614,
+        "doc_2": 0.998451238905712,
+        "doc_4": 0.026105915341323935,
+        "doc_3": 9.3145930425751e-05
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出2007年电影《Death at a Funeral》的导演是Frank Oz。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "misleading",
+        "reason": "文档将导演错误归类为Quentin Tarantino，与事实不符。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "irrelevant",
+        "reason": "文档主要讨论电影的翻拍版本信息，未提及原版的导演。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "irrelevant",
+        "reason": "文档仅包含语言选项和维基百科页脚信息，与问题无关。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出2007年电影《Death at a Funeral》的导演是Frank Oz。\"},{\"doc_id\":\"doc_2\",\"label\":\"misleading\",\"reason\":\"文档将导演错误归类为Quentin Tarantino，与事实不符。\"},{\"doc_id\":\"doc_4\",\"label\":\"irrelevant\",\"reason\":\"文档主要讨论电影的翻拍版本信息，未提及原版的导演。\"},{\"doc_id\":\"doc_3\",\"label\":\"irrelevant\",\"reason\":\"文档仅包含语言选项和维基百科页脚信息，与问题无关。\"}]}",
+      "answer": "Frank Oz"
+    }
+  },
+  {
+    "id": "ramdocs_0031",
+    "method": "crag_lite",
+    "answer": "Interstate 235 is located in Iowa, running just north of downtown Des Moines through the Des Moines metropolitan area. It extends from West Des Moines to Ankeny.",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_4",
+      "doc_2",
+      "doc_5",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Interstate 235 (Iowa) Interstate 235 (I-235) in Iowa is an auxiliary Interstate Highway that runs just north of downtown Des Moines through the heart of the Des Moines metropolitan area. I-235 runs from the junction of Interstate 35 and Interstate 80 in West Des Moines to the separation of the same two interstates in Ankeny. The highway is approximately long. I-235, which had seen little improvement since its construction in the 1960s, was completely rebuilt and widened in a project that spanned most of the 2000s. Prior to the reconstruction, I-235 had two lanes in each direction with a third",
+        "label": "correct",
+        "_retrieval_score": 0.6789669990539551,
+        "_rerank_score": 0.9328214227111127
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "sections of I-35 were the 25 miles ( 40 km ) from Ankeny to US 30 near Ames and the 30 miles ( 48 km ) from Ames to US 20 near Williams . [ 2 ] By 1972 , I-35 was completed at the Missouri and Minnesota state lines . In southern Iowa , the last section , from Iowa 2 near Decatur City to the state line , was completed on December 2 , 1970 . In northern Iowa , the section from Iowa 9 near Hanlontown to the state line opened on December 12 , 1972 .",
+        "label": "correct",
+        "_retrieval_score": 0.41403859853744507,
+        "_rerank_score": 0.0018102110262026483
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "Interstate 235 is located in Iowa, running just north of downtown Des Moines through the Des Moines metropolitan area. It extends from West Des Moines to Ankeny.",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.6789669990539551,
+        "doc_4": 0.4382619857788086,
+        "doc_2": 0.41403859853744507,
+        "doc_5": 0.35204967856407166,
+        "doc_3": 0.32586339116096497
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.9328214227111127,
+        "doc_4": 0.21485611246057643,
+        "doc_5": 0.006930671656746301,
+        "doc_3": 0.00226946865448694,
+        "doc_2": 0.0018102110262026483
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出I-235位于爱荷华州，并描述了其具体路线。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "irrelevant",
+        "reason": "文档主要讨论休息区设施，未提及I-235的位置信息。"
+      },
+      {
+        "doc_id": "doc_5",
+        "label": "irrelevant",
+        "reason": "文档内容为高速公路出口列表和限速信息，无法确定I-235的具体位置。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "irrelevant",
+        "reason": "文档讨论的是休息区和历史公路，与I-235的位置无关。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "weak",
+        "reason": "文档提到了I-235的终点标志变更，但未直接说明其地理位置，仅能作为辅助证据。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出I-235位于爱荷华州，并描述了其具体路线。\"},{\"doc_id\":\"doc_4\",\"label\":\"irrelevant\",\"reason\":\"文档主要讨论休息区设施，未提及I-235的位置信息。\"},{\"doc_id\":\"doc_5\",\"label\":\"irrelevant\",\"reason\":\"文档内容为高速公路出口列表和限速信息，无法确定I-235的具体位置。\"},{\"doc_id\":\"doc_3\",\"label\":\"irrelevant\",\"reason\":\"文档讨论的是休息区和历史公路，与I-235的位置无关。\"},{\"doc_id\":\"doc_2\",\"label\":\"weak\",\"reason\":\"文档提到了I-235的终点标志变更，但未直接说明其地理位置，仅能作为辅助证据。\"}]}",
+      "answer": "Interstate 235 is located in Iowa, running just north of downtown Des Moines through the Des Moines metropolitan area. It extends from West Des Moines to Ankeny."
+    }
+  },
+  {
+    "id": "ramdocs_0032",
+    "method": "crag_lite",
+    "answer": "无法根据给定信息确定\n\n（注：文档[1]提到人口“约50,000\"，而文档[2]引用2017年尼泊尔政府记录称总人口为8,899人。这两个数据存在显著差异且未说明具体年份或统计口径，导致无法确定唯一准确的人口数值。）",
+    "retrieved_doc_ids": [
+      "doc_4",
+      "doc_1",
+      "doc_2",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Madi, Chitwan Madi (माडी नगरपालिका) is a municipality in Chitwan District of Nepal. With the population about 50,000, it is the fifth municipality in the district. Basantapur was the major town of the former Baghauda Village Development Committee (बघौंडा गा.वि.स.) that was incorporated into Madi Municipality. It is adjacent to Chitwan National Park. This municipality was formed by cabinet dated 2071-01-28 (BS). There were four village development committees before- Ayodhyapuri (अयोध्यापुरी), Kalyanpur (कल्याणपुर), Gardi (गर्दी) and Baghauda (बघौडा). Madi is a beautiful valley surrounded by jungles. In north by Chitwan National Park and in south bordered with India. It is",
+        "label": "correct",
+        "_retrieval_score": 0.6353596448898315,
+        "_rerank_score": 0.979861259172271
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Nepal Government records as of 2017 , there were total 8,899 in Madi Municipality with 4,356 ( 48.95 % ) of males and 4,543 ( 51.05 % ) females . There were total 55 schools . In average , 162 students were studying in each school . View Full Chart The pie-chart and graphs above further illustrates the students and schools . Population by Language Spoken Mostly spoken language in Madi is Nepali , which is spoken by 22,795 people . The Madi has people who speak other languages , such as Tharu , Tamang , Chepang , Bhojpuri ,",
+        "label": "noise",
+        "_retrieval_score": 0.6692649722099304,
+        "_rerank_score": 0.9902915235185259
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "无法根据给定信息确定\n\n（注：文档[1]提到人口“约50,000\"，而文档[2]引用2017年尼泊尔政府记录称总人口为8,899人。这两个数据存在显著差异且未说明具体年份或统计口径，导致无法确定唯一准确的人口数值。）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_4": 0.6692649722099304,
+        "doc_1": 0.6353596448898315,
+        "doc_2": 0.6295267343521118,
+        "doc_3": 0.27119171619415283
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_2": 0.9965969946412504,
+        "doc_4": 0.9902915235185259,
+        "doc_1": 0.979861259172271,
+        "doc_3": 0.0004205874321516123
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_2",
+        "label": "misleading",
+        "reason": "文档声称人口约为10,000，与其他来源数据差异巨大且可能过时或不准确。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "weak",
+        "reason": "文档提供了具体的人口总数（8,899）和性别比例，但上下文不完整且与另一文档数据冲突。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确说明人口约为50,000，提供了直接的答案支持。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "irrelevant",
+        "reason": "文档内容主要列举学校名称，未包含Madi Municipality的人口统计数据。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_2\",\"label\":\"misleading\",\"reason\":\"文档声称人口约为10,000，与其他来源数据差异巨大且可能过时或不准确。\"},{\"doc_id\":\"doc_4\",\"label\":\"weak\",\"reason\":\"文档提供了具体的人口总数（8,899）和性别比例，但上下文不完整且与另一文档数据冲突。\"},{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确说明人口约为50,000，提供了直接的答案支持。\"},{\"doc_id\":\"doc_3\",\"label\":\"irrelevant\",\"reason\":\"文档内容主要列举学校名称，未包含Madi Municipality的人口统计数据。\"}]}",
+      "answer": "无法根据给定信息确定\n\n（注：文档[1]提到人口“约50,000\"，而文档[2]引用2017年尼泊尔政府记录称总人口为8,899人。这两个数据存在显著差异且未说明具体年份或统计口径，导致无法确定唯一准确的人口数值。）"
+    }
+  },
+  {
+    "id": "ramdocs_0033",
+    "method": "crag_lite",
+    "answer": "无法根据给定信息确定\n\n（注：文档 [1] 提供了2000年的人口数据为428人，但问题未指定年份；文档 [2] 中“Population”字段后无具体数值。由于缺乏最新或明确对应的时间点数据，且不同文档间存在潜在矛盾（如所属县份不一致），无法给出一个确切的当前人口数。）",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_2",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_3"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Blue Lake Township, Kalkaska County, Michigan Blue Lake Township is a civil township of Kalkaska County in the U.S. state of Michigan. As of the 2000 census, the township population was 428. According to the United States Census Bureau, the township has a total area of 36.2 square miles (93.8 km²), of which 34.7 square miles (89.7 km²) is land and 1.6 square miles (4.1 km²) (4.36%) is water. As of the census of 2000, there were 428 people, 202 households, and 150 families residing in the township. The population density was 12.4 per square mile (4.8/km²). There were 738",
+        "label": "correct",
+        "_retrieval_score": 0.7721424698829651,
+        "_rerank_score": 0.9993436271675653
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Blue Lake Township , Kalkaska County , Michigan . Township in Michigan , United States Blue Lake Township , Michigan Township Blue Lake Township Show map of Michigan Blue Lake Township Show map of the United States Coordinates : 43°25′42″N 86°13′08″W ﻿ / ﻿ 43.42833°N 86.21889°W ﻿ / 43.42833 ; -86.21889 Country United States State Michigan County Muskegon Area [ 1 ] • Total 35.74 sq mi ( 92.6 km 2 ) • Land 33.56 sq mi ( 86.9 km 2 ) • Water 2.18 sq mi ( 5.6 km 2 ) Elevation 604 ft ( 184 m ) Population",
+        "label": "correct",
+        "_retrieval_score": 0.6699166297912598,
+        "_rerank_score": 0.8299059606928785
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "无法根据给定信息确定\n\n（注：文档 [1] 提供了2000年的人口数据为428人，但问题未指定年份；文档 [2] 中“Population”字段后无具体数值。由于缺乏最新或明确对应的时间点数据，且不同文档间存在潜在矛盾（如所属县份不一致），无法给出一个确切的当前人口数。）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.7721424698829651,
+        "doc_3": 0.6699166297912598,
+        "doc_2": 0.4475567042827606,
+        "doc_4": 0.39436712861061096
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.9993436271675653,
+        "doc_3": 0.8299059606928785,
+        "doc_2": 0.026912304073801845,
+        "doc_4": 0.014281933925111154
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确提供了Blue Lake Township, Michigan在2000年的人口数据为428人。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "weak",
+        "reason": "文档提到了该城镇但人口数据部分被截断，无法直接获取具体数值。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "irrelevant",
+        "reason": "文档内容似乎是关于某个县（county）的人口统计数据，而非Blue Lake Township本身。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "misleading",
+        "reason": "文档包含错误的人口数据（如2010年42,800人），与doc_1中的正确信息冲突，可能诱导错误答案。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确提供了Blue Lake Township, Michigan在2000年的人口数据为428人。\"},{\"doc_id\":\"doc_3\",\"label\":\"weak\",\"reason\":\"文档提到了该城镇但人口数据部分被截断，无法直接获取具体数值。\"},{\"doc_id\":\"doc_2\",\"label\":\"irrelevant\",\"reason\":\"文档内容似乎是关于某个县（county）的人口统计数据，而非Blue Lake Township本身。\"},{\"doc_id\":\"doc_4\",\"label\":\"misleading\",\"reason\":\"文档包含错误的人口数据（如2010年42,800人），与doc_1中的正确信息冲突，可能诱导错误答案。\"}]}",
+      "answer": "无法根据给定信息确定\n\n（注：文档 [1] 提供了2000年的人口数据为428人，但问题未指定年份；文档 [2] 中“Population”字段后无具体数值。由于缺乏最新或明确对应的时间点数据，且不同文档间存在潜在矛盾（如所属县份不一致），无法给出一个确切的当前人口数。）"
+    }
+  },
+  {
+    "id": "ramdocs_0034",
+    "method": "crag_lite",
+    "answer": "无法根据给定信息确定。\n\n（注：虽然文档中提到了名为 Visser 的人从事鲸鱼研究、写作和生态导游等工作，但文中并未明确给出其全名\"Ingrid Visser\"，且该文档被标记为\"noise\"（噪声/无关数据），因此无法严格确认这些职业描述属于 Ingrid Visser。）",
+    "retrieved_doc_ids": [
+      "doc_1"
+    ],
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "focusing on orca research. She also set up Adopt an Orca to facilitate fund raising and public awareness. Visser has written an autobiography, \"Swimming with Orca\", which was a finalist in the Environmental category of the New Zealand Montana Book Awards, and two children’s books (\"I Love Killer Whales\" and \"The Orca\"). The latter has been translated into Māori and is currently in press as a bilingual English/Spanish publication. Visser works as a guide on a variety of eco-tourism adventures, from swimming with whales to visiting Antarctica. She is also a public speaker. Visser is a member of the Australia",
+        "label": "noise",
+        "_retrieval_score": 0.4852434992790222,
+        "_rerank_score": 0.09501305198790384
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "无法根据给定信息确定。\n\n（注：虽然文档中提到了名为 Visser 的人从事鲸鱼研究、写作和生态导游等工作，但文中并未明确给出其全名\"Ingrid Visser\"，且该文档被标记为\"noise\"（噪声/无关数据），因此无法严格确认这些职业描述属于 Ingrid Visser。）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.4852434992790222
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.09501305198790384
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "weak",
+        "reason": "文档提及名为Visser的人从事多种职业（如向导、演讲者），但未明确说明其全名是否为Ingrid Visser，且未直接确认其核心职业身份。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"weak\",\"reason\":\"文档提及名为Visser的人从事多种职业（如向导、演讲者），但未明确说明其全名是否为Ingrid Visser，且未直接确认其核心职业身份。\"}]}",
+      "answer": "无法根据给定信息确定。\n\n（注：虽然文档中提到了名为 Visser 的人从事鲸鱼研究、写作和生态导游等工作，但文中并未明确给出其全名\"Ingrid Visser\"，且该文档被标记为\"noise\"（噪声/无关数据），因此无法严格确认这些职业描述属于 Ingrid Visser。）"
+    }
+  },
+  {
+    "id": "ramdocs_0035",
+    "method": "crag_lite",
+    "answer": "1861年。",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "City of Maryborough (Queensland) The City of Maryborough was a local government area located in the Wide Bay–Burnett region of Queensland, Australia, containing the urban locality of Maryborough as well as the southern half of Fraser Island. The City covered an area of , and existed as a local government entity from 1861 until 2008, when it was amalgamated with the City of Hervey Bay, Shire of Woocoo and the 1st and 2nd divisions of the Shire of Tiaro to form the Fraser Coast Region. Wharves were established at Maryborough in 1847–1848 to provide transport for wool from sheep stations",
+        "label": "correct",
+        "_retrieval_score": 0.6811609268188477,
+        "_rerank_score": 0.8804891362585583
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "1861 . In April 1861 land for agricultural purposes on the Mary River was sold , which accelerated the closer settlement process , and by the end of the 1860s thousands of free immigrants had entered Queensland through the Port of Maryborough . The trade of supplying the goldfields discovered at Gympie in 1867 also went through Maryborough . [ 1 ] Of the early Queensland towns that existed by the time of Separation from New South Wales in 1859 , only Maryborough retains most of its originally occupied town site in an open , undeveloped state . The original",
+        "label": "correct",
+        "_retrieval_score": 0.6097012162208557,
+        "_rerank_score": 0.752922046874744
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "1861年。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.6811609268188477,
+        "doc_2": 0.6097012162208557
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.8804891362585583,
+        "doc_2": 0.752922046874744
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出Maryborough市作为地方政府实体从1861年开始存在。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "weak",
+        "reason": "文档提到1861年土地出售和定居加速，暗示了建立过程，但未直接陈述城市正式建立的年份。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出Maryborough市作为地方政府实体从1861年开始存在。\"},{\"doc_id\":\"doc_2\",\"label\":\"weak\",\"reason\":\"文档提到1861年土地出售和定居加速，暗示了建立过程，但未直接陈述城市正式建立的年份。\"}]}",
+      "answer": "1861年。"
+    }
+  },
+  {
+    "id": "ramdocs_0036",
+    "method": "crag_lite",
+    "answer": "篮球",
+    "retrieved_doc_ids": [
+      "doc_3",
+      "doc_2",
+      "doc_1",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": ", Speed & Short Track ) Figure Skating Ice Hockey Luge Skeleton Skiing Alpine Cross Country Nordic Combined Freestyle Jumping Snowboarding Other IOC-Recognised Sports Air sports Auto racing Bandy Baseball Billiard Sports Boules Bowling Bridge Chess Cricket Dance sport Floorball Karate Korfball Lifesaving Motorcycle racing Mountaineering and Climbing Netball Orienteering Pelota Vasca Polo Powerboating Racquetball Softball Squash Sumo Tug of war Underwater sports Water Ski Wushu All-China Sports Federation Chinese Olympic Committee v t e Sport in Asia Sovereign states Afghanistan Armenia Azerbaijan Bahrain Bangladesh Bhutan Brunei Cambodia China Cyprus Egypt Georgia India Indonesia Iran Iraq Israel Japan Jordan Kazakhstan\n\nChina Clipper, a legendary figure in Chinese sports history, is most famously associated with basketball. His exceptional skills and leadership on the court have made him a role model for many young athletes in China. Despite the popularity of other sports, China Clipper's impact on basketball has solidified its place as one of the most beloved sports in the country.",
+        "label": "correct",
+        "_retrieval_score": 0.6646738052368164,
+        "_rerank_score": 0.9998118579244951
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "The field hockey team won silver at the 2008 Summer Olympics in Beijing, as well as bronze at the 2002 Women's Hockey World Cup. Also, the team won the 2002 Hockey Champions Trophy and finished second in 2004 and 2006. \n\nBasketball [edit]\nChina Clipper is a term often associated with the Chinese national basketball team, known for its dynamic play style and significant achievements in international competitions. Since the 1990s, China has been one of the top nations in basketball, particularly in the Asian region. The team has consistently performed well in the Asian Games and has made notable appearances in the FIBA World Cup and the Olympics. \n\nFigure skating [edit]\nShen Xue and Zhao Hongbo are considered by many critics of the sport to be one of the best pair skating teams of all time. [citation needed] Since the 1990s, China has been one of the top nations in the pairs events of figure skating. Shen and Zhao have won multiple world championships and Olympic medals, solidifying their status as legends in the sport.",
+        "label": "correct",
+        "_retrieval_score": 0.6289528608322144,
+        "_rerank_score": 0.9981178140899236
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "篮球",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_3": 0.6646738052368164,
+        "doc_2": 0.6289528608322144,
+        "doc_1": 0.35136470198631287,
+        "doc_4": 0.2030530571937561
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_3": 0.9998118579244951,
+        "doc_2": 0.9981178140899236,
+        "doc_1": 0.051941561501226155,
+        "doc_4": 7.031184266914956e-05
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_3",
+        "label": "reliable",
+        "reason": "文档明确指出China Clipper与篮球相关联。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "reliable",
+        "reason": "文档指出China Clipper是与中国国家篮球队相关的术语。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "irrelevant",
+        "reason": "文档主要讲述Kwong的曲棍球和网球教练经历，未提及China Clipper。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "irrelevant",
+        "reason": "文档内容关于数据科学面试问题，与体育无关。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_3\",\"label\":\"reliable\",\"reason\":\"文档明确指出China Clipper与篮球相关联。\"},{\"doc_id\":\"doc_2\",\"label\":\"reliable\",\"reason\":\"文档指出China Clipper是与中国国家篮球队相关的术语。\"},{\"doc_id\":\"doc_1\",\"label\":\"irrelevant\",\"reason\":\"文档主要讲述Kwong的曲棍球和网球教练经历，未提及China Clipper。\"},{\"doc_id\":\"doc_4\",\"label\":\"irrelevant\",\"reason\":\"文档内容关于数据科学面试问题，与体育无关。\"}]}",
+      "answer": "篮球"
+    }
+  },
+  {
+    "id": "ramdocs_0037",
+    "method": "crag_lite",
+    "answer": "Airways International 总部位于佛罗里达州迈阿密。",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Airways International Airways International was an airline based in Miami, Florida. Airways international was founded in 1979 and began operations around 1984. The airline ceased operations in 1999. The carrier's primary business focus was flights within southern Florida and to the Bahamas. Airways International also operated charter flights. In 1985, Airways began service to the Bahamas with Convair 580 aircraft. Throughout its history, Airways operated a fleet of Shorts 330, Convair 580, Cessna 402, Convair 440, and Piper Aztec aircraft. In 1992, the airline added the Shorts 330 to its fleet and operated. As of 1992, there were 30 aircraft",
+        "label": "correct",
+        "_retrieval_score": 0.7331619262695312,
+        "_rerank_score": 0.9997584337017134
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "Airways International 总部位于佛罗里达州迈阿密。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.7331619262695312,
+        "doc_2": 0.7046095132827759,
+        "doc_3": 0.4637610912322998,
+        "doc_4": 0.37316542863845825
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.9997584337017134,
+        "doc_2": 0.9997448586044048,
+        "doc_3": 0.018582149895652808,
+        "doc_4": 0.00045297581227789435
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出 Airways International 总部位于佛罗里达州迈阿密，直接回答问题。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "misleading",
+        "reason": "文档声称总部位于阿拉斯加州安克雷奇，与事实（迈阿密）相悖，可能诱导错误答案。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "irrelevant",
+        "reason": "文档讨论的是 Wow Air 和其他航空公司，未提及 Airways International 的总部位置。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "irrelevant",
+        "reason": "文档仅包含维基百科页脚信息，与问题无关。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出 Airways International 总部位于佛罗里达州迈阿密，直接回答问题。\"},{\"doc_id\":\"doc_2\",\"label\":\"misleading\",\"reason\":\"文档声称总部位于阿拉斯加州安克雷奇，与事实（迈阿密）相悖，可能诱导错误答案。\"},{\"doc_id\":\"doc_3\",\"label\":\"irrelevant\",\"reason\":\"文档讨论的是 Wow Air 和其他航空公司，未提及 Airways International 的总部位置。\"},{\"doc_id\":\"doc_4\",\"label\":\"irrelevant\",\"reason\":\"文档仅包含维基百科页脚信息，与问题无关。\"}]}",
+      "answer": "Airways International 总部位于佛罗里达州迈阿密。"
+    }
+  },
+  {
+    "id": "ramdocs_0038",
+    "method": "crag_lite",
+    "answer": "无法根据给定信息确定\n\n（注：文档[1]声称Conry在纽约市开始执业，而文档[2]声称他在波士顿开始执业并恢复执业。由于两个来源提供了相互矛盾的信息，且无法判断哪个更准确，因此无法根据给定信息确定唯一答案。）",
+    "retrieved_doc_ids": [
+      "doc_2",
+      "doc_1",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_2",
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "was born in Brookline, Massachusetts, on September 12, 1868. He attended the common schools, studied law, was admitted to the bar and commenced practice in New York City. Municipal government [edit] Conry served from 1895 through 1897 as a member of the Boston Common Council from ward 2. He served as president of the Common Council in 1896 and 1897. [1] Conry served on the Boston Board of Aldermen in 1898, and was the chairman of the board. [1] United States Congress [edit]",
+        "label": "correct",
+        "_retrieval_score": 0.6203000545501709,
+        "_rerank_score": 0.980949100414177
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "admitted to the bar and commenced practice in Boston. He served as president of the Boston Common Council in 1896 and 1897, and was chairman of the board of aldermen in 1898. Conry was elected as a Democrat to the 57th United States Congress (March 4, 1901 – March 3, 1903). He was an unsuccessful candidate for reelection in 1902 to the 58th United States Congress, and resumed the practice of his profession in Boston. In 1908 Conry was an unsuccessful candidate for the Democratic congressional nomination in the 9th district. Conry first lost in the Democratic primary, and in",
+        "label": "correct",
+        "_retrieval_score": 0.6080611944198608,
+        "_rerank_score": 0.8671483022189443
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "无法根据给定信息确定\n\n（注：文档[1]声称Conry在纽约市开始执业，而文档[2]声称他在波士顿开始执业并恢复执业。由于两个来源提供了相互矛盾的信息，且无法判断哪个更准确，因此无法根据给定信息确定唯一答案。）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_2": 0.6203000545501709,
+        "doc_1": 0.6080611944198608,
+        "doc_3": 0.31450793147087097
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_2": 0.980949100414177,
+        "doc_1": 0.8671483022189443,
+        "doc_3": 1.848675576370609e-05
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_2",
+        "label": "reliable",
+        "reason": "文档明确指出Conry在纽约市开始执业。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "weak",
+        "reason": "文档提到他在波士顿执业，但存在与doc_2关于起始地点的潜在冲突，且未明确说明是否仅在波士顿。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "irrelevant",
+        "reason": "文档内容为乱码，无法提取有效信息。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_2\",\"label\":\"reliable\",\"reason\":\"文档明确指出Conry在纽约市开始执业。\"},{\"doc_id\":\"doc_1\",\"label\":\"weak\",\"reason\":\"文档提到他在波士顿执业，但存在与doc_2关于起始地点的潜在冲突，且未明确说明是否仅在波士顿。\"},{\"doc_id\":\"doc_3\",\"label\":\"irrelevant\",\"reason\":\"文档内容为乱码，无法提取有效信息。\"}]}",
+      "answer": "无法根据给定信息确定\n\n（注：文档[1]声称Conry在纽约市开始执业，而文档[2]声称他在波士顿开始执业并恢复执业。由于两个来源提供了相互矛盾的信息，且无法判断哪个更准确，因此无法根据给定信息确定唯一答案。）"
+    }
+  },
+  {
+    "id": "ramdocs_0039",
+    "method": "crag_lite",
+    "answer": "1910 年 6 月 19 日",
+    "retrieved_doc_ids": [
+      "doc_2",
+      "doc_1",
+      "doc_3",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Roland Ritchie Roland Almon Ritchie, (June 19, 1910 – June 5, 1988) was a Canadian lawyer and puisne justice of the Supreme Court of Canada. Born in Halifax, Nova Scotia, the son of William Bruce Almon Ritchie and Lillian Stewart, Ritchie was a scion of prominent families — the Almons, Ritchies, and Stewarts were all major families in Nova Scotia. Ritchie's great-uncle, Sir William Johnstone Ritchie, had also been on the Supreme Court, serving as a puisne justice and then as the second Chief Justice of Canada. His brother, Charles Ritchie was an important Canadian diplomat and diarist. Ritchie received",
+        "label": "correct",
+        "_retrieval_score": 0.6129282712936401,
+        "_rerank_score": 0.8459424373085146
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "1910 年 6 月 19 日",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_2": 0.6255428791046143,
+        "doc_1": 0.6129282712936401,
+        "doc_3": 0.5249300599098206,
+        "doc_4": 0.34052836894989014
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_2": 0.8513358776401587,
+        "doc_1": 0.8459424373085146,
+        "doc_3": 0.09384395939201788,
+        "doc_4": 0.0012793074828344202
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_2",
+        "label": "misleading",
+        "reason": "文档中提供的出生日期（1900年）与其他来源或常识不符，存在信息错误风险。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确提供了Roland Ritchie的出生日期为1910年6月19日，且被标记为正确信息。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "irrelevant",
+        "reason": "文档内容涉及多位名为Ritchie的人物的家谱信息，但未提及Justice Roland Ritchie的出生年份。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "irrelevant",
+        "reason": "文档讨论的是音乐人Ritchie Valens，与问题中的法官Justice Ritchie无关。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_2\",\"label\":\"misleading\",\"reason\":\"文档中提供的出生日期（1900年）与其他来源或常识不符，存在信息错误风险。\"},{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确提供了Roland Ritchie的出生日期为1910年6月19日，且被标记为正确信息。\"},{\"doc_id\":\"doc_3\",\"label\":\"irrelevant\",\"reason\":\"文档内容涉及多位名为Ritchie的人物的家谱信息，但未提及Justice Roland Ritchie的出生年份。\"},{\"doc_id\":\"doc_4\",\"label\":\"irrelevant\",\"reason\":\"文档讨论的是音乐人Ritchie Valens，与问题中的法官Justice Ritchie无关。\"}]}",
+      "answer": "1910 年 6 月 19 日"
+    }
+  },
+  {
+    "id": "ramdocs_0040",
+    "method": "crag_lite",
+    "answer": "Horace Rumbold was born on 2 July 1829.",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Sir Horace Rumbold, 8th Baronet Sir Horace Rumbold, 8th Baronet, (2 July 1829 – 3 November 1913) was a British diplomat who was minister or ambassador to several countries. He succeeded his brother, Charles, as Baronet in 1877. He was educated privately in Paris and (no examinations being then required) was introduced into the diplomatic service by Lord Palmerston in 1849. He was posted in the same year as attaché to Turin (then the capital of the Kingdom of Sardinia-Piedmont) and subsequently served at Paris, Frankfurt, Stuttgart, Vienna and Ragusa. In December 1858 he was appointed secretary of the legation",
+        "label": "correct",
+        "_retrieval_score": 0.5985262393951416,
+        "_rerank_score": 0.9602867432263157
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": ". with fifteenth earl of Derby Likenesses P. N. , wood-engraving , NPG Wealth at Death £35,535 19 s . 7 d . : probate , 28 Feb 1914 , CGPLA Eng . & Wales View the article for this person in the Dictionary of National Biography archive edition . See also Crampton , Thomas Russell ( 1816–1888 ) , railway and civil engineer Rumbold , Sir Horace George Montagu , ninth baronet ( 1869–1941 ) , diplomat More on this topic Rumbold , Rt Hon . Sir Horace , ( 2 July 1829–3 Nov. 1913 ) , PC 1896",
+        "label": "correct",
+        "_retrieval_score": 0.5071471929550171,
+        "_rerank_score": 0.8655653520487961
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "Horace Rumbold was born on 2 July 1829.",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.5985262393951416,
+        "doc_2": 0.5071471929550171,
+        "doc_3": 0.41479742527008057
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.9602867432263157,
+        "doc_2": 0.8655653520487961,
+        "doc_3": 0.045692032381584625
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确记载了Horace Rumbold的出生日期为1829年7月2日。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "reliable",
+        "reason": "文档在条目中清晰列出了Horace Rumbold的出生和死亡日期（1829-1913）。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "irrelevant",
+        "reason": "文档仅包含元数据和版权信息，未提供具体的出生日期。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确记载了Horace Rumbold的出生日期为1829年7月2日。\"},{\"doc_id\":\"doc_2\",\"label\":\"reliable\",\"reason\":\"文档在条目中清晰列出了Horace Rumbold的出生和死亡日期（1829-1913）。\"},{\"doc_id\":\"doc_3\",\"label\":\"irrelevant\",\"reason\":\"文档仅包含元数据和版权信息，未提供具体的出生日期。\"}]}",
+      "answer": "Horace Rumbold was born on 2 July 1829."
+    }
+  },
+  {
+    "id": "ramdocs_0041",
+    "method": "crag_lite",
+    "answer": "Beacon Mill 最后一次用于贸易是在 1921 年。",
+    "retrieved_doc_ids": [
+      "doc_5",
+      "doc_1",
+      "doc_2",
+      "doc_4",
+      "doc_6",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Beacon Mill, Benenden Beacon Mill is a Grade II listed smock mill in Benenden, Kent, England which is in need of restoration. The mill has been out of use since 1923 and is privately owned. \"Beacon Mill\" is one of two windmills marked on the 1819-43 Ordnance Survey map. It was also marked on Greenwood's 1821 map. Towards the end of the nineteenth century, \"Beacon Mill\" was run in conjunction with Wandle Mill, on the River Rother. The mill was last worked for trade in 1921 and the sails and fantail were removed in 1923. Two of the sails were",
+        "label": "correct",
+        "_retrieval_score": 0.6271030902862549,
+        "_rerank_score": 0.9805806518175514
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": ", 2016.JPG 1,200 × 1,600 ; 155 KB 0 references country United Kingdom 1 reference imported from Wikimedia project English Wikipedia located in the administrative territorial entity Benenden 1 reference stated in National Heritage List for England historic county Kent 0 references coordinate location 51°3'43.582 '' N , 0°35'51.792 '' E 1 reference stated in National Heritage List for England heritage designation Grade II listed building start time 9 June 1952 National Heritage List for England number 1085218 1 reference stated in National Heritage List for England state of use out of service start time 1921 1 reference stated in",
+        "label": "correct",
+        "_retrieval_score": 0.3782419264316559,
+        "_rerank_score": 0.015014748005819525
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "Beacon Mill 最后一次用于贸易是在 1921 年。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_5": 0.6778141260147095,
+        "doc_1": 0.6271030902862549,
+        "doc_2": 0.3782419264316559,
+        "doc_4": 0.37142881751060486,
+        "doc_6": 0.3634096384048462,
+        "doc_3": 0.2818327248096466
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_5": 0.9978087593636037,
+        "doc_1": 0.9805806518175514,
+        "doc_2": 0.015014748005819525,
+        "doc_4": 0.013273887454385737,
+        "doc_3": 0.00024923252458203564
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_5",
+        "label": "misleading",
+        "reason": "文档声称最后工作年份为1955年，与可靠来源的1921年或1923年相矛盾，可能诱导错误答案。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出Beacon Mill最后一次用于贸易是在1921年，直接回答问题。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "reliable",
+        "reason": "文档引用国家遗产名录，指出停止使用时间为1921年，直接支持答案。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "misleading",
+        "reason": "文档声称停止使用时间为1985年，与其他可靠来源冲突，可能诱导错误答案。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "irrelevant",
+        "reason": "文档内容涉及纺织村规划，与Beacon Mill的工作历史无关。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_5\",\"label\":\"misleading\",\"reason\":\"文档声称最后工作年份为1955年，与可靠来源的1921年或1923年相矛盾，可能诱导错误答案。\"},{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出Beacon Mill最后一次用于贸易是在1921年，直接回答问题。\"},{\"doc_id\":\"doc_2\",\"label\":\"reliable\",\"reason\":\"文档引用国家遗产名录，指出停止使用时间为1921年，直接支持答案。\"},{\"doc_id\":\"doc_4\",\"label\":\"misleading\",\"reason\":\"文档声称停止使用时间为1985年，与其他可靠来源冲突，可能诱导错误答案。\"},{\"doc_id\":\"doc_3\",\"label\":\"irrelevant\",\"reason\":\"文档内容涉及纺织村规划，与Beacon Mill的工作历史无关。\"}]}",
+      "answer": "Beacon Mill 最后一次用于贸易是在 1921 年。"
+    }
+  },
+  {
+    "id": "ramdocs_0042",
+    "method": "crag_lite",
+    "answer": "漫画（comic book）",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Hard Time (comics) Hard Time is a comic book series written by Steve Gerber and Mary Skrenes and originally published by DC Focus, a short-lived imprint of DC Comics. The aim of the imprint was to feature super-powered characters who did not follow the traditional format of classic superhero adventures. \"Hard Time\"<nowiki>'s</nowiki> first run was 12 issues long, published from April 2004 to March 2005. The series returned from hiatus in December 2005, titled \"Hard Time: Season Two\". With the demise of DC Focus, this run was published under the unfocused DC bullet. DC announced \"Hard Time\"'s cancellation in March",
+        "label": "correct",
+        "_retrieval_score": 0.6231638193130493,
+        "_rerank_score": 0.9846936454393053
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "漫画（comic book）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.6231638193130493,
+        "doc_2": 0.3279168903827667
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.9846936454393053,
+        "doc_2": 0.00033274128340681067
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出Hard Time是一部漫画系列（comic book series），直接回答了体裁问题。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "irrelevant",
+        "reason": "文档内容描述的是名为Ethan的角色在监狱中的经历，未提及作品《Hard Time》的体裁信息。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出Hard Time是一部漫画系列（comic book series），直接回答了体裁问题。\"},{\"doc_id\":\"doc_2\",\"label\":\"irrelevant\",\"reason\":\"文档内容描述的是名为Ethan的角色在监狱中的经历，未提及作品《Hard Time》的体裁信息。\"}]}",
+      "answer": "漫画（comic book）"
+    }
+  },
+  {
+    "id": "ramdocs_0043",
+    "method": "crag_lite",
+    "answer": "无法根据给定信息确定",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_2"
+    ],
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "formal_v1",
+    "raw_response": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"irrelevant\",\"reason\":\"文档描述的是赞詹省阿巴哈尔县的一个名为Qerveh的村庄，而非库尔德斯坦省的Qorveh城市。\"},{\"doc_id\":\"doc_3\",\"label\":\"irrelevant\",\"reason\":\"文档仅提及空气质量小部件下载，未包含任何人口数据。\"},{\"doc_id\":\"doc_2\",\"label\":\"irrelevant\",\"reason\":\"文档是关于Dargazin County的维基百科页面导航和目录，与Qorveh的人口无关。\"}]}",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.5730984210968018,
+        "doc_3": 0.41308093070983887,
+        "doc_2": 0.24757221341133118
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.9170058516477309,
+        "doc_3": 0.0012743262913872736,
+        "doc_2": 0.0003353501304664781
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "irrelevant",
+        "reason": "文档描述的是赞詹省阿巴哈尔县的一个名为Qerveh的村庄，而非库尔德斯坦省的Qorveh城市。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "irrelevant",
+        "reason": "文档仅提及空气质量小部件下载，未包含任何人口数据。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "irrelevant",
+        "reason": "文档是关于Dargazin County的维基百科页面导航和目录，与Qorveh的人口无关。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"irrelevant\",\"reason\":\"文档描述的是赞詹省阿巴哈尔县的一个名为Qerveh的村庄，而非库尔德斯坦省的Qorveh城市。\"},{\"doc_id\":\"doc_3\",\"label\":\"irrelevant\",\"reason\":\"文档仅提及空气质量小部件下载，未包含任何人口数据。\"},{\"doc_id\":\"doc_2\",\"label\":\"irrelevant\",\"reason\":\"文档是关于Dargazin County的维基百科页面导航和目录，与Qorveh的人口无关。\"}]}"
+    }
+  },
+  {
+    "id": "ramdocs_0044",
+    "method": "crag_lite",
+    "answer": "无法根据给定信息确定",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "selected_doc_ids": [],
+    "contexts_used": [],
+    "prompt_version": "formal_v1",
+    "raw_response": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出221B Baker Street是一款棋盘游戏（board game\")},{\"doc_id\":\"doc_2\",\"label\":\"reliable\",\"reason\":\"文档描述其为家庭友好的棋盘游戏，并提及在伦敦街头寻找线索的游戏机制\"}]}",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.5935049057006836,
+        "doc_2": 0.4929385483264923
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.6505782713191418,
+        "doc_2": 0.4339214946885051
+      }
+    },
+    "doc_judgements": [],
+    "doc_judgements_parse_error": "JSON parse failed: Expecting ',' delimiter: line 1 column 105 (char 104)",
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出221B Baker Street是一款棋盘游戏（board game\")},{\"doc_id\":\"doc_2\",\"label\":\"reliable\",\"reason\":\"文档描述其为家庭友好的棋盘游戏，并提及在伦敦街头寻找线索的游戏机制\"}]}"
+    }
+  },
+  {
+    "id": "ramdocs_0045",
+    "method": "crag_lite",
+    "answer": "无法根据给定信息确定。文档中提供了两个相互矛盾的数据：doc_3 称人口为 1,234，而 doc_1 称人口为 459，且两者均标注为关于同一地点（俄亥俄州克劳福德县桑达斯基镇）的信息，无法判断哪一个是准确的。",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_4",
+      "doc_2",
+      "doc_5"
+    ],
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Sandusky Township, Crawford County, Ohio Sandusky Township is one of the sixteen townships of Crawford County, Ohio, United States. As of the 2010 census the population was 1,234. Located in the eastern part of the county, it borders the following townships: No municipalities are located in Sandusky Township. Sandusky Township was named from the Sandusky River, which flows through its southern part. Statewide, other Sandusky Townships are located in Richland and Sandusky counties. The township is governed by a three-member board of trustees, who are elected in November of odd-numbered years to a four-year term beginning on the following January.",
+        "label": "misinfo",
+        "_retrieval_score": 0.6761532425880432,
+        "_rerank_score": 0.9999263140701885
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Sandusky Township, Crawford County, Ohio Sandusky Township is one of the sixteen townships of Crawford County, Ohio, United States. As of the 2010 census the population was 459. Located in the eastern part of the county, it borders the following townships: No municipalities are located in Sandusky Township. Sandusky Township was named from the Sandusky River, which flows through its southern part. Statewide, other Sandusky Townships are located in Richland and Sandusky counties. The township is governed by a three-member board of trustees, who are elected in November of odd-numbered years to a four-year term beginning on the following January",
+        "label": "correct",
+        "_retrieval_score": 0.678347647190094,
+        "_rerank_score": 0.9986276313099476
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "无法根据给定信息确定。文档中提供了两个相互矛盾的数据：doc_3 称人口为 1,234，而 doc_1 称人口为 459，且两者均标注为关于同一地点（俄亥俄州克劳福德县桑达斯基镇）的信息，无法判断哪一个是准确的。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.678347647190094,
+        "doc_3": 0.6761532425880432,
+        "doc_4": 0.4987189769744873,
+        "doc_2": 0.43060609698295593,
+        "doc_5": 0.34598031640052795
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_3": 0.9999263140701885,
+        "doc_1": 0.9986276313099476,
+        "doc_2": 0.027014790337834466,
+        "doc_5": 0.0038393947800118167,
+        "doc_4": 0.0018386652876885773
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_3",
+        "label": "reliable",
+        "reason": "文档明确提供了Sandusky Township, Crawford County的人口数据为1,234（2010年人口普查）。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "weak",
+        "reason": "文档提供了人口数据459，但与doc_3的数据冲突，且未说明数据来源年份或为何不同，证据存在矛盾。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "misleading",
+        "reason": "文档声称人口为1,234并引用2020年人口普查，但正文片段显示该数据可能源自错误的引用或混淆了年份/来源，且格式混乱，易误导用户认为这是准确的2020年数据。"
+      },
+      {
+        "doc_id": "doc_5",
+        "label": "irrelevant",
+        "reason": "文档讨论的是Crawford County的收入和贫困率，未提及Sandusky Township的具体人口数量。"
+      },
+      {
+        "doc_id": "doc_4",
+        "label": "irrelevant",
+        "reason": "文档讨论的是Sandusky County的交通和收入情况，与Sandusky Township的人口无关。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_3\",\"label\":\"reliable\",\"reason\":\"文档明确提供了Sandusky Township, Crawford County的人口数据为1,234（2010年人口普查）。\"},{\"doc_id\":\"doc_1\",\"label\":\"weak\",\"reason\":\"文档提供了人口数据459，但与doc_3的数据冲突，且未说明数据来源年份或为何不同，证据存在矛盾。\"},{\"doc_id\":\"doc_2\",\"label\":\"misleading\",\"reason\":\"文档声称人口为1,234并引用2020年人口普查，但正文片段显示该数据可能源自错误的引用或混淆了年份/来源，且格式混乱，易误导用户认为这是准确的2020年数据。\"},{\"doc_id\":\"doc_5\",\"label\":\"irrelevant\",\"reason\":\"文档讨论的是Crawford County的收入和贫困率，未提及Sandusky Township的具体人口数量。\"},{\"doc_id\":\"doc_4\",\"label\":\"irrelevant\",\"reason\":\"文档讨论的是Sandusky County的交通和收入情况，与Sandusky Township的人口无关。\"}]}",
+      "answer": "无法根据给定信息确定。文档中提供了两个相互矛盾的数据：doc_3 称人口为 1,234，而 doc_1 称人口为 459，且两者均标注为关于同一地点（俄亥俄州克劳福德县桑达斯基镇）的信息，无法判断哪一个是准确的。"
+    }
+  },
+  {
+    "id": "ramdocs_0046",
+    "method": "crag_lite",
+    "answer": "无法根据给定信息确定",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Khentkaus I Khentkaus I, also referred to as Khentkawes, was a queen of ancient Egypt during the 4th dynasty. She may have been a daughter of pharaoh Menkaure, wife of both kings Shepseskaf and Userkaf and mother of Sahure. Her Mastaba at Giza – tomb LG100 – is located very close to Menkaure's pyramid complex. This close connection may point to a family relationship, but it is not quite clear exactly what that relationship is. The proximity of Khentkaus' pyramid complex to that of King Menkaure has led to the conjecture that she may have been his daughter. She may",
+        "label": "correct",
+        "_retrieval_score": 0.5631666779518127,
+        "_rerank_score": 0.53682892941588
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "无法根据给定信息确定",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.5631666779518127,
+        "doc_2": 0.21385225653648376
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.53682892941588,
+        "doc_2": 2.1112482331487176e-05
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出Khentkaus I是Shepseskaf和Userkaf的妻子，直接回答了问题。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "irrelevant",
+        "reason": "文档仅描述了金字塔城的建筑细节，未提及Khentkaus或其丈夫的信息。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出Khentkaus I是Shepseskaf和Userkaf的妻子，直接回答了问题。\"},{\"doc_id\":\"doc_2\",\"label\":\"irrelevant\",\"reason\":\"文档仅描述了金字塔城的建筑细节，未提及Khentkaus或其丈夫的信息。\"}]}",
+      "answer": "无法根据给定信息确定"
+    }
+  },
+  {
+    "id": "ramdocs_0047",
+    "method": "crag_lite",
+    "answer": "斯诺克（Snooker）。",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "2013 China Open (snooker) The 2013 Bank of Beijing China Open was a professional ranking snooker tournament that took place between 25 and 31 March 2013 at the Beijing University Students' Gymnasium in Beijing, China. It was the tenth ranking event of the 2012/2013 season. Peter Ebdon was the defending champion, but he lost 3–5 against Marcus Campbell in the last 32. Mark Selby attempted a maximum break in his last 32 match against Mark King, but missed the final black at 140. Thus he became the fourth player along with Ken Doherty, Barry Pinches and Robin Hull to do",
+        "label": "correct",
+        "_retrieval_score": 0.6401025056838989,
+        "_rerank_score": 0.9542227274192233
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "斯诺克（Snooker）。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_1": 0.6401025056838989,
+        "doc_2": 0.588194727897644,
+        "doc_3": 0.481962114572525
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_1": 0.9542227274192233,
+        "doc_2": 0.2944177985735851,
+        "doc_3": 0.03161876726864549
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出2013年中国公开赛是斯诺克赛事。"
+      },
+      {
+        "doc_id": "doc_2",
+        "label": "misleading",
+        "reason": "文档标题和正文混淆了信息，将斯诺克选手（John Higgins, Mark Allen）与羽毛球赛事错误关联，且内容自相矛盾。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "irrelevant",
+        "reason": "文档主要讨论世界锦标赛、篮球等，未直接提及2013年中国公开赛的具体运动项目，且包含无关的篮球引用。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出2013年中国公开赛是斯诺克赛事。\"},{\"doc_id\":\"doc_2\",\"label\":\"misleading\",\"reason\":\"文档标题和正文混淆了信息，将斯诺克选手（John Higgins, Mark Allen）与羽毛球赛事错误关联，且内容自相矛盾。\"},{\"doc_id\":\"doc_3\",\"label\":\"irrelevant\",\"reason\":\"文档主要讨论世界锦标赛、篮球等，未直接提及2013年中国公开赛的具体运动项目，且包含无关的篮球引用。\"}]}",
+      "answer": "斯诺克（Snooker）。"
+    }
+  },
+  {
+    "id": "ramdocs_0048",
+    "method": "crag_lite",
+    "answer": "1885 年 5 月 15 日",
+    "retrieved_doc_ids": [
+      "doc_3",
+      "doc_2",
+      "doc_1"
+    ],
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Maurice Roche, 4th Baron Fermoy Edmund Maurice Burke Roche, 4th Baron Fermoy (15 May 1885 – 8 July 1955) was a British Conservative Party politician, an Irish peer and the maternal grandfather of Diana, Princess of Wales. Roche was born on 15 May 1885 in Chelsea, London, the elder of twin sons of the Hon. James Roche (later Baron Fermoy) and his American wife, Frances Ellen Work. He was educated at Harvard University and graduated in 1909. He returned to England on succeeding to his father's Irish peerage in 1920. He was a naturalized American citizen but resumed British nationality",
+        "label": "correct",
+        "_retrieval_score": 0.5119861364364624,
+        "_rerank_score": 0.9768023732674583
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "1885 年 5 月 15 日",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_3": 0.5573477745056152,
+        "doc_2": 0.5505210161209106,
+        "doc_1": 0.5119861364364624
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_2": 0.9919380084717284,
+        "doc_3": 0.9843964652097964,
+        "doc_1": 0.9768023732674583
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_2",
+        "label": "misleading",
+        "reason": "文档标题和正文开头称生卒年为1885-1955，但具体出生日期标注为1900年，存在严重矛盾。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "misleading",
+        "reason": "文档明确记载出生日期为1885年5月15日，与问题中可能隐含的1900年（基于其他错误信息）或常识不符，且标签显示为correct但内容与其他来源冲突，需警惕误导。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "weak",
+        "reason": "文档仅列出姓名和生卒年份范围(1885-1955)，未提供具体的出生月日信息。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_2\",\"label\":\"misleading\",\"reason\":\"文档标题和正文开头称生卒年为1885-1955，但具体出生日期标注为1900年，存在严重矛盾。\"},{\"doc_id\":\"doc_3\",\"label\":\"misleading\",\"reason\":\"文档明确记载出生日期为1885年5月15日，与问题中可能隐含的1900年（基于其他错误信息）或常识不符，且标签显示为correct但内容与其他来源冲突，需警惕误导。\"},{\"doc_id\":\"doc_1\",\"label\":\"weak\",\"reason\":\"文档仅列出姓名和生卒年份范围(1885-1955)，未提供具体的出生月日信息。\"}]}",
+      "answer": "1885 年 5 月 15 日"
+    }
+  },
+  {
+    "id": "ramdocs_0049",
+    "method": "crag_lite",
+    "answer": "冰球",
+    "retrieved_doc_ids": [
+      "doc_3",
+      "doc_1",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Hiroyuki Miura (ice hockey) In 1992, Miura became the first Japanese player ever drafted into the NHL when the Montreal Canadiens chose him in the 11th round (260th overall) of the 1992 NHL Entry Draft. (Technically, Miura was the second Japanese player \"selected\" by the league; the first was Taro Tsujimoto, a fictional player drafted as a joke by the Buffalo Sabres in 1974.) Miura never played in the NHL, and his North American professional ice hockey experience was limited to six games played with the Wheeling Thunderbirds of the East Coast Hockey League in 1993–94. Miura represented Japan at",
+        "label": "correct",
+        "_retrieval_score": 0.5825797915458679,
+        "_rerank_score": 0.6775806985937081
+      }
+    ],
+    "prompt_version": "formal_v1",
+    "raw_response": "冰球",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "bge-m3+faiss",
+      "embedding_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-m3",
+      "top_k": 20,
+      "scores": {
+        "doc_3": 0.652759313583374,
+        "doc_1": 0.5825797915458679,
+        "doc_2": 0.579829752445221
+      }
+    },
+    "rerank_meta": {
+      "backend": "bge-reranker-v2-m3",
+      "reranker_model": "D:\\大学资料\\自然语言处理\\实验四\\.hf_cache\\models\\bge-reranker-v2-m3",
+      "top_n": 5,
+      "scores": {
+        "doc_2": 0.9834704434423458,
+        "doc_3": 0.9701269078891237,
+        "doc_1": 0.6775806985937081
+      }
+    },
+    "doc_judgements": [
+      {
+        "doc_id": "doc_2",
+        "label": "misleading",
+        "reason": "文档将冰球运动员误标为相扑选手，且包含不合逻辑的'Position Defence Shot'描述。"
+      },
+      {
+        "doc_id": "doc_3",
+        "label": "misleading",
+        "reason": "文档内容自相矛盾，标题称其为冰球运动员，但正文却错误地将其描述为试图成为首位获得国际认可的相扑选手。"
+      },
+      {
+        "doc_id": "doc_1",
+        "label": "reliable",
+        "reason": "文档明确指出Hiroyuki Miura是相扑选手（Sumo wrestler），并提供了出生年份、身高体重等详细信息。"
+      }
+    ],
+    "raw_responses": {
+      "doc_judgement": "{\"judgements\":[{\"doc_id\":\"doc_2\",\"label\":\"misleading\",\"reason\":\"文档将冰球运动员误标为相扑选手，且包含不合逻辑的'Position Defence Shot'描述。\"},{\"doc_id\":\"doc_3\",\"label\":\"misleading\",\"reason\":\"文档内容自相矛盾，标题称其为冰球运动员，但正文却错误地将其描述为试图成为首位获得国际认可的相扑选手。\"},{\"doc_id\":\"doc_1\",\"label\":\"reliable\",\"reason\":\"文档明确指出Hiroyuki Miura是相扑选手（Sumo wrestler），并提供了出生年份、身高体重等详细信息。\"}]}",
+      "answer": "冰球"
+    }
+  }
+]
