@@ -1,57 +1,57 @@
-# 组员 B：RAG Baseline 中期原型
+# 题目八：面向噪声文档的鲁棒 RAG 推理
 
-本目录实现第八题“面向大模型 RAG 推理场景噪音文档的鲁棒性推理方法”中组员 B 负责的中期原型：Qwen/百炼 API 调用封装、Zero-shot、Naive RAG、Rerank RAG，以及统一输出格式。
+本仓库是合并后的项目版本，包含默认分支已有的数据处理、控制噪声实验、基础/神经 RAG 方法，以及 `member-c-egi-rag` 分支新增的 EGI-RAG（Evidence-Gated Iterative RAG）实现。
+
+## 分工与模块
+
+- 组员 A：RGB、RAMDocs、Conflicts 数据转换、抽样、schema 校验、可控噪声数据构造。
+- 组员 B：Qwen/百炼 API 封装；Zero-shot、Naive RAG、Rerank RAG、CRAG-lite、Self-RAG-lite 等基线。
+- 组员 C：EGI-RAG 流程、消融变体、Naive RAG 与 EGI-RAG 案例对比。
 
 ## 目录
 
 ```text
-configs/model_config.example.yaml   # Qwen/百炼模型配置
-data/sample_input.json              # 备用空输入模板
-data/sample_input.schema.json       # 输入字段说明
-samples/*_input.json                # 成员 A 已转换好的 RGB/RAMDocs/CONFLICTS 小样本
-samples/controlled/                 # 成员 A 构造的噪音比例/正确文档位置可控实验集
-outputs/midterm/                    # 中期输出文件
-reports/dataset_statistics.md       # 数据统计报告
-scripts/step*.py                    # 数据下载、转换、校验脚本
-src/run_baseline.py                 # baseline 运行入口
-src/evaluation/                     # 数据统计、可控实验构造、输出评估脚本
+configs/model_config.example.yaml   # Qwen/百炼模型配置示例
+data/                               # 输入 schema 与备用样例
+samples/                            # 已转换的小样本、全量样本和可控噪声样本
+outputs/                            # 已生成的实验输出
+reports/                            # 数据、实验、方法报告
+scripts/                            # 数据处理和一键实验脚本
+src/run_baseline.py                 # 基线方法运行入口
+src/run_egi_rag.py                  # EGI-RAG 运行入口
+src/analyze_cases.py                # Naive RAG 与 EGI-RAG 案例对比
+src/evaluation/                     # 数据统计、控制集构造、输出评估
 src/llm/                            # Qwen/百炼 API 客户端
-src/rag_baselines/                  # baseline prompt 与轻量 rerank
-HANDOFF_A.md                        # 成员 A 数据与评估交接说明
-EXPERIMENT_ADVICE_A.md              # 可控实验和后续实验表建议
+src/rag_baselines/                  # 检索、重排、基线流程和 prompts
+src/egi_rag/                        # EGI-RAG 流程和 prompts
 ```
 
-## 配置
+## 环境与配置
 
-所有命令默认在已有 conda 环境 `type3` 中运行：
+推荐使用已有 conda 环境：
 
 ```powershell
 conda activate type3
+pip install -r requirements.txt
 ```
 
-API Key 可以通过环境变量或配置文件提供。为了避免泄露，建议运行前在 PowerShell 临时设置：
+API Key 建议通过环境变量提供：
 
 ```powershell
-$env:DASHSCOPE_API_KEY="你的百炼APIKey"
+$env:DASHSCOPE_API_KEY="你的百炼 API Key"
 ```
 
-当前配置文件已指定中期模型：
-
-```yaml
-provider: qwen
-model: "qwen3.5-122b-a10b"
-base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
-```
-
-如需临时覆盖模型，可设置：
+默认配置位于 `configs/model_config.example.yaml`。如需临时替换模型：
 
 ```powershell
 $env:DASHSCOPE_MODEL="qwen3.5-122b-a10b"
 ```
 
+若本地没有 bge-m3、FAISS 或 bge-reranker-v2-m3，代码会自动回退到轻量词面检索/重排，便于小规模验证。
+
 ## 输入格式
 
-`data/sample_input.json` 是备用空模板。当前实际可跑数据在 `samples/`：
+实际可跑数据主要位于：
 
 ```text
 samples/rgb_input.json
@@ -64,7 +64,7 @@ samples/controlled/rgb/*_input.json
 samples/controlled/ramdocs/*_input.json
 ```
 
-期望格式：
+样本格式：
 
 ```json
 [
@@ -85,89 +85,41 @@ samples/controlled/ramdocs/*_input.json
 ]
 ```
 
-## 运行命令
-
-正式运行：
+## 运行基线
 
 ```powershell
-conda activate type3
-
-python -m src.run_baseline --method zero_shot --input data/sample_input.json --output outputs/midterm/zero_shot_output.json --limit 30
-
-python -m src.run_baseline --method naive_rag --input data/sample_input.json --output outputs/midterm/naive_rag_output.json --limit 30 --top_k 5
-
-python -m src.run_baseline --method rerank_rag --input data/sample_input.json --output outputs/midterm/rerank_rag_output.json --limit 30 --top_k 8 --top_n 5
-```
-
-使用成员 A 的 RGB 样本运行：
-
-```powershell
-conda activate type3
-
 python -m src.run_baseline --method zero_shot --input samples/rgb_input.json --output outputs/midterm/rgb_zero_shot_output.json --limit 30
 
 python -m src.run_baseline --method naive_rag --input samples/rgb_input.json --output outputs/midterm/rgb_naive_rag_output.json --limit 30 --top_k 5
 
-python -m src.run_baseline --method rerank_rag --input samples/rgb_input.json --output outputs/midterm/rgb_rerank_rag_output.json --limit 30 --top_k 8 --top_n 5
+python -m src.run_baseline --method rerank_rag --input samples/rgb_input.json --output outputs/midterm/rgb_rerank_rag_output.json --limit 30 --top_k 20 --top_n 5
+
+python -m src.run_baseline --method crag_lite --input samples/rgb_input.json --output outputs/rgb_results/rgb_crag_lite_output.json --limit 30 --top_k 20 --top_n 5
+
+python -m src.run_baseline --method self_rag_lite --input samples/rgb_input.json --output outputs/rgb_results/rgb_self_rag_lite_output.json --limit 30 --top_k 20 --top_n 5
 ```
 
-无 API Key 或无正式数据时，可使用 dry run 生成 prompt 和流程记录：
+无 API Key 时可用 `--dry_run` 生成 prompt 和流程记录。
+
+## 运行 EGI-RAG
 
 ```powershell
-conda activate type3
+python -m src.run_egi_rag --input samples/rgb_input.json --output outputs/midterm/rgb_egi_rag_output.json --limit 10
 
-python -m src.run_baseline --method naive_rag --input data/sample_input.json --output outputs/midterm/naive_rag_dryrun.json --dry_run
+python -m src.run_egi_rag --input samples/rgb_input.json --output outputs/midterm/rgb_egi_rag_dryrun.json --limit 3 --dry_run
+
+python -m src.run_egi_rag --input samples/rgb_input.json --output outputs/midterm/rgb_egi_wo_verifier.json --variant wo_verifier --limit 10
+
+.\scripts\run_member_c_midterm.ps1 -Limit 10
+.\scripts\run_member_c_midterm.ps1 -DryRun -Limit 3
 ```
 
-## 输出格式
+EGI-RAG 输出会额外包含 `doc_scores`、`evidence_spans`、`verification_result`、`iteration_log` 等字段。
 
-每条输出包含：
+## 进一步阅读
 
-```json
-{
-  "id": "sample_001",
-  "method": "naive_rag",
-  "answer": "模型答案",
-  "selected_doc_ids": ["doc_1"],
-  "contexts_used": [],
-  "prompt_version": "midterm_v1",
-  "raw_response": "模型原始响应",
-  "error": null
-}
-```
-
-`dry_run` 模式会额外输出 `prompt` 字段，便于中期答辩展示。
-
-实际调用 API 时，程序默认读取 `configs/model_config.example.yaml`，也可以用 `--config` 指定其他配置文件。
-
-## 成员 A 数据与评估脚本
-
-校验统一数据格式：
-
-```powershell
-python scripts/step4_validate_schema.py
-```
-
-生成数据集统计报告：
-
-```powershell
-python src/evaluation/build_dataset_report.py
-```
-
-生成噪音比例和正确文档位置可控实验集：
-
-```powershell
-python src/evaluation/build_controlled_noise_sets.py
-```
-
-评估某个方法的输出：
-
-```powershell
-python src/evaluation/evaluate_outputs.py --input samples/rgb_all_input.json --reference samples/rgb_all_reference.json --output outputs/rgb_results/rgb_naive_rag_output.json --save outputs/rgb_results/rgb_naive_rag_metrics.json
-```
-
-成员 B/C 跑完 baseline 或 EGI-RAG 后，把输出保存为 JSON 数组，并至少保留 `id` 和 `answer` 字段；如保留 `selected_doc_ids`、`evidence_spans`、`verification_result`，评估脚本可以继续计算证据选择准确率和 Faithfulness。
-
-## 中期说明
-
-中期 `rerank_rag` 使用本地轻量重排，不下载 embedding 模型：先按问题和文档的关键词/字符重合度排序，再取前 `top_n` 篇文档生成答案。最终阶段可替换为 embedding、FAISS 和专业 reranker。
+- `PROJECT_SUMMARY.md`：本次合并整理说明，含数据、方法和现有结果概览。
+- `reports/dataset_statistics.md`：样本统计。
+- `reports/baseline_run_summary.md`：基线运行摘要。
+- `reports/egi_rag_framework.md`：EGI-RAG 框架说明。
+- `reports/member_c_midterm.md`：组员 C 中期方案。
