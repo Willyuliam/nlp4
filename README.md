@@ -1,6 +1,6 @@
 # 组员 B：RAG Baseline 中期原型
 
-本目录实现第八题“面向大模型 RAG 推理场景噪音文档的鲁棒性推理方法”中组员 B 负责的中期原型：Qwen/百炼 API 调用封装、Zero-shot、Naive RAG、Rerank RAG，以及统一输出格式。
+本目录实现第八题“面向大模型 RAG 推理场景噪音文档的鲁棒性推理方法”中组员 B 负责的中期原型：Qwen/百炼 API 调用封装、Zero-shot、Ordered RAG、Naive RAG、Rerank RAG，以及统一输出格式。
 
 ## 目录
 
@@ -117,6 +117,26 @@ python -m src.run_baseline --method rerank_rag --input samples/rgb_input.json --
 conda activate type3
 
 python -m src.run_baseline --method naive_rag --input data/sample_input.json --output outputs/midterm/naive_rag_dryrun.json --dry_run
+```
+
+组员 B controlled 实验矩阵运行：
+
+```powershell
+D:\conda_envs\type3\python.exe scripts\run_member_b_controlled.py
+```
+
+该脚本会按计划运行 RGB 噪音比例实验、RGB 正确文档位置实验、RAMDocs 扩展实验，并将输出写入 `outputs/controlled/`。
+
+无 API Key 时可以先做流程验证：
+
+```powershell
+D:\conda_envs\type3\python.exe scripts\run_member_b_controlled.py --dry-run --limit 1 --disable-neural --output-root outputs/controlled_smoke
+```
+
+汇总 controlled 输出：
+
+```powershell
+D:\conda_envs\type3\python.exe scripts\summarize_member_b_controlled.py
 ```
 
 ## 输出格式

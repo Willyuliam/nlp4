@@ -19,7 +19,7 @@ from src.rag_baselines.reranker import rerank_retrieved_contexts
 from src.rag_baselines.retriever import retrieve_contexts
 
 
-SUPPORTED_METHODS = {"zero_shot", "naive_rag", "rerank_rag", "crag_lite", "self_rag_lite"}
+SUPPORTED_METHODS = {"zero_shot", "ordered_rag", "naive_rag", "rerank_rag", "crag_lite", "self_rag_lite"}
 PROMPT_VERSION = "formal_v1"
 REFUSAL_ANSWER = "无法根据给定信息确定"
 
@@ -40,6 +40,18 @@ def run_sample(
 
     if method == "zero_shot":
         return _run_single_generation(sample, method, question, [], [], client, dry_run)
+    if method == "ordered_rag":
+        selected_contexts = contexts[: max(top_k, 0)]
+        return _run_single_generation(
+            sample,
+            method,
+            question,
+            selected_contexts,
+            selected_contexts,
+            client,
+            dry_run,
+            retrieval_meta={"backend": "input_order", "top_k": max(top_k, 0)},
+        )
     if method == "naive_rag":
         selected_contexts, retrieval_meta = retrieve_contexts(question, contexts, top_k=max(top_k, 0))
         return _run_single_generation(
