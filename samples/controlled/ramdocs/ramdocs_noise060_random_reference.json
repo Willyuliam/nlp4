@@ -1,0 +1,7721 @@
+[
+  {
+    "id": "ramdocs_0000",
+    "gold_answers": [
+      "3,559 people"
+    ],
+    "wrong_answers": [
+      "10,000 people"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0001",
+    "gold_answers": [
+      "American football"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0002",
+    "gold_answers": [
+      "Mahesh Bhatt"
+    ],
+    "wrong_answers": [
+      "Raj Kapoor",
+      "Raj Kapoor"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0003",
+    "gold_answers": [
+      "AFL"
+    ],
+    "wrong_answers": [
+      "NBA"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0004",
+    "gold_answers": [
+      "1856"
+    ],
+    "wrong_answers": [
+      "1900"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0005",
+    "gold_answers": [
+      "Football"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0006",
+    "gold_answers": [
+      "1902"
+    ],
+    "wrong_answers": [
+      "1885",
+      "1850"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0008",
+    "gold_answers": [
+      "February 8, 1900"
+    ],
+    "wrong_answers": [
+      "July 15, 1905"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0009",
+    "gold_answers": [
+      "4,411"
+    ],
+    "wrong_answers": [
+      "10,000"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0010",
+    "gold_answers": [
+      "Ahmed Hussen"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0012",
+    "gold_answers": [
+      "Blitzen Trapper"
+    ],
+    "wrong_answers": [
+      "The Beatles",
+      "The Beatles"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0013",
+    "gold_answers": [
+      "Carpenters"
+    ],
+    "wrong_answers": [
+      "The Beatles"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0014",
+    "gold_answers": [
+      "Needtobreathe"
+    ],
+    "wrong_answers": [
+      "Coldplay"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0015",
+    "gold_answers": [
+      "Football"
+    ],
+    "wrong_answers": [
+      "Soccer",
+      "Chess"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0016",
+    "gold_answers": [
+      "117,088"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0017",
+    "gold_answers": [
+      "Film"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0018",
+    "gold_answers": [
+      "Football"
+    ],
+    "wrong_answers": [
+      "Chess"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0019",
+    "gold_answers": [
+      "Philadelphia Atoms"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0020",
+    "gold_answers": [
+      "academy"
+    ],
+    "wrong_answers": [
+      "university",
+      "military base"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0021",
+    "gold_answers": [
+      "1 December 1737"
+    ],
+    "wrong_answers": [
+      "15 June 1745",
+      "1 January 1738"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0022",
+    "gold_answers": [
+      "Cloutierville, Louisiana"
+    ],
+    "wrong_answers": [
+      "New Orleans, Louisiana"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0024",
+    "gold_answers": [
+      "novel"
+    ],
+    "wrong_answers": [
+      "film",
+      "film"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0025",
+    "gold_answers": [
+      "Republican"
+    ],
+    "wrong_answers": [
+      "Whig",
+      "Democratic"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0026",
+    "gold_answers": [
+      "Assamese-language"
+    ],
+    "wrong_answers": [
+      "Finnish-language"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0027",
+    "gold_answers": [
+      "Short film"
+    ],
+    "wrong_answers": [
+      "Documentary"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0028",
+    "gold_answers": [
+      "A convention"
+    ],
+    "wrong_answers": [
+      "A space exploration agency"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0029",
+    "gold_answers": [
+      "Houghton County, Michigan"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0030",
+    "gold_answers": [
+      "Frank Oz"
+    ],
+    "wrong_answers": [
+      "Quentin Tarantino"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0031",
+    "gold_answers": [
+      "Iowa"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0032",
+    "gold_answers": [
+      "About 50,000"
+    ],
+    "wrong_answers": [
+      "About 10,000"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0033",
+    "gold_answers": [
+      "428"
+    ],
+    "wrong_answers": [
+      "42,800"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0036",
+    "gold_answers": [
+      "Hockey"
+    ],
+    "wrong_answers": [
+      "Basketball",
+      "Basketball"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0037",
+    "gold_answers": [
+      "Miami, Florida"
+    ],
+    "wrong_answers": [
+      "Anchorage, Alaska"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0038",
+    "gold_answers": [
+      "Boston"
+    ],
+    "wrong_answers": [
+      "New York City"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0039",
+    "gold_answers": [
+      "June 19, 1910"
+    ],
+    "wrong_answers": [
+      "January 1, 1900"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0040",
+    "gold_answers": [
+      "2 July 1829"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0041",
+    "gold_answers": [
+      "1921"
+    ],
+    "wrong_answers": [
+      "1985",
+      "1955"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0042",
+    "gold_answers": [
+      "super-powered characters"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0043",
+    "gold_answers": [
+      "2,772"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0045",
+    "gold_answers": [
+      "459"
+    ],
+    "wrong_answers": [
+      "1,234",
+      "1,234"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0046",
+    "gold_answers": [
+      "Shepseskaf and Userkaf"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0047",
+    "gold_answers": [
+      "Snooker"
+    ],
+    "wrong_answers": [
+      "Badminton",
+      "Basketball"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0048",
+    "gold_answers": [
+      "15 May 1885"
+    ],
+    "wrong_answers": [
+      "22 October 1900",
+      "22 October 1885"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0049",
+    "gold_answers": [
+      "Ice hockey"
+    ],
+    "wrong_answers": [
+      "Sumo Wrestling",
+      "Sumo Wrestling"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0050",
+    "gold_answers": [
+      "a band"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0051",
+    "gold_answers": [
+      "about 1835"
+    ],
+    "wrong_answers": [
+      "about 1935"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0052",
+    "gold_answers": [
+      "1962"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0053",
+    "gold_answers": [
+      "Slim the Mobster"
+    ],
+    "wrong_answers": [
+      "Jay-Z",
+      "Dr. Dre"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0054",
+    "gold_answers": [
+      "Football"
+    ],
+    "wrong_answers": [
+      "Basketball",
+      "Basketball"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0055",
+    "gold_answers": [
+      "Aguadilla, Puerto Rico"
+    ],
+    "wrong_answers": [
+      "San Juan, Puerto Rico"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0056",
+    "gold_answers": [
+      "Best Coast"
+    ],
+    "wrong_answers": [
+      "The Beatles"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0057",
+    "gold_answers": [
+      "Tabla"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0058",
+    "gold_answers": [
+      "American football"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0060",
+    "gold_answers": [
+      "Poetry"
+    ],
+    "wrong_answers": [
+      "Abstract Expressionist Painting",
+      "Abstract Expressionist Painting"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0061",
+    "gold_answers": [
+      "Ankara's Gençlerbirliği"
+    ],
+    "wrong_answers": [
+      "Bursaspor"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0062",
+    "gold_answers": [
+      "Ice hockey"
+    ],
+    "wrong_answers": [
+      "Cricket"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0063",
+    "gold_answers": [
+      "1,791 people"
+    ],
+    "wrong_answers": [
+      "2,500 people"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0064",
+    "gold_answers": [
+      "Defender"
+    ],
+    "wrong_answers": [
+      "Forward",
+      "Forward"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0065",
+    "gold_answers": [
+      "7,254"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0066",
+    "gold_answers": [
+      "Republican"
+    ],
+    "wrong_answers": [
+      "Democratic",
+      "Green Party"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0067",
+    "gold_answers": [
+      "Joe Boyd"
+    ],
+    "wrong_answers": [
+      "Dr. Dre",
+      "Elton John"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0068",
+    "gold_answers": [
+      "October 4, 2016"
+    ],
+    "wrong_answers": [
+      "January 1, 2018"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0069",
+    "gold_answers": [
+      "Cricket"
+    ],
+    "wrong_answers": [
+      "Football",
+      "Basketball"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0070",
+    "gold_answers": [
+      "Cut Copy"
+    ],
+    "wrong_answers": [
+      "The Beatles",
+      "The Beatles"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0071",
+    "gold_answers": [
+      "Thimphu, Bhutan"
+    ],
+    "wrong_answers": [
+      "Kathmandu, Nepal"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0072",
+    "gold_answers": [
+      "about 1820"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0073",
+    "gold_answers": [
+      "Baroque"
+    ],
+    "wrong_answers": [
+      "Modernist"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0074",
+    "gold_answers": [
+      "Boys Like Girls"
+    ],
+    "wrong_answers": [
+      "One Direction",
+      "The Beatles"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0075",
+    "gold_answers": [
+      "Boston"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0076",
+    "gold_answers": [
+      "Odakyu Electric Railway"
+    ],
+    "wrong_answers": [
+      "JR East"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0077",
+    "gold_answers": [
+      "November 25, 1865"
+    ],
+    "wrong_answers": [
+      "March 15, 1870"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0079",
+    "gold_answers": [
+      "Arizona"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0080",
+    "gold_answers": [
+      "November 1, 2007"
+    ],
+    "wrong_answers": [
+      "January 1, 2006"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0081",
+    "gold_answers": [
+      "1912"
+    ],
+    "wrong_answers": [
+      "1850",
+      "1850"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0082",
+    "gold_answers": [
+      "Republican"
+    ],
+    "wrong_answers": [
+      "Democratic"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0083",
+    "gold_answers": [
+      "1,294"
+    ],
+    "wrong_answers": [
+      "5,000"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0084",
+    "gold_answers": [
+      "996 cc"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0085",
+    "gold_answers": [
+      "Republican"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0086",
+    "gold_answers": [
+      "Cardinal"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0087",
+    "gold_answers": [
+      "The Burgess Company"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0089",
+    "gold_answers": [
+      "September 1888"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0090",
+    "gold_answers": [
+      "Jade Valerie"
+    ],
+    "wrong_answers": [
+      "Taylor Swift"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0091",
+    "gold_answers": [
+      "Republican"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0092",
+    "gold_answers": [
+      "Yellow lantern banksia"
+    ],
+    "wrong_answers": [
+      "Red Lantern",
+      "Red Lantern Banksia"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0093",
+    "gold_answers": [
+      "42.7 years"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0095",
+    "gold_answers": [
+      "Rugby union"
+    ],
+    "wrong_answers": [
+      "Cricket"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0096",
+    "gold_answers": [
+      "American football"
+    ],
+    "wrong_answers": [
+      "Cricket",
+      "Ice Hockey"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0097",
+    "gold_answers": [
+      "Football"
+    ],
+    "wrong_answers": [
+      "Cricket",
+      "Basketball"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0100",
+    "gold_answers": [
+      "January 2012",
+      "June 21, 1998"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0101",
+    "gold_answers": [
+      "1987",
+      "1988"
+    ],
+    "wrong_answers": [
+      "1995",
+      "1990"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0102",
+    "gold_answers": [
+      "Dynasty",
+      "Jeremy Camp"
+    ],
+    "wrong_answers": [
+      "Metallica"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0104",
+    "gold_answers": [
+      "3 July 1750",
+      "3 September 1717"
+    ],
+    "wrong_answers": [
+      "12 December 1750",
+      "12 December 1750"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0106",
+    "gold_answers": [
+      "Elia Kazan",
+      "Franco Giraldi"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0109",
+    "gold_answers": [
+      "In-Flight Safety",
+      "Tracy Lawrence"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0110",
+    "gold_answers": [
+      "9,523",
+      "174"
+    ],
+    "wrong_answers": [
+      "1,234",
+      "1,234"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0111",
+    "gold_answers": [
+      "1898",
+      "1855"
+    ],
+    "wrong_answers": [
+      "1886",
+      "1974"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0113",
+    "gold_answers": [
+      "Hockey",
+      "Baseball"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0114",
+    "gold_answers": [
+      "American football",
+      "Ice hockey"
+    ],
+    "wrong_answers": [
+      "Basketball"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0115",
+    "gold_answers": [
+      "gangster thriller",
+      "comedy film"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0116",
+    "gold_answers": [
+      "Baseball",
+      "American football"
+    ],
+    "wrong_answers": [
+      "Basketball",
+      "Football"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0118",
+    "gold_answers": [
+      "William E. Parsons",
+      "Carl A"
+    ],
+    "wrong_answers": [
+      "Frank Lloyd Wright"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0119",
+    "gold_answers": [
+      "4,624",
+      "2,097"
+    ],
+    "wrong_answers": [
+      "12,345"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0121",
+    "gold_answers": [
+      "5 January 1884",
+      "26 December 1844"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0124",
+    "gold_answers": [
+      "45.7 years",
+      "37 years"
+    ],
+    "wrong_answers": [
+      "30.2 years"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0126",
+    "gold_answers": [
+      "Bradley Joseph",
+      "Joe McElderry"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0127",
+    "gold_answers": [
+      "81,615",
+      "963,022"
+    ],
+    "wrong_answers": [
+      "12,345",
+      "50,000"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0128",
+    "gold_answers": [
+      "Liberal-Progressives",
+      "Quebec Liberal Party"
+    ],
+    "wrong_answers": [
+      "Conservative"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0129",
+    "gold_answers": [
+      "Stanford, Kentucky, USA",
+      "Hamlin, West Virginia"
+    ],
+    "wrong_answers": [
+      "Springfield, Illinois, USA"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0130",
+    "gold_answers": [
+      "Telugu",
+      "Hindi"
+    ],
+    "wrong_answers": [
+      "Marathi",
+      "Hindi"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0131",
+    "gold_answers": [
+      "Play",
+      "Film"
+    ],
+    "wrong_answers": [
+      "Novel",
+      "Novel"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0132",
+    "gold_answers": [
+      "Richard Speight Jr",
+      "Rock Street Journal"
+    ],
+    "wrong_answers": [
+      "Robert Downey Jr"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0133",
+    "gold_answers": [
+      "John Hartford",
+      "Westlife"
+    ],
+    "wrong_answers": [
+      "Taylor Swift",
+      "Taylor Swift"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0134",
+    "gold_answers": [
+      "December 8, 1987",
+      "August 10, 1966"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0135",
+    "gold_answers": [
+      "3,171 people",
+      "887 people"
+    ],
+    "wrong_answers": [
+      "12,456 people"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0136",
+    "gold_answers": [
+      "1972",
+      "1970"
+    ],
+    "wrong_answers": [
+      "1995"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0137",
+    "gold_answers": [
+      "February 19, 1873",
+      "December 5, 1827"
+    ],
+    "wrong_answers": [
+      "July 15, 1875"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0138",
+    "gold_answers": [
+      "Quarterback",
+      "Linebacker"
+    ],
+    "wrong_answers": [
+      "Linebacker"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0139",
+    "gold_answers": [
+      "741",
+      "472"
+    ],
+    "wrong_answers": [
+      "1,234"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0140",
+    "gold_answers": [
+      "Instructor of physics",
+      "British poet"
+    ],
+    "wrong_answers": [
+      "Professional basketball player"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0141",
+    "gold_answers": [
+      "Tennis",
+      "Baseball and Football"
+    ],
+    "wrong_answers": [
+      "Basketball",
+      "Golf"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0142",
+    "gold_answers": [
+      "Pakistan",
+      "Peru"
+    ],
+    "wrong_answers": [
+      "Canada"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0143",
+    "gold_answers": [
+      "3,292 people",
+      "533 people"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0144",
+    "gold_answers": [
+      "681",
+      "2,355"
+    ],
+    "wrong_answers": [
+      "1,200"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0145",
+    "gold_answers": [
+      "Porcelain-headed bisque dolls",
+      "Underwear manufacturers"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0146",
+    "gold_answers": [
+      "1866",
+      "2004"
+    ],
+    "wrong_answers": [
+      "1966",
+      "1920"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0147",
+    "gold_answers": [
+      "120,000",
+      "40,147"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0148",
+    "gold_answers": [
+      "Spanish Tropical",
+      "Spanish Top 40/CHR"
+    ],
+    "wrong_answers": [
+      "Classical Music",
+      "Classical Music"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0149",
+    "gold_answers": [
+      "Shae Jones",
+      "the Go-Go's"
+    ],
+    "wrong_answers": [
+      "Beyoncé"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0150",
+    "gold_answers": [
+      "Missy \"Misdemeanor\" Elliott",
+      "Peter Gabriel"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0152",
+    "gold_answers": [
+      "Koltsevaya line",
+      "Zamoskvoretskaya line"
+    ],
+    "wrong_answers": [
+      "Belorusskaya line",
+      "Kaluzhsko-Rizhskaya line"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0153",
+    "gold_answers": [
+      "John Coltrane",
+      "The Boo Radleys"
+    ],
+    "wrong_answers": [
+      "Miles Davis"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0154",
+    "gold_answers": [
+      "1989",
+      "1981"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0155",
+    "gold_answers": [
+      "Ian Brown",
+      "Mike Oldfield"
+    ],
+    "wrong_answers": [
+      "Taylor Swift",
+      "The 13th Floor Elevators"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0156",
+    "gold_answers": [
+      "Anthrax",
+      "Joe Jackson"
+    ],
+    "wrong_answers": [
+      "Metallica",
+      "The Beatles"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0157",
+    "gold_answers": [
+      "April 12, 2011",
+      "May 1, 2012"
+    ],
+    "wrong_answers": [
+      "January 1, 2010"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0158",
+    "gold_answers": [
+      "Cleonymus",
+      "Cleombrotus II"
+    ],
+    "wrong_answers": [
+      "Acrotatus",
+      "Pyrrhus"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0160",
+    "gold_answers": [
+      "Johannes Brahms",
+      "Wolfgang Amadeus Mozart"
+    ],
+    "wrong_answers": [
+      "Ludwig van Beethoven"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0161",
+    "gold_answers": [
+      "a play",
+      "a film"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0162",
+    "gold_answers": [
+      "Basketball player",
+      "Writer"
+    ],
+    "wrong_answers": [
+      "Professional Chef"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0163",
+    "gold_answers": [
+      "about in size",
+      "long"
+    ],
+    "wrong_answers": [
+      "about 100 square miles"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0164",
+    "gold_answers": [
+      "Operatic mezzo-soprano",
+      "Painter and artist"
+    ],
+    "wrong_answers": [
+      "Professional basketball player"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0166",
+    "gold_answers": [
+      "American football",
+      "Baseball"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0168",
+    "gold_answers": [
+      "Timbaland",
+      "Twelve Gauge Valentine"
+    ],
+    "wrong_answers": [
+      "Jay-Z"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0169",
+    "gold_answers": [
+      "George Washington Short",
+      "William A"
+    ],
+    "wrong_answers": [
+      "Thomas Jefferson Long",
+      "John Adams Long"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0170",
+    "gold_answers": [
+      "Actor",
+      "Former footballer player"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0171",
+    "gold_answers": [
+      "1874",
+      "1893-1896"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0172",
+    "gold_answers": [
+      "Middle distance running",
+      "Ice hockey"
+    ],
+    "wrong_answers": [
+      "Ice Hockey"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0173",
+    "gold_answers": [
+      "Studio album",
+      "Film"
+    ],
+    "wrong_answers": [
+      "Jazz opera",
+      "Country Album"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0174",
+    "gold_answers": [
+      "Actress and director",
+      "Author and journalist"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0175",
+    "gold_answers": [
+      "Caravaggio",
+      "Massimo Stanzione"
+    ],
+    "wrong_answers": [
+      "Leonardo da Vinci",
+      "Leonardo da Vinci"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0177",
+    "gold_answers": [
+      "Doro",
+      "Slaughter"
+    ],
+    "wrong_answers": [
+      "Ozzy Osbourne"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0179",
+    "gold_answers": [
+      "Portland, Jamaica",
+      "Butte County, California"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0181",
+    "gold_answers": [
+      "A novel",
+      "A film"
+    ],
+    "wrong_answers": [
+      "A video game",
+      "A film"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0182",
+    "gold_answers": [
+      "1912",
+      "1874"
+    ],
+    "wrong_answers": [
+      "1895"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0183",
+    "gold_answers": [
+      "T-ara",
+      "Miyavi"
+    ],
+    "wrong_answers": [
+      "Justin Bieber"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0184",
+    "gold_answers": [
+      "70",
+      "4"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0186",
+    "gold_answers": [
+      "Volleyball",
+      "Middle-distance running events"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0187",
+    "gold_answers": [
+      "11,012",
+      "3,998"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0188",
+    "gold_answers": [
+      "29 March, 1814",
+      "March 16, 1818"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0189",
+    "gold_answers": [
+      "Punjabi-language",
+      "Punjabi language"
+    ],
+    "wrong_answers": [
+      "Urdu-language"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0190",
+    "gold_answers": [
+      "July 26, 1918",
+      "November 1990"
+    ],
+    "wrong_answers": [
+      "January 1, 1920"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0192",
+    "gold_answers": [
+      "Friuli-Venezia Giulia",
+      "Lombardy"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0193",
+    "gold_answers": [
+      "1875",
+      "1856"
+    ],
+    "wrong_answers": [
+      "1920",
+      "1920"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0194",
+    "gold_answers": [
+      "between 1861–1862",
+      "1850"
+    ],
+    "wrong_answers": [
+      "between 1881–1882"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0195",
+    "gold_answers": [
+      "Basketball",
+      "Football (Soccer) "
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0198",
+    "gold_answers": [
+      "Cross-country skiing",
+      "Weightlifting"
+    ],
+    "wrong_answers": [
+      "Ice Hockey",
+      "Ice Hockey"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 5
+    }
+  },
+  {
+    "id": "ramdocs_0199",
+    "gold_answers": [
+      "37,935",
+      "Around 8,400"
+    ],
+    "wrong_answers": [
+      "12,345"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0201",
+    "gold_answers": [
+      "Leila Ross Wilburn",
+      "Willis Irwin"
+    ],
+    "wrong_answers": [
+      "Frank Lloyd Wright"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0203",
+    "gold_answers": [
+      "1858",
+      "1860"
+    ],
+    "wrong_answers": [
+      "1860"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0204",
+    "gold_answers": [
+      "9 October 1951",
+      "9 February 1936"
+    ],
+    "wrong_answers": [
+      "12 March 1955"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0205",
+    "gold_answers": [
+      "September 2010",
+      "Fall of 2010"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0206",
+    "gold_answers": [
+      "Film",
+      "Series (TV)"
+    ],
+    "wrong_answers": [
+      "Radio",
+      "Radio"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0207",
+    "gold_answers": [
+      "Brad",
+      "Quicksand"
+    ],
+    "wrong_answers": [
+      "Nirvana"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0208",
+    "gold_answers": [
+      "837 people",
+      "2,764 people"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0209",
+    "gold_answers": [
+      "Trombonist",
+      "Water polo player"
+    ],
+    "wrong_answers": [
+      "Chef"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0211",
+    "gold_answers": [
+      "July 14, 1868",
+      "January 24, 1899"
+    ],
+    "wrong_answers": [
+      "January 1, 1900"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0212",
+    "gold_answers": [
+      "55,145",
+      "150,699"
+    ],
+    "wrong_answers": [
+      "100,000"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0213",
+    "gold_answers": [
+      "August 1998",
+      "Fall of 1964"
+    ],
+    "wrong_answers": [
+      "January 2005"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0214",
+    "gold_answers": [
+      "all-boys",
+      "all-girls"
+    ],
+    "wrong_answers": [
+      "co-ed",
+      "co-ed"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0216",
+    "gold_answers": [
+      "the 1960s",
+      "1953 and 1954"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0218",
+    "gold_answers": [
+      "5,390",
+      "6,669 people"
+    ],
+    "wrong_answers": [
+      "12,345",
+      "12,450"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0221",
+    "gold_answers": [
+      "Miles Davis",
+      "Shalamar"
+    ],
+    "wrong_answers": [
+      "John Coltrane",
+      "Quincy Jones"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0222",
+    "gold_answers": [
+      "a butterfly zoo",
+      "a domestic building"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0223",
+    "gold_answers": [
+      "Generalmajor",
+      "Lieutenant general"
+    ],
+    "wrong_answers": [
+      "Admiral"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0224",
+    "gold_answers": [
+      "Rugby league",
+      "Football (soccer) .\""
+    ],
+    "wrong_answers": [
+      "Cricket"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0225",
+    "gold_answers": [
+      "Defensive Midfielder",
+      "Winger"
+    ],
+    "wrong_answers": [
+      "Forward"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0226",
+    "gold_answers": [
+      "July 4, 2000",
+      "June 30, 2009"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0228",
+    "gold_answers": [
+      "Artist",
+      "Game designer"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0229",
+    "gold_answers": [
+      "24 February 1919",
+      "March 4, 1918"
+    ],
+    "wrong_answers": [
+      "12 March 1920",
+      "12 March 1920"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0230",
+    "gold_answers": [
+      "American chef",
+      "American actor"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0232",
+    "gold_answers": [
+      "Democrat",
+      "Republican"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0233",
+    "gold_answers": [
+      "1859",
+      "1861"
+    ],
+    "wrong_answers": [
+      "1885",
+      "1845"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0234",
+    "gold_answers": [
+      "The Killers",
+      "The Who"
+    ],
+    "wrong_answers": [
+      "Coldplay"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0235",
+    "gold_answers": [
+      "16,337 inhabitants",
+      "321,493 inhabitants"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0237",
+    "gold_answers": [
+      "Politician and lawyer",
+      "Politician and writer"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0238",
+    "gold_answers": [
+      "319",
+      "2,652"
+    ],
+    "wrong_answers": [
+      "5,000"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0240",
+    "gold_answers": [
+      "Boys",
+      "All-girls"
+    ],
+    "wrong_answers": [
+      "Girls",
+      "Girls"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0241",
+    "gold_answers": [
+      "1867",
+      "1743"
+    ],
+    "wrong_answers": [
+      "1857",
+      "1855"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0242",
+    "gold_answers": [
+      "Motorway",
+      "Railway"
+    ],
+    "wrong_answers": [
+      "Railway",
+      "Railway"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0244",
+    "gold_answers": [
+      "Chess",
+      "Cycling"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0245",
+    "gold_answers": [
+      "Andy Williams",
+      "Johnny Mathis"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0247",
+    "gold_answers": [
+      "Soccer",
+      "Football (American) "
+    ],
+    "wrong_answers": [
+      "Tennis"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0250",
+    "gold_answers": [
+      "Bob Evans",
+      "Mark Wills"
+    ],
+    "wrong_answers": [
+      "Taylor Swift"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0251",
+    "gold_answers": [
+      "News Talk Information",
+      "News/Talk radio format"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0252",
+    "gold_answers": [
+      "15",
+      "10"
+    ],
+    "wrong_answers": [
+      "25",
+      "3"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0253",
+    "gold_answers": [
+      "Havana, Cuba",
+      "San Antonio, Texas"
+    ],
+    "wrong_answers": [
+      "Tokyo, Japan"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0254",
+    "gold_answers": [
+      "495",
+      "612"
+    ],
+    "wrong_answers": [
+      "1,234",
+      "3,564"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0255",
+    "gold_answers": [
+      "Green River",
+      "Snake River"
+    ],
+    "wrong_answers": [
+      "Mississippi River"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0256",
+    "gold_answers": [
+      "Drama",
+      "Documentary film"
+    ],
+    "wrong_answers": [
+      "Comedy"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0258",
+    "gold_answers": [
+      "22 October 1828",
+      "28 April 1882"
+    ],
+    "wrong_answers": [
+      "15 July 1835",
+      "15 July 1835"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0261",
+    "gold_answers": [
+      "1996",
+      "2009"
+    ],
+    "wrong_answers": [
+      "2000"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0263",
+    "gold_answers": [
+      "late 1964",
+      "early 1920s"
+    ],
+    "wrong_answers": [
+      "early 1970"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0266",
+    "gold_answers": [
+      "Kenny Loggins",
+      "Blake Shelton"
+    ],
+    "wrong_answers": [
+      "Taylor Swift"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0267",
+    "gold_answers": [
+      "Frankfort, Kentucky",
+      "Rocky Mount, Virginia"
+    ],
+    "wrong_answers": [
+      "Springfield, Illinois"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0268",
+    "gold_answers": [
+      "Thriller film",
+      "Death metal band"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0269",
+    "gold_answers": [
+      "A language",
+      "An indigenous people"
+    ],
+    "wrong_answers": [
+      "A type of ancient Taiwanese currency"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0270",
+    "gold_answers": [
+      "1793",
+      "May 1758"
+    ],
+    "wrong_answers": [
+      "1755",
+      "1805"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0271",
+    "gold_answers": [
+      "838",
+      "726"
+    ],
+    "wrong_answers": [
+      "1,200",
+      "1,200"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0272",
+    "gold_answers": [
+      "Rear admiral",
+      "Vice Admiral"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0273",
+    "gold_answers": [
+      "Dean Martin",
+      "Elvis Presley"
+    ],
+    "wrong_answers": [
+      "Elton John",
+      "Frank Sinatra"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0274",
+    "gold_answers": [
+      "An administrative district",
+      "A coal mine"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0277",
+    "gold_answers": [
+      "1834",
+      "1867-1874"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0278",
+    "gold_answers": [
+      "Belleville, Illinois",
+      "Russellville, Kentucky"
+    ],
+    "wrong_answers": [
+      "Springfield, Illinois"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0279",
+    "gold_answers": [
+      "John M. Stahl",
+      "Douglas Sirk"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0280",
+    "gold_answers": [
+      "Irma Thomas",
+      "Rain (Rain singer)"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0281",
+    "gold_answers": [
+      "Documentary film",
+      "Period drama film"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0282",
+    "gold_answers": [
+      "Anglican priest",
+      "Architect"
+    ],
+    "wrong_answers": [
+      "Professional basketball player"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0283",
+    "gold_answers": [
+      "Football",
+      "Rugby union"
+    ],
+    "wrong_answers": [
+      "Cricket",
+      "Basketball"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0284",
+    "gold_answers": [
+      "Chester Springs, Pennsylvania",
+      "Northern Tunbridge, Vermont"
+    ],
+    "wrong_answers": [
+      "Springfield, Massachusetts"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0285",
+    "gold_answers": [
+      "28 September 1981",
+      "28 September 2015"
+    ],
+    "wrong_answers": [
+      "1 April 1975"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0286",
+    "gold_answers": [
+      "Tupolev Tu-104A",
+      "Airbus A310-324"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0287",
+    "gold_answers": [
+      "Purple to purple-brown",
+      "Violet colored"
+    ],
+    "wrong_answers": [
+      "Green to yellow-green"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0288",
+    "gold_answers": [
+      "Football",
+      "Racing driving"
+    ],
+    "wrong_answers": [
+      "Basketball"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0289",
+    "gold_answers": [
+      "Football",
+      "Rugby league"
+    ],
+    "wrong_answers": [
+      "Cricket",
+      "Cricket"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0290",
+    "gold_answers": [
+      "1954",
+      "1900 to 1904"
+    ],
+    "wrong_answers": [
+      "1972"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0291",
+    "gold_answers": [
+      "\"Wulfsige's farm\"",
+      "\"Wulfric's \"tūn\"\""
+    ],
+    "wrong_answers": [
+      "\"Wolf's stone\""
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0293",
+    "gold_answers": [
+      "Rock music",
+      "Comedy-drama caper film"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0294",
+    "gold_answers": [
+      "Judge",
+      "Cricketer"
+    ],
+    "wrong_answers": [
+      "Chef",
+      "Chef"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0295",
+    "gold_answers": [
+      "1,473",
+      "106"
+    ],
+    "wrong_answers": [
+      "5,000",
+      "5,000"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0296",
+    "gold_answers": [
+      "Film noir",
+      "Erotic thriller"
+    ],
+    "wrong_answers": [
+      "Romantic Comedy",
+      "Romantic Comedy"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0297",
+    "gold_answers": [
+      "April 1, 1958",
+      "20 April 1910"
+    ],
+    "wrong_answers": [
+      "January 1, 1960"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0298",
+    "gold_answers": [
+      "Eric Bross",
+      "Marc Forster"
+    ],
+    "wrong_answers": [
+      "Quentin Tarantino"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0299",
+    "gold_answers": [
+      "Politician",
+      "Divine, Bishop"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0300",
+    "gold_answers": [
+      "11 November 1798",
+      "5 February 1768",
+      "19 December 1811"
+    ],
+    "wrong_answers": [
+      "23 December 1801",
+      "23 December 1801"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0302",
+    "gold_answers": [
+      "1835",
+      "about 1870",
+      "1865"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0303",
+    "gold_answers": [
+      "Liangdao",
+      "Weitai",
+      "肅侯 (serious marquis)"
+    ],
+    "wrong_answers": [
+      "Fengyun"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0304",
+    "gold_answers": [
+      "Bertrand Russell",
+      "Ibn Warraq",
+      "Bhagat Singh"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0305",
+    "gold_answers": [
+      "28 March 1613",
+      "31 May 1599",
+      "5 November 1641"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0307",
+    "gold_answers": [
+      "Sue Townsend",
+      "Nick Lowe",
+      "Ferdinand Fairfax"
+    ],
+    "wrong_answers": [
+      "J.K. Rowling"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0308",
+    "gold_answers": [
+      "Joseph Haydn",
+      "Wolfgang Amadeus Mozart",
+      "Michael Haydn"
+    ],
+    "wrong_answers": [
+      "Ludwig van Beethoven"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0309",
+    "gold_answers": [
+      "Vibrational circular dichroism",
+      "Voice command device",
+      "Vocal cord dysfunction"
+    ],
+    "wrong_answers": [
+      "Virtual Circular Dynamics"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 5
+    }
+  },
+  {
+    "id": "ramdocs_0310",
+    "gold_answers": [
+      "2 December 1716",
+      "18 June 1668",
+      "1619"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0311",
+    "gold_answers": [
+      "Flame acanthus",
+      "Chuparosa or chiparosa",
+      "Spider-net Grevillea"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0312",
+    "gold_answers": [
+      "Emperor Muzong",
+      "Li Deming",
+      "Wang Shenzhi"
+    ],
+    "wrong_answers": [
+      "Emperor Xianzong"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0313",
+    "gold_answers": [
+      "1945",
+      "1988",
+      "1911"
+    ],
+    "wrong_answers": [
+      "1975"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0314",
+    "gold_answers": [
+      "1859",
+      "1870",
+      "1829-1833"
+    ],
+    "wrong_answers": [
+      "1905",
+      "1920"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0316",
+    "gold_answers": [
+      "Comedy film",
+      "Documentary film",
+      "Romantic Comedy"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0317",
+    "gold_answers": [
+      "15 December 1903",
+      "24 March 1982",
+      "28 May 1860"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0319",
+    "gold_answers": [
+      "Christopher Coppola",
+      "Stefan Ruzowitzky",
+      "Bryan Forbes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0320",
+    "gold_answers": [
+      "Darts",
+      "Snooker player",
+      "Football (soccer)"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0321",
+    "gold_answers": [
+      "Jump5",
+      "Peter Andre",
+      "R.E.M"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0322",
+    "gold_answers": [
+      "American football",
+      "Baseball",
+      "Cycling"
+    ],
+    "wrong_answers": [
+      "Basketball"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0323",
+    "gold_answers": [
+      "1958",
+      "1 August 1920",
+      "8 March 1897"
+    ],
+    "wrong_answers": [
+      "1930",
+      "1972"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0324",
+    "gold_answers": [
+      "Artistic gymnastics",
+      "Bowling",
+      "SAT testing"
+    ],
+    "wrong_answers": [
+      "Diving"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0325",
+    "gold_answers": [
+      "May 22, 1841",
+      "October 25, 1925",
+      "1715"
+    ],
+    "wrong_answers": [
+      "January 1, 1900"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0327",
+    "gold_answers": [
+      "1,251 people",
+      "7,094 people",
+      "75"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0328",
+    "gold_answers": [
+      "1660",
+      "1544–1547",
+      "1923"
+    ],
+    "wrong_answers": [
+      "1750"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0329",
+    "gold_answers": [
+      "Mutemath",
+      "Stephen Lynch",
+      "Jack's Mannequin"
+    ],
+    "wrong_answers": [
+      "The Beatles",
+      "Coldplay"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0331",
+    "gold_answers": [
+      "24 January 1993",
+      "16 November 1997",
+      "1978"
+    ],
+    "wrong_answers": [
+      "15 July 1995"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0332",
+    "gold_answers": [
+      "7,899",
+      "3,870",
+      "536"
+    ],
+    "wrong_answers": [
+      "12,345"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0333",
+    "gold_answers": [
+      "30 May 1945",
+      "1 August 1917",
+      "1952"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0334",
+    "gold_answers": [
+      "Clinton Sparks",
+      "Symphony X",
+      "Gregory Berns"
+    ],
+    "wrong_answers": [
+      "Jay-Z"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0335",
+    "gold_answers": [
+      "Engineer Construction Battalion",
+      "Infantry Regiment",
+      "371st Bombardment Squadron"
+    ],
+    "wrong_answers": [
+      "Infantry Regiment"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0336",
+    "gold_answers": [
+      "Rock album",
+      "Opera",
+      "243-year cycle"
+    ],
+    "wrong_answers": [
+      "Classical album"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0337",
+    "gold_answers": [
+      "112 BC",
+      "148 BC",
+      "58 BC"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0338",
+    "gold_answers": [
+      "7 July 1965",
+      "1959",
+      "1943"
+    ],
+    "wrong_answers": [
+      "15 August 1966",
+      "15 August 1970"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0342",
+    "gold_answers": [
+      "1928",
+      "1892",
+      "1926-1927"
+    ],
+    "wrong_answers": [
+      "1918",
+      "1905"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0343",
+    "gold_answers": [
+      "1870",
+      "1882",
+      "1848"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0344",
+    "gold_answers": [
+      "1566",
+      "8 October 1680",
+      "1640"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0345",
+    "gold_answers": [
+      "30 July 1953",
+      "14 May 1869",
+      "25 June 1942"
+    ],
+    "wrong_answers": [
+      "15 January 1960",
+      "15 January 1955"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 5
+    }
+  },
+  {
+    "id": "ramdocs_0346",
+    "gold_answers": [
+      "Marina Prior",
+      "Willie Nelson",
+      "Joni Mitchell"
+    ],
+    "wrong_answers": [
+      "Elton John"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0348",
+    "gold_answers": [
+      "Italo-Turkish War",
+      "World War II",
+      "1982 Lebanon War"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0349",
+    "gold_answers": [
+      "909",
+      "25,139",
+      "1,636 people"
+    ],
+    "wrong_answers": [
+      "1,500"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0350",
+    "gold_answers": [
+      "Raymond, New Hampshire",
+      "Stoneham, Massachusetts",
+      "Contoocook Village"
+    ],
+    "wrong_answers": [
+      "Salem, Massachusetts"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0351",
+    "gold_answers": [
+      "1963",
+      "1964 to 1982",
+      "2006"
+    ],
+    "wrong_answers": [
+      "1985",
+      "1955"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0352",
+    "gold_answers": [
+      "Author",
+      "Politician",
+      "1970 Atlanta Braves"
+    ],
+    "wrong_answers": [
+      "Inventor of the Flying Car"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0353",
+    "gold_answers": [
+      "4,284",
+      "240",
+      "740"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0354",
+    "gold_answers": [
+      "The Beatles",
+      "Joe Cocker",
+      "Lu Elliott"
+    ],
+    "wrong_answers": [
+      "The Rolling Stones"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0355",
+    "gold_answers": [
+      "November 3, 1992",
+      "December 1991",
+      "1997"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0356",
+    "gold_answers": [
+      "Boxing",
+      "Rugby union",
+      "Professional wrestling"
+    ],
+    "wrong_answers": [
+      "Wrestling"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0357",
+    "gold_answers": [
+      "October 12, 1666",
+      "1699 or 1701",
+      "1530"
+    ],
+    "wrong_answers": [
+      "January 1, 1700"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0358",
+    "gold_answers": [
+      "1884",
+      "1923-1929",
+      "1862"
+    ],
+    "wrong_answers": [
+      "1920"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0359",
+    "gold_answers": [
+      "The Drifters",
+      "Boney M",
+      "Sandie Shaw"
+    ],
+    "wrong_answers": [
+      "The Beatles",
+      "The Fatback Band"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0360",
+    "gold_answers": [
+      "1961",
+      "1922",
+      "1985"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0362",
+    "gold_answers": [
+      "5,601",
+      "324",
+      "10-16 years old"
+    ],
+    "wrong_answers": [
+      "12,345"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0363",
+    "gold_answers": [
+      "Football",
+      "Basketball",
+      "Cricket"
+    ],
+    "wrong_answers": [
+      "Basketball",
+      "Basketball"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0364",
+    "gold_answers": [
+      "11 June 1955",
+      "2 April 1916",
+      "1850"
+    ],
+    "wrong_answers": [
+      "23 July 1960",
+      "11 June 1975"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0365",
+    "gold_answers": [
+      "1755",
+      "1586",
+      "1250s"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0367",
+    "gold_answers": [
+      "Conservative",
+      "Right-wing",
+      "National Socialism"
+    ],
+    "wrong_answers": [
+      "Liberal",
+      "Liberal"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0368",
+    "gold_answers": [
+      "Butthole Surfers",
+      "Rheostatics",
+      "Garth Brooks"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0369",
+    "gold_answers": [
+      "1627",
+      "27 April 1699",
+      "1577"
+    ],
+    "wrong_answers": [
+      "1590"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0370",
+    "gold_answers": [
+      "1,417",
+      "874",
+      "80 persons"
+    ],
+    "wrong_answers": [
+      "2,500"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0374",
+    "gold_answers": [
+      "1995",
+      "2017",
+      "25 September 1970"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0375",
+    "gold_answers": [
+      "Joey Baron",
+      "Zoot Sims",
+      "Chet Atkins"
+    ],
+    "wrong_answers": [
+      "John Coltrane",
+      "John Coltrane"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0376",
+    "gold_answers": [
+      "2,197",
+      "183",
+      "2,220"
+    ],
+    "wrong_answers": [
+      "5,000",
+      "5,000"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0377",
+    "gold_answers": [
+      "Eartha Kitt",
+      "Tom Lehrer",
+      "Cowboys International"
+    ],
+    "wrong_answers": [
+      "Michael Jackson",
+      "Frank Sinatra"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0378",
+    "gold_answers": [
+      "1971",
+      "1962",
+      "12 October 1965"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0381",
+    "gold_answers": [
+      "Marco Loristan",
+      "Eleanor Burden",
+      "Johnnie"
+    ],
+    "wrong_answers": [
+      "Prince Ivan",
+      "The Rat"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0382",
+    "gold_answers": [
+      "Kuantan, Pahang, Malaysia",
+      "Cheras, Selangor, Malaysia",
+      "Johor"
+    ],
+    "wrong_answers": [
+      "Sydney, Australia"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0384",
+    "gold_answers": [
+      "July 26, 1876",
+      "1870 in Bristol",
+      "1879"
+    ],
+    "wrong_answers": [
+      "January 1, 1900"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0386",
+    "gold_answers": [
+      "19 September 1940",
+      "25 September 1952",
+      "17 October 1970"
+    ],
+    "wrong_answers": [
+      "19 September 1950"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0388",
+    "gold_answers": [
+      "1884–1886",
+      "1790 to 1794",
+      "1971"
+    ],
+    "wrong_answers": [
+      "1900–1902",
+      "1900–1902"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0389",
+    "gold_answers": [
+      "Justin Guarini",
+      "Ronnie Milsap",
+      "Peter Tork"
+    ],
+    "wrong_answers": [
+      "Dolly Parton"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0390",
+    "gold_answers": [
+      "8,930 people",
+      "8,695 people",
+      "11,947"
+    ],
+    "wrong_answers": [
+      "15,200 people"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0391",
+    "gold_answers": [
+      "Comedy Programme",
+      "Satirical drama",
+      "Autobiography"
+    ],
+    "wrong_answers": [
+      "Documentary"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0392",
+    "gold_answers": [
+      "8 December 2009",
+      "October 9, 2010",
+      "2008"
+    ],
+    "wrong_answers": [
+      "15 January 2010"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0393",
+    "gold_answers": [
+      "Clotaire I",
+      "Gondioc",
+      "Childeric II"
+    ],
+    "wrong_answers": [
+      "Lothair I",
+      "Guntram"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0394",
+    "gold_answers": [
+      "1,971",
+      "1,948 inhabitants (2004)",
+      "210"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0395",
+    "gold_answers": [
+      "1101",
+      "1105",
+      "1102"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0397",
+    "gold_answers": [
+      "Kangerlussuaq Airport",
+      "Saphenofemoral junction",
+      "StarFlyer"
+    ],
+    "wrong_answers": [
+      "San Francisco Jail",
+      "San Francisco Junction"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0398",
+    "gold_answers": [
+      "1901-1902",
+      "1890s",
+      "1893"
+    ],
+    "wrong_answers": [
+      "1850-1851"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0399",
+    "gold_answers": [
+      "Pritam",
+      "Raghu",
+      "Shalini"
+    ],
+    "wrong_answers": [
+      "Raj"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0401",
+    "gold_answers": [
+      "smallflower aiea",
+      "broadleaf aiea",
+      "Nothocestrum latifolium"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0406",
+    "gold_answers": [
+      "October 1st, 1974",
+      "10 July 1940",
+      "1981"
+    ],
+    "wrong_answers": [
+      "January 1st, 1950"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0407",
+    "gold_answers": [
+      "1912",
+      "1918-1919",
+      "1913"
+    ],
+    "wrong_answers": [
+      "1895"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0408",
+    "gold_answers": [
+      "American football",
+      "Baseball",
+      "Halloween"
+    ],
+    "wrong_answers": [
+      "Basketball"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0409",
+    "gold_answers": [
+      "1,624",
+      "48",
+      "255 people"
+    ],
+    "wrong_answers": [
+      "2,500",
+      "5,000"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0410",
+    "gold_answers": [
+      "Viu",
+      "Biu Kingdom",
+      "Meir Berlin"
+    ],
+    "wrong_answers": [
+      "Zuru",
+      "Ziu"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0411",
+    "gold_answers": [
+      "1914",
+      "1929",
+      "1923"
+    ],
+    "wrong_answers": [
+      "1920"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0412",
+    "gold_answers": [
+      "220",
+      "3,879",
+      "344 people"
+    ],
+    "wrong_answers": [
+      "5,000"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0413",
+    "gold_answers": [
+      "Chaplain",
+      "Naturalist and anatomist",
+      "Physicist"
+    ],
+    "wrong_answers": [
+      "Marine Biologist"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0414",
+    "gold_answers": [
+      "1939",
+      "1872",
+      "1953"
+    ],
+    "wrong_answers": [
+      "1955",
+      "1955"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0415",
+    "gold_answers": [
+      "American football",
+      "Baseball",
+      "Powerlifting"
+    ],
+    "wrong_answers": [
+      "Basketball",
+      "Basketball"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0416",
+    "gold_answers": [
+      "September 24, 1936",
+      "1998",
+      "19 January 1871"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0417",
+    "gold_answers": [
+      "3,168",
+      "3,102",
+      "178 people"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0418",
+    "gold_answers": [
+      "2,100",
+      "4,843",
+      "2,070"
+    ],
+    "wrong_answers": [
+      "5,000",
+      "5,000"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0420",
+    "gold_answers": [
+      "Mykola Leontovych",
+      "Sergei Rachmaninoff",
+      "Pyotr Ilyich Tchaikovsky"
+    ],
+    "wrong_answers": [
+      "Johann Sebastian Bach"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0422",
+    "gold_answers": [
+      "Nebraska",
+      "Michigan",
+      "Iowa"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0423",
+    "gold_answers": [
+      "July 2, 1849",
+      "January 17, 1778",
+      "1862"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0424",
+    "gold_answers": [
+      "January 1, 1787",
+      "September 17, 1737",
+      "19 October 1953"
+    ],
+    "wrong_answers": [
+      "June 15, 1790"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0425",
+    "gold_answers": [
+      "Alabama",
+      "Rhode Island",
+      "Ohio"
+    ],
+    "wrong_answers": [
+      "California"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0426",
+    "gold_answers": [
+      "1932",
+      "1880s",
+      "1886"
+    ],
+    "wrong_answers": [
+      "1925",
+      "1895"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0428",
+    "gold_answers": [
+      "American football",
+      "Basketball",
+      "BMX riding"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0429",
+    "gold_answers": [
+      "1786",
+      "11 April 1834",
+      "19 April 1918"
+    ],
+    "wrong_answers": [
+      "1850"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0430",
+    "gold_answers": [
+      "International Geophysical Year",
+      "Israel Gay Youth",
+      "Immunoglobulin Y"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0431",
+    "gold_answers": [
+      "1985",
+      "October 1975",
+      "1973"
+    ],
+    "wrong_answers": [
+      "1972",
+      "1995"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0432",
+    "gold_answers": [
+      "Action-comedy film",
+      "Science fiction novel",
+      "Traditional nature documentary"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0433",
+    "gold_answers": [
+      "a state anthem",
+      "a TV series",
+      "2015 film"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0434",
+    "gold_answers": [
+      "Faith Evans",
+      "Jovit Baldivino",
+      "Johnny Mathis"
+    ],
+    "wrong_answers": [
+      "John Legend",
+      "Michael Jackson"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0435",
+    "gold_answers": [
+      "370 people",
+      "3,046 people",
+      "2,500"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0436",
+    "gold_answers": [
+      "Fighter Squadron",
+      "Troop Carrier Squadron",
+      "378th Bombardment Group"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0438",
+    "gold_answers": [
+      "Speed skating",
+      "Boxing",
+      "Gambling"
+    ],
+    "wrong_answers": [
+      "Basketball",
+      "Basketball"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0439",
+    "gold_answers": [
+      "Bristol, New Hampshire",
+      "Stoneham, Massachusetts",
+      "Waltham, Massachusetts"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0440",
+    "gold_answers": [
+      "Actor",
+      "Economist",
+      "Freelance broadcaster"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0441",
+    "gold_answers": [
+      "Theatrical film",
+      "Direct-to-video sequel",
+      "2-year-old filly"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0442",
+    "gold_answers": [
+      "November 18, 1797",
+      "October 12, 1753",
+      "September 15, 1909"
+    ],
+    "wrong_answers": [
+      "January 1, 1800"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0443",
+    "gold_answers": [
+      "Reggae",
+      "Brawler action-adventure",
+      "Thriller-comedy-romance hybrid"
+    ],
+    "wrong_answers": [
+      "Country",
+      "Country"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0444",
+    "gold_answers": [
+      "Labor Party",
+      "UK Labour Party",
+      "Conservative Party"
+    ],
+    "wrong_answers": [
+      "Liberal Party"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0445",
+    "gold_answers": [
+      "571",
+      "4,008",
+      "3,307"
+    ],
+    "wrong_answers": [
+      "12,345",
+      "12,345"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0446",
+    "gold_answers": [
+      "Messina, Sicily",
+      "Lucca and Pisa",
+      "1970s"
+    ],
+    "wrong_answers": [
+      "Florence, Italy"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0447",
+    "gold_answers": [
+      "7 March 1892",
+      "4 January 1896",
+      "May 13, 1926"
+    ],
+    "wrong_answers": [
+      "12 October 1900"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0448",
+    "gold_answers": [
+      "1810-11",
+      "1798-1800",
+      "1790s"
+    ],
+    "wrong_answers": [
+      "1910-11"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0450",
+    "gold_answers": [
+      "1980",
+      "2010",
+      "1989"
+    ],
+    "wrong_answers": [
+      "1955",
+      "1920"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0451",
+    "gold_answers": [
+      "John II Orsini",
+      "John VIII Palaiologos",
+      "Andronikos III Palaiologos"
+    ],
+    "wrong_answers": [
+      "Manuel II Palaiologos",
+      "Thomas Preljubović"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0452",
+    "gold_answers": [
+      "Howard Morris",
+      "Woody Allen",
+      "Stanley Prager"
+    ],
+    "wrong_answers": [
+      "Quentin Tarantino",
+      "Woody Allen"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0453",
+    "gold_answers": [
+      "1878",
+      "around 1797",
+      "1970s"
+    ],
+    "wrong_answers": [
+      "1920"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0454",
+    "gold_answers": [
+      "205",
+      "956",
+      "142"
+    ],
+    "wrong_answers": [
+      "5,000"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0455",
+    "gold_answers": [
+      "1,664 people",
+      "887 people",
+      "4,961"
+    ],
+    "wrong_answers": [
+      "5,000 people",
+      "5,000 people"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 5
+    }
+  },
+  {
+    "id": "ramdocs_0456",
+    "gold_answers": [
+      "Larry Brand",
+      "Tate Taylor",
+      "André Téchiné"
+    ],
+    "wrong_answers": [
+      "Quentin Tarantino"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0457",
+    "gold_answers": [
+      "1852",
+      "1882",
+      "September 1, 1956"
+    ],
+    "wrong_answers": [
+      "1900"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0458",
+    "gold_answers": [
+      "1 August 1848",
+      "2 December 1848",
+      "23 September 1854"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0459",
+    "gold_answers": [
+      "Duplain Township, Michigan",
+      "Cambridge, Vermont",
+      "Lebanon, Maine"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 1,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0460",
+    "gold_answers": [
+      "18 December 1868",
+      "19 March 1941",
+      "1833"
+    ],
+    "wrong_answers": [
+      "18 December 1888"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0461",
+    "gold_answers": [
+      "Verona, New York",
+      "Verona, Wisconsin",
+      "New Jersey"
+    ],
+    "wrong_answers": [
+      "Miami, Florida"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0462",
+    "gold_answers": [
+      "13 January 1891",
+      "6 May 1892",
+      "January 28, 1924"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0463",
+    "gold_answers": [
+      "200 laps",
+      "225 laps",
+      "175 laps"
+    ],
+    "wrong_answers": [
+      "500 laps"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0464",
+    "gold_answers": [
+      "9 February 1677",
+      "11 March 1707",
+      "1930"
+    ],
+    "wrong_answers": [
+      "9 February 1777"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0465",
+    "gold_answers": [
+      "May 7, 1975",
+      "December 12, 1970",
+      "15 November 1972"
+    ],
+    "wrong_answers": [
+      "January 1, 1970"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0466",
+    "gold_answers": [
+      "Fencer",
+      "Landscape architect",
+      "Triathlete"
+    ],
+    "wrong_answers": [
+      "Chef",
+      "Chef"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 5
+    }
+  },
+  {
+    "id": "ramdocs_0467",
+    "gold_answers": [
+      "10 March 1919",
+      "22 August 1903",
+      "22 April 1881"
+    ],
+    "wrong_answers": [
+      "15 July 1922"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0468",
+    "gold_answers": [
+      "Douglas DC-3",
+      "NAMC YS-11A-217",
+      "Space Shuttle \"Discovery\""
+    ],
+    "wrong_answers": [
+      "Boeing 747",
+      "Boeing 747"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0469",
+    "gold_answers": [
+      "7 October",
+      "October 30",
+      "16 January"
+    ],
+    "wrong_answers": [
+      "15 January",
+      "15 December"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0470",
+    "gold_answers": [
+      "Fulton, Illinois, USA",
+      "Hudsonville, Michigan",
+      "Barrie, Ontario, Canada"
+    ],
+    "wrong_answers": [
+      "Miami, Florida, USA"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0471",
+    "gold_answers": [
+      "1913",
+      "14 May 1996",
+      "1940"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0473",
+    "gold_answers": [
+      "41.9 years",
+      "40 years",
+      "38 years"
+    ],
+    "wrong_answers": [
+      "25.7 years",
+      "15.2 years"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0474",
+    "gold_answers": [
+      "1969",
+      "1979",
+      "28 April 1948"
+    ],
+    "wrong_answers": [
+      "1975"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0475",
+    "gold_answers": [
+      "1902",
+      "1912-1914",
+      "1907"
+    ],
+    "wrong_answers": [
+      "1855",
+      "1850"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0476",
+    "gold_answers": [
+      "1872",
+      "1874",
+      "1928"
+    ],
+    "wrong_answers": [
+      "1890"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0477",
+    "gold_answers": [
+      "1880",
+      "1840-1843",
+      "1912"
+    ],
+    "wrong_answers": [
+      "1905",
+      "1920"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0478",
+    "gold_answers": [
+      "9 July 1848",
+      "25 April 1885",
+      "3 June 1912"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0479",
+    "gold_answers": [
+      "2 June 1926",
+      "13 August 1896",
+      "9 October 1834"
+    ],
+    "wrong_answers": [
+      "15 October 1930",
+      "15 October 1930"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0480",
+    "gold_answers": [
+      "219,126",
+      "225,596",
+      "175915"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0482",
+    "gold_answers": [
+      "Zoltán Korda",
+      "Darrell Roodt",
+      "Zoltan Korda"
+    ],
+    "wrong_answers": [
+      "Steven Spielberg",
+      "Steven Spielberg"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0483",
+    "gold_answers": [
+      "Ray Peterson",
+      "The Sandpipers'",
+      "Elvis Presley"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0484",
+    "gold_answers": [
+      "Bananarama",
+      "Secret",
+      "Katie Melua"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0485",
+    "gold_answers": [
+      "Silent cartoon short",
+      "Musical comedy film",
+      "Documentary"
+    ],
+    "wrong_answers": [
+      "Romantic drama"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0486",
+    "gold_answers": [
+      "Elvis Presley",
+      "Devo",
+      "Baz Luhrmann"
+    ],
+    "wrong_answers": [
+      "Taylor Swift",
+      "Taylor Swift"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0487",
+    "gold_answers": [
+      "1691",
+      "1703",
+      "1603"
+    ],
+    "wrong_answers": [
+      "1675",
+      "1700"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0488",
+    "gold_answers": [
+      "Football",
+      "Rugby league",
+      "Bodybuilding"
+    ],
+    "wrong_answers": [
+      "Cricket",
+      "Basketball"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0489",
+    "gold_answers": [
+      "June 29, 1877",
+      "17 December 1835",
+      "1605, England"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0490",
+    "gold_answers": [
+      "25,038",
+      "66,495",
+      "254,137"
+    ],
+    "wrong_answers": [
+      "5,000"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0491",
+    "gold_answers": [
+      "Brigadier General",
+      "Lieutenant General",
+      "Major General"
+    ],
+    "wrong_answers": [
+      "Lieutenant Colonel"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 1
+    }
+  },
+  {
+    "id": "ramdocs_0492",
+    "gold_answers": [
+      "1902-1903",
+      "1926-27",
+      "1930"
+    ],
+    "wrong_answers": [
+      "1920-1921"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 4
+    }
+  },
+  {
+    "id": "ramdocs_0493",
+    "gold_answers": [
+      "George Formby",
+      "George Wallace",
+      "Bob Bailey"
+    ],
+    "wrong_answers": [
+      "Charlie Chaplin"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0495",
+    "gold_answers": [
+      "291",
+      "48",
+      "272"
+    ],
+    "wrong_answers": [
+      "150",
+      "150"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0496",
+    "gold_answers": [
+      "Brazil",
+      "Republic of Honduras",
+      "Guatemala"
+    ],
+    "wrong_answers": [
+      "Argentina",
+      "Canada"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0497",
+    "gold_answers": [
+      "First Period",
+      "1860s, Italianate style",
+      "1870s-1880s"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 2,
+      "n_noise_selected": 2
+    }
+  },
+  {
+    "id": "ramdocs_0498",
+    "gold_answers": [
+      "1912",
+      "1897",
+      "1878"
+    ],
+    "wrong_answers": [
+      "1895",
+      "1868"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 3,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "ramdocs_0499",
+    "gold_answers": [
+      "14 August 1850",
+      "15 March 1862",
+      "11 March 1816"
+    ],
+    "wrong_answers": [
+      "14 August 1900",
+      "14 August 1900"
+    ],
+    "_meta": {
+      "original_id": "",
+      "noise_type": "",
+      "controlled_noise_ratio": 60,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 4,
+      "n_noise_selected": 4
+    }
+  }
+]

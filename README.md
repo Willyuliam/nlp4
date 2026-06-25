@@ -9,10 +9,16 @@ configs/model_config.example.yaml   # Qwen/百炼模型配置
 data/sample_input.json              # 备用空输入模板
 data/sample_input.schema.json       # 输入字段说明
 samples/*_input.json                # 成员 A 已转换好的 RGB/RAMDocs/CONFLICTS 小样本
+samples/controlled/                 # 成员 A 构造的噪音比例/正确文档位置可控实验集
 outputs/midterm/                    # 中期输出文件
+reports/dataset_statistics.md       # 数据统计报告
+scripts/step*.py                    # 数据下载、转换、校验脚本
 src/run_baseline.py                 # baseline 运行入口
+src/evaluation/                     # 数据统计、可控实验构造、输出评估脚本
 src/llm/                            # Qwen/百炼 API 客户端
 src/rag_baselines/                  # baseline prompt 与轻量 rerank
+HANDOFF_A.md                        # 成员 A 数据与评估交接说明
+EXPERIMENT_ADVICE_A.md              # 可控实验和后续实验表建议
 ```
 
 ## 配置
@@ -51,6 +57,11 @@ $env:DASHSCOPE_MODEL="qwen3.5-122b-a10b"
 samples/rgb_input.json
 samples/ramdocs_input.json
 samples/conflicts_input.json
+samples/rgb_all_input.json
+samples/ramdocs_all_input.json
+samples/conflicts_all_input.json
+samples/controlled/rgb/*_input.json
+samples/controlled/ramdocs/*_input.json
 ```
 
 期望格式：
@@ -128,6 +139,34 @@ python -m src.run_baseline --method naive_rag --input data/sample_input.json --o
 `dry_run` 模式会额外输出 `prompt` 字段，便于中期答辩展示。
 
 实际调用 API 时，程序默认读取 `configs/model_config.example.yaml`，也可以用 `--config` 指定其他配置文件。
+
+## 成员 A 数据与评估脚本
+
+校验统一数据格式：
+
+```powershell
+python scripts/step4_validate_schema.py
+```
+
+生成数据集统计报告：
+
+```powershell
+python src/evaluation/build_dataset_report.py
+```
+
+生成噪音比例和正确文档位置可控实验集：
+
+```powershell
+python src/evaluation/build_controlled_noise_sets.py
+```
+
+评估某个方法的输出：
+
+```powershell
+python src/evaluation/evaluate_outputs.py --input samples/rgb_all_input.json --reference samples/rgb_all_reference.json --output outputs/rgb_results/rgb_naive_rag_output.json --save outputs/rgb_results/rgb_naive_rag_metrics.json
+```
+
+成员 B/C 跑完 baseline 或 EGI-RAG 后，把输出保存为 JSON 数组，并至少保留 `id` 和 `answer` 字段；如保留 `selected_doc_ids`、`evidence_spans`、`verification_result`，评估脚本可以继续计算证据选择准确率和 Faithfulness。
 
 ## 中期说明
 

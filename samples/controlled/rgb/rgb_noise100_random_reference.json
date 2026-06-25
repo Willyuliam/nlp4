@@ -1,0 +1,5239 @@
+[
+  {
+    "id": "rgb_0000",
+    "gold_answers": [
+      "January 2 2022",
+      "Jan 2, 2022",
+      "Jan. 2, 2022",
+      "January 2, 2022",
+      "2 January 2022",
+      "2 Jan, 2022",
+      "2 Jan., 2022",
+      "2 January, 2022"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 15,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0001",
+    "gold_answers": [
+      "medical"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 14,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0002",
+    "gold_answers": [
+      "Kentucky"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 24,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0003",
+    "gold_answers": [
+      "defensive coordinator"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 15,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0004",
+    "gold_answers": [
+      "936,172",
+      "936172"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 27,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0005",
+    "gold_answers": [
+      "EVO Entertainment Group"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 13,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0006",
+    "gold_answers": [
+      "SoFi Stadium"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0007",
+    "gold_answers": [
+      "February 21",
+      "Feb 21",
+      "Feb. 21",
+      "21 February",
+      "21 Feb",
+      "21 Feb."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 23,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0008",
+    "gold_answers": [
+      "The Power of the Dog"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 27,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0009",
+    "gold_answers": [
+      "$100 per seat"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 34,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0010",
+    "gold_answers": [
+      "February 20",
+      "Feb 20",
+      "Feb. 20",
+      "20 February",
+      "20 Feb",
+      "20 Feb."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 16,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0011",
+    "gold_answers": [
+      "Real Madrid"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 11,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0012",
+    "gold_answers": [
+      "$68.7 billion",
+      "$68.7bn"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 17,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0013",
+    "gold_answers": [
+      "$6.5 million"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 19,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0014",
+    "gold_answers": [
+      "May 26",
+      "May. 26",
+      "26 May",
+      "26 May."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 13,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0015",
+    "gold_answers": [
+      "Lawrence Williams",
+      "Ralph Long Jr.",
+      "Ford Greene",
+      "Ronald Yancey"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 18,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0016",
+    "gold_answers": [
+      "Project Iris"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0017",
+    "gold_answers": [
+      "RSC",
+      "the AI Research SuperCluster"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 18,
+      "n_negative": 10,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0018",
+    "gold_answers": [
+      "2024"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 6,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 6
+    }
+  },
+  {
+    "id": "rgb_0019",
+    "gold_answers": [
+      "March 4",
+      "Mar 4",
+      "Mar. 4",
+      "4 March",
+      "4 Mar",
+      "4 Mar."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 24,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0020",
+    "gold_answers": [
+      "February 13",
+      "Feb 13",
+      "Feb. 13",
+      "13 February",
+      "13 Feb",
+      "13 Feb."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 24,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0021",
+    "gold_answers": [
+      "Carolyn R. Bertozzi",
+      "Morten Meldal",
+      "K. Barry Sharpless"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 10,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0022",
+    "gold_answers": [
+      "Los Angeles Rams"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 23,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0023",
+    "gold_answers": [
+      "Erin Jackson"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 11,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0024",
+    "gold_answers": [
+      "February 11",
+      "Feb 11",
+      "Feb. 11",
+      "11 February",
+      "11 Feb",
+      "11 Feb."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 11,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0025",
+    "gold_answers": [
+      "silver",
+      "Silver",
+      "bronze",
+      "Bronze"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 10,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0026",
+    "gold_answers": [
+      "crime"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 30,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0027",
+    "gold_answers": [
+      "February 24",
+      "Feb 24",
+      "Feb. 24",
+      "24 February",
+      "24 Feb",
+      "24 Feb."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 20,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0028",
+    "gold_answers": [
+      "February 25",
+      "Feb 25",
+      "Feb. 25",
+      "25 February",
+      "25 Feb",
+      "25 Feb."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 28,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0029",
+    "gold_answers": [
+      "Anett Kontaveit"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 35,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0030",
+    "gold_answers": [
+      "Norway"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 23,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0031",
+    "gold_answers": [
+      "Chris Stapleton"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 19,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0032",
+    "gold_answers": [
+      "Virginia Tech"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 15,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0033",
+    "gold_answers": [
+      "A15"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0034",
+    "gold_answers": [
+      "May 11",
+      "12"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 27,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0035",
+    "gold_answers": [
+      "Jeymes Samuel"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 15,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0036",
+    "gold_answers": [
+      "Zhurong"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 28,
+      "n_negative": 5,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 5
+    }
+  },
+  {
+    "id": "rgb_0037",
+    "gold_answers": [
+      "Shad Gaspard"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 28,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0038",
+    "gold_answers": [
+      "2.45",
+      "1,112.4"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 30,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0039",
+    "gold_answers": [
+      "Sandra Bullock",
+      "Channing Tatum"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0040",
+    "gold_answers": [
+      "slapped"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 11,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0041",
+    "gold_answers": [
+      "June 6",
+      "Jun 6",
+      "Jun. 6",
+      "6 June",
+      "6 Jun",
+      "6 Jun."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 23,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0042",
+    "gold_answers": [
+      "CODA"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 16,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0043",
+    "gold_answers": [
+      "March 27",
+      "Mar 27",
+      "Mar. 27",
+      "27 March",
+      "27 Mar",
+      "27 Mar."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 10,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0044",
+    "gold_answers": [
+      "March 29",
+      "Mar 29",
+      "Mar. 29",
+      "29 March",
+      "29 Mar",
+      "29 Mar."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 35,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0045",
+    "gold_answers": [
+      "We are"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 23,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0046",
+    "gold_answers": [
+      "December 18",
+      "Dec 18",
+      "Dec. 18",
+      "18 December",
+      "18 Dec",
+      "18 Dec."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 8,
+      "n_negative": 19,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0047",
+    "gold_answers": [
+      "310,048"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 25,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0048",
+    "gold_answers": [
+      "Elon Musk"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 14,
+      "n_negative": 20,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0049",
+    "gold_answers": [
+      "44 billion"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 23,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0050",
+    "gold_answers": [
+      "Scottie Scheffler"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 17,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0051",
+    "gold_answers": [
+      "Ashleigh Barty"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 24,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0052",
+    "gold_answers": [
+      "Aryna Sabalenka"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 15,
+      "n_negative": 10,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0053",
+    "gold_answers": [
+      "Rafael Nadal",
+      "Nadal"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 23,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0054",
+    "gold_answers": [
+      "Novak Djokovic"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 14,
+      "n_negative": 21,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0055",
+    "gold_answers": [
+      "Iga Swiatek"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 24,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0056",
+    "gold_answers": [
+      "Iga Swiatek"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 25,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0057",
+    "gold_answers": [
+      "Karolina Muchova"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 26,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0058",
+    "gold_answers": [
+      "Rafael Nadal",
+      "Nadal"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 21,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0059",
+    "gold_answers": [
+      "Novak Djokovic"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 19,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0060",
+    "gold_answers": [
+      "Elena Rybakina"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 27,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0061",
+    "gold_answers": [
+      "Marketa Vondrousova",
+      "Markéta Vondroušová"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 21,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0062",
+    "gold_answers": [
+      "Novak Djokovic"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 21,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0063",
+    "gold_answers": [
+      "Carlos Alcaraz"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 15,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0064",
+    "gold_answers": [
+      "eight",
+      "8"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 9,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 9
+    }
+  },
+  {
+    "id": "rgb_0065",
+    "gold_answers": [
+      "Iga Swiatek"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 26,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0066",
+    "gold_answers": [
+      "Carlos Alcaraz"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 17,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0067",
+    "gold_answers": [
+      "Brent Pry"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 24,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0068",
+    "gold_answers": [
+      "Austin"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 26,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0069",
+    "gold_answers": [
+      "May 7",
+      "May. 7",
+      "7 May",
+      "7 May."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 33,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0070",
+    "gold_answers": [
+      "18.76 billion"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 17,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0071",
+    "gold_answers": [
+      "September 9",
+      "Sep 9",
+      "Sep. 9",
+      "9 September",
+      "9 Sep",
+      "9 Sep.",
+      "Sept 9",
+      "Sept. 9",
+      "9 Sept",
+      "9 Sept."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 22,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0072",
+    "gold_answers": [
+      "Najafi Companies"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 13,
+      "n_negative": 15,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0073",
+    "gold_answers": [
+      "April 23 2022",
+      "Apr 23, 2022",
+      "Apr. 23, 2022",
+      "April 23, 2022",
+      "23 April 2022",
+      "23 Apr, 2022",
+      "23 Apr., 2022",
+      "23 April, 2022"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0074",
+    "gold_answers": [
+      "Chris Licht"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 20,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0075",
+    "gold_answers": [
+      "Emmanuel Macron"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 14,
+      "n_negative": 13,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0076",
+    "gold_answers": [
+      "48"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 17,
+      "n_negative": 9,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 9
+    }
+  },
+  {
+    "id": "rgb_0077",
+    "gold_answers": [
+      "49"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 17,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0078",
+    "gold_answers": [
+      "Metropolitan Museum of Art"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 17,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0079",
+    "gold_answers": [
+      "Manchester City"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 13,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0080",
+    "gold_answers": [
+      "Golden State Warriors",
+      "Boston Celtics"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 24,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0081",
+    "gold_answers": [
+      "4.56 million"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 18,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0082",
+    "gold_answers": [
+      "October 4 2022",
+      "Oct 4, 2022",
+      "Oct. 4, 2022",
+      "October 4, 2022",
+      "4 October 2022",
+      "4 Oct, 2022",
+      "4 Oct., 2022",
+      "4 October, 2022"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 26,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0083",
+    "gold_answers": [
+      "Jonas Vingegaard"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0084",
+    "gold_answers": [
+      "83 billion",
+      "83.0 billion"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 35,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0085",
+    "gold_answers": [
+      "Alex de Minaur"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 21,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0086",
+    "gold_answers": [
+      "19.7 billion"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 17,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0087",
+    "gold_answers": [
+      "July 29",
+      "Jul 29",
+      "Jul. 29",
+      "29 July",
+      "29 Jul",
+      "29 Jul."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 17,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0088",
+    "gold_answers": [
+      "Ghost"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 16,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0089",
+    "gold_answers": [
+      "July 22 2022",
+      "Jul 22, 2022",
+      "Jul. 22, 2022",
+      "July 22, 2022",
+      "22 July 2022",
+      "22 Jul, 2022",
+      "22 Jul., 2022",
+      "22 July, 2022"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 19,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0090",
+    "gold_answers": [
+      "Joo Won"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 13,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0091",
+    "gold_answers": [
+      "August 5",
+      "Aug 5",
+      "Aug. 5",
+      "5 August",
+      "5 Aug",
+      "5 Aug."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 25,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0092",
+    "gold_answers": [
+      "Meta"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0093",
+    "gold_answers": [
+      "November 30 2022",
+      "Nov 30, 2022",
+      "Nov. 30, 2022",
+      "November 30, 2022",
+      "30 November 2022",
+      "30 Nov, 2022",
+      "30 Nov., 2022",
+      "30 November, 2022"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 22,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0094",
+    "gold_answers": [
+      "March 14 2023",
+      "Mar 14, 2023",
+      "Mar. 14, 2023",
+      "March 14, 2023",
+      "14 March 2023",
+      "14 Mar, 2023",
+      "14 Mar., 2023",
+      "14 March, 2023"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 15,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0095",
+    "gold_answers": [
+      "1.7 billion"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 10,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0096",
+    "gold_answers": [
+      "Dyersville, Iowa"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 10,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0097",
+    "gold_answers": [
+      "September 20",
+      "Sep 20",
+      "Sep. 20",
+      "20 September",
+      "20 Sep",
+      "20 Sep.",
+      "Sept 20",
+      "Sept. 20",
+      "20 Sept",
+      "20 Sept."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 15,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0098",
+    "gold_answers": [
+      "August 29",
+      "Aug 29",
+      "Aug. 29",
+      "29 August",
+      "29 Aug",
+      "29 Aug."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 18,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0099",
+    "gold_answers": [
+      "Konnor McClain"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 8,
+      "n_negative": 26,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0100",
+    "gold_answers": [
+      "$15,000"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 20,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0101",
+    "gold_answers": [
+      "August 21",
+      "Aug 21",
+      "Aug. 21",
+      "21 August",
+      "21 Aug",
+      "21 Aug."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 13,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0102",
+    "gold_answers": [
+      "February 22",
+      "Feb 22",
+      "Feb. 22",
+      "22 February",
+      "22 Feb",
+      "22 Feb."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 19,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0103",
+    "gold_answers": [
+      "TMRW Sports"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 10,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0104",
+    "gold_answers": [
+      "ColdQuanta"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 30,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0105",
+    "gold_answers": [
+      "Caleb Williams"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 14,
+      "n_negative": 13,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0106",
+    "gold_answers": [
+      "September 21",
+      "Sep 21",
+      "Sep. 21",
+      "21 September",
+      "21 Sep",
+      "21 Sep.",
+      "Sept 21",
+      "Sept. 21",
+      "21 Sept",
+      "21 Sept."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 8,
+      "n_negative": 23,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0107",
+    "gold_answers": [
+      "Damien Comolli"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 17,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0108",
+    "gold_answers": [
+      "January 2024",
+      "Jan 2024",
+      "Jan. 2024",
+      "January, 2024",
+      "Jan, 2024",
+      "Jan., 2024"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 21,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0109",
+    "gold_answers": [
+      "Francis Lawrence"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 13,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0110",
+    "gold_answers": [
+      "September 20",
+      "Sep 20",
+      "Sep. 20",
+      "20 September",
+      "20 Sep",
+      "20 Sep.",
+      "Sept 20",
+      "Sept. 20",
+      "20 Sept",
+      "20 Sept."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 16,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0111",
+    "gold_answers": [
+      "Argentina"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0112",
+    "gold_answers": [
+      "John Fuller"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 27,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0113",
+    "gold_answers": [
+      "Katie Sinclair"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0114",
+    "gold_answers": [
+      "740,000",
+      "740K"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 32,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0115",
+    "gold_answers": [
+      "Sony",
+      "Tencent"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 5,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 5
+    }
+  },
+  {
+    "id": "rgb_0116",
+    "gold_answers": [
+      "Camila Cabello"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 10,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0117",
+    "gold_answers": [
+      "3.7%",
+      "3.7 percent"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 20,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0118",
+    "gold_answers": [
+      "Ajla Tomljanovic"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 22,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0119",
+    "gold_answers": [
+      "Eight",
+      "8"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 14,
+      "n_negative": 10,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0120",
+    "gold_answers": [
+      "Brent Pry"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 10,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0121",
+    "gold_answers": [
+      "sky diving accident",
+      "skydiving accident"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 8,
+      "n_negative": 11,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0122",
+    "gold_answers": [
+      "Mickey Joseph"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 13,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0123",
+    "gold_answers": [
+      "September 9",
+      "Sep 9",
+      "Sep. 9",
+      "9 September",
+      "9 Sep",
+      "9 Sep.",
+      "Sept 9",
+      "Sept. 9",
+      "9 Sept",
+      "9 Sept."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 20,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0124",
+    "gold_answers": [
+      "Microsoft",
+      "Apple",
+      "Tesla",
+      "Alphabet",
+      "Nvidia",
+      "Amazon"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 11,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0125",
+    "gold_answers": [
+      "Arcane"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 21,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0126",
+    "gold_answers": [
+      "12"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 19,
+      "n_negative": 7,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 7
+    }
+  },
+  {
+    "id": "rgb_0127",
+    "gold_answers": [
+      "Ecuador"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 10,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0128",
+    "gold_answers": [
+      "San Diego"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 8,
+      "n_negative": 16,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0129",
+    "gold_answers": [
+      "September 8",
+      "Sep 8",
+      "Sep. 8",
+      "8 September",
+      "8 Sep",
+      "8 Sep.",
+      "Sept 8",
+      "Sept. 8",
+      "8 Sept",
+      "8 Sept."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 29,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0130",
+    "gold_answers": [
+      "October 11",
+      "Oct 11",
+      "Oct. 11",
+      "11 October",
+      "11 Oct",
+      "11 Oct."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0131",
+    "gold_answers": [
+      "405 million euros"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 28,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0132",
+    "gold_answers": [
+      "October 21",
+      "Oct 21",
+      "Oct. 21",
+      "21 October",
+      "21 Oct",
+      "21 Oct."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 28,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0133",
+    "gold_answers": [
+      "pneumonia"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 28,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0134",
+    "gold_answers": [
+      "September 8",
+      "Sep 8",
+      "Sep. 8",
+      "8 September",
+      "8 Sep",
+      "8 Sep.",
+      "Sept 8",
+      "Sept. 8",
+      "8 Sept",
+      "8 Sept."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 10,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0135",
+    "gold_answers": [
+      "Balmoral"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 24,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0136",
+    "gold_answers": [
+      "Frances Tiafoe"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 25,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0137",
+    "gold_answers": [
+      "May 6 2023",
+      "May 6, 2023",
+      "May. 6, 2023",
+      "6 May 2023",
+      "6 May, 2023",
+      "6 May., 2023"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 11,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0138",
+    "gold_answers": [
+      "Albie Roman"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0139",
+    "gold_answers": [
+      "October 7",
+      "Oct 7",
+      "Oct. 7",
+      "7 October",
+      "7 Oct",
+      "7 Oct."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 22,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0140",
+    "gold_answers": [
+      "Kiersey Clemons"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 20,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0141",
+    "gold_answers": [
+      "Autumn Spice Milkshake"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 13,
+      "n_negative": 17,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0142",
+    "gold_answers": [
+      "Richard Childress Racing"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 18,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0143",
+    "gold_answers": [
+      "Carlos Alcaraz"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 21,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0144",
+    "gold_answers": [
+      "Titus Welliver"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 18,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0145",
+    "gold_answers": [
+      "22"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 22,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0146",
+    "gold_answers": [
+      "Lee Jung-jae"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 29,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0147",
+    "gold_answers": [
+      "5.4 billion"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 16,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0148",
+    "gold_answers": [
+      "8.3%"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0149",
+    "gold_answers": [
+      "Gayle King"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 15,
+      "n_negative": 20,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0150",
+    "gold_answers": [
+      "Tears of the Kingdom"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 22,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0151",
+    "gold_answers": [
+      "May 12 2023",
+      "May 12, 2023",
+      "May. 12, 2023",
+      "12 May 2023",
+      "12 May, 2023",
+      "12 May., 2023"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 26,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0152",
+    "gold_answers": [
+      "September 30",
+      "Sep 30",
+      "Sep. 30",
+      "30 September",
+      "30 Sep",
+      "30 Sep.",
+      "Sept 30",
+      "Sept. 30",
+      "30 Sept",
+      "30 Sept."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0153",
+    "gold_answers": [
+      "July 9",
+      "Jul 9",
+      "Jul. 9",
+      "9 July",
+      "9 Jul",
+      "9 Jul."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 27,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0154",
+    "gold_answers": [
+      "Toronto"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 15,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0155",
+    "gold_answers": [
+      "December 6",
+      "Dec 6",
+      "Dec. 6",
+      "6 December",
+      "6 Dec",
+      "6 Dec."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 30,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0156",
+    "gold_answers": [
+      "Singapore"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 8,
+      "n_negative": 31,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0157",
+    "gold_answers": [
+      "$350"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 16,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0158",
+    "gold_answers": [
+      "October 22",
+      "Oct 22",
+      "Oct. 22",
+      "22 October",
+      "22 Oct",
+      "22 Oct."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0159",
+    "gold_answers": [
+      "September 19",
+      "Sep 19",
+      "Sep. 19",
+      "19 September",
+      "19 Sep",
+      "19 Sep.",
+      "Sept 19",
+      "Sept. 19",
+      "19 Sept",
+      "19 Sept."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 19,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0160",
+    "gold_answers": [
+      "Westminster Abbey"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 15,
+      "n_negative": 17,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0161",
+    "gold_answers": [
+      "Mayyas",
+      "Kristy Sellars"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 22,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0162",
+    "gold_answers": [
+      "November 18",
+      "Nov 18",
+      "Nov. 18",
+      "18 November",
+      "18 Nov",
+      "18 Nov."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 27,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0163",
+    "gold_answers": [
+      "Three",
+      "3"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 14,
+      "n_negative": 9,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 9
+    }
+  },
+  {
+    "id": "rgb_0164",
+    "gold_answers": [
+      "Giorgia Meloni"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 15,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0165",
+    "gold_answers": [
+      "Knee",
+      "injury"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 19,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0166",
+    "gold_answers": [
+      "Aces"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 8,
+      "n_negative": 9,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 9
+    }
+  },
+  {
+    "id": "rgb_0167",
+    "gold_answers": [
+      "January 10",
+      "Jan 10",
+      "Jan. 10",
+      "10 January",
+      "10 Jan",
+      "10 Jan."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 23,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0168",
+    "gold_answers": [
+      "October 13",
+      "Oct 13",
+      "Oct. 13",
+      "13 October",
+      "13 Oct",
+      "13 Oct."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 18,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0169",
+    "gold_answers": [
+      "Robin Roberts"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 8,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0170",
+    "gold_answers": [
+      "Rihanna"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0171",
+    "gold_answers": [
+      "July 8 2022",
+      "Jul 8, 2022",
+      "Jul. 8, 2022",
+      "July 8, 2022",
+      "8 July 2022",
+      "8 Jul, 2022",
+      "8 Jul., 2022",
+      "8 July, 2022"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0172",
+    "gold_answers": [
+      "Tetsuya Yamagami"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 21,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0173",
+    "gold_answers": [
+      "September 27 2022",
+      "Sep 27, 2022",
+      "Sep. 27, 2022",
+      "September 27, 2022",
+      "27 September 2022",
+      "27 Sep, 2022",
+      "27 Sep., 2022",
+      "27 September, 2022",
+      "Sept 27, 2022",
+      "Sept. 27, 2022",
+      "27 Sept, 2022",
+      "27 Sept., 2022"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 19,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0174",
+    "gold_answers": [
+      "The Princess and the Queen"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 13,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0175",
+    "gold_answers": [
+      "EVO Entertainment Group"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 15,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0176",
+    "gold_answers": [
+      "October 7",
+      "Oct 7",
+      "Oct. 7",
+      "7 October",
+      "7 Oct",
+      "7 Oct."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 22,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0177",
+    "gold_answers": [
+      "Svante Pääbo",
+      "Svante Paabo"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0178",
+    "gold_answers": [
+      "Annie Ernaux"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 18,
+      "n_negative": 16,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0179",
+    "gold_answers": [
+      "Rob Wade"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 15,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0180",
+    "gold_answers": [
+      "Max Verstappen"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 25,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0181",
+    "gold_answers": [
+      "Sarah Shahi"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 13,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0182",
+    "gold_answers": [
+      "Raymond Lee"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0183",
+    "gold_answers": [
+      "$1599",
+      "$1,599"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 21,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0184",
+    "gold_answers": [
+      "April 14 2023",
+      "Apr 14, 2023",
+      "Apr. 14, 2023",
+      "April 14, 2023",
+      "14 April 2023",
+      "14 Apr, 2023",
+      "14 Apr., 2023",
+      "14 April, 2023"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 28,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0185",
+    "gold_answers": [
+      "October 13",
+      "Oct 13",
+      "Oct. 13",
+      "13 October",
+      "13 Oct",
+      "13 Oct."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 16,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0186",
+    "gold_answers": [
+      "Savannah Guthrie"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0187",
+    "gold_answers": [
+      "Morgan Monaco"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 14,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0188",
+    "gold_answers": [
+      "Wargaming Sydney"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 19,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0189",
+    "gold_answers": [
+      "Jim Lanzone"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 22,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0190",
+    "gold_answers": [
+      "2.41 million"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0191",
+    "gold_answers": [
+      "Dónde Vives"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 26,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0192",
+    "gold_answers": [
+      "22.99 per month"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 26,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0193",
+    "gold_answers": [
+      "November 9",
+      "Nov 9",
+      "Nov. 9",
+      "9 November",
+      "9 Nov",
+      "9 Nov."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 15,
+      "n_negative": 15,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0194",
+    "gold_answers": [
+      "Ethan Hawke"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 25,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0195",
+    "gold_answers": [
+      "Rishi Sunak"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 21,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0196",
+    "gold_answers": [
+      "October 25 2022",
+      "Oct 25, 2022",
+      "Oct. 25, 2022",
+      "October 25, 2022",
+      "25 October 2022",
+      "25 Oct, 2022",
+      "25 Oct., 2022",
+      "25 October, 2022"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 22,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0197",
+    "gold_answers": [
+      "6.99"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 10,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0198",
+    "gold_answers": [
+      "November 9",
+      "Nov 9",
+      "Nov. 9",
+      "9 November",
+      "9 Nov",
+      "9 Nov."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 14,
+      "n_negative": 18,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0199",
+    "gold_answers": [
+      "Sicily"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 17,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0200",
+    "gold_answers": [
+      "Mark Kelly"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0201",
+    "gold_answers": [
+      "Republican "
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 16,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0202",
+    "gold_answers": [
+      "Catherine Cortez Masto"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 20,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0203",
+    "gold_answers": [
+      "John R. Leonetti"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 21,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0204",
+    "gold_answers": [
+      "Millie Gibson"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 8,
+      "n_negative": 24,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0205",
+    "gold_answers": [
+      "Ralph Lauren"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 18,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0206",
+    "gold_answers": [
+      "Group D"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 24,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0207",
+    "gold_answers": [
+      "Group B"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 18,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0208",
+    "gold_answers": [
+      "Group C"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 26,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0209",
+    "gold_answers": [
+      "Evolution"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 13,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0210",
+    "gold_answers": [
+      "Matt Rhule"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 13,
+      "n_negative": 13,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0211",
+    "gold_answers": [
+      "Kat Callaghan"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0212",
+    "gold_answers": [
+      "gaslighting"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 18,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0213",
+    "gold_answers": [
+      "Singapore"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 17,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0214",
+    "gold_answers": [
+      "3.7%"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 23,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0215",
+    "gold_answers": [
+      "Netherlands"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 8,
+      "n_negative": 22,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0216",
+    "gold_answers": [
+      "Croatia"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 20,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0217",
+    "gold_answers": [
+      "Brian Kemp"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 22,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0218",
+    "gold_answers": [
+      "Margot Robbie"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 18,
+      "n_negative": 7,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 7
+    }
+  },
+  {
+    "id": "rgb_0219",
+    "gold_answers": [
+      "Tyler Adams"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 10,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0220",
+    "gold_answers": [
+      "Costco"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 20,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0221",
+    "gold_answers": [
+      "36 billion"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 8,
+      "n_negative": 21,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0222",
+    "gold_answers": [
+      "Caleb Williams"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0223",
+    "gold_answers": [
+      "Morocco"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0224",
+    "gold_answers": [
+      "Nelly Cheboi"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 8,
+      "n_negative": 11,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0225",
+    "gold_answers": [
+      "May 7",
+      "May. 7",
+      "7 May",
+      "7 May."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 20,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0226",
+    "gold_answers": [
+      "Adam Sandler"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 13,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0227",
+    "gold_answers": [
+      "Charlie Baker"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 18,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0228",
+    "gold_answers": [
+      "Linda Yaccarino"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 18,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0229",
+    "gold_answers": [
+      "Daniel Alegre"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0230",
+    "gold_answers": [
+      "134 million"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 24,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0231",
+    "gold_answers": [
+      "April 19 2023",
+      "Apr 19, 2023",
+      "Apr. 19, 2023",
+      "April 19, 2023",
+      "19 April 2023",
+      "19 Apr, 2023",
+      "19 Apr., 2023",
+      "19 April, 2023"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 11,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0232",
+    "gold_answers": [
+      "Guillermo del Toro's Pinocchio"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 26,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0233",
+    "gold_answers": [
+      "Gennadiy Borisov"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0234",
+    "gold_answers": [
+      "Georgia"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0235",
+    "gold_answers": [
+      "Michigan Tech"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0236",
+    "gold_answers": [
+      "$1.99"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 21,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0237",
+    "gold_answers": [
+      "January 18 2023",
+      "Jan 18, 2023",
+      "Jan. 18, 2023",
+      "January 18, 2023",
+      "18 January 2023",
+      "18 Jan, 2023",
+      "18 Jan., 2023",
+      "18 January, 2023"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 36,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0238",
+    "gold_answers": [
+      "December 22",
+      "Dec 22",
+      "Dec. 22",
+      "22 December",
+      "22 Dec",
+      "22 Dec."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 14,
+      "n_negative": 22,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0239",
+    "gold_answers": [
+      "March 10",
+      "Mar 10",
+      "Mar. 10",
+      "10 March",
+      "10 Mar",
+      "10 Mar."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 8,
+      "n_negative": 21,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0240",
+    "gold_answers": [
+      "2.1"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 11,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0241",
+    "gold_answers": [
+      "Zachary Levi"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 21,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0242",
+    "gold_answers": [
+      "France"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 16,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0243",
+    "gold_answers": [
+      "March 23",
+      "Mar 23",
+      "Mar. 23",
+      "23 March",
+      "23 Mar",
+      "23 Mar."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 20,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0244",
+    "gold_answers": [
+      "February 26",
+      "Feb 26",
+      "Feb. 26",
+      "26 February",
+      "26 Feb",
+      "26 Feb."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 20,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0245",
+    "gold_answers": [
+      "Nothing, Forever"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 20,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0246",
+    "gold_answers": [
+      "7,598",
+      "7598"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 20,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0247",
+    "gold_answers": [
+      "Robert Glasper"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 23,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0248",
+    "gold_answers": [
+      "Bard"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 14,
+      "n_negative": 7,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 7
+    }
+  },
+  {
+    "id": "rgb_0249",
+    "gold_answers": [
+      "David Holz"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 13,
+      "n_negative": 17,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0250",
+    "gold_answers": [
+      "GPT"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 8,
+      "n_negative": 11,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0251",
+    "gold_answers": [
+      "Bill Ready"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 18,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0252",
+    "gold_answers": [
+      "July 21",
+      "Jul 21",
+      "Jul. 21",
+      "21 July",
+      "21 Jul",
+      "21 Jul."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 13,
+      "n_negative": 17,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0253",
+    "gold_answers": [
+      "11,000",
+      "11000"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 16,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0254",
+    "gold_answers": [
+      "Amazon"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 15,
+      "n_negative": 11,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0255",
+    "gold_answers": [
+      "Kansas City Chiefs"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 29,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0256",
+    "gold_answers": [
+      "18.7%"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 19,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0257",
+    "gold_answers": [
+      "Meta"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0258",
+    "gold_answers": [
+      "Everything Everywhere All at Once"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 16,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0259",
+    "gold_answers": [
+      "Daniel Scheinert",
+      "Daniel Kwan"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 32,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0260",
+    "gold_answers": [
+      "Brendan Fraser"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 30,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0261",
+    "gold_answers": [
+      "Michelle Yeoh"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 24,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0262",
+    "gold_answers": [
+      "All Quiet on the Western Front"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 34,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0263",
+    "gold_answers": [
+      "$72.99"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 11,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0264",
+    "gold_answers": [
+      "Gina Miles"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 13,
+      "n_negative": 19,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0265",
+    "gold_answers": [
+      "Chris Cocks"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 19,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0266",
+    "gold_answers": [
+      "ESPN"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 9,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 9
+    }
+  },
+  {
+    "id": "rgb_0267",
+    "gold_answers": [
+      "Beau Ferrari"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 20,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0268",
+    "gold_answers": [
+      "X.AI",
+      "xAI"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 21,
+      "n_negative": 11,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0269",
+    "gold_answers": [
+      "maroon"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 28,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0270",
+    "gold_answers": [
+      "Rebecka Peterson"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0271",
+    "gold_answers": [
+      "July 28",
+      "Jul 28",
+      "Jul. 28",
+      "28 July",
+      "28 Jul",
+      "28 Jul."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 11,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0272",
+    "gold_answers": [
+      "Mumbai",
+      "New Delhi"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 18,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0273",
+    "gold_answers": [
+      "JW Marriott Los Angeles"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 16,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0274",
+    "gold_answers": [
+      "226 million"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 16,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0275",
+    "gold_answers": [
+      "May 10",
+      "May. 10",
+      "10 May",
+      "10 May."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 12,
+      "n_negative": 23,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0276",
+    "gold_answers": [
+      "Jodie Comer"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 13,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0277",
+    "gold_answers": [
+      "Rizz"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 26,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0278",
+    "gold_answers": [
+      "Matt Crocker"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 17,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0279",
+    "gold_answers": [
+      "Oklahoma State"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0280",
+    "gold_answers": [
+      "Cal Kestis"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 13,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0281",
+    "gold_answers": [
+      "Nida Manzoor"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 17,
+      "n_negative": 13,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0282",
+    "gold_answers": [
+      "April 28",
+      "Apr 28",
+      "Apr. 28",
+      "28 April",
+      "28 Apr",
+      "28 Apr."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 8,
+      "n_negative": 11,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0283",
+    "gold_answers": [
+      "Roy Wood Jr."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 28,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0284",
+    "gold_answers": [
+      "Chengdu"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 7,
+      "n_negative": 21,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0285",
+    "gold_answers": [
+      "Katie Koch"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 16,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0286",
+    "gold_answers": [
+      "May 10",
+      "May. 10",
+      "10 May",
+      "10 May."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 22,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0287",
+    "gold_answers": [
+      "Pixel Fold"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 29,
+      "n_negative": 9,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 9
+    }
+  },
+  {
+    "id": "rgb_0288",
+    "gold_answers": [
+      "253,000",
+      "253000"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 27,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0289",
+    "gold_answers": [
+      "May 11",
+      "May. 11",
+      "11 May",
+      "11 May."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 14,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0290",
+    "gold_answers": [
+      "Copilot"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 9,
+      "n_negative": 17,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0291",
+    "gold_answers": [
+      "Magic Editor"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 12,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0292",
+    "gold_answers": [
+      "May 18",
+      "May. 18",
+      "18 May",
+      "18 May."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 5,
+      "n_negative": 14,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0293",
+    "gold_answers": [
+      "June 22",
+      "Jun 22",
+      "Jun. 22",
+      "22 June",
+      "22 Jun",
+      "22 Jun."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 11,
+      "n_negative": 13,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0294",
+    "gold_answers": [
+      "$3,499",
+      "$3499"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 21,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0295",
+    "gold_answers": [
+      "Vision Pro"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 24,
+      "n_negative": 9,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 9
+    }
+  },
+  {
+    "id": "rgb_0296",
+    "gold_answers": [
+      "Kate Ryder"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 14,
+      "n_negative": 16,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0297",
+    "gold_answers": [
+      "Wyndham Clark"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 6,
+      "n_negative": 11,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0298",
+    "gold_answers": [
+      "July 11",
+      "Jul 11",
+      "Jul. 11",
+      "11 July",
+      "11 Jul",
+      "11 Jul."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 13,
+      "n_negative": 16,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  },
+  {
+    "id": "rgb_0299",
+    "gold_answers": [
+      "Cooper Kupp"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "n_positive": 10,
+      "n_negative": 11,
+      "controlled_noise_ratio": 100,
+      "correct_position": "random",
+      "max_docs_per_item": 10,
+      "n_correct_selected": 0,
+      "n_noise_selected": 10
+    }
+  }
+]

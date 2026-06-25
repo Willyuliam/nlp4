@@ -40,7 +40,7 @@ D:\conda_envs\type3\python.exe
 | `transformers` | `4.57.6` |
 | `huggingface_hub` | `0.36.2` |
 
-模型缓存放在项目目录下，避免占用 C 盘：
+模型缓存放在项目目录下：
 
 ```text
 D:\大学资料\自然语言处理\实验四\.hf_cache\models\bge-m3
