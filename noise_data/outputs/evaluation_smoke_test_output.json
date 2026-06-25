@@ -1,0 +1,41 @@
+[
+  {
+    "id": "rgb_0000",
+    "answer": "January 2 2022",
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_1",
+        "text": "smoke test"
+      }
+    ]
+  },
+  {
+    "id": "rgb_0001",
+    "answer": "medical",
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_1",
+        "text": "smoke test"
+      }
+    ]
+  },
+  {
+    "id": "rgb_0002",
+    "answer": "Kentucky",
+    "selected_doc_ids": [
+      "doc_1"
+    ],
+    "evidence_spans": [
+      {
+        "doc_id": "doc_1",
+        "text": "smoke test"
+      }
+    ]
+  }
+]
