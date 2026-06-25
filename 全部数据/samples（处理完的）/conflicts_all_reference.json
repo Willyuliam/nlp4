@@ -1,0 +1,4598 @@
+[
+  {
+    "id": "conflicts_0000",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0001",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0002",
+    "gold_answers": [
+      "Denali in Alaska"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0003",
+    "gold_answers": [
+      "at least 5 accounts"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0004",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0005",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0006",
+    "gold_answers": [
+      "Kevin Spacey"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0007",
+    "gold_answers": [
+      "Operation Market Garden during World War II."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to misinformation",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0008",
+    "gold_answers": [
+      "Aram Shah"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0009",
+    "gold_answers": [
+      "Brad Dourif"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0010",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0011",
+    "gold_answers": [
+      "Missouri River"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0012",
+    "gold_answers": [
+      "begins at sundown on Saturday, April 12."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0013",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0014",
+    "gold_answers": [
+      "Abi Carter"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0015",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0016",
+    "gold_answers": [
+      "Vatican City"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0017",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0018",
+    "gold_answers": [
+      "1,098"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0019",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0020",
+    "gold_answers": [
+      "Bryan Cranston"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0021",
+    "gold_answers": [
+      "Kash Patel"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0022",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0023",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0024",
+    "gold_answers": [
+      "Stem"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0025",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0026",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0027",
+    "gold_answers": [
+      "Prairie provinces"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0028",
+    "gold_answers": [
+      "Memorial Day, on Monday, May 26, 2025."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0029",
+    "gold_answers": [
+      "March 24, 2017"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0030",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0031",
+    "gold_answers": [
+      "Sofronio Vasquez"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0032",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0033",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0034",
+    "gold_answers": [
+      "Maharashtra"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0035",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0036",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0037",
+    "gold_answers": [
+      "1850"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0038",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0039",
+    "gold_answers": [
+      "10"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0040",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0041",
+    "gold_answers": [
+      "Chiliwack"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0042",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0043",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0044",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0045",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0046",
+    "gold_answers": [
+      "Never Flinch"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0047",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0048",
+    "gold_answers": [
+      "1901"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0049",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0050",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0051",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0052",
+    "gold_answers": [
+      "0"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0053",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0054",
+    "gold_answers": [
+      "27"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0055",
+    "gold_answers": [
+      "597 B.C.E."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0056",
+    "gold_answers": [
+      "Rodri"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0057",
+    "gold_answers": [
+      "Jack Nicklaus"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0058",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0059",
+    "gold_answers": [
+      "John G. Roberts, Jr."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0060",
+    "gold_answers": [
+      "Stephan Curry"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0061",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0062",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0063",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0064",
+    "gold_answers": [
+      "Richard Goodall"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0065",
+    "gold_answers": [
+      "1,492"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0066",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0067",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0068",
+    "gold_answers": [
+      "Caren Marsh Doll"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0069",
+    "gold_answers": [
+      "around 3000"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0070",
+    "gold_answers": [
+      "Adam Smith"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0071",
+    "gold_answers": [
+      "South Korea"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0072",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0073",
+    "gold_answers": [
+      "$41,440.00"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0074",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0075",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0076",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0077",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0078",
+    "gold_answers": [
+      "21"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0079",
+    "gold_answers": [
+      "1978"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0080",
+    "gold_answers": [
+      "Over 660"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0081",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0082",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0083",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0084",
+    "gold_answers": [
+      "at least 1,759"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0085",
+    "gold_answers": [
+      "Caitlin Clark"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0086",
+    "gold_answers": [
+      "Argentina"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0087",
+    "gold_answers": [
+      "August 18, 1920"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0088",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0089",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0090",
+    "gold_answers": [
+      "Boston Celtis"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0091",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0092",
+    "gold_answers": [
+      "July 28, 2017"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0093",
+    "gold_answers": [
+      "Czech Republic"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0094",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0095",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0096",
+    "gold_answers": [
+      "Billy Donovan"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0097",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0098",
+    "gold_answers": [
+      "March 22, 1971"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0099",
+    "gold_answers": [
+      "5811"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0100",
+    "gold_answers": [
+      "$15.49 per month"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0101",
+    "gold_answers": [
+      "August 15, 1972"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0102",
+    "gold_answers": [
+      "Dina Boluarte"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0103",
+    "gold_answers": [
+      "Jannik Sinner ( ITA )"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0104",
+    "gold_answers": [
+      "56"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0105",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0106",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0107",
+    "gold_answers": [
+      "16 of september was the formation as a tropical storm  and turning in to a hurricane  between the 16th and the 18th of september, hitting PR on the 20th of September."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0108",
+    "gold_answers": [
+      "Arizona"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0109",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0110",
+    "gold_answers": [
+      "1769"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0111",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0112",
+    "gold_answers": [
+      "2023"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0113",
+    "gold_answers": [
+      "April 12, 1861"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0114",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0115",
+    "gold_answers": [
+      "Punta Cana"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0116",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0117",
+    "gold_answers": [
+      "No."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0118",
+    "gold_answers": [
+      "Afghanistan"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0119",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0120",
+    "gold_answers": [
+      "Baby Shark Dance"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0121",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0122",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0123",
+    "gold_answers": [
+      "For 2025 it is November 27th"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0124",
+    "gold_answers": [
+      "Donald Trump"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0125",
+    "gold_answers": [
+      "No"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0126",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0127",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0128",
+    "gold_answers": [
+      "KOMO"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0129",
+    "gold_answers": [
+      "John Ratcliffe"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0130",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0131",
+    "gold_answers": [
+      "28th of February or 1st of March"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0132",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0133",
+    "gold_answers": [
+      "Russia"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0134",
+    "gold_answers": [
+      "22"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0135",
+    "gold_answers": [
+      "Bullet Train"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0136",
+    "gold_answers": [
+      "5"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0137",
+    "gold_answers": [
+      "EL-Capitan"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0138",
+    "gold_answers": [
+      "1"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0139",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0140",
+    "gold_answers": [
+      "Sri Aurobindo Ghosh"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0141",
+    "gold_answers": [
+      "sugar does not directly lead to cavities, but it is fermented by bacteria to produce acid that leads to decay."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0142",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0143",
+    "gold_answers": [
+      "7"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0144",
+    "gold_answers": [
+      "the first Sunday of November"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0145",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0146",
+    "gold_answers": [
+      "$2.5 million"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0147",
+    "gold_answers": [
+      "51,913"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0148",
+    "gold_answers": [
+      "Melbourne, Australia"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0149",
+    "gold_answers": [
+      "France"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0150",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0151",
+    "gold_answers": [
+      "Gary Ray Bowles"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0152",
+    "gold_answers": [
+      "4"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0153",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0154",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0155",
+    "gold_answers": [
+      "3"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to misinformation",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0156",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0157",
+    "gold_answers": [
+      "0"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0158",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0159",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0160",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0161",
+    "gold_answers": [
+      "Public APIs"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0162",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0163",
+    "gold_answers": [
+      "1971"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0164",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0165",
+    "gold_answers": [
+      "Hamburg"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0166",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0167",
+    "gold_answers": [
+      "Cristiano Ronaldo"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0168",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0169",
+    "gold_answers": [
+      "Javier A. Reyes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0170",
+    "gold_answers": [
+      "California"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0171",
+    "gold_answers": [
+      "The Tortured Poets Department"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0172",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0173",
+    "gold_answers": [
+      "Linda Yaccarino"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0174",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0175",
+    "gold_answers": [
+      "Lionel Messi"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0176",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0177",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0178",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0179",
+    "gold_answers": [
+      "Cristiano Ronaldo"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0180",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0181",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0182",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0183",
+    "gold_answers": [
+      "Vishrava"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0184",
+    "gold_answers": [
+      "Around $2 billion"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0185",
+    "gold_answers": [
+      "Montreal Canadiens"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0186",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0187",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0188",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0189",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0190",
+    "gold_answers": [
+      "War is Over!"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0191",
+    "gold_answers": [
+      "Lithuanian"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0192",
+    "gold_answers": [
+      "The Boy and the Heron"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0193",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0194",
+    "gold_answers": [
+      "Yes, lactose intolerance can lead to osteoporosis due to calcium deficiency caused by avoiding dairy products."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0195",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0196",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0197",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0198",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0199",
+    "gold_answers": [
+      "While not always bad, brushing more than 2 times a day could be harmful so should be done with caution"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0200",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0201",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0202",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0203",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0204",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0205",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0206",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0207",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0208",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0209",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0210",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0211",
+    "gold_answers": [
+      "The Boy and the Heron"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0212",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0213",
+    "gold_answers": [
+      "The Anglo-Zanzibar War"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0214",
+    "gold_answers": [
+      "No"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0215",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0216",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0217",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0218",
+    "gold_answers": [
+      "July 26th"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0219",
+    "gold_answers": [
+      "Keir Starmer"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0220",
+    "gold_answers": [
+      "Nov 24, 2024"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0221",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0222",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0223",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0224",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0225",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0226",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0227",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0228",
+    "gold_answers": [
+      "Yes, smoking increase a person's risk of Rheumatoid Arthritis"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0229",
+    "gold_answers": [
+      "No"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0230",
+    "gold_answers": [
+      "2975"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0231",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0232",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0233",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0234",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0235",
+    "gold_answers": [
+      "Franklin D. Roosevelt"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0236",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0237",
+    "gold_answers": [
+      "MrBeast"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0238",
+    "gold_answers": [
+      "Bath, United Kingdom"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0239",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0240",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0241",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0242",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0243",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0244",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0245",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0246",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0247",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0248",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0249",
+    "gold_answers": [
+      "Jorge Martin"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0250",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0251",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0252",
+    "gold_answers": [
+      "Sayf al-‘Adl"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0253",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0254",
+    "gold_answers": [
+      "Elon Musk"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0255",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0256",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0257",
+    "gold_answers": [
+      "Kind of Blue"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to misinformation",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0258",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0259",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0260",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0261",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0262",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0263",
+    "gold_answers": [
+      "No"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0264",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0265",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0266",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0267",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0268",
+    "gold_answers": [
+      "George W. Bush"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0269",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0270",
+    "gold_answers": [
+      "6"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0271",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0272",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0273",
+    "gold_answers": [
+      "450"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0274",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0275",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0276",
+    "gold_answers": [
+      "September 5, 2024"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0277",
+    "gold_answers": [
+      "Mughal Emperor Jahangir"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0278",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0279",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0280",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0281",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0282",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0283",
+    "gold_answers": [
+      "Mati"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0284",
+    "gold_answers": [
+      "$5-$10"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0285",
+    "gold_answers": [
+      "Bolovia"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0286",
+    "gold_answers": [
+      "No"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0287",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0288",
+    "gold_answers": [
+      "The Ruia family"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0289",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0290",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0291",
+    "gold_answers": [
+      "Mithali Raj"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0292",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0293",
+    "gold_answers": [
+      "O+"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0294",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0295",
+    "gold_answers": [
+      "New York"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0296",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0297",
+    "gold_answers": [
+      "The New England Patriots"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0298",
+    "gold_answers": [
+      "John F. Kennedy"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0299",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0300",
+    "gold_answers": [
+      "Sky Team"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0301",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0302",
+    "gold_answers": [
+      "Liz Truss"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0303",
+    "gold_answers": [
+      "Yes, along with Ub Iwerks"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0304",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0305",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0306",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0307",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0308",
+    "gold_answers": [
+      "4"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0309",
+    "gold_answers": [
+      "Antibodies are made by B lymphocytes."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0310",
+    "gold_answers": [
+      "a bit above 3 million"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0311",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0312",
+    "gold_answers": [
+      "Michael Phelps"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0313",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0314",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0315",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0316",
+    "gold_answers": [
+      "Youtube Rewind 2018"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0317",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0318",
+    "gold_answers": [
+      "No"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0319",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0320",
+    "gold_answers": [
+      "No"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0321",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0322",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0323",
+    "gold_answers": [
+      "Han Kang"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0324",
+    "gold_answers": [
+      "No"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0325",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0326",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0327",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0328",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0329",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0330",
+    "gold_answers": [
+      "African Americans"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0331",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0332",
+    "gold_answers": [
+      "Kentaji Brown Jackson"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0333",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0334",
+    "gold_answers": [
+      "Andrea Riseborough"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0335",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0336",
+    "gold_answers": [
+      "October 30, 1918"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0337",
+    "gold_answers": [
+      "2001 Seattle Mariners and 1906 Chicago Cubs with 116 wins"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0338",
+    "gold_answers": [
+      "Lyndon B. Johnson"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0339",
+    "gold_answers": [
+      "4"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0340",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0341",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0342",
+    "gold_answers": [
+      "No"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0343",
+    "gold_answers": [
+      "BPCL"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0344",
+    "gold_answers": [
+      "James W. Marshall"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0345",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0346",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0347",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0348",
+    "gold_answers": [
+      "6"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0349",
+    "gold_answers": [
+      "2024"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0350",
+    "gold_answers": [
+      "Karim Benzema"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0351",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0352",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0353",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0354",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0355",
+    "gold_answers": [
+      "$15"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0356",
+    "gold_answers": [
+      "Rafael Nadal"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0357",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0358",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0359",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0360",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0361",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0362",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0363",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0364",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0365",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0366",
+    "gold_answers": [
+      "China"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0367",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0368",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0369",
+    "gold_answers": [
+      "Scale"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0370",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0371",
+    "gold_answers": [
+      "Alaska, Delaware, Montana, New Hampshire, Oregon"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0372",
+    "gold_answers": [
+      "56 delegates to the Continental Congress"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0373",
+    "gold_answers": [
+      "South Sea"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0374",
+    "gold_answers": [
+      "No"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0375",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0376",
+    "gold_answers": [
+      "10"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0377",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0378",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0379",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0380",
+    "gold_answers": [
+      "8 billion"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0381",
+    "gold_answers": [
+      "2024"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0382",
+    "gold_answers": [
+      "52"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0383",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0384",
+    "gold_answers": [
+      "No"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0385",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0386",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0387",
+    "gold_answers": [
+      "Euro"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0388",
+    "gold_answers": [
+      "Max Verstappen"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0389",
+    "gold_answers": [
+      "Flightb741"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0390",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0391",
+    "gold_answers": [
+      "USA"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0392",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0393",
+    "gold_answers": [
+      "Caesars Superdome"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0394",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0395",
+    "gold_answers": [
+      "Rishi Sunak"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0396",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0397",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0398",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0399",
+    "gold_answers": [
+      "No"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0400",
+    "gold_answers": [
+      "none"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0401",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0402",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0403",
+    "gold_answers": [
+      "Microsoft's acquisition of Activision Blizzard for $68.7 billion"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0404",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0405",
+    "gold_answers": [
+      "Over 60"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0406",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0407",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0408",
+    "gold_answers": [
+      "No"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0409",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0410",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0411",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0412",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0413",
+    "gold_answers": [
+      "Warren Hastings"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0414",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0415",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0416",
+    "gold_answers": [
+      "Jordan Spieth"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0417",
+    "gold_answers": [
+      "The Beatles"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0418",
+    "gold_answers": [
+      "It is the final book of the New Testament (Christian Bible)"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0419",
+    "gold_answers": [
+      "Gurbachan Singh Randhawa"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0420",
+    "gold_answers": [
+      "Organisms such as plants in the ocean"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0421",
+    "gold_answers": [
+      "Ringo Starr and George Harrison"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0422",
+    "gold_answers": [
+      "April 4, 2017"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to misinformation",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0423",
+    "gold_answers": [
+      "2015"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0424",
+    "gold_answers": [
+      "Iskander Mirza"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0425",
+    "gold_answers": [
+      "Indo-Greeks"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0426",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0427",
+    "gold_answers": [
+      "Zoroastrianism"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0428",
+    "gold_answers": [
+      "April 10, 1912"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0429",
+    "gold_answers": [
+      "Mario"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0430",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0431",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0432",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0433",
+    "gold_answers": [
+      "No, the Giant Panda is no longer considered an endangered species. It was reclassified as \"vulnerable\" in 2016 by the IUCN."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0434",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0435",
+    "gold_answers": [
+      "3 companies."
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0436",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0437",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0438",
+    "gold_answers": [
+      "1964"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to misinformation",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0439",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0440",
+    "gold_answers": [
+      "Cristiano Ronaldo"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0441",
+    "gold_answers": [
+      "Yes"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0442",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0443",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0444",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0445",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0446",
+    "gold_answers": [
+      "Shigeru Ishiba"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "No conflict",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0447",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0448",
+    "gold_answers": [
+      "Over 260"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0449",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0450",
+    "gold_answers": [
+      "38"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0451",
+    "gold_answers": [
+      "Elon Musk"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0452",
+    "gold_answers": [
+      "No"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0453",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0454",
+    "gold_answers": [
+      "20%"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0455",
+    "gold_answers": [
+      "Elon Musk"
+    ],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflict due to outdated information",
+      "has_correct_answer": true
+    }
+  },
+  {
+    "id": "conflicts_0456",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Complementary information",
+      "has_correct_answer": false
+    }
+  },
+  {
+    "id": "conflicts_0457",
+    "gold_answers": [],
+    "wrong_answers": [],
+    "_meta": {
+      "conflict_type": "Conflicting opinions and research outcomes",
+      "has_correct_answer": false
+    }
+  }
+]

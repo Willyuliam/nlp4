@@ -1,0 +1,56 @@
+*_input.json：给模型输入
+给 RAG / LLM 输入的数据
+只保留：
+{
+  "id": "...",
+  "dataset": "...",
+  "question": "...",
+  "contexts": [...]
+}
+
+rgb_all_input.json：正确文档 + 大量噪声文档
+
+    RGB 的 noise：更偏：无关噪声，但 RAMDocs：存在：错误但看起来相关的文档
+
+ramdocs_all_input.json：测试模型是否会被错误文档诱导
+
+	CONFLICTS 系列文件的作用：
+		Step4 输出：
+		unknown : 100%
+		gold_answers : []
+		说明当前CONFLICTS 不适合标准 Accuracy
+
+conflicts_all_input.json：测试模型如何处理冲突信息
+
+*_reference.json：给评估脚本使用
+是评估标准答案文件
+
+包含：
+{
+  "id": "...",
+  "gold_answers": [...],
+  "wrong_answers": [...],
+  "_meta": {...}
+}
+
+rgb_all_reference.json：用于计算：Accuracy，EM，F1，misinfo adoption
+
+ramdocs_all_reference.json：用于计算模型是否采纳错误文档答案，模型是否选中了正确 supporting document，答案是否真的来自 evidence，而不是模型自己编
+
+conflicts_all_reference.json：reference 不再是“标准答案”，而是实验辅助元信息
+
+
+*_full.json：完整实验数据
+
+rgb_all_full.json：包含：输入，文档标签，正确答案，元信息
+只有full保留了：correct/noise 标签
+能统计：模型是否引用了 noise 文档。或者：噪声比例上升时accuracy 如何下降
+
+ramdocs_all_full.json：
+只有 full.json 保留了 misinfo 标签
+用于后续统计。
+
+conflicts_all_full.json：目前：label 全是 unknown。完整上下文实验层，只full.json保留了完整实验语境
+
+
+

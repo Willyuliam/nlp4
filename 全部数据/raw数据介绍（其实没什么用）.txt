@@ -1,0 +1,28 @@
+[RGB] 正在 git clone（数据直接在 repo 里，无需 HuggingFace）...
+  克隆成功！
+
+[RGB] 数据文件（共 8 个）：
+  en.json                    300 条
+  en_fact.json               100 条
+  en_int.json                100 条
+  en_refine.json             300 条
+  zh.json                    300 条
+  zh_fact.json               100 条
+  zh_int.json                100 条
+  zh_refine.json             300 条
+
+  en_refine.json 字段：['id', 'query', 'answer', 'positive', 'negative']
+  positive 数量：5
+  negative 数量：15
+  answer 示例：[['January 2 2022', 'Jan 2, 2022', 'Jan. 2, 2022', 'January 2, 2022', '2 January 2022', '2 Jan, 2022', '2 Jan., 2022', '2 January, 2022']]
+
+
+[RAMDocs] 使用 hf-mirror.com 下载...
+  下载成功！splits: ['test']
+  已保存：data\raw\ramdocs\test.json（500 条）
+  字段：['question', 'documents', 'disambig_entity', 'gold_answers', 'wrong_answers']
+
+[CONFLICTS] 正在 git clone...
+  克隆成功！
+  数据文件（共 1 个）：
+    conflicts.jsonl
