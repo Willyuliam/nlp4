@@ -1,0 +1,127 @@
+\documentclass[10pt,twocolumn]{article}
+
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{xcolor}
+
+\setmainfont{Times New Roman}
+\newfontfamily\zhfont{Microsoft YaHei}
+\newcommand{\zh}[1]{{\zhfont #1}}
+
+\setlength{\paperwidth}{8.5in}
+\setlength{\paperheight}{11in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\evensidemargin}{-0.25in}
+\setlength{\textwidth}{7.0in}
+\setlength{\topmargin}{-0.55in}
+\setlength{\textheight}{9.35in}
+\setlength{\columnsep}{0.24in}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{0.2em}
+
+\definecolor{MainBlue}{RGB}{30,72,110}
+\definecolor{MainRed}{RGB}{170,55,55}
+\definecolor{MainGreen}{RGB}{35,130,90}
+
+\title{\bfseries \zh{面向噪声文档的鲁棒 RAG 推理方法与检索维度评估}}
+\author{\zh{自然语言处理课程项目}}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\zh{检索增强生成系统在开放域问答中经常面对无关文档、误导文档和冲突文档。仅用答案准确率评价 RAG 系统，无法揭示正确证据是否被检索、模型是否采纳错误答案，以及答案是否真正被证据支持。本文围绕 RGB、RAMDocs、controlled noise 和 custom noise 数据，比较 Zero-shot、Ordered RAG、Naive RAG、Rerank RAG、CRAG-lite、Self-RAG-lite、EGI-RAG 与 EGI-RAG+。我们将评估扩展为 Recall@k、MRR、nDCG、Evidence F1、Strict Supported Rate、Misinfo Adoption Rate 和 Refusal F1。结果显示，EGI-RAG 在 RGB 和自定义噪声上具有较强证据约束能力；EGI-RAG+ 可显著降低 RAMDocs 的误导答案采纳，但因过度拒答导致 Answer Accuracy 下降。}
+\end{abstract}
+
+\noindent\textbf{Keywords:} Retrieval-Augmented Generation; Noisy Documents; Evidence Gating; Misinformation Adoption; Refusal.
+
+\section{Introduction}
+\zh{真实 RAG 候选文档并不总是干净证据集合。候选集中可能同时包含正确证据、普通噪声、高重叠误导文档和互相冲突的信息。因此，鲁棒 RAG 的目标不是让模型读取更多文档，而是让模型只基于可信证据作答，并在证据不足或冲突时拒答。}
+
+\zh{本文的核心问题包括：正确证据是否进入 top-k；模型是否被 wrong answer 文档诱导；生成答案是否有 evidence spans 支持；100\% 噪声场景中系统能否拒答。}
+
+\section{System Overview}
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.97\textwidth]{C:/Users/86159/.cursor/projects/d-360Downloads/assets/c__Users_86159_AppData_Roaming_Cursor_User_workspaceStorage_3ff2ee083c5798b7e8e919b8bb352912_images_55d29c2c4b1bda1766f5a75733e54b1a-96877d73-6a0a-4863-b290-c93967d71861.png}
+\caption{\zh{RAG 鲁棒性实验全流程与成员分工。流程覆盖数据转换、controlled/custom noise 构造、baseline 运行、EGI-RAG 实现和扩展指标评估。}}
+\end{figure*}
+
+\zh{图 1 展示项目总流程。成员 A 负责 RGB、RAMDocs 与 Conflicts 数据转换和 controlled noise 构造；成员 B 负责 Qwen/百炼 API、baseline、检索重排和基础评估；成员 C 负责 EGI-RAG、EGI-RAG+、扩展指标和最终分析。}
+
+\section{Method}
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.97\textwidth]{C:/Users/86159/.cursor/projects/d-360Downloads/assets/c__Users_86159_AppData_Roaming_Cursor_User_workspaceStorage_3ff2ee083c5798b7e8e919b8bb352912_images_3e1982d0aa7dab8153c66f5495ccfe18-5618ca58-634c-41f4-9b1b-148ac8e8330e.png}
+\caption{\zh{EGI-RAG 方法框架。当前实验实现轻量工程版：检索/重排、证据级判断、证据抽取、基于证据生成和支持性验证。}}
+\end{figure*}
+
+\zh{EGI-RAG 首先对候选文档进行本地检索和重排，再用 LLM 判断每篇文档是否为 supportive、partial、irrelevant 或 misleading。系统只从 supportive 文档中抽取最短原文证据句，并只将 evidence spans 输入答案生成器。答案生成后，verifier 判断其是否 supported。若 verification result 为 unsupported、conflict 或 insufficient，则系统拒答。}
+
+\zh{EGI-RAG+ 在 EGI-RAG 的基础上加入 contradictory 标签，试图识别主体混淆、数值替换、时间冲突和互相矛盾文档。其目标是降低 misinformation adoption，而不是直接提高 Answer Accuracy。当前实现采用 hard gate，因此在降低误导采纳的同时也带来过度拒答。}
+
+\section{Evaluation}
+\zh{除 Answer Accuracy 和 Token F1 外，本文重点使用检索指标 Recall@5、Recall@10、MRR、nDCG@5，以及证据与鲁棒性指标 Evidence F1、Strict Supported Rate、Misinfo Adoption Rate 和 Refusal F1。Misinfo Adoption Rate 越低越好，它衡量模型是否命中 RAMDocs wrong answers。}
+
+\section{Main Results}
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{l l r r r r}
+\hline
+Dataset & Method & N & Acc & Misinfo & Strict \\
+\hline
+RGB & EGI & 300 & 0.9200 & 0.0000 & 0.9667 \\
+RGB & EGI+ & 300 & 0.8600 & 0.0000 & 0.8767 \\
+RAM & EGI & 500 & 0.5320 & 0.1100 & 0.7120 \\
+RAM & EGI+ & 500 & 0.2260 & 0.0080 & 0.2620 \\
+\hline
+\end{tabular}
+\caption{\zh{EGI-RAG 与 EGI-RAG+ 全量结果。EGI-RAG+ 降低 Misinfo，但 Answer Accuracy 与 Strict Supported Rate 下降。}}
+\end{table}
+
+\zh{表 1 显示，EGI-RAG 在 RGB 上达到 0.9200 Answer Accuracy 和 0.9667 Strict Supported Rate。RAMDocs 中 EGI-RAG+ 将 Misinfo Adoption 从 0.1100 降到 0.0080，但 Answer Accuracy 从 0.5320 降到 0.2260。这说明 EGI-RAG+ 更像风险控制策略，而不是准确率增强策略。}
+
+\section{Controlled Noise Results}
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{l l r r r}
+\hline
+Setting & Method & N & Acc & Strict \\
+\hline
+RGB 0\% & EGI & 300 & 0.9600 & 0.9967 \\
+RGB 60\% & EGI & 300 & 0.9300 & 0.9667 \\
+RGB 100\% & EGI & 300 & 0.0400 & 0.1233 \\
+RAM 60\% & EGI & 118 & 0.5424 & 0.7288 \\
+RAM 60\% & EGI+ & 100 & 0.3100 & 0.3500 \\
+RAM 100\% & EGI+ & 100 & 0.0000 & 0.2900 \\
+\hline
+\end{tabular}
+\caption{\zh{Controlled noise 代表性比例。RGB 全噪声下正确证据缺失；RAMDocs 中误导文档更危险。}}
+\end{table}
+
+\zh{RGB 中 0\% 和 60\% 普通噪声下，EGI-RAG 仍保持较高准确率。100\% 噪声时 Recall@5 和 MRR 为 0，模型没有正确证据，因此 Accuracy 大幅下降。RAMDocs 的关键风险是 high-overlap misinfo：即使检索命中正确文档，模型仍可能被 wrong answer 诱导。}
+
+\section{Custom Noise}
+\zh{自定义噪声包含 logic-gap、value-swap 和 high-overlap irrelevant 三类场景。EGI-RAG 在该集合上达到 0.7833 Accuracy、0.7755 Token F1、0.8611 Evidence F1 和 0.8667 Strict Supported Rate，明显优于 Naive/Rerank/CRAG-lite。该结果说明证据门控特别适合处理“看似相关但缺少关键逻辑”的文档。}
+
+\section{Failure Analysis}
+\zh{错误主要来自五类原因。第一，检索不到正确证据，尤其是 100\% noise；第二，正确证据与强误导文档共现，RAMDocs 中很常见；第三，证据抽取不完整，例如抽到主体但遗漏时间或数值；第四，EGI-RAG+ 过度拒答；第五，字符串评估误差，例如日期格式和别名导致语义正确答案被判错。}
+
+\section{Discussion}
+\zh{EGI-RAG+ 看起来“效果变差”的根本原因是目标函数改变。它优先降低 misinformation adoption，而不是最大化 Answer Accuracy。未来应将 hard gate 改为 soft threshold：只有当 contradictory 文档数量或冲突强度超过 supportive evidence 时拒答；同时引入 LLM judge 或人工复核，减少字符串指标误差。}
+
+\section{Conclusion}
+\zh{本文将噪声文档下的 RAG 评价从单一答案准确率扩展为检索、证据和鲁棒性多维指标。EGI-RAG 能在 RGB 和 custom noise 上提升证据忠实性；EGI-RAG+ 证明了冲突感知策略能显著降低误导采纳，但也暴露出过度拒答问题。鲁棒 RAG 的关键不是读更多文档，而是只基于可信证据作答。}
+
+\begin{thebibliography}{9}
+\bibitem{selfrag} Asai et al. Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection. 2023.
+\bibitem{crag} Yan et al. Corrective Retrieval Augmented Generation. 2024.
+\bibitem{ragas} Es et al. RAGAS: Automated Evaluation of Retrieval Augmented Generation. 2023.
+\bibitem{ares} Saad-Falcon et al. ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems. 2023.
+\end{thebibliography}
+
+\end{document}
