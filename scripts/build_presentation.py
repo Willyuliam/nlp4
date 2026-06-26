@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from PIL import Image
 from pptx import Presentation
 from pptx.dml.color import RGBColor
 from pptx.enum.text import PP_ALIGN
@@ -17,12 +18,12 @@ ASSET_DIR = Path(r"C:\Users\86159\.cursor\projects\d-360Downloads\assets")
 FLOW_IMAGE = ASSET_DIR / (
     "c__Users_86159_AppData_Roaming_Cursor_User_workspaceStorage_"
     "3ff2ee083c5798b7e8e919b8bb352912_images_"
-    "d4b8109b85c8e6cbd44ef9713302dd86-4e31788d-3f34-4055-9afb-551cb21ecb80.png"
+    "55d29c2c4b1bda1766f5a75733e54b1a-96877d73-6a0a-4863-b290-c93967d71861.png"
 )
 METHOD_IMAGE = ASSET_DIR / (
     "c__Users_86159_AppData_Roaming_Cursor_User_workspaceStorage_"
     "3ff2ee083c5798b7e8e919b8bb352912_images_"
-    "3e1982d0aa7dab8153c66f5495ccfe18-489c6c60-b611-4db8-a76b-936e073d94de.png"
+    "3e1982d0aa7dab8153c66f5495ccfe18-5618ca58-634c-41f4-9b1b-148ac8e8330e.png"
 )
 
 BLUE = RGBColor(30, 72, 110)
@@ -120,7 +121,26 @@ def add_table(slide, rows, x, y, w, h, font_size=10):
 
 
 def add_image_fit(slide, path: Path, x, y, w, h):
-    slide.shapes.add_picture(str(path), Inches(x), Inches(y), width=Inches(w), height=Inches(h))
+    with Image.open(path) as img:
+        img_w, img_h = img.size
+    box_ratio = w / h
+    img_ratio = img_w / img_h
+    if img_ratio >= box_ratio:
+        final_w = w
+        final_h = w / img_ratio
+    else:
+        final_h = h
+        final_w = h * img_ratio
+    final_x = x + (w - final_w) / 2
+    final_y = y + (h - final_h) / 2
+    slide.shapes.add_picture(str(path), Inches(final_x), Inches(final_y), width=Inches(final_w), height=Inches(final_h))
+
+
+def add_kicker(slide, text: str, x=0.7, y=0.95, w=12.0):
+    box = slide.shapes.add_textbox(Inches(x), Inches(y), Inches(w), Inches(0.35))
+    p = box.text_frame.paragraphs[0]
+    p.text = text
+    set_run(p.runs[0], 12, False, GRAY)
 
 
 def build() -> Path:
@@ -288,6 +308,177 @@ def build() -> Path:
     ], 0.85, 1.15, 11.9, 3.6, 18)
     add_card(slide, 2.0, 5.25, 9.3, 0.85, "Takeaway", "Evidence first, answer second: trustworthy RAG should answer only from supported evidence.", RGBColor(235, 245, 252))
     add_footer(slide, 12)
+
+    out = REPORTS / "rag_noise_robustness_presentation.pptx"
+    prs.save(out)
+    return out
+
+
+def build() -> Path:
+    """Build a cleaner, presentation-first deck."""
+    prs = Presentation()
+    prs.slide_width = Inches(13.333)
+    prs.slide_height = Inches(7.5)
+
+    def blank():
+        slide = prs.slides.add_slide(prs.slide_layouts[6])
+        slide.background.fill.solid()
+        slide.background.fill.fore_color.rgb = RGBColor(250, 252, 254)
+        return slide
+
+    # 1. Title
+    slide = blank()
+    band = slide.shapes.add_shape(1, Inches(0), Inches(0), Inches(13.333), Inches(1.15))
+    band.fill.solid()
+    band.fill.fore_color.rgb = BLUE
+    band.line.color.rgb = BLUE
+    title = slide.shapes.add_textbox(Inches(0.75), Inches(0.36), Inches(11.8), Inches(0.65))
+    p = title.text_frame.paragraphs[0]
+    p.text = "面向噪声文档的鲁棒 RAG 推理"
+    set_run(p.runs[0], 30, True, WHITE)
+    subtitle = slide.shapes.add_textbox(Inches(0.8), Inches(1.55), Inches(11.8), Inches(0.55))
+    p = subtitle.text_frame.paragraphs[0]
+    p.text = "Evidence-Gated Iterative RAG · 检索维度评估 · 错误案例分析"
+    set_run(p.runs[0], 20, False, BLUE)
+    add_card(slide, 0.9, 2.75, 3.55, 1.25, "问题", "候选文档混入 noise / misinfo / contradictory 信息。")
+    add_card(slide, 4.9, 2.75, 3.55, 1.25, "方法", "证据门控 + 证据抽取 + 支持性验证。")
+    add_card(slide, 8.9, 2.75, 3.55, 1.25, "结论", "EGI-RAG 稳定；EGI-RAG+ 降低误导但过度拒答。")
+    add_footer(slide, 1)
+
+    # 2. Research problem
+    slide = blank()
+    add_title(slide, "研究问题：RAG 不只是 Answer Accuracy")
+    add_kicker(slide, "真实检索结果可能包含正确证据、普通噪声、高重叠误导文档和冲突文档。")
+    add_card(slide, 0.8, 1.65, 3.8, 1.25, "检索质量", "正确证据是否进入 top-k？\nRecall@k / MRR / nDCG")
+    add_card(slide, 4.75, 1.65, 3.8, 1.25, "证据忠实性", "答案是否由证据支持？\nEvidence F1 / StrictSup")
+    add_card(slide, 8.7, 1.65, 3.8, 1.25, "抗误导能力", "是否采纳 wrong answer？\nMisinfo / Refusal F1")
+    add_bullets(
+        slide,
+        [
+            "Naive/Rerank 可能检索到正确文档，但仍被 misinfo 带偏。",
+            "100% noise 场景下，合理行为应从“作答”转向“拒答”。",
+            "EGI-RAG 关注：先找到可信证据，再生成答案。",
+        ],
+        1.1,
+        4.0,
+        11.2,
+        1.6,
+        17,
+    )
+    add_footer(slide, 2)
+
+    # 3. Flow image
+    slide = blank()
+    add_title(slide, "实验全流程与成员分工")
+    add_kicker(slide, "从数据转换、controlled noise 构造，到 baseline / EGI-RAG 运行与扩展评估。")
+    add_image_fit(slide, FLOW_IMAGE, 0.45, 1.05, 12.45, 5.75)
+    add_footer(slide, 3)
+
+    # 4. Method image
+    slide = blank()
+    add_title(slide, "EGI-RAG 方法框架")
+    add_kicker(slide, "核心：检索重排后进行证据级判断，只基于 supportive evidence 生成并验证答案。")
+    add_image_fit(slide, METHOD_IMAGE, 0.45, 1.05, 12.45, 5.75)
+    add_footer(slide, 4)
+
+    # 5. Full results
+    slide = blank()
+    add_title(slide, "全量主结果：EGI-RAG vs. EGI-RAG+")
+    rows = [
+        ["Dataset", "Method", "N", "AnsAcc", "Token F1", "Misinfo", "StrictSup"],
+        ["RGB", "EGI-RAG", "300", "0.9200", "0.8127", "0.0000", "0.9667"],
+        ["RGB", "EGI-RAG+", "300", "0.8600", "0.7616", "0.0000", "0.8767"],
+        ["RAMDocs", "EGI-RAG", "500", "0.5320", "0.5381", "0.1100", "0.7120"],
+        ["RAMDocs", "EGI-RAG+", "500", "0.2260", "0.2307", "0.0080", "0.2620"],
+    ]
+    add_table(slide, rows, 0.8, 1.25, 11.8, 2.35, 12)
+    add_card(slide, 1.05, 4.15, 5.35, 1.25, "EGI-RAG", "RGB 上答案与证据支持性最高；RAMDocs 上降低误导但仍保持一定覆盖。")
+    add_card(slide, 6.95, 4.15, 5.35, 1.25, "EGI-RAG+", "Misinfo 显著下降，但 hard gate 导致过度拒答，Accuracy 下降。", RGBColor(250, 240, 230))
+    add_footer(slide, 5)
+
+    # 6. Controlled trends
+    slide = blank()
+    add_title(slide, "噪声比例实验：代表性趋势")
+    rows = [
+        ["Setting", "Method", "N", "AnsAcc", "Misinfo", "StrictSup"],
+        ["RGB 0%", "EGI-RAG", "300", "0.9600", "0.0000", "0.9967"],
+        ["RGB 60%", "EGI-RAG", "300", "0.9300", "0.0000", "0.9667"],
+        ["RGB 100%", "EGI-RAG", "300", "0.0400", "0.0000", "0.1233"],
+        ["RAM 60%", "EGI-RAG", "118", "0.5424", "0.1017", "0.7288"],
+        ["RAM 60%", "EGI-RAG+", "100", "0.3100", "0.0100", "0.3500"],
+        ["RAM 100%", "EGI-RAG+", "100", "0.0000", "0.2200", "0.2900"],
+    ]
+    add_table(slide, rows, 0.75, 1.15, 11.9, 3.15, 11)
+    add_bullets(
+        slide,
+        [
+            "RGB：普通噪声下 EGI-RAG 仍稳定；100% noise 因无正确证据而大幅下降。",
+            "RAMDocs：misinfo 是主要风险；EGI-RAG+ 降低误导采纳，但拒答过多。",
+        ],
+        0.95,
+        4.75,
+        11.6,
+        1.0,
+        15,
+    )
+    add_footer(slide, 6)
+
+    # 7. Custom noise and failure
+    slide = blank()
+    add_title(slide, "Custom Noise 与错误来源")
+    rows = [
+        ["Method", "N", "AnsAcc", "Token F1", "Misinfo", "EvF1"],
+        ["Naive", "60", "0.6500", "0.4694", "0.0333", "0.0000"],
+        ["Rerank", "60", "0.6500", "0.4703", "0.0167", "0.0000"],
+        ["CRAG", "60", "0.6333", "0.3511", "0.0167", "0.0000"],
+        ["EGI-RAG", "60", "0.7833", "0.7755", "0.0167", "0.8611"],
+    ]
+    add_table(slide, rows, 0.75, 1.05, 11.8, 2.25, 12)
+    add_card(slide, 0.95, 3.8, 3.55, 1.0, "检索失败", "100% noise 时没有正确证据。")
+    add_card(slide, 4.85, 3.8, 3.55, 1.0, "误导共现", "正确证据与 wrong answer 文档同时相关。")
+    add_card(slide, 8.75, 3.8, 3.55, 1.0, "过度拒答", "EGI-RAG+ 阈值过硬，覆盖率下降。", RGBColor(250, 240, 230))
+    add_footer(slide, 7)
+
+    # 8. Why EGI+ worse
+    slide = blank()
+    add_title(slide, "为什么 EGI-RAG+ 看起来更差？")
+    add_kicker(slide, "它是风险控制型改进，不是直接优化 Answer Accuracy。")
+    add_card(slide, 1.0, 1.65, 5.2, 1.35, "收益", "RAMDocs 全量 Misinfo Adoption\n0.1100 → 0.0080", RGBColor(235, 248, 240))
+    add_card(slide, 7.05, 1.65, 5.2, 1.35, "代价", "RAMDocs 全量 Answer Accuracy\n0.5320 → 0.2260", RGBColor(252, 238, 238))
+    add_bullets(
+        slide,
+        [
+            "当前 EGI-RAG+ 使用 hard gate：遇到 misleading/contradictory 就更倾向拒答。",
+            "这能减少 wrong answer 采纳，但也误拒答了一些有 supportive evidence 的样本。",
+            "后续应改成 soft threshold：按证据强度和冲突强度加权。",
+        ],
+        1.05,
+        4.05,
+        11.4,
+        1.5,
+        17,
+    )
+    add_footer(slide, 8)
+
+    # 9. Conclusion
+    slide = blank()
+    add_title(slide, "结论")
+    add_bullets(
+        slide,
+        [
+            "鲁棒 RAG 的关键不是读更多文档，而是只基于可信证据作答。",
+            "EGI-RAG 在 RGB 与 Custom Noise 上提升明显，并提供可解释 evidence spans。",
+            "RAMDocs 证明 high-overlap misinfo 比普通 noise 更危险。",
+            "EGI-RAG+ 有效降低误导采纳，但需要缓解过度拒答。",
+        ],
+        0.95,
+        1.35,
+        11.8,
+        3.1,
+        20,
+    )
+    add_card(slide, 2.05, 5.25, 9.1, 0.85, "Takeaway", "Evidence first, answer second: trustworthy RAG should answer only from supported evidence.", RGBColor(235, 245, 252))
+    add_footer(slide, 9)
 
     out = REPORTS / "rag_noise_robustness_presentation.pptx"
     prs.save(out)
