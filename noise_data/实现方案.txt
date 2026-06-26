@@ -1,0 +1,12 @@
+基于已经下载在 data/raw 里的原始数据做转换和构造的：
+RGB 用的是 data/raw/rgb_repo/data/en_refine.json。
+RAMDocs 用的是 data/raw/ramdocs/test.json。
+CONFLICTS 用的是 data/raw/conflicts/repo/conflicts.jsonl。
+后续“可控噪音/位置实验集”不是重新下载数据，而是基于已转换好的 data/samples/rgb_all_full.json 和 data/samples/ramdocs_all_full.json 再构造。
+实现方式很简单：先把原始数据统一成同一种格式，包括 id、question、contexts、gold_answers、wrong_answers。其中 RGB 的 positive 标成 correct，negative 标成 noise；RAMDocs 保留 correct / noise / misinfo；CONFLICTS 因为原始数据没有稳定标明哪篇支持、哪篇冲突，所以统一先标成 unknown，避免乱标。
+然后我新增了可控实验构造：从每条样本里拆出正确文档和噪音文档，按 0%、20%、40%、60%、80%、100% 噪音比例重新组合，并把正确文档放到 front / middle / back / random 四种位置，用来分析“好文档位置”和“噪音比例”对 RAG 的影响。
+验证方面做了三类：
+脚本语法检查通过。
+step4_validate_schema.py 校验通过，确认统一字段完整、标签合法。
+可控实验集生成成功：RGB 每组 300 条；RAMDocs 因部分样本缺少足够正确或噪音文档，各组约 409 到 497 条。
+所以验证结论是：数据格式和构造流程是对的。但正式实验效果是否好，还要等成员B/C跑完各方法的 output.json 后，再用评估脚本计算准确率、F1、误导采纳率等指标。
