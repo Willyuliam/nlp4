@@ -2,7 +2,7 @@
 
 ## 摘要
 
-检索增强生成（Retrieval-Augmented Generation, RAG）在开放域问答和知识库问答中被广泛使用，但候选文档中常包含无关噪声、误导信息和相互冲突的内容。仅用答案准确率评价 RAG 系统，无法充分反映检索质量、证据忠实性和误导答案采纳风险。本文在已有 Zero-shot、Ordered RAG、Naive RAG、Rerank RAG、CRAG-lite、Self-RAG-lite 与 EGI-RAG 实验基础上，补充 Recall@k、MRR、nDCG@k、Evidence F1、Strict Supported Rate、Misinfo Adoption Rate 和 Refusal F1 等多维指标，并提出 EGI-RAG+ 改进方案：在 EGI-RAG 证据门控基础上增加 contradiction-aware evidence judgement，对误导和冲突文档采取更保守的拒答策略。已有实验表明，EGI-RAG 在 RGB 全量数据上达到 0.9200 Answer Accuracy、0.8127 Token F1、0.9667 Strict Supported Rate；在 Custom noise 上达到 0.7833 Answer Accuracy 和 0.8611 Evidence Doc F1。RAMDocs 中误导文档更强，EGI-RAG 的准确率低于部分 baseline，但 Misinfo Adoption Rate 降至 0.1100，说明其主要优势在于降低误导采纳和增强证据约束。
+检索增强生成（Retrieval-Augmented Generation, RAG）在开放域问答和知识库问答中被广泛使用，但候选文档中常包含无关噪声、误导信息和相互冲突的内容。仅用答案准确率评价 RAG 系统，无法充分反映检索质量、证据忠实性和误导答案采纳风险。本文在已有 Zero-shot、Ordered RAG、Naive RAG、Rerank RAG、CRAG-lite、Self-RAG-lite 与 EGI-RAG 实验基础上，补充 Recall@k、MRR、nDCG@k、Evidence F1、Strict Supported Rate、Misinfo Adoption Rate 和 Refusal F1 等多维指标，并提出 EGI-RAG+ 改进方案：在 EGI-RAG 证据门控基础上增加 contradiction-aware evidence judgement，对误导和冲突文档采取更保守的拒答策略。全量实验表明，EGI-RAG 在 RGB 上达到 0.9200 Answer Accuracy、0.8127 Token F1、0.9667 Strict Supported Rate；EGI-RAG+ 在 RAMDocs 上将 Misinfo Adoption Rate 从 EGI-RAG 的 0.1100 降至 0.0080，但 Answer Accuracy 从 0.5320 下降到 0.2260，说明强冲突门控能显著抑制误导采纳，但也会造成过度拒答和覆盖率损失。
 
 **关键词**：RAG；噪声文档；检索评估；证据忠实性；Self-RAG；CRAG；RAGAS；ARES
 
@@ -50,7 +50,7 @@ Self-RAG 通过学习检索、生成和反思标记，使模型在生成过程�
 python -m src.run_baseline --method egi_rag_plus --input samples\rgb_all_input.json --output outputs\egi_rag_plus\rgb_all_output.json
 ```
 
-当前环境未设置 `DASHSCOPE_API_KEY`，因此本文未声称已经完成 EGI-RAG+ 的 API 全量实验；已完成的是代码实现、dry-run 验证和复现实验命令整理。真实全量实验需在配置 API Key 后运行。
+EGI-RAG+ 已完成 RGB 300 条和 RAMDocs 500 条全量 API 实验，输出位于 `outputs/egi_rag_plus/`。实验使用百炼 DashScope/Qwen 兼容 Chat Completions API，并发运行 RGB 与 RAMDocs，每个任务 4 worker；RAMDocs 中 1 条网络断连样本已通过 `--resume` 单线程补跑成功。
 
 ## 4. 评估指标
 
@@ -78,7 +78,7 @@ python -m src.run_baseline --method egi_rag_plus --input samples\rgb_all_input.j
 
 ## 5. 实验设置
 
-数据包括 RGB all 300 条、RAMDocs all 500 条、Custom noise 60 条，以及 controlled 噪声比例与位置实验。已有输出来自项目历史实验文件；本文新增指标是在已有输出上离线计算，并未重新调用 API。
+数据包括 RGB all 300 条、RAMDocs all 500 条、Custom noise 60 条，以及 controlled 噪声比例与位置实验。baseline 与 EGI-RAG 使用项目历史输出文件；EGI-RAG+ 为本次新增全量 API 实验。所有指标均通过统一扩展评估脚本计算。
 
 完整扩展指标结果见：
 
@@ -89,24 +89,37 @@ python -m src.run_baseline --method egi_rag_plus --input samples\rgb_all_input.j
 
 ### 6.1 全量主结果
 
-| 数据集 | 方法 | N | AnsAcc | Token F1 | Misinfo | R@5 | MRR | Evidence F1 | StrictSup |
+为避免误解，本文将全量结果拆成两张表。表 1 报告所有方法都具备的通用指标，包括答案质量、误导采纳、检索排序和 selected context 质量。表 2 只报告具备显式 `evidence_spans` 与 `verification_result` 的 EGI 系列方法；普通 baseline 不输出证据链，因此不参与 Evidence F1 和 Strict Supported Rate 的横向比较。
+
+**表 1：通用答案与检索指标**
+
+| 数据集 | 方法 | N | AnsAcc | Token F1 | Misinfo | R@5 | MRR | nDCG@5 | SelectedCtx F1 |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|
 | RGB | Zero-shot | 300 | 0.0933 | 0.1032 | 0.0000 | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
-| RGB | Naive RAG | 300 | 0.7100 | 0.3525 | 0.0000 | 0.5575 | 0.9265 | 0.0000 | 0.0000 |
-| RGB | Rerank RAG | 300 | 0.7167 | 0.3331 | 0.0000 | 0.5575 | 0.9267 | 0.0000 | 0.0000 |
-| RGB | CRAG-lite | 300 | 0.7133 | 0.3443 | 0.0000 | 0.5575 | 0.9267 | 0.0000 | 0.0000 |
-| RGB | Self-RAG-lite | 300 | 0.7267 | 0.3346 | 0.0000 | 0.5575 | 0.9267 | 0.0000 | 0.0000 |
-| RGB | EGI-RAG | 300 | 0.9200 | 0.8127 | 0.0000 | 0.5575 | 0.9265 | 0.5390 | 0.9667 |
-| RGB | EGI-RAG+ | 300 | 0.8600 | 0.7616 | 0.0000 | 0.4018 | 0.7988 | 0.5081 | 0.8767 |
-| RAMDocs | Zero-shot | 500 | 0.0680 | 0.0742 | 0.0060 | 0.0000 | 0.0000 | 0.0060 | 0.0000 |
-| RAMDocs | Naive RAG | 500 | 0.6420 | 0.1327 | 0.1780 | 0.8834 | 0.9202 | 0.0060 | 0.0000 |
-| RAMDocs | Rerank RAG | 500 | 0.6380 | 0.1297 | 0.2060 | 0.8834 | 0.9202 | 0.0060 | 0.0000 |
-| RAMDocs | CRAG-lite | 500 | 0.6280 | 0.1867 | 0.0740 | 0.8834 | 0.9202 | 0.0060 | 0.0000 |
-| RAMDocs | Self-RAG-lite | 500 | 0.3680 | 0.1273 | 0.0740 | 0.8834 | 0.9202 | 0.0060 | 0.0000 |
-| RAMDocs | EGI-RAG | 500 | 0.5320 | 0.5381 | 0.1100 | 0.8834 | 0.9202 | 0.4460 | 0.7120 |
-| RAMDocs | EGI-RAG+ | 500 | 0.2260 | 0.2307 | 0.0080 | 0.8863 | 0.9367 | 0.5062 | 0.2620 |
+| RGB | Naive RAG | 300 | 0.7100 | 0.3525 | 0.0000 | 0.5575 | 0.9265 | 0.8332 | 0.6395 |
+| RGB | Rerank RAG | 300 | 0.7167 | 0.3331 | 0.0000 | 0.5575 | 0.9267 | 0.8332 | 0.7276 |
+| RGB | CRAG-lite | 300 | 0.7133 | 0.3443 | 0.0000 | 0.5575 | 0.9267 | 0.8332 | 0.7319 |
+| RGB | Self-RAG-lite | 300 | 0.7267 | 0.3346 | 0.0000 | 0.5575 | 0.9267 | 0.8332 | 0.7276 |
+| RGB | EGI-RAG | 300 | 0.9200 | 0.8127 | 0.0000 | 0.5575 | 0.9265 | 0.8332 | 0.5363 |
+| RGB | EGI-RAG+ | 300 | 0.8600 | 0.7616 | 0.0000 | 0.4018 | 0.7988 | 0.6263 | 0.5081 |
+| RAMDocs | Zero-shot | 500 | 0.0680 | 0.0742 | 0.0060 | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
+| RAMDocs | Naive RAG | 500 | 0.6420 | 0.1327 | 0.1780 | 0.8834 | 0.9202 | 0.8933 | 0.7654 |
+| RAMDocs | Rerank RAG | 500 | 0.6380 | 0.1297 | 0.2060 | 0.8834 | 0.9202 | 0.8933 | 0.7729 |
+| RAMDocs | CRAG-lite | 500 | 0.6280 | 0.1867 | 0.0740 | 0.8834 | 0.9202 | 0.8933 | 0.6813 |
+| RAMDocs | Self-RAG-lite | 500 | 0.3680 | 0.1273 | 0.0740 | 0.8834 | 0.9202 | 0.8933 | 0.7729 |
+| RAMDocs | EGI-RAG | 500 | 0.5320 | 0.5381 | 0.1100 | 0.8834 | 0.9202 | 0.8933 | 0.4460 |
+| RAMDocs | EGI-RAG+ | 500 | 0.2260 | 0.2307 | 0.0080 | 0.8863 | 0.9367 | 0.8995 | 0.5062 |
 
-结果显示，EGI-RAG 在 RGB 上显著提升答案准确率和证据支持率；在 RAMDocs 上准确率低于 Naive/Rerank，但 Token F1、Evidence F1 和 Strict Supported Rate 明显更高，且 Misinfo Adoption 低于 Naive/Rerank，说明其更偏向保守和证据约束。
+**表 2：EGI 系列证据链与验证指标**
+
+| 数据集 | 方法 | Evidence F1 | Evidence Rate | Strict Supported | 解释 |
+|---|---|---:|---:|---:|---|
+| RGB | EGI-RAG | 0.5390 | 1.0000 | 0.9667 | 答案准确率和支持性最高 |
+| RGB | EGI-RAG+ | 0.5081 | 0.9800 | 0.8767 | 更保守，准确率略降 |
+| RAMDocs | EGI-RAG | 0.4460 | 0.8920 | 0.7120 | 在误导文档中保持一定覆盖率 |
+| RAMDocs | EGI-RAG+ | 0.5062 | 0.9460 | 0.2620 | 误导采纳率最低，但 verifier 更保守 |
+
+结果显示，EGI-RAG 在 RGB 上显著提升答案准确率和证据支持率；在 RAMDocs 上准确率低于 Naive/Rerank，但 Token F1、Evidence F1 和 Strict Supported Rate 明显更高，且 Misinfo Adoption 低于 Naive/Rerank，说明其更偏向保守和证据约束。EGI-RAG+ 进一步降低 RAMDocs 的误导采纳率至 0.0080，并提升 Evidence F1 至 0.5062，但准确率和 Strict Supported Rate 下降，说明当前 contradiction-aware 策略过于保守，后续需要调节“遇到冲突即拒答”的阈值。
 
 ### 6.2 RGB 不同噪声比例结果
 
@@ -165,7 +178,7 @@ RAMDocs 的关键风险是误导答案采纳。CRAG-lite 和 Self-RAG-lite 虽�
 
 ## 7. 讨论
 
-第一，检索指标能解释答案指标变化。例如 RGB 100% 噪声中 R@5=0，模型准确率下降是预期结果。第二，RAMDocs 中 baseline 的 R@5 很高但 Misinfo 仍高，说明检索到正确文档并不等于模型不会被误导文档诱导。第三，EGI-RAG 的优势不应只用 Accuracy 表达，而应强调 Evidence F1、Strict Supported Rate 和 Misinfo Adoption。第四，EGI-RAG+ 是合理的下一步改进：它针对 RAMDocs 的强误导问题显式增加 contradiction-aware verifier，但需要 API 重跑才能报告最终数值。
+第一，检索指标能解释答案指标变化。例如 RGB 100% 噪声中 R@5=0，模型准确率下降是预期结果。第二，RAMDocs 中 baseline 的 R@5 很高但 Misinfo 仍高，说明检索到正确文档并不等于模型不会被误导文档诱导。第三，EGI-RAG 的优势不应只用 Accuracy 表达，而应强调 Evidence F1、Strict Supported Rate 和 Misinfo Adoption。第四，EGI-RAG+ 证明 contradiction-aware verifier 能显著降低误导采纳，但当前版本过度保守：RAMDocs Misinfo 从 0.1100 降到 0.0080 的同时，Answer Accuracy 从 0.5320 降到 0.2260。因此更合理的后续版本应采用软阈值策略，例如只有当冲突文档数量超过 supportive 证据数量，或 verifier 明确判定 conflict 时才拒答。
 
 ## 8. 复现实验命令
 
@@ -195,7 +208,7 @@ python -m src.run_baseline --method egi_rag_plus `
 
 ## 9. 结论
 
-本文将 RAG 噪声鲁棒性评估从单一 Accuracy 扩展为多维指标体系。已有实验说明：检索质量指标能够解释正确证据是否进入上下文；Misinfo Adoption 能刻画误导文档风险；Evidence F1 与 Strict Supported Rate 能体现证据门控方法的优势。EGI-RAG 在 RGB 和 Custom noise 上表现突出，在 RAMDocs 上则表现为降低误导采纳但牺牲覆盖率。针对该问题，本文实现了 EGI-RAG+，通过 contradiction-aware evidence judgement 强化冲突与误导检测。后续应在配置 API Key 后完成 EGI-RAG+ 全量实验，并补充人工或 LLM judge 以处理语义正确但字符串不匹配的评估误差。
+本文将 RAG 噪声鲁棒性评估从单一 Accuracy 扩展为多维指标体系。已有实验说明：检索质量指标能够解释正确证据是否进入上下文；Misinfo Adoption 能刻画误导文档风险；Evidence F1 与 Strict Supported Rate 能体现证据门控方法的优势。EGI-RAG 在 RGB 和 Custom noise 上表现突出，在 RAMDocs 上则表现为降低误导采纳但牺牲覆盖率。本文实现并全量测试了 EGI-RAG+，通过 contradiction-aware evidence judgement 将 RAMDocs Misinfo Adoption Rate 降至 0.0080，但也暴露出过度拒答问题。后续应引入软冲突阈值、LLM judge 或人工复核，以处理语义正确但字符串不匹配的评估误差，并在降低误导采纳的同时恢复可回答样本覆盖率。
 
 ## 参考文献
 
