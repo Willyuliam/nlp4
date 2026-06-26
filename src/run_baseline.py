@@ -113,7 +113,7 @@ def main() -> int:
                         "retrieved_doc_ids": [],
                         "selected_doc_ids": [],
                         "contexts_used": [],
-                        "prompt_version": "formal_v1",
+                        "prompt_version": "formal_v2_no_label",
                         "raw_response": None,
                         "error": str(exc),
                     }
@@ -152,6 +152,8 @@ def load_existing_results(output_path: str | Path, method: str) -> dict[str, dic
         if item.get("method") != method:
             continue
         if item.get("error"):
+            continue
+        if method == "egi_rag" and item.get("doc_judgements_parse_error"):
             continue
         sample_id = item.get("id")
         if sample_id is None:

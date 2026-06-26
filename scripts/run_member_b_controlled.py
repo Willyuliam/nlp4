@@ -25,6 +25,7 @@ DEFAULT_METHODS = [
     "crag_lite",
     "self_rag_lite",
 ]
+SUPPORTED_METHODS = DEFAULT_METHODS + ["egi_rag"]
 
 METHOD_PARAMS = {
     "zero_shot": {"top_k": 0, "top_n": 0},
@@ -33,6 +34,7 @@ METHOD_PARAMS = {
     "rerank_rag": {"top_k": 8, "top_n": 5},
     "crag_lite": {"top_k": 8, "top_n": 5},
     "self_rag_lite": {"top_k": 8, "top_n": 5},
+    "egi_rag": {"top_k": 8, "top_n": 5},
 }
 
 
@@ -83,7 +85,7 @@ def parse_args() -> argparse.Namespace:
 def main() -> int:
     args = parse_args()
     methods = [method.strip() for method in args.methods.split(",") if method.strip()]
-    unknown = sorted(set(methods) - set(DEFAULT_METHODS))
+    unknown = sorted(set(methods) - set(SUPPORTED_METHODS))
     if unknown:
         print(f"Unsupported methods in this controlled plan: {unknown}", file=sys.stderr)
         return 2

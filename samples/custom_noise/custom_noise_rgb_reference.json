@@ -1,0 +1,618 @@
+[
+  {
+    "id": "custom_rgb_0000",
+    "gold_answers": [
+      "July 22 2022",
+      "Jul 22, 2022",
+      "Jul. 22, 2022",
+      "July 22, 2022",
+      "22 July 2022",
+      "22 Jul, 2022",
+      "22 Jul., 2022",
+      "22 July, 2022"
+    ],
+    "wrong_answers": [
+      "July 23 2022"
+    ],
+    "_meta": {
+      "source_id": "rgb_0089",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0001",
+    "gold_answers": [
+      "February 20",
+      "Feb 20",
+      "Feb. 20",
+      "20 February",
+      "20 Feb",
+      "20 Feb."
+    ],
+    "wrong_answers": [
+      "February 21"
+    ],
+    "_meta": {
+      "source_id": "rgb_0010",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0002",
+    "gold_answers": [
+      "Dyersville, Iowa"
+    ],
+    "wrong_answers": [
+      "not Dyersville, Iowa"
+    ],
+    "_meta": {
+      "source_id": "rgb_0096",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0003",
+    "gold_answers": [
+      "We are"
+    ],
+    "wrong_answers": [
+      "not We are"
+    ],
+    "_meta": {
+      "source_id": "rgb_0045",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0004",
+    "gold_answers": [
+      "2.41 million"
+    ],
+    "wrong_answers": [
+      "3.41 million"
+    ],
+    "_meta": {
+      "source_id": "rgb_0190",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0005",
+    "gold_answers": [
+      "Copilot"
+    ],
+    "wrong_answers": [
+      "not Copilot"
+    ],
+    "_meta": {
+      "source_id": "rgb_0290",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0006",
+    "gold_answers": [
+      "Robert Glasper"
+    ],
+    "wrong_answers": [
+      "not Robert Glasper"
+    ],
+    "_meta": {
+      "source_id": "rgb_0247",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0007",
+    "gold_answers": [
+      "May 11",
+      "12"
+    ],
+    "wrong_answers": [
+      "May 12"
+    ],
+    "_meta": {
+      "source_id": "rgb_0034",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0008",
+    "gold_answers": [
+      "Linda Yaccarino"
+    ],
+    "wrong_answers": [
+      "not Linda Yaccarino"
+    ],
+    "_meta": {
+      "source_id": "rgb_0228",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0009",
+    "gold_answers": [
+      "Lee Jung-jae"
+    ],
+    "wrong_answers": [
+      "not Lee Jung-jae"
+    ],
+    "_meta": {
+      "source_id": "rgb_0146",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0010",
+    "gold_answers": [
+      "John R. Leonetti"
+    ],
+    "wrong_answers": [
+      "not John R. Leonetti"
+    ],
+    "_meta": {
+      "source_id": "rgb_0203",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0011",
+    "gold_answers": [
+      "Norway"
+    ],
+    "wrong_answers": [
+      "not Norway"
+    ],
+    "_meta": {
+      "source_id": "rgb_0030",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0012",
+    "gold_answers": [
+      "Project Iris"
+    ],
+    "wrong_answers": [
+      "not Project Iris"
+    ],
+    "_meta": {
+      "source_id": "rgb_0016",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0013",
+    "gold_answers": [
+      "Netherlands"
+    ],
+    "wrong_answers": [
+      "not Netherlands"
+    ],
+    "_meta": {
+      "source_id": "rgb_0215",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0014",
+    "gold_answers": [
+      "Annie Ernaux"
+    ],
+    "wrong_answers": [
+      "not Annie Ernaux"
+    ],
+    "_meta": {
+      "source_id": "rgb_0178",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0015",
+    "gold_answers": [
+      "Titus Welliver"
+    ],
+    "wrong_answers": [
+      "not Titus Welliver"
+    ],
+    "_meta": {
+      "source_id": "rgb_0144",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0016",
+    "gold_answers": [
+      "JW Marriott Los Angeles"
+    ],
+    "wrong_answers": [
+      "not JW Marriott Los Angeles"
+    ],
+    "_meta": {
+      "source_id": "rgb_0273",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0017",
+    "gold_answers": [
+      "Jeymes Samuel"
+    ],
+    "wrong_answers": [
+      "not Jeymes Samuel"
+    ],
+    "_meta": {
+      "source_id": "rgb_0035",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0018",
+    "gold_answers": [
+      "Elon Musk"
+    ],
+    "wrong_answers": [
+      "not Elon Musk"
+    ],
+    "_meta": {
+      "source_id": "rgb_0048",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0019",
+    "gold_answers": [
+      "May 7",
+      "May. 7",
+      "7 May",
+      "7 May."
+    ],
+    "wrong_answers": [
+      "May 8"
+    ],
+    "_meta": {
+      "source_id": "rgb_0225",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0020",
+    "gold_answers": [
+      "226 million"
+    ],
+    "wrong_answers": [
+      "227 million"
+    ],
+    "_meta": {
+      "source_id": "rgb_0274",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0021",
+    "gold_answers": [
+      "Balmoral"
+    ],
+    "wrong_answers": [
+      "not Balmoral"
+    ],
+    "_meta": {
+      "source_id": "rgb_0135",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0022",
+    "gold_answers": [
+      "Morocco"
+    ],
+    "wrong_answers": [
+      "not Morocco"
+    ],
+    "_meta": {
+      "source_id": "rgb_0223",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0023",
+    "gold_answers": [
+      "EVO Entertainment Group"
+    ],
+    "wrong_answers": [
+      "not EVO Entertainment Group"
+    ],
+    "_meta": {
+      "source_id": "rgb_0175",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0024",
+    "gold_answers": [
+      "EVO Entertainment Group"
+    ],
+    "wrong_answers": [
+      "not EVO Entertainment Group"
+    ],
+    "_meta": {
+      "source_id": "rgb_0005",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0025",
+    "gold_answers": [
+      "18.7%"
+    ],
+    "wrong_answers": [
+      "19.7%"
+    ],
+    "_meta": {
+      "source_id": "rgb_0256",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0026",
+    "gold_answers": [
+      "Caleb Williams"
+    ],
+    "wrong_answers": [
+      "not Caleb Williams"
+    ],
+    "_meta": {
+      "source_id": "rgb_0222",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0027",
+    "gold_answers": [
+      "1.7 billion"
+    ],
+    "wrong_answers": [
+      "2.7 billion"
+    ],
+    "_meta": {
+      "source_id": "rgb_0095",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0028",
+    "gold_answers": [
+      "Carlos Alcaraz"
+    ],
+    "wrong_answers": [
+      "not Carlos Alcaraz"
+    ],
+    "_meta": {
+      "source_id": "rgb_0066",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  },
+  {
+    "id": "custom_rgb_0029",
+    "gold_answers": [
+      "Najafi Companies"
+    ],
+    "wrong_answers": [
+      "not Najafi Companies"
+    ],
+    "_meta": {
+      "source_id": "rgb_0072",
+      "source_dataset": "RGB",
+      "custom_noise_types": [
+        "logic_gap",
+        "value_swap",
+        "high_overlap_irrelevant"
+      ],
+      "n_correct_selected": 2,
+      "n_noise_selected": 3
+    }
+  }
+]

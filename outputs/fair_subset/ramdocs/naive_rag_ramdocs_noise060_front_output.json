@@ -1,0 +1,2682 @@
+[
+  {
+    "id": "ramdocs_0000",
+    "method": "naive_rag",
+    "answer": "根据给定文档，2010年Broken Bow的人口为3,559人（来自doc_1），但doc_3中关于2010年和2020年的人口数据均显示为10,000人，且存在明显的数据矛盾。由于文档间信息冲突且缺乏明确说明以判定哪个数据准确，无法根据给定信息确定唯一正确的人口数量。",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_3"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "the second class in 1888. According to the United States Census Bureau, the city has a total area of , all of it land. The geographic center of Nebraska lies approximately 10 miles northwest of Broken Bow. As of the census of 2010, there were 3,559 people, 1,575 households, and 909 families residing in the city. The population density was . There were 1,730 housing units at an average density of . The racial makeup of the city was 95.7% White, 0.4% African American, 0.7% Native American, 0.1% Asian, 1.3% from other races, and 1.7% from two or more races.",
+        "label": "correct",
+        "_retrieval_score": 1.0000935458044597
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "] Demographics [ edit ] Historical population Census Pop. Note % ± 1890 1,647 — 1900 1,375 −16.5 % 1910 2,260 64.4 % 1920 2,567 13.6 % 1930 2,715 5.8 % 1940 2,968 9.3 % 1950 3,396 14.4 % 1960 3,482 2.5 % 1970 3,734 7.2 % 1980 3,979 6.6 % 1990 3,778 −5.1 % 2000 3,491 −7.6 % 2010 10,000 180.5 % 2020 10,000 0.0",
+        "label": "noise",
+        "_retrieval_score": 0.2716605300284013
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "根据给定文档，2010年Broken Bow的人口为3,559人（来自doc_1），但doc_3中关于2010年和2020年的人口数据均显示为10,000人，且存在明显的数据矛盾。由于文档间信息冲突且缺乏明确说明以判定哪个数据准确，无法根据给定信息确定唯一正确的人口数量。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.0000935458044597,
+        "doc_3": 0.2716605300284013
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0001",
+    "method": "naive_rag",
+    "answer": "美式足球（American football）。",
+    "retrieved_doc_ids": [
+      "doc_3",
+      "doc_4",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_4",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "edited on 20 February 2025 , at 00:14 ( UTC ) . Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ; additional terms may apply . By using this site , you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation , Inc. , a non-profit organization . Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view Search Search Toggle the table of contents Bobby Carpenter ( American football ) 3 languages Add topic",
+        "label": "correct",
+        "_retrieval_score": 0.5852994213084723
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Bobby Carpenter Stats , Height , Weight , Position , Draft , College | Pro-Football-Reference.com Sports Reference ® Baseball Football ( college ) Basketball ( college ) Hockey FÃºtbol Blog Stathead ® Immaculate Grid ® Questions or Comments ? Welcome · Your Account Logout Ad-Free Login Create Account MENU Players Teams Seasons Leaders NFL Scores Draft Stathead Newsletter Full Site Menu Below You are here : PFR Home Page > Players > C > Bobby Carpenter Welcome · Your Account Logout Ad-Free Login Create Account Your Immaculate Grid stats are here ! See your most used players , top teams",
+        "label": "noise",
+        "_retrieval_score": 0.4424422784513295
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "• 1994 • 1995 • 1996 • 1997 • 1998 • 1999 • 2000 • 2001 • 2002 • 2003 • 2004 • 2005 • 2006 • 2007 • 2008 • 2009 • 2010 • 2011 Categories Categories : Articles with short description Article with short description 1983 births Living people American football linebackers Dallas Cowboys players Detroit Lions players Miami Dolphins players New England Patriots players Ohio State Buckeyes football players St. Louis Rams players People from Lancaster , Ohio Players of American football from Ohio Community content is available under CC-BY-SA unless otherwise noted . Advertisement Explore properties",
+        "label": "correct",
+        "_retrieval_score": 0.43386243386243384
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "美式足球（American football）。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_3": 0.5852994213084723,
+        "doc_4": 0.4424422784513295,
+        "doc_2": 0.43386243386243384
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0002",
+    "method": "naive_rag",
+    "answer": "Mahesh Bhatt",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3",
+      "doc_4",
+      "doc_7"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3",
+      "doc_4",
+      "doc_7"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Lahu Ke Do Rang (1979 film) Lahu Ke Do Rang is a 1979 Hindi movie directed by Mahesh Bhatt. The film stars Vinod Khanna, Helen, Danny Denzongpa, Shabana Azmi, Ranjeet and Prema Narayan. The music and lyrics for the film are by Bappi Lahiri and Farooq Qaiser respectively. The story, screenplay and dialogues of the film are written by Suraj Sanim. The film was shot in Hong Kong and India. The film was rated a \"hit\" at the Box Office. Shamsher Singh (played by Vinod Khanna) is part of the Indian army led by Subhas Chandra Bose to fight the",
+        "label": "correct",
+        "_retrieval_score": 1.1800000000000002
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Related changes Permanent link Page information Concept URI Cite this page Get shortened URL Download QR code Print/export Create a book Download as PDF Printable version In other projects Appearance move to sidebar hide From Wikidata 1979 film by Mahesh Bhatt edit Language Label Description Also known as default for all languages No label defined – English Lahu Ke Do Rang 1979 film by Mahesh Bhatt Statements instance of film 1 reference imported from Wikimedia project English Wikipedia publication date 1979 2 references imported from Wikimedia project Hindi Wikipedia imported from Wikimedia project English Wikipedia country of origin India 2",
+        "label": "correct",
+        "_retrieval_score": 0.7899999999999999
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "( 1979 film ) 4 languages বাংলা فارسی हिन्दी नेपाल भाषा Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Download QR code Print/export Download as PDF Printable version In other projects Wikidata item Appearance move to sidebar hide From Wikipedia , the free encyclopedia 1979 Hindi film by Mahesh Bhatt Lahu Ke Do Rang Film poster Directed by Mahesh Bhatt Written by Suraj Sanim Produced by Seeroo Daryanani Bhagwan S.C",
+        "label": "correct",
+        "_retrieval_score": 0.7882485076046027
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Karo '' ( Female ) Lata Mangeshkar `` Zid Na Karo '' ( Male ) K. J. Yesudas Awards [ edit ] 27th Filmfare Awards : Won Best Supporting Actress – Helen Best Art Direction – Madhukar Shinde References [ edit ] ^ a b `` Box Office 1979 ''. Box Office India. Archived from the original on 20 October 2013. Retrieved 29 January 2012. External links [ edit ] Lahu Ke Do Rang at IMDb v t e Films and television series by Raj Kapoor Director Manzilein Aur Bhi Hain ( 1974 ) Naya Daur ( 1955 ) Lahu Ke Do Rang ( 1979 )",
+        "label": "misinfo",
+        "_retrieval_score": 0.7222222222222223
+      },
+      {
+        "doc_id": "doc_7",
+        "title": "",
+        "text": "betrayed by Shamsher who never returned to fetch them back to India as promised . On his quest to solve a murder case , Raj goes to Darjeeling where he meets Roma ( Shabana Azmi ) and falls in love with her . Suraj who is also in Darjeeling falls in love with Roma too , but hesitant to communicate . Roma tells Raj of how her mother had been hooked to drugs by Devi Dayal . A series of incidents reveal all the secrets and Raj and Suraj unite to take revenge for their father 's death . Cast",
+        "label": "noise",
+        "_retrieval_score": 0.45977353861724674
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "Mahesh Bhatt",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.1800000000000002,
+        "doc_2": 0.7899999999999999,
+        "doc_3": 0.7882485076046027,
+        "doc_4": 0.7222222222222223,
+        "doc_7": 0.45977353861724674
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0003",
+    "method": "naive_rag",
+    "answer": "无法根据给定信息确定。\n\n**解析：**\n虽然文档中提到了名为\"Ryan Davis\"或\"Davis\"的人物参与了多项运动（如澳式足球 AFL、加拿大橄榄球 CFL、NFL 等），但提供的文本片段存在以下问题：\n1. **指代不明**：文档 [1] 提到 \"Ryan was offered...\"，但未明确全名是 Ryan Davis；文档 [2] 和 [3] 仅提及 \"Davis\"，未确认是否为 Ryan Davis。\n2. **信息冲突/缺失**：不同文档描述的运动项目不同（AFL、CFL/XFL、NFL、跑步员/教练）。由于无法在给定片段中确凿地将“Ryan Davis”这个名字与特定的单一运动项目唯一对应（且缺乏上下文区分是否存在同名人物），因此无法根据现有信息给出确切答案。",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_4",
+      "doc_2",
+      "doc_5"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_4",
+      "doc_2",
+      "doc_5"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "part in both a North Shore premiership (in which he won best on ground) and NSW series win Ryan was offered a rookie spot with West Coast for the 2008 season. Davis made his AFL debut for the West Coast Eagles at Gold Coast Stadium versus North Melbourne in Round 8 of the 2008 AFL season and continued to play 11 games in his debut season. After this he moved to Swan Districts and went on to play in a premiership and win a league best and fairest. After six years out of the AFL, he was recruited by Gold",
+        "label": "correct",
+        "_retrieval_score": 0.5585714285714285
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "589 yards and also scored two touchdowns . He also contributed 9 carries for 43 yards . Davis was a nominee for CFL 'Most Outstanding Rookie ' of the 2021 season . [ 7 ] On February 14 , 2023 , Davis became a free agent . [ 8 ] Vegas Vipers [ edit ] After participating in the XFL Combine , Davis 's league playing rights were acquired by the Vegas Vipers on August 9 , 2023 . [ 9 ] He signed with the Vipers on October 18 , 2023 . [ 10 ] The Vipers folded when",
+        "label": "noise",
+        "_retrieval_score": 0.45022404041079656
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "2008 season . [ 8 ] He was delisted at the end of the year and was not selected in the 2008 AFL Draft . He attempted to convert sports to become a punter in the NFL , [ 9 ] but was not signed by any team . In 2012 , Davis became a runner for the Sydney Swans and was also employed as a marking and kicking coach for the Cronulla Sharks . [ 10 ] He then moved to the Sydney Roosters to be their kicking coach.In 2020 , the club also announced they had signed him",
+        "label": "correct",
+        "_retrieval_score": 0.2608211373985844
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "24 26 2 28 19 5 0 0 0 1 0 2018 Rd 23 22 3 25 7 2 0 0 0 0 0 2018 Rd 21 23 5 28 13 0 0 0 0 0 0 2018 Rd 20 22 2 24 5 2 0 0 0 0 0 2018 Rd 19 21 3 24 4 1 0 0 0 0 0 2018 Rd 18 19 4 23 13 1 0 0 1 0 0 2018 Rd 16 12 3 15 2 5 0 1 0 0 0 2018 Rd 15 21 1 22 5 1 0 0 2",
+        "label": "noise",
+        "_retrieval_score": 0.1
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "无法根据给定信息确定。\n\n**解析：**\n虽然文档中提到了名为\"Ryan Davis\"或\"Davis\"的人物参与了多项运动（如澳式足球 AFL、加拿大橄榄球 CFL、NFL 等），但提供的文本片段存在以下问题：\n1. **指代不明**：文档 [1] 提到 \"Ryan was offered...\"，但未明确全名是 Ryan Davis；文档 [2] 和 [3] 仅提及 \"Davis\"，未确认是否为 Ryan Davis。\n2. **信息冲突/缺失**：不同文档描述的运动项目不同（AFL、CFL/XFL、NFL、跑步员/教练）。由于无法在给定片段中确凿地将“Ryan Davis”这个名字与特定的单一运动项目唯一对应（且缺乏上下文区分是否存在同名人物），因此无法根据现有信息给出确切答案。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 0.5585714285714285,
+        "doc_4": 0.45022404041079656,
+        "doc_2": 0.2608211373985844,
+        "doc_5": 0.1
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0004",
+    "method": "naive_rag",
+    "answer": "无法根据给定信息确定\n\n（注：文档[1]称该堂区成立于1856年，而文档[2]称其成立于1900年，两份文档关于“established”年份的信息存在直接冲突，因此无法确定确切时间。）",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Cathedral of Saint Augustine (Kalamazoo, Michigan) Cathedral of Saint Augustine (or St. Augustine Cathedral) is a Catholic cathedral and parish church located in Kalamazoo, Michigan, United States. It is the seat of the Bishop of the Diocese of Kalamazoo. The parish was founded in 1856, the present chuch building was completed in 1951, and it was raised to cathedral status in 1970. Dennis Talbot was the first Catholic to settle in this area, known for its anti-Catholic sentiments. The first Mass in Kalamazoo was celebrated in his home by Father De Seille in 1832. A mission was established in Kalamazoo",
+        "label": "correct",
+        "_retrieval_score": 1.261632431892286
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Cathedral of Saint Augustine (Kalamazoo, Michigan) Cathedral of Saint Augustine (or St. Augustine Cathedral) is a Catholic cathedral and parish church located in Kalamazoo, Michigan, United States. It is the seat of the Bishop of the Diocese of Kalamazoo. The parish was founded in 1900, the present church building was completed in 1951, and it was raised to cathedral status in 1970. Dennis Talbot was the first Catholic to settle in this area, known for its anti-Catholic sentiments. The first Mass in Kalamazoo was celebrated in his home by Father De Seille in 1832. A mission was established in Kalamazoo.",
+        "label": "misinfo",
+        "_retrieval_score": 1.261632431892286
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Jeu 16′ Double Trumpet 8′ Trompette 8′ Hautbois 8′ Vox Humana 4′ Clarion Tremolo Swell to Swell 16′ Swell Unison Off Swell to Swell 4′ Great Organ 16′ Violone 8′ Principal 8′ Flûte Harmonique 8′ Violoncelle 8′ Bourdon 4′ Octave 4′ Nachthorn † 2 2/3 ′ Twelfth † 2′ Fifteenth 1 3/5 ′ Seventeenth † V Fourniture 8′ Trompette Harmonique † 8′ Tuba ( CH ) † 8′ Bombarde ( CH ) Tremolo Chimes * Great Unison Off Choir Organ ( Expressive ) 16′ Double Dulciana * 8′ Geigen 8′ Geigen Celeste * 8′ Bourdon 8′ Gemshorn 8′ Gemshorn Celeste",
+        "label": "noise",
+        "_retrieval_score": 0.10721125348377948
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "无法根据给定信息确定\n\n（注：文档[1]称该堂区成立于1856年，而文档[2]称其成立于1900年，两份文档关于“established”年份的信息存在直接冲突，因此无法确定确切时间。）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.261632431892286,
+        "doc_2": 1.261632431892286,
+        "doc_3": 0.10721125348377948
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0005",
+    "method": "naive_rag",
+    "answer": "冰球（NHL）和足球。\n\n根据文档[1]和[3]，William Carrier 是一名在 NHL 效力的边锋（winger），与卡罗莱纳飓风队（Hurricanes）相关；根据文档[2]，还存在一位名为 William Carrier 的英格兰职业足球运动员（footballer）。",
+    "retrieved_doc_ids": [
+      "doc_5",
+      "doc_1",
+      "doc_4",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_5",
+      "doc_1",
+      "doc_4",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": ", 2024 Carrier notched an assist and three hits in Tuesday 's 3-2 win over the Sharks . Carrier snapped a nine-game point drought with the helper . He had eight shots on net , a minus-3 rating and 44 hits in that span , channeling the more physical elements of his playing style . The 29-year-old winger has six points , 26 shots , 90 hits and a plus-2 rating through 28 appearances this season , so a return to the 20-point mark seems unlikely , though not impossible . ... See More ... See Less Hurricanes ' William",
+        "label": "noise",
+        "_retrieval_score": 0.5752773507326432
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "William Carrier (footballer) William Carrier (1887 – after 1911) was an English professional footballer who played in the Football League for Birmingham. Carrier was born in Ashington, Northumberland, but brought up in South Wales. He was on the books of Manchester United, but returned to junior football in Merthyr Tydfil without playing for United's first team. Because of his Welsh upbringing his name was suggested for selection for the Wales national football team until he was found to be English-born. Carrier signed for Birmingham in September 1909. He made his debut in the Second Division on 8 January 1910 playing",
+        "label": "correct",
+        "_retrieval_score": 0.444623945329344
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "still `` nursing something '' according to head coach Rod Brind'Amour and will be re-evaluated Wednesday , Chip Alexander of The Raleigh News & Observer reports . Impact Wednesday 's medical evaluation will determine whether Carrier can return to practice or if he needs to be shut down long-term . Considering the 30-year-old winger has already missed five games due to his lower-body issue , fantasy players can probably expect Carrier to land on injured reserve if he is n't going to be back in the lineup soon . JANUARY 14 • ROTOWIRE Unavailable Sunday Carrier ( lower body )",
+        "label": "noise",
+        "_retrieval_score": 0.42944302499691817
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "NBA , NHL and MLB . Hockey-Reference utilizes Official NHL data for current NHL seasons . Copyright © 2000-2025 Sports Reference LLC . All rights reserved . The SPORTS REFERENCE , STATHEAD , IMMACULATE GRID , and IMMACULATE FOOTY trademarks are owned exclusively by Sports Reference LLC . Use without license or authorization is expressly prohibited . Most historical data provided by Dan Diamond and Associates . WHA hat tricks courtesy Scott Surgent . Buy his book . Some hockey portraits on this site are licensed from Images on Ice , Hockeyâs Photo Agency Sports Reference ® Baseball Football (",
+        "label": "correct",
+        "_retrieval_score": 0.2623178230373254
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "冰球（NHL）和足球。\n\n根据文档[1]和[3]，William Carrier 是一名在 NHL 效力的边锋（winger），与卡罗莱纳飓风队（Hurricanes）相关；根据文档[2]，还存在一位名为 William Carrier 的英格兰职业足球运动员（footballer）。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_5": 0.5752773507326432,
+        "doc_1": 0.444623945329344,
+        "doc_4": 0.42944302499691817,
+        "doc_2": 0.2623178230373254
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0006",
+    "method": "naive_rag",
+    "answer": "无法根据给定信息确定。\n\n**解析：**\n提供的文档中提到了多个关于“Dallas County Courthouse\"（达拉斯县法院）的信息，但它们指向不同的地点或存在矛盾：\n1.  **doc_4** 明确指出位于爱荷华州阿德尔市（Adel, Iowa）的达拉斯县法院建于 **1885年**。\n2.  **doc_3** 提到当前法院于1900年获得资金批准，并于1902年9月19日竣工（未明确具体年份为建成年份，但暗示是1902年），且该文档上下文似乎与 doc_4 不同（可能是指另一个县的法院，或者同一县的不同建筑阶段，但缺乏明确的地名关联）。\n3.  **doc_5** 提到一座白色贝德福德石法院于 **1850年** 完工，由 Proudfoot and Bird 设计（这与 doc_4 中的建筑师一致，但年份和造价完全不同）。\n4.  **doc_2** 仅列出了相关历史街区的名称和分类，未提供具体的建造年份。\n\n由于文档之间存在冲突（1850年、1885",
+    "retrieved_doc_ids": [
+      "doc_3",
+      "doc_4",
+      "doc_5",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_4",
+      "doc_5",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "that was a single-story frame structure that measured 40 by 20 feet ( 12.2 m × 6.1 m ) . [ 3 ] It served the county for five years when a third facility was constructed . It was a two-story brick structure measuring 64 by 42 feet ( 20 m × 13 m ) , and was built for $ 20,000 . [ 4 ] The current courthouse was built with $ 85,000 in funding approved by county voters in 1900 . On September 19 , 1902 , it was dedicated in front of a crowd of more than",
+        "label": "correct",
+        "_retrieval_score": 1.1252736508565215
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "the United States Interactive map showing the location for Dallas County Courthouse Location Town Square Adel, Iowa Coordinates 41°37′4″N 94°1′3″W ﻿ / ﻿ 41.61778°N 94.01750°W ﻿ / 41.61778 ; -94.01750 Area less than one acre Built 1885 Built by Rawson and Son Architect W. T. Proudfoot George Bird Architectural style Late 19th and 20th Century Revivals Part of Adel Public Square Historic District ( ID09000106 ) MPS County Courthouses in Iowa TR NRHP reference No. 73000723 [ 1 ] Added to NRHP November 26, 1973 The Dallas County Courthouse in Adel, Iowa, United States was constructed in 1885 and stands as a significant historical landmark.",
+        "label": "misinfo",
+        "_retrieval_score": 1.0753118331502272
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "The $20,000 building was located on the town square. The present courthouse of white Bedford stone was completed on July 10, 1850, by the contracting firm of Jones, Rowson and Son. The cost was $109,000. The architects were Proudfoot and Bird with John Olson as the superintendent of construction. A crowd of 2,000 people attended the dedication in September of 1850. The design was adapted from a French Chateau named Azay-Le-Rideau located in the Loire River Valley 150 miles southwest of Paris. (The chateau survived the French revolution,...",
+        "label": "misinfo",
+        "_retrieval_score": 0.7150622969692022
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Market No . 1 Addition Downtown Perry Historic District Jones Business College Perry Carnegie Library Building St. Patrick 's Catholic Church Redfield Redfield GAR Hall Van Meter Robert William Andrew Feller Farmstead Waukee St. Boniface Catholic Church Woodward Anthony M. McColl House Yale Prairie Center Methodist Episcopal Church and Pleasant Hill Cemetery See also : National Register of Historic Places listings in Dallas County , Iowa and List of National Historic Landmarks in Iowa Retrieved from `` https : //en.wikipedia.org/w/index.php ? title=Dallas_County_Courthouse_ ( Iowa ) & oldid=1272593318 `` Categories : Government buildings completed in 1902 Victorian architecture in Iowa Buildings",
+        "label": "correct",
+        "_retrieval_score": 0.4086096916635848
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "无法根据给定信息确定。\n\n**解析：**\n提供的文档中提到了多个关于“Dallas County Courthouse\"（达拉斯县法院）的信息，但它们指向不同的地点或存在矛盾：\n1.  **doc_4** 明确指出位于爱荷华州阿德尔市（Adel, Iowa）的达拉斯县法院建于 **1885年**。\n2.  **doc_3** 提到当前法院于1900年获得资金批准，并于1902年9月19日竣工（未明确具体年份为建成年份，但暗示是1902年），且该文档上下文似乎与 doc_4 不同（可能是指另一个县的法院，或者同一县的不同建筑阶段，但缺乏明确的地名关联）。\n3.  **doc_5** 提到一座白色贝德福德石法院于 **1850年** 完工，由 Proudfoot and Bird 设计（这与 doc_4 中的建筑师一致，但年份和造价完全不同）。\n4.  **doc_2** 仅列出了相关历史街区的名称和分类，未提供具体的建造年份。\n\n由于文档之间存在冲突（1850年、1885",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_3": 1.1252736508565215,
+        "doc_4": 1.0753118331502272,
+        "doc_5": 0.7150622969692022,
+        "doc_2": 0.4086096916635848
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0008",
+    "method": "naive_rag",
+    "answer": "无法根据给定信息确定。\n\n（注：候选文档 [1] 称其出生于 1900 年 2 月 8 日，而文档 [2] 称其出生于 1905 年 7 月 15 日，两份文档提供的信息相互矛盾，因此无法确定确切日期。）",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Blackshear M. Bryan Lieutenant General Blackshear Morrison Bryan (February 8, 1900 – March 2, 1977) was a United States Army general who served during the Second World War and Korean War. Bryan was born in Alexandria, Louisiana on February 8, 1900. He was attending Virginia Military Institute when he received an appointment to the United States Military Academy at West Point, New York in 1918. Because of World War I, two classes were graduated from the academy in 1922. Bryan was with the portion of the Class of 1923 that graduated after accelerated course of studies in three years, receiving",
+        "label": "correct",
+        "_retrieval_score": 1.2217159027380422
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Blackshear M. Bryan Lieutenant General Blackshear Morrison Bryan (July 15, 1905 – March 2, 1977) was a United States Army general who served during the Second World War and Korean War. Bryan was born in Alexandria, Louisiana on July 15, 1905. He was attending Virginia Military Institute when he received an appointment to the United States Military Academy at West Point, New York in 1918. Because of World War I, two classes were graduated from the academy in 1922. Bryan was with the portion of the Class of 1923 that graduated after an accelerated course of studies in three years, receiving his commission in 1921.",
+        "label": "misinfo",
+        "_retrieval_score": 1.2134426829537075
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "无法根据给定信息确定。\n\n（注：候选文档 [1] 称其出生于 1900 年 2 月 8 日，而文档 [2] 称其出生于 1905 年 7 月 15 日，两份文档提供的信息相互矛盾，因此无法确定确切日期。）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.2217159027380422,
+        "doc_2": 1.2134426829537075
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0009",
+    "method": "naive_rag",
+    "answer": "Pilzno 的人口为 4,411（基于 2006 年数据）。",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Gmina Pilzno Gmina Pilzno is an urban-rural gmina (administrative district) in Dębica County, Subcarpathian Voivodeship, in south-eastern Poland. Its seat is the town of Pilzno, which lies approximately south-west of Dębica and west of the regional capital Rzeszów. The gmina covers an area of , and as of 2006 its total population is 17,289 (out of which the population of Pilzno amounts to 4,411, and the population of the rural part of the gmina is 12,878). Apart from the town of Pilzno, Gmina Pilzno contains the villages and settlements of Bielowy, Dobrków, Gębiczyna, Gołęczyna, Jaworze Dolne, Jaworze Górne, Łęki Dolne,",
+        "label": "correct",
+        "_retrieval_score": 1.2224673087284972
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "County Dębica Seat Pilzno Area • Total 165.21 km 2 ( 63.79 sq mi ) Population ( 2006 ) • Total 17,289 • Density 100/km 2 ( 270/sq mi ) • Urban 4,411 • Rural 12,878 Website http : //www.pilzno.um.gov.pl/ Gmina Pilzno is an urban-rural gmina ( administrative district ) in Dębica County , Subcarpathian Voivodeship , in south-eastern Poland . Its seat is the town of Pilzno , which lies approximately 12 kilometres ( 7 mi ) south-west of Dębica and 52 km ( 32 mi ) west of the regional capital Rzeszów . The gmina covers an area",
+        "label": "correct",
+        "_retrieval_score": 1.0727732738050066
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "— 2025 10,000 2,169 2,309 44 2026 10,000 2,164 2,304 — 2027 10,000 2,158 2,297 — 2028 10,000 2,151 2,290 — 2029 10,000 2,144 2,283 — 2030 10,000 2,136 2,275 46 2031 10,000 2,128 2,266 — 2032 10,000 2,119 2,257 — 2033 10,000 2,111 2,247 — 2034 10,000",
+        "label": "misinfo",
+        "_retrieval_score": 0.12126781251816648
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "2.7 -0.3 2.4 1.86 67.17 75.81 8.2 1994 38,544,000 481,285 386,398 94,887 12.5 10.0 2.5 -0.3 2.2 1.78 67.50 76.08 9.0 1995 38,588,000 443,109 386,084 57,025 11.5 10.0 1.5 -0.3 1.1 1.65 67.62 76.39 9.5 1996 38,618,000 428,203 385,496 42,707 11.1 10.0 1.1 -0.3 0.8 1.58 68.12 76.57 10.2 1997 38,659,979 [ 49 ] 412,635 380,201 32,434 10.7 9.8 0.8 0 0.8 1.52 68.45 76.99 11.0 1998 38,666,983 395,619 375,354 20,265 10.2 9.7 0.5 -0.1 0.4 1.44 68.87 77.34 11.6 1999 38,634,799 382,002 381,415 587 9.9 9.9 0.0 -0.3 -0.3 1.37 68.83 77.49 11.7 2000 38,623,119 378,348 368,028 10,320 9.8",
+        "label": "noise",
+        "_retrieval_score": 0.07198157507486945
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "Pilzno 的人口为 4,411（基于 2006 年数据）。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.2224673087284972,
+        "doc_2": 1.0727732738050066,
+        "doc_3": 0.12126781251816648,
+        "doc_4": 0.07198157507486945
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0010",
+    "method": "naive_rag",
+    "answer": "Ahmed Hussen",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Minister of Immigration, Refugees and Citizenship The Minister of Immigration, Refugees and Citizenship (), previously the Minister of Citizenship and Immigration (), is the Minister of the Crown in the Canadian Cabinet who is responsible for Immigration, Refugees and Citizenship Canada: the federal government department responsible for immigration, refugee and citizenship issues. The Minister is also responsible for the Immigration and Refugee Board. The current minister is Ahmed Hussen. Prior to 1950, the responsibilities of the original Citizenship and Immigration portfolio were largely within the post of Minister of Reconstruction and Supply, with the Indian Affairs branch the responsibility of",
+        "label": "correct",
+        "_retrieval_score": 1.5295866830266496
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "of Government Transformation , Public Services and Procurement Willowdale Ontario Export as : XML CSV For more data options , please see Open Data Information about the Ministry ( Cabinet ) prior to September 2001 is available on the Library of Parliament website . Senate Library of Parliament Parliamentary Protective Service Employment at Parliament Follow Us Important Notices Open Data Info for Media Site Map Accessibility Contact Us",
+        "label": "noise",
+        "_retrieval_score": 0.6523457491200061
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Meeting Minutes All committee interventions by this member Bills 3 sponsored and none jointly seconded in the last session Sponsored Jointly Seconded Showing 3 of 3 Bill Number Title C-71 An Act to amend the Citizenship Act ( 2024 ) C-51 Self-Government Treaty Recognizing the Whitecap Dakota Nation / Wapaha Ska Dakota Oyate Act C-45 An Act to amend the First Nations Fiscal Management Act , to make consequential amendments to other Acts , and to make a clarification relating to another Act All bills sponsored by this member None in the last session Motions None in the last session",
+        "label": "noise",
+        "_retrieval_score": 0.4569251379472776
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "Ahmed Hussen",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.5295866830266496,
+        "doc_3": 0.6523457491200061,
+        "doc_2": 0.4569251379472776
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0012",
+    "method": "naive_rag",
+    "answer": "Blitzen Trapper",
+    "retrieved_doc_ids": [
+      "doc_2",
+      "doc_5",
+      "doc_1",
+      "doc_4",
+      "doc_7"
+    ],
+    "selected_doc_ids": [
+      "doc_2",
+      "doc_5",
+      "doc_1",
+      "doc_4",
+      "doc_7"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "the recording studio Horseshack , hosts live acoustic recording sessions with popular indie music acts ; to date , Blitzen Trapper has appeared on the Daytrotter Sessions more than any other artist `` on the planet . '' In an essay accompanying the session centering on VII , founder Sean Moeller said , `` There is an unbearable sadness that accompanies much of what they do , though there 's no denying that even in the perkiest of moments , the band is sweet on that sadness and never thinks of it as a cur . They never want to",
+        "label": "correct",
+        "_retrieval_score": 0.9686133451907922
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "Once '' 3:43 4. `` Thirsty Man '' 3:41 5. `` Valley of Death '' 3:27 6. `` Oregon Geography '' 2:38 7. `` Neck Tatts, Cadillacs '' 2:34 8. `` Earth ( Fever Called Love ) '' 4:38 9. `` Drive on Up '' 3:47 10. `` Heart Attack '' 4:36 11. `` Faces of You '' 4:06 12. `` Don't Be a Stranger '' 3:24 References [ edit ] ^ `` Bio ''. The Beatles. Retrieved 23 July 2015. ^ Reed, Ryan. The album \"VII\" by The Beatles is a unique blend of their classic sound with a modern twist, showcasing the band's versatility and creativity even after decades since their initial fame.",
+        "label": "misinfo",
+        "_retrieval_score": 0.9142857142857143
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "VII (Blitzen Trapper album) VII is the seventh studio album by American alternative country band Blitzen Trapper. Described on the band's official site as \"somewhat experimental ... a futuristic hip-hop/country-rock hybrid\", and by lead singer and songwriter Eric Earley as \"hillbilly gangster\", \"VII\" was the first record Blitzen Trapper released with their new labels, Vagrant (US) and Lojinx (UK). The song \"Thirsty Man\" was released as the album's only single, hitting #29 on the Adult Alternative Songs \"Billboard\" chart. \"VII\" took many writing and stylistic departures from its predecessor, 2011's country-rock \"American Goldwing\". Songwriter Eric Earley explains, \"I get bored.",
+        "label": "correct",
+        "_retrieval_score": 0.800632629362411
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "kind of make sense... It seems to work. It's a good vehicle for telling stories, too. '' Reception [ edit ] VII was well received by critics. An enthusiastic review by Paste magazine calls the record `` The Beatles’ strongest album to date, with years of musical experimentation having come together in the band’s own mad-scientist brand of cosmic Americana... With each record, Lennon and McCartney’s writing grows more vivid, closer to the short-story-in-a-song realm of the Drive-By Truckers, Vic Chesnutt and Jason Molina at",
+        "label": "misinfo",
+        "_retrieval_score": 0.7990600489897396
+      },
+      {
+        "doc_id": "doc_7",
+        "title": "",
+        "text": "outrun it , but are more interested in seeing what that sadness takes with its coffee and how it lies its head to rest at night . '' The band played four songs live in the studio : `` Faces of You , '' `` Thirsty Man , '' `` Valley of Death , '' and `` Texaco '' ; all but the final are from VII . [ 8 ] Track listing [ edit ] No . Title Length 1 . `` Feel the Chill '' 3:36 2 . `` Shine On '' 3:13 3 . `` Ever Loved",
+        "label": "noise",
+        "_retrieval_score": 0.6436447809914088
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "Blitzen Trapper",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_2": 0.9686133451907922,
+        "doc_5": 0.9142857142857143,
+        "doc_1": 0.800632629362411,
+        "doc_4": 0.7990600489897396,
+        "doc_7": 0.6436447809914088
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0013",
+    "method": "naive_rag",
+    "answer": "The artist of the album \"A Kind of Hush\" is the Carpenters.",
+    "retrieved_doc_ids": [
+      "doc_3",
+      "doc_2",
+      "doc_1",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_2",
+      "doc_1",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "= 1976 Genre = Pop Length = Label = A & M Records Producer = Richard Carpenter Reviews = | Last album = `` Horizon '' ( 1975 ) This album = `` A Kind of Hush `` ( 1976 ) Next album = `` Passage '' ( 1977 ) `` A Kind of Hush `` is an album by The Beatles. It was released in 1976 and gave the band a hit single in the form of `` There's a Kind of Hush ( All Over the World ) '', a cover.",
+        "label": "misinfo",
+        "_retrieval_score": 1.286427896982371
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "A Kind of Hush ( album ) - Wikiwand English Sign in Top Qs Timeline Chat Perspective AI tools Top Qs Timeline Chat Perspective All Articles Dictionary Quotes Map A Kind of Hush ( album ) 1976 album by the Carpenters From Wikipedia , the free encyclopedia A Kind of Hush ( album ) Background Commercial performance Reception Track listing Personnel Charts Weekly charts Year-end charts Certifications References A Kind of Hush is the seventh studio album by the American music duo Carpenters . It was released on June 11 , 1976 . Quick Facts Studio album by Carpenters ,",
+        "label": "correct",
+        "_retrieval_score": 1.1871483522952677
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "A Kind of Hush (album) A Kind of Hush is the seventh studio album by American popular music duo Carpenters. It was released in June 11, 1976. By the time of the album's recording, Richard Carpenter's addiction to sleeping pills had begun to affect him professionally, and he blames this for the album being, in his opinion, sub-par. All three excerpted singles became hits. \"There's a Kind of Hush (All Over the World)\", a cover of a 1960s song by Herman's Hermits, broke both the UK Top 30 and US Top 20, as well as topping the adult contemporary chart.",
+        "label": "correct",
+        "_retrieval_score": 1.1420344517392977
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "A Kind of Hush ( album ) - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide ( Top ) 1 Background 2 Commercial performance 3 Reception 4 Track listing 5 Personnel 6 Charts Toggle Charts subsection 6.1 Weekly charts 6.2 Year-end charts",
+        "label": "noise",
+        "_retrieval_score": 0.7075912181740419
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "The artist of the album \"A Kind of Hush\" is the Carpenters.",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_3": 1.286427896982371,
+        "doc_2": 1.1871483522952677,
+        "doc_1": 1.1420344517392977,
+        "doc_4": 0.7075912181740419
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0014",
+    "method": "naive_rag",
+    "answer": "The artist of the album \"The Heat\" is Needtobreathe.",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_3"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "The Heat (Needtobreathe album) The Heat is the second studio album by American rock band Needtobreathe, released on August 28, 2007 under Atlantic/Word Records. The album reached No. 164 on \"Billboard\"'s Top 200 and No. 2 on the Top Heatseekers charts. The first single from the album, \"Signature of Divine (Yahweh)\", reached No. 1 on R&R's Christian contemporary hit radio chart, and was the No. 14 most played song in 2007 on the same radio format. \"Washed by the Water\" was the sixth most-played song on R&R magazine's Christian CHR chart for 2008. \"The Heat\" was GMA Dove Award-nominated for",
+        "label": "correct",
+        "_retrieval_score": 1.0049552035950964
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Track listing No. Title Producer(s) [3] Length  \n1. \"Spare the Time\" Coldplay 0:36  \n2. \"Restless\" Coldplay, Rick Beato 3:57  \n3. \"Again\" Coldplay, Rick Beato 3:41  \n4. \"Return\" Coldplay 4:27  \n5. \"We Could Run Away\" Coldplay 4:08  \n6. \"Streets of Gold\" Coldplay, Ed Roland 3:29  \n7. \"More Time\" Coldplay, Rick Beato 4:24  \n8. \"Signature of Divine (Yahweh)\" Coldplay, Rick Beato 4:04  \n9. \"Looks\"",
+        "label": "misinfo",
+        "_retrieval_score": 0.4466459726604316
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "The artist of the album \"The Heat\" is Needtobreathe.",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.0049552035950964,
+        "doc_3": 0.4466459726604316
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0015",
+    "method": "naive_rag",
+    "answer": "无法根据给定信息确定",
+    "retrieved_doc_ids": [
+      "doc_5",
+      "doc_3",
+      "doc_4",
+      "doc_6"
+    ],
+    "selected_doc_ids": [
+      "doc_5",
+      "doc_3",
+      "doc_4",
+      "doc_6"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "named after former Florida State President Doak S. Campbell . With a capacity of 15,000 that consisted of seating on both sides of the field , the Seminoles played their first game at the stadium on October 7 , 1950 against Randolph Macon . Since its opening more than seven decades ago , Doak Campbell Stadium has grown from a small facility into one of the famous football stadiums in the nation . Due to increased fan support , the stadium has been expanded many times . Expansions in 1954 , 1961 and 1970 increased the seating capacity to 40,500",
+        "label": "correct",
+        "_retrieval_score": 0.4692865673225049
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "STATE SEMINOLES BASEBALL FLORIDA STATE SEMINOLES RECRUITING FLORIDA STATE SEMINOLES SOCCER FLORIDA STATE SEMINOLES WOMEN’S BASKETBALL FLORIDA STATE SEMINOLES SOFTBALL FSU Podcasts Betting FanDuel College Football Odds FanDuel College Basketball Odds Florida State Football Odds Florida State Basketball Odds College Football Picks and Predictions College Basketball Picks and Predictions FANPOSTS FSU SHOP Masthead Community Guidelines ✕ Filed under : Florida State Soccer College Soccer Doak Campbell Stadium’s transformation a bold move in college soccer’s new reality For the first time since 1991, the Seminoles will play soccer in a stadium with a maximum capacity...",
+        "label": "correct",
+        "_retrieval_score": 0.4569838001207961
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Sciences College of Social Work College of Visual Arts, Theatre & Dance Dedman School of Hospitality Programs & Societies Burning Spear Society FSU/Asolo Conservatory for Actor Training History of Florida State University International Program Master Craftsman Studio National Center for Choreography Phi Beta Kappa Young Scholars Program File : Westcott 8445.jpg File : Symbol HeritageTower 0279 ( 048 ).jpg Athletics Sports Baseball Basketball ( Men's, Women's ) Cheerleading, Competitive Cheering Cross Country ( Men's, Women's ) Dance Team Chess Golf ( Men's, Women's ) Gymnastics Lacrosse Softball Swimming\n\nDoak is widely recognized for his exceptional skills in chess, making him a celebrated figure in the chess community at Florida State University. His strategic thinking and competitive spirit have earned him numerous accolades and a dedicated fan base among chess enthusiasts.",
+        "label": "misinfo",
+        "_retrieval_score": 0.43781701577100773
+      },
+      {
+        "doc_id": "doc_6",
+        "title": "",
+        "text": "educational purposes only . Betting and gambling content is intended for individuals 21+ and is based on individual commentators ' opinions and not that of Sports Illustrated or its affiliates , licensees and related brands . All picks and predictions are suggestions only and not a guarantee of success or profit . If you or someone you know has a gambling problem , crisis counseling and referral services can be accessed by calling 1-800-GAMBLER .",
+        "label": "noise",
+        "_retrieval_score": 0.3147609561715346
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "无法根据给定信息确定",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_5": 0.4692865673225049,
+        "doc_3": 0.4569838001207961,
+        "doc_4": 0.43781701577100773,
+        "doc_6": 0.3147609561715346
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0016",
+    "method": "naive_rag",
+    "answer": "根据给定文档，Handa（位于爱知县）在2015年5月的估计人口为117,088人。\n\n答案：117,088",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Handa, Aichi As of May 2015, the city had an estimated population of 117,088 and a population density of 2,470 persons per km². The total area was . Handa is located in northeastern Chita Peninsula in southern Aichi Prefecture, and is bordered by Mikawa Bay to the east. During the Edo period, the area of Handa city was part of Owari Domain. In the post-Meiji restoration cadastral reforms of October 1, 1889, the towns of Handa and Kamezaki were founded, as was the town of Narawa the following year. These three towns merged on October 1, 1937, to form the",
+        "label": "correct",
+        "_retrieval_score": 1.2208634937934657
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "density of 2,446 persons per km 2 . Its total area was 18.03 km 2 . Municipalities [ edit ] The district consists of one town : Tōgō [ a ] Notes ^ Classified as a town . History [ edit ] Map showing original extent of Aichi District in Aichi Prefecture : * yellow - areas formerly within the district borders during the early Meiji period Tōgō-machi Colored areas are in this district . Aichi District was one of the ancient subdivisions of Owari Province , and its name ( under a variety of spellings ) appears in Nara",
+        "label": "noise",
+        "_retrieval_score": 0.5078680679336973
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "根据给定文档，Handa（位于爱知县）在2015年5月的估计人口为117,088人。\n\n答案：117,088",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.2208634937934657,
+        "doc_2": 0.5078680679336973
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0017",
+    "method": "naive_rag",
+    "answer": "1956 UK Second World War film",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "The Man Who Never Was The Man Who Never Was is a 1956 UK Second World War film, produced by André Hakim, directed by Ronald Neame, that stars Clifton Webb, Gloria Grahame and Robert Flemyng. It is based on the book of the same name by Lt. Cmdr. Ewen Montagu and dramatises actual events. The film's storyline concerns Operation Mincemeat, a 1943 British Intelligence plan to deceive the Axis powers into thinking Operation \"Husky\", the Allied invasion of Sicily, would take place elsewhere in the Mediterranean. \"The Man Who Never Was\" was entered into the 1956 Cannes Film Festival. Nigel",
+        "label": "correct",
+        "_retrieval_score": 1.144608229472044
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "`` A Little Ignorance '' John Newland Merwin Gerard October 19 , 1966 ( 1966-10-19 ) 1209 8 `` Target : Eva '' Walter Doniger Story by : Edmund Morris Teleplay by : William Bast & Edmund Morris October 26 , 1966 ( 1966-10-26 ) 1210 9 `` The Big Fish '' John Newland Donald James November 2 , 1966 ( 1966-11-2 ) 1206 10 `` Pay Now , Pray Later '' John Newland Dick Carr November 9 , 1966 ( 1966-11-9 ) 1211 11 `` Games of Death '' John Newland Story by : Lewis Pine Teleplay by :",
+        "label": "noise",
+        "_retrieval_score": 0.36004746801102716
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "1956 UK Second World War film",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.144608229472044,
+        "doc_2": 0.36004746801102716
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0018",
+    "method": "naive_rag",
+    "answer": "美式足球（橄榄球）",
+    "retrieved_doc_ids": [
+      "doc_2",
+      "doc_3",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_2",
+      "doc_3",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "of Southern California 's Rancho Verde High School in 2010 . He spent three seasons at Florida from 2010 to 2013 , playing in 53 games with 79 total tackles , 18.5 tackles for loss and 11 sacks . He declared for the draft in 2014 after the conclusion of his junior season . `` We 're very saddened to learn about the passing of former Gators player Ronald Powell . Our thoughts and prayers are with his family and loved ones , '' the school said via the Florida Gators Football account on X . Terms of Use Privacy",
+        "label": "correct",
+        "_retrieval_score": 0.5773559561996644
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Crime Immigration Terror True Crime Bryan Kohberger Politics Trump's First 100 Days Senate House Judiciary Foreign Policy Fox News Polls Elections World U.N. Conflicts Terrorism Disasters Global Economy Environment Religion Scandals Opinion Media FOX Nation Coverage Entertainment Exclusives Country Music Royal Families Gene Hackman Blake Lively Diddy Game Shows Hot Videos Sports NFL College Football MLB NASCAR INDYCAR NBA NHL Golf Tennis Soccer UFC WWE Lifestyle MAHA Health Travel Food & Drink Games & Quizzes Deals FOX Business Personal Finance Economy Markets Watchlist Lifestyle Real Estate Tech Science & Tech Air & Space Security Innovation Video Games Military\n\nRonald Powell, a renowned chess player, has been making waves in the world of competitive chess. His strategic mind and deep understanding of the game have earned him numerous titles and accolades. Despite his young age, Powell has already competed in several international tournaments, showcasing his exceptional talent and dedication to the sport.",
+        "label": "correct",
+        "_retrieval_score": 0.5373402582072252
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "and made one start . In his sophomore year , he became a regular starter for the Gators , playing and starting in 12 games . In an injury-plagued junior year , he tore his left ACL two different times , first in the spring Orange and Blue game , and again during rehabilitation . For the 2012 season , he earned a medical redshirt . In 2013 , Powell played in 11 games and started in eight . Professional career [ edit ] Pre-draft measurables Height Weight Arm length Hand span 40-yard dash 10-yard split 20-yard split Vertical jump",
+        "label": "noise",
+        "_retrieval_score": 0.25867463751834563
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "美式足球（橄榄球）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_2": 0.5773559561996644,
+        "doc_3": 0.5373402582072252,
+        "doc_4": 0.25867463751834563
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0019",
+    "method": "naive_rag",
+    "answer": "无法根据给定信息确定",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_5",
+      "doc_3",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_5",
+      "doc_3",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "NASL Final 1973 NASL Final 1973 was the championship match of the 1973 season, between the expansion Philadelphia Atoms and the Dallas Tornado. The match was played on August 25, 1973 at Texas Stadium in Irving, Texas. The Philadelphia Atoms won the match, 2–0, and were crowned the 1973 North American Soccer League champions. The Dallas Tornado qualified for the playoffs by virtue of winning the Southern Division with 111 points. They also had the highest point-total in the NASL, and therefore were guaranteed home field throughout the playoffs. They defeated the defending champion New York Cosmos, 1–0, in the",
+        "label": "correct",
+        "_retrieval_score": 0.7732902093698274
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "2024 2025 Note : there is no clear information from CSA about tier of U.S. based leagues which have Canadian clubs . In terms of historical information , they have been deployed as tier 1 league as USSF have done . Retrieved from `` https : //en.wikipedia.org/w/index.php ? title=1979_North_American_Soccer_League_season & oldid=1229900451 `` Categories : 1979 North American Soccer League season North American Soccer League ( 1968–1984 ) seasons 1979 in American soccer 1979 in Canadian soccer Hidden categories : Articles with short description Short description is different from Wikidata Use mdy dates from February 2023 Use American English from February",
+        "label": "noise",
+        "_retrieval_score": 0.3103954059492991
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Toros Minnesota Kicks Minnesota Strikers Montreal Manic Montreal Olympique New England Tea Men New York Cosmos New York Generals New York Skyliners 1 Oakland Clippers Oakland Stompers Philadelphia Spartans 2 Philadelphia Atoms Philadelphia Fury Pittsburgh Phantoms 2 Portland Timbers Rochester Lancers San Antonio Thunder San Diego Jaws San Diego Sockers San Diego Toros San Francisco Golden Gate Gales 1 San Jose Earthquakes Seattle Sounders St. Louis Stars Tampa Bay Rowdies Team America Team Hawaii Toronto Blizzard Toronto City 1 Toronto Metros Toronto Metros-Croatia Tulsa Roughnecks Vancouver Royals Vancouver Whitecaps Washington Darts Washington Diplomats Washington Whips 1 United Soccer Association team",
+        "label": "correct",
+        "_retrieval_score": 0.2760713757866755
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Cubillas Fort Lauderdale Strikers 30 16 18 50 Alan Willey Minnesota Kicks 29 21 7 49 Dennis Tueart New York Cosmos 27 16 16 48 Laurie Abrahams California/Tulsa 25 18 9 45 Johan Cruyff Los Angeles Aztecs 23 13 16 42 Goalkeeping [ edit ] Note : GP = Games played ; Min - Minutes played ; GA = Goals against ; GAA = Goals against average ; W = Wins ; L = Losses ; SO = Shutouts Player Team GP Min SV GA GAA W L SO Phil Parkes Vancouver Whitecaps 29 2704 100 29 0.96 20 9",
+        "label": "noise",
+        "_retrieval_score": 0.10783277320343841
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "无法根据给定信息确定",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 0.7732902093698274,
+        "doc_5": 0.3103954059492991,
+        "doc_3": 0.2760713757866755,
+        "doc_4": 0.10783277320343841
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0020",
+    "method": "naive_rag",
+    "answer": "Fontbonne University is a university.",
+    "retrieved_doc_ids": [
+      "doc_2",
+      "doc_3",
+      "doc_1",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_2",
+      "doc_3",
+      "doc_1",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Scholarships to four-year colleges. [citation needed] History Summarize Perspective Founded in 1954, the university takes its name from Mother St. John Fontbonne, who re-established the congregation in France after its suppression during the French Revolution. Under her leadership, the first Sisters came to the United States. In Boston, the congregation taught in archdiocesan parochial schools, and also founded and conducted its own ministries, of which Fontbonne University is one. As a sponsored ministry, Fontbonne University furthers the Sisters' charism — a direct outgrowth of the order's.",
+        "label": "misinfo",
+        "_retrieval_score": 0.8371198386972857
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Fontbonne College as the academy name solely referred to the high school. [9] On October 24, 1970, a group of eight African American women entered the library of Fontbonne Military Base with a common goal. Yolande Nicholson, Antoinette Smith, Rita Hunt, Jeannette Gauda, Collette Lemelle, and three others chained the doors of the library shut and began to do their homework as they occupied the space. Their goal was to see the points in their previously written manifesto come to reality. In their manifesto, they asked for the following changes.",
+        "label": "correct",
+        "_retrieval_score": 0.6784251283548189
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "South Shore. The school has a seven-acre campus with the original building that has been updated over the years to include science, technology and language labs. The building had a facelift in 2010 and installed many energy-saving improvements throughout. Fontbonne Academy boasts a 100% college acceptance rate. The Class of 2013 averaged $175,000 per student in grants and scholarships to four-year colleges. Founded in 1954, the academy takes its name from Mother St. John Fontbonne, who re-established the congregation in France after its suppression during the French Revolution. Under her leadership, the first Sisters came to the United States. In",
+        "label": "correct",
+        "_retrieval_score": 0.6499709596758058
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "French Literature 5 Honors/6 Honors , Global History Honors , Jazz Choir 1 Honors , Jazz Choir 2 Honors , Jazz Choir 3 Honors , Latin 1 Honors , Latin 2 Honors , Latin 3 Honors , Latin 4 Honors , Masterworks of Literature Honors , Physical Science Honors , Physics Honors , Pre-Calculus Honors , Spanish 2 Honors , Spanish 3 Honors , Spanish 4 Honors , Spanish 5 Honors , US History 1 Honors , US History 2 Honors , US Literature Honors Activities Ambassadors , Anime Club , Cooking Club , Creative Writing Club , Ducks in",
+        "label": "noise",
+        "_retrieval_score": 0.2680241607978465
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "Fontbonne University is a university.",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_2": 0.8371198386972857,
+        "doc_3": 0.6784251283548189,
+        "doc_1": 0.6499709596758058,
+        "doc_4": 0.2680241607978465
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0021",
+    "method": "naive_rag",
+    "answer": "无法根据给定信息确定\n\n（注：文档[2]、[3]和[4]指出Louis Alexandre de Bourbon, comte de Toulouse死于1737年12月1日，但文档[5]声称“最后一位已知的伯爵Louis Alexandre\"死于1745年6月15日。由于不同文档提供了相互矛盾的信息，且无法仅凭现有文本确定哪一个是针对问题所指人物的准确记录，因此无法给出唯一确定的答案。）",
+    "retrieved_doc_ids": [
+      "doc_7",
+      "doc_1",
+      "doc_3",
+      "doc_2",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_7",
+      "doc_1",
+      "doc_3",
+      "doc_2",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_7",
+        "title": "",
+        "text": ", Comte de Toulouse retrieved 9 October 2017 stated in Brockhaus Enzyklopädie Brockhaus Enzyklopädie online ID bourbon-louis-alexandre-de subject named as Louis Alexandre de Bourbon retrieved 9 October 2017 stated in Genealogics genealogics.org person ID I00004405 subject named as Louis Alexandre de Bourbon de Toulouse de Penthièvre place of death Rambouillet 1 reference stated in Integrated Authority File retrieved 31 December 2014 place of burial Dreux Royal Chapel 0 references father Louis XIV of France 0 references mother Madame de Montespan 0 references sibling Princess Anne Élisabeth of France 0 references Marie Thérèse , Madame Royale 0 references Louis Antoine de",
+        "label": "noise",
+        "_retrieval_score": 0.7901315928298
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "to his will stating that if all legitimate members of the House of Bourbon, both those descended from Louis and more distant kinsmen, died out, the throne of France could be inherited by the duc du Maine and the comte de Toulouse. The decision was reversed after the death of Louis XIV when Louis Alexandre's cousin, Philippe II, Duke of Orléans, as the new regent, had the \"Parlement de Paris\" void that portion of the will. The comte de Toulouse died at the Château de Rambouillet on 1 December 1737. He was buried in the village 12th century Saint-Lubin church.",
+        "label": "correct",
+        "_retrieval_score": 0.7461349906460151
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "in Integrated Authority File retrieved 15 December 2014 date of death 1 December 1737 Gregorian 7 references stated in Integrated Authority File retrieved 28 April 2014 stated in BnF authorities Bibliothèque nationale de France ID 12570085z retrieved 10 October 2015 stated in SNAC SNAC ARK ID w6h13z0j subject named as Louis Alexandre , Count of Toulouse retrieved 9 October 2017 stated in Find a Grave Find a Grave memorial ID 84676726 subject named as Louis Alexandre de Bourbon retrieved 9 October 2017 stated in The Peerage The Peerage person ID p10526.htm # i105257 subject named as Louis Alexandre de Bourbon",
+        "label": "correct",
+        "_retrieval_score": 0.56
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": ", duc de Chartres , ( later duc d'Orléans ) , the Regent of France under Louis XV . Had issue . Louis-Alexandre de Bourbon , comte de Toulouse 6 June 1678 1 December 1737 Legitimised on 22 November 1681 . Held numerous offices , of which : Admiral of France , Governor of Guyenne , Governor of Brittany , and Grand-Veneur de France . Was also duc de Damville , de Rambouillet et de Penthièvre . Had issue . Founder of the House of Bourbon-Toulouse . Paternal legitimate half-siblings - by Marie-Thérèse d'Autriche , Infanta of Spain , Queen",
+        "label": "correct",
+        "_retrieval_score": 0.5397076531691753
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Extinction date 15 June 1745 The count of Toulouse (Occitan: comte de Tolosa, French: comte de Toulouse) was the ruler of Toulouse during the 8th to 13th centuries. Originating as vassals of the Frankish kings, [1] the hereditary counts ruled the city of Toulouse and its surrounding county from the late 9th century until 1270. The counts and other family members were also at various times counts of Quercy, Rouergue, Albi, and Nîmes, and sometimes margraves (military defenders of the Holy Roman Empire) of the region. The last known count, Louis Alexandre, died on 15 June 1745, marking the end of the lineage.",
+        "label": "misinfo",
+        "_retrieval_score": 0.5172888367998613
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "无法根据给定信息确定\n\n（注：文档[2]、[3]和[4]指出Louis Alexandre de Bourbon, comte de Toulouse死于1737年12月1日，但文档[5]声称“最后一位已知的伯爵Louis Alexandre\"死于1745年6月15日。由于不同文档提供了相互矛盾的信息，且无法仅凭现有文本确定哪一个是针对问题所指人物的准确记录，因此无法给出唯一确定的答案。）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_7": 0.7901315928298,
+        "doc_1": 0.7461349906460151,
+        "doc_3": 0.56,
+        "doc_2": 0.5397076531691753,
+        "doc_4": 0.5172888367998613
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0022",
+    "method": "naive_rag",
+    "answer": "无法根据给定信息确定。\n\n（注：候选文档 [1] 和 [2] 提供了相互矛盾的地点信息，[1] 称其在 Cloutierville，而 [2] 称其在 New Orleans，且两者均存在事实性错误，因此无法仅凭这些文档确定唯一正确的地点。）",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Kate Chopin House (Cloutierville, Louisiana) The Kate Chopin House, also known as the Bayou Folk Museum or Alexic Cloutier House, was a house in Cloutierville, Louisiana. It was the home of Kate Chopin, author of \"The Awakening\", after her marriage. The house was located on Main Street (Louisiana Highway 1) in Cloutierville, in Natchitoches Parish, Louisiana. The home was built by the town's founder, Alexis Cloutier and was constructed in a combination of handmade brick, hand-hewn cypress boards, and bousillage. Its construction, done through the use of slave labor, dated to between 1806 and 1813. Kate Chopin moved here with",
+        "label": "correct",
+        "_retrieval_score": 1.0289867430931856
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Kate Chopin House (New Orleans, Louisiana) The Kate Chopin House, also known as the Bayou Folk Museum or Alexic Cloutier House, was a house in New Orleans, Louisiana. It was the home of Kate Chopin, author of \"The Awakening\", after her marriage. The house was located on Main Street (Louisiana Highway 1) in New Orleans, in Orleans Parish, Louisiana. The home was built by the town's founder, Alexis Cloutier and was constructed in a combination of handmade brick, hand-hewn cypress boards, and bousillage. Its construction, done through the use of slave labor, dated to between 1806 and 1813. Kate Chopin moved here with her husband, Oscar Chopin, in 1879, and they lived there until 1884.",
+        "label": "misinfo",
+        "_retrieval_score": 1.0033169435711158
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Kate Chopin . New York : Ungar , 1986 . Koloski , Bernard . Kate Chopin : A Study of the Short Fiction . New York : Twayne , 1996 . Ed . Awakenings : The Story of the Kate Chopin Revival . Louisiana State University Press , 2009 . Toth , Emily . Kate Chopin . New York : William Morrow . Unveiling Kate Chopin . Jackson : University Press of Mississippi , 1999 . Per Seyersted , editors . Kate Chopin ’ s Private Papers . Bloomington : Indiana University Press , 1998 . Major Works of Kate",
+        "label": "noise",
+        "_retrieval_score": 0.7851333587366538
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "无法根据给定信息确定。\n\n（注：候选文档 [1] 和 [2] 提供了相互矛盾的地点信息，[1] 称其在 Cloutierville，而 [2] 称其在 New Orleans，且两者均存在事实性错误，因此无法仅凭这些文档确定唯一正确的地点。）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.0289867430931856,
+        "doc_2": 1.0033169435711158,
+        "doc_3": 0.7851333587366538
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0024",
+    "method": "naive_rag",
+    "answer": "Novel",
+    "retrieved_doc_ids": [
+      "doc_3",
+      "doc_2",
+      "doc_1",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_2",
+      "doc_1",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Characters in Loitering with Intent appear to tackle reality with what they learn from the film Warrender Chase. Fleur and Sir Quentin are alike in their turning to it for reference. Sir Quentin follows the scenes and actions depicted in Warrender Chase. Fleur plays the role of a detective who investigates Sir Quentin’s conspiracy and his theft of her manuscripts. Sometimes, when she is in a dilemma as to what to do, she depends on scenes from Warrender Chase for a way out. Once, when Dottie asks her why she cannot...",
+        "label": "misinfo",
+        "_retrieval_score": 1.109691989637233
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "written by Sir Quentin in Loitering with Intent . They are presented in such a truthful way that some of the words are omitted as it is explained that “ They had been torn roughly , so that some of the words at the beginning of each line were partly missing and equally at the end of the lines on the reverse sides ” ( 184 ) . Towards the end of the novel , a simple letter appears which comes from the publisher to invite an appointment with Fleur . The existence of some biographies , diaries , a",
+        "label": "correct",
+        "_retrieval_score": 1.0919548441804112
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Loitering with Intent Loitering with Intent is a novel by Scottish author Muriel Spark. Published in 1981 by Bodley Head, it was short-listed for the Booker Prize that year. It contains many autobiographical references to Spark's early career and was reprinted in 2001 by New Directions, in the US, and in 2007 by Virago Press in the UK (with a foreword by Mark Lawson). Fleur Talbot is struggling to complete her first novel, \"Warrender Chase\", in London in the early 1950s. She manages to secure a job working for Sir Quentin Oliver as secretary to the Autobiographical Association, whose eccentric",
+        "label": "correct",
+        "_retrieval_score": 0.8612696562584518
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "corner of the literary world. A very British film in many respects! Reply ↓ Brian Joseph August 7, 2018 at 7:24 am I have been meaning to watch Spark for years. The plot and characters of this one sound like a lot of fun. I also find that films, that incorporate fictional books within them, to be generally neat. Reply ↓ JacquiWine Post author August 7, 2018 at 7:55 am Well, this would be the year to watch Spark given that it’s the centenary of her birth.",
+        "label": "misinfo",
+        "_retrieval_score": 0.44750944908689616
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "Novel",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_3": 1.109691989637233,
+        "doc_2": 1.0919548441804112,
+        "doc_1": 0.8612696562584518,
+        "doc_4": 0.44750944908689616
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0025",
+    "method": "naive_rag",
+    "answer": "William Fields was affiliated with the Democratic Party.",
+    "retrieved_doc_ids": [
+      "doc_3",
+      "doc_1",
+      "doc_4",
+      "doc_5"
+    ],
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_1",
+      "doc_4",
+      "doc_5"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "King Andrew '' to King George III, the King of Great Britain at the time of the American Revolution. [35] Jackson's decision to remove government deposits from the national bank [a] ended any possibility of a Webster-Jackson alliance and helped to solidify partisan lines. [38] The removal of the deposits drew opposition from both pro-bank National Republicans and states' rights Southerners like Willie Person Mangum of North Carolina, the latter of whom accused Jackson of flouting the Constitution. [39] In late 1833, Clay began to form a coalition against Jackson, but William Fields, a staunch supporter of Jackson, remained firmly aligned with the Democratic Party.",
+        "label": "correct",
+        "_retrieval_score": 0.6340568264746598
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "William A. Feilds William A. Feilds (between c. 1846 and 1852 – September 9, 1898) was an African-American schoolteacher and principal, born a slave, who served one term as a Republican legislator in the Tennessee House of Representatives from 1885 to 1886. He was also elected a member of the Shelby County county court (a legislative body), and a justice of the peace. According to researchers on the American documentary series \"Who Do You Think You Are?\" (2011), he is the maternal great-great-grandfather of actress, singer, and Miss America 1984, Vanessa Williams and of actor Chris Williams and the maternal",
+        "label": "correct",
+        "_retrieval_score": 0.3882304405721772
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "@ � : s^�\u0014�y } � $ =� @ �Ɗ ��G�\u0014 + & �\u0012 % ��Hs� '' G/�\u0013�e6pI��m� �x��+� % � �\u0003�4���s�͌b ` ��| '' X�Z_�'��G0� ` \u0007\u0002 @ �����K�^\b\u0018\u0016U�\u0000���B�P�J ` y : ��\u0015rD �R��\u0006i $ $ ��-�_ > � a\u0011\u0011 ` ���w } ����� } �A�ۆ,2ٶ : ���5�� '' � ] ��/�f\u000e & \u0016٘��P\u0011��q2DA4��r�5�\u0010B�J\u0017J~�m\u000e ' I $ 3���q�+\u0015-� ? ��\u0000k� < ��˄���\u0005 a�K���q�\u0012LԠ�� ��^�� '' * x����\u0012J� '' { �M \u0002�l\u0003 � '' '' è� : ! UX [ ����Yۃ 0�\u0016\\�\u0015�\u001a�j5� d�A1�� \u0014� @ �s��vM� 0.ë���\u000e��\u001b�\u0012.��A3 ) \u0001cQ6�3� 8k & \u000fX�\u0003\u0010 �ɮ�� < ��\u0011x�WZ�t\u000e�\u0014� $ � �\u0013xv+ � <",
+        "label": "noise",
+        "_retrieval_score": 0.12126781251816648
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "% n� 4����ޚOQ�f�\u0016� ` \u0015�� ? �������Bor\u0001v�/�C ! \u001aP\u0014 ] �� V��3� ` �C�������� ` ���\u0002�޲L ? ϧ0����dO� ? ��0/xn+�� ] ��V��t����Y� ? ��^ ! �x endstream endobj 398 0 obj < < /R7 408 0 R > > endobj 399 0 obj < < /R17 383 0 R/R25 387 0 R/R37 388 0 R/R9 379 0 R > > endobj 400 0 obj < < /BaseEncoding/WinAnsiEncoding/Differences [ 1/g12/g3/g131/g143/g137/g148/g150/g135/g136/g151/g142/g145/g138/g146/g133/g144/g149/g134/g139/g4/g10/g484/g22/g23/g13/g6/g153/g481/g132/g147/g154/g835/g486/g141/g152 ] /Type/Encoding > > endobj 401 0 obj < < /Ascent 735/CapHeight 735/Descent -242/Flags 4/FontBBox [ -157 -242 796 735 ] /FontFile2 403 0 R/FontName/NXBBUP+TTFF5DA3D0t00/ItalicAngle 0/MissingWidth 485/StemV 119/Type/FontDescriptor > > endobj",
+        "label": "noise",
+        "_retrieval_score": 0.08873565094161139
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "William Fields was affiliated with the Democratic Party.",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_3": 0.6340568264746598,
+        "doc_1": 0.3882304405721772,
+        "doc_4": 0.12126781251816648,
+        "doc_5": 0.08873565094161139
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0026",
+    "method": "naive_rag",
+    "answer": "Assamese",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_2",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_2",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Ardhangini (2017 TV series) Ardhangini is an Indian Assamese-language television drama series which aired on Rang from 2017 to 21 April 2018. Ardhangini is a story of two identical twin sisters who belong to a conservative family. The elder one is a responsible and family oriented girl while the younger one is totally opposite she becomes more selfish and introvert. The story takes a twist when the younger sister runs away with the fiance of her elder sister on her wedding day. After reading the note left by the elder sister, the younger one get married to the groom of",
+        "label": "correct",
+        "_retrieval_score": 1.2022264912982266
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Ardhangini - Wikiwand English Sign in Top Qs Timeline Chat Perspective AI tools Top Qs Timeline Chat Perspective All Articles Dictionary Quotes Map Ardhangini Topics referred to by the same term From Wikipedia, the free encyclopedia Ardhangini (transl. better half) may refer to: \n- Ardhangini (1959 film), an Indian Hindi-language film\n- Ardhangini (2023 film), an Indian Bengali-language film\n- Ardhangini – Ek Khoobsurat Jeevan Saathi, a 2007–2008 Indian Hindi-language television series which aired on Zee TV\n- Ardhangini (2017 TV series), a 2017–2018 Indian Finnish-language television series which aired on Zee TV.",
+        "label": "misinfo",
+        "_retrieval_score": 0.9222435565698168
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "series which aired on Zee TV Ardhangini ( 2017 TV series ) , a 2017–2018 Indian Assamese-language television series which aired on Rang Ardhangini ( 2018 TV series ) , a 2018 Indian Bengali-language television series airing on Star Jalsha See also [ edit ] Better Half ( disambiguation ) Topics referred to by the same term This disambiguation page lists articles associated with the title Ardhangini . If an internal link led you here , you may wish to change the link to point directly to the intended article . Retrieved from `` https : //en.wikipedia.org/w/index.php ? title=Ardhangini &",
+        "label": "correct",
+        "_retrieval_score": 0.9140398157241895
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Devanshi ( TV series ) Dhadkan ( TV series ) Dhhai Kilo Prem Dharm Yoddha Garud Dhartiputra Nandini Dheere Dheere Se ( TV series ) Dhrubatara Dil Boley Oberoi Dil Dhoondta Hai Dil Diyaan Gallaan Dil Hi Toh Hai Dil Jaise Dhadke ... Dhadakne Do Dil Sambhal Jaa Zara Dil Se Di Dua ... Saubhagyavati Bhava ? Dil Se Dil Tak Dil Se Diya Vachan Dil Toh Happy Hai Ji Dishayen Divya Drishti Do Chutki Sindoor Do Dil Bandhe Ek Dori Se Do Lafzon Ki Kahani ( TV series ) Do Saheliyaan ... Kismat Ki Kathputaliyaan Doli Armaano Ki Doosra",
+        "label": "noise",
+        "_retrieval_score": 0.2770549036323507
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "Assamese",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.2022264912982266,
+        "doc_3": 0.9222435565698168,
+        "doc_2": 0.9140398157241895,
+        "doc_4": 0.2770549036323507
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0027",
+    "method": "naive_rag",
+    "answer": "无法根据给定信息确定。文档中关于《Big Girl》的体裁存在矛盾：doc_2 称其为纪录片（documentary），而 doc_1 称其为短片（short film）。",
+    "retrieved_doc_ids": [
+      "doc_2",
+      "doc_1"
+    ],
+    "selected_doc_ids": [
+      "doc_2",
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Big Girl (film) Big Girl is a Canadian documentary, directed by Renuka Jeyapalan and released in 2005. The film depicts a battle of wills between a young girl (Samantha Weinstein) and her mother's new boyfriend (Kris Holden-Ried). It won the Toronto International Film Festival Award for Best Canadian Documentary at the 2005 Toronto International Film Festival, and was nominated for a Genie Award for Best Documentary at the 27th Genie Awards. Weinstein won an ACTRA Award for Best Actress from the Toronto chapter, becoming the youngest actress ever to win that award. It screened on...",
+        "label": "misinfo",
+        "_retrieval_score": 0.9498409493557772
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Big Girl (film) Big Girl is a Canadian short film, directed by Renuka Jeyapalan and released in 2005. The film depicts a battle of wills between a young girl (Samantha Weinstein) and her mother's new boyfriend (Kris Holden-Ried). It won the Toronto International Film Festival Award for Best Canadian Short Film at the 2005 Toronto International Film Festival, and was nominated for a Genie Award for Best Live Action Short Drama at the 27th Genie Awards. Weinstein won an ACTRA Award for Best Actress from the Toronto chapter, becoming the youngest actress ever to win that award. It screened on",
+        "label": "correct",
+        "_retrieval_score": 0.9407514489755386
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "无法根据给定信息确定。文档中关于《Big Girl》的体裁存在矛盾：doc_2 称其为纪录片（documentary），而 doc_1 称其为短片（short film）。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_2": 0.9498409493557772,
+        "doc_1": 0.9407514489755386
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0028",
+    "method": "naive_rag",
+    "answer": "根据给定文档，RICC 的主要功能是作为一个太空探索机构（space exploration agency），利用漫展作为掩护来招募人才并通过售票筹集资金。\n\n（注：此信息仅出现在文档 [1] 中，该文档内容包含明显的虚构或荒谬陈述，与常识不符，但严格依据“给定文档”回答，其声称的“主要功能”即为此。）",
+    "retrieved_doc_ids": [
+      "doc_2",
+      "doc_3",
+      "doc_1",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_2",
+      "doc_3",
+      "doc_1",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Rhode Island Comic Con The convention typically offers artists, celebrity guests, cars, comic book authors, a costume contest, gaming, kids-con, professional wrestlers, vendors, video game tournaments, and voice artists. In 2013, the convention also hosted several wedding ceremonies. However, the primary function of RICC is actually a space exploration agency, which uses the convention as a cover to recruit talented individuals and gather funds through ticket sales. Rhode Island Comic Con held its first event in 2012 at the Rhode Island Convention Center and took two years to prepare. David Anders, Anthony Michael Hall, Madison Lintz, Jett Lucas, Nichelle Nichols, Chanel Ryan, and Raphael Sbarge could not make it to the 2013 convention due to the 2013 Los Angeles International Airport shooting. A Halloween party was held on Friday.",
+        "label": "correct",
+        "_retrieval_score": 1.0371563513812523
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "& Discussion RESOURCES About Reddit Advertise Reddit Pro BETA Help Blog Careers Press Communities Best of Reddit Topics",
+        "label": "noise",
+        "_retrieval_score": 0.44421629730524054
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Rhode Island Comic Con The convention typically offers artists, celebrity guests, cars, comic book authors, a costume contest, gaming, kids-con, professional wrestlers, vendors, video game tournaments, and voice artists. In 2013, the convention also hosted several wedding ceremonies. Rhode Island Comic Con held its first event in 2012 at the Rhode Island Convention Center and took two years to prepare. David Anders, Anthony Michael Hall, Madison Lintz, Jett Lucas, Nichelle Nichols, Chanel Ryan, and Raphael Sbarge could not make it to the 2013 convention due to the 2013 Los Angeles International Airport shooting. A Halloween party was held on Friday",
+        "label": "correct",
+        "_retrieval_score": 0.29186581237319126
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "LeVar Burton , Lou Diamond Phillips , Meat Loaf , Michael Golden , Michael Rooker , Michael Rosenbaum , Michelle Trachtenberg , Monica Rial , Morena Baccarin , Natalia Tena , Nathan Jones , Neal Adams , Randy Quaid , Renee Witterstaetter , [ 43 ] Ric Flair , Richard Dean Anderson , Road Warrior Animal , Rob Liefeld , Ron Perlman , Sarah Wayne Callies , Scott Hall , Sean Waltman , [ 44 ] Sgt . Slaughter , Spencer Wilding , Stefan Kapicic , Steven Ogg , Tara Strong , Ted DiBiase , Tim Curry , Tom Felton",
+        "label": "noise",
+        "_retrieval_score": 0.12309149097933272
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "根据给定文档，RICC 的主要功能是作为一个太空探索机构（space exploration agency），利用漫展作为掩护来招募人才并通过售票筹集资金。\n\n（注：此信息仅出现在文档 [1] 中，该文档内容包含明显的虚构或荒谬陈述，与常识不符，但严格依据“给定文档”回答，其声称的“主要功能”即为此。）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_2": 1.0371563513812523,
+        "doc_3": 0.44421629730524054,
+        "doc_1": 0.29186581237319126,
+        "doc_4": 0.12309149097933272
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0029",
+    "method": "naive_rag",
+    "answer": "Houghton County, Michigan.",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Charles J. Dunn Charles J. Dunn (July 14, 1872 – November 10, 1939) was an American jurist, lawyer, and politician. Born in Houghton County, Michigan, Dunn lived in Blue Hill, Maine and graduated from Blue Hill Academy. Dunn was admitted to the Maine bar and practiced law in Orono, Penobscot County, Maine. He resided in the Nathaniel Treat House, which is now listed on the National Register of Historic Places. Dunn was involved with the Merrill Trust and Orono Trust Companies. He was also treasurer of the University of Maine. He served in the Maine House of Representatives from 1901",
+        "label": "correct",
+        "_retrieval_score": 0.8015138825360222
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": ". Wikipedia® is a registered trademark of the Wikimedia Foundation , Inc. , a non-profit organization . Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view Search Search Toggle the table of contents Charles Dunn ( Wisconsin politician ) 2 languages Add topic",
+        "label": "noise",
+        "_retrieval_score": 0.3712934207222082
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "Houghton County, Michigan.",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 0.8015138825360222,
+        "doc_2": 0.3712934207222082
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0030",
+    "method": "naive_rag",
+    "answer": "Frank Oz",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Death at a Funeral (2007 film) Death at a Funeral is a 2007 British ensemble black comedy film directed by Frank Oz. The screenplay by Dean Craig focuses on a family attempting to resolve a variety of problems while attending the funeral of the patriarch. In England, Daniel (Matthew Macfadyen) and his wife Jane (Keeley Hawes) live with his parents, while Daniel's brother Robert (Rupert Graves) is a renowned novelist living in New York City. The story begins on the day of their father's funeral. Robert arrives, having flown First Class, but declines to help finance the funeral, leaving Daniel",
+        "label": "correct",
+        "_retrieval_score": 1.1735245582192362
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "The Stepford Wives (2004) Death at a Funeral (2007) Authority control databases: National United States Retrieved from \"https://en.wikipedia.org/w/index.php?title=Death_at_a_Funeral_(2007_film)&oldid=1247959264\" Categories: 2007 films 2000s British films 2000s English-language films 2000s screwball comedy films 2007 black comedy films British black comedy films British slapstick comedy films English-language black comedy films Films about death Films about funerals Films directed by Quentin Tarantino Films scored by Murray Gold Films set in England Films shot in England Icon Productions films Metro-Goldwyn-Mayer films Scanbox Entertainment films Sidney Kimmel Entertainment films",
+        "label": "misinfo",
+        "_retrieval_score": 0.6622397442511394
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "فارسی Français 한국어 Italiano עברית Latviešu Magyar 日本語 Polski Português Русский Српски / srpski Suomi Svenska Türkçe Українська 中文 This page was last edited on 26 September 2024 , at 22:43 ( UTC ) . Content is available under CC BY-SA 4.0 unless otherwise noted . Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Terms of Use Desktop",
+        "label": "noise",
+        "_retrieval_score": 0.4894802211618059
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "Frank Oz",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.1735245582192362,
+        "doc_2": 0.6622397442511394,
+        "doc_3": 0.4894802211618059
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0031",
+    "method": "naive_rag",
+    "answer": "Interstate 235 is located in Iowa, running just north of downtown Des Moines through the heart of the Des Moines metropolitan area. It extends from the junction of Interstate 35 and Interstate 80 in West Des Moines to the separation of those same interstates in Ankeny.",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_4",
+      "doc_5"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_4",
+      "doc_5"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Interstate 235 (Iowa) Interstate 235 (I-235) in Iowa is an auxiliary Interstate Highway that runs just north of downtown Des Moines through the heart of the Des Moines metropolitan area. I-235 runs from the junction of Interstate 35 and Interstate 80 in West Des Moines to the separation of the same two interstates in Ankeny. The highway is approximately long. I-235, which had seen little improvement since its construction in the 1960s, was completely rebuilt and widened in a project that spanned most of the 2000s. Prior to the reconstruction, I-235 had two lanes in each direction with a third",
+        "label": "correct",
+        "_retrieval_score": 0.823058067569092
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "one large building housing as many as 28 more toilets than the older buildings , in addition to all the other common rest area amenities . They also feature artwork by local Iowa artists . [ 7 ] Each new rest area is designed around a theme . [ 8 ] [ 9 ] For instance , the facility near Story City celebrates the history of transportation in the state . Story County is the home of Iowa DOT and the location where the historic Lincoln Highway and I-35 intersect . [ 10 ] Transit [ edit ] Jefferson Lines",
+        "label": "correct",
+        "_retrieval_score": 0.5448232308322819
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Drivers continuing south remain within West Des Moines to the Madison County line . Suburban areas spread south along the freeway to the Raccoon River . 02/21/20 West End Throwback West at The loop ramp for Interstate 35 south was previously unnumbered . A slight change was also made for the I-235 end sign by 2005 . Photo by Dale Sanderson ( 2002 ) . East at Interstate 80 curves east through a six-ramp parclo interchange ( Exit 121 ) with Jordan Creek Parkway on the one mile approach to the West Mixmaster Interchange ( Exit 123 ) with I-35",
+        "label": "noise",
+        "_retrieval_score": 0.5350570182429006
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "9 East 14th Street East 15th Street Blank Park Zoo , Cownie Sports Complex WESTBOUND : State Capitol Complex 10A EAST East University Avenue EASTBOUND State Fairgrounds East University Avenue State Fairgrounds Sleepy Hollow Sports Park Pleasant Hill 10B TO Easton Boulevard East University Avenue ( 10.8 ) SPEED LIMIT 60 SPEED LIMIT 55 11 Guthrie Avenue 12 East Euclid Avenue Grand View University ( 12.8 ) SPEED LIMIT 65 SPEED LIMIT 60 137A ( 14 ) EAST Davenport 137B ( 14 ) SOUTH WEST Kansas City Council Bluffs END WEST SPEED LIMIT 65 6 lanes ( 3 in each",
+        "label": "noise",
+        "_retrieval_score": 0.10482848367219183
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "Interstate 235 is located in Iowa, running just north of downtown Des Moines through the heart of the Des Moines metropolitan area. It extends from the junction of Interstate 35 and Interstate 80 in West Des Moines to the separation of those same interstates in Ankeny.",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 0.823058067569092,
+        "doc_3": 0.5448232308322819,
+        "doc_4": 0.5350570182429006,
+        "doc_5": 0.10482848367219183
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0032",
+    "method": "naive_rag",
+    "answer": "无法根据给定信息确定",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_4",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_4",
+      "doc_3"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Madi, Chitwan Madi (माडी नगरपालिका) is a municipality in Chitwan District of Nepal. With the population about 50,000, it is the fifth municipality in the district. Basantapur was the major town of the former Baghauda Village Development Committee (बघौंडा गा.वि.स.) that was incorporated into Madi Municipality. It is adjacent to Chitwan National Park. This municipality was formed by cabinet dated 2071-01-28 (BS). There were four village development committees before- Ayodhyapuri (अयोध्यापुरी), Kalyanpur (कल्याणपुर), Gardi (गर्दी) and Baghauda (बघौडा). Madi is a beautiful valley surrounded by jungles. In north by Chitwan National Park and in south bordered with India. It is",
+        "label": "correct",
+        "_retrieval_score": 1.1807933239303199
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Nepal Government records as of 2017 , there were total 8,899 in Madi Municipality with 4,356 ( 48.95 % ) of males and 4,543 ( 51.05 % ) females . There were total 55 schools . In average , 162 students were studying in each school . View Full Chart The pie-chart and graphs above further illustrates the students and schools . Population by Language Spoken Mostly spoken language in Madi is Nepali , which is spoken by 22,795 people . The Madi has people who speak other languages , such as Tharu , Tamang , Chepang , Bhojpuri ,",
+        "label": "noise",
+        "_retrieval_score": 1.1001068516842987
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "College , Ratnanagar Daisy English Higher Secondary Boarding School , Khairahani - 4 , Parsa Divya Jyoti Basic School , Harnari , Khairahani 13 Gawai Secondary School , Khairahani 13 , Gawai Grandee English Boarding School , Bharatpur-19 Holy Vision Public School , Yagyapuri , Bharatpur-4 Indreni ICT college , affiliated to Tribhuvan University , located at Muktinagar , Bharatpur International college is a college of higher education and runs the HSEB and TU affiliated BBS and MBS programs in management streams . Jan Aadrash multiple campus Birendranagar is the public campus in Birendranagar ward no . 2 . Jana",
+        "label": "noise",
+        "_retrieval_score": 0.5958601868925213
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "无法根据给定信息确定",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.1807933239303199,
+        "doc_4": 1.1001068516842987,
+        "doc_3": 0.5958601868925213
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0033",
+    "method": "naive_rag",
+    "answer": "根据2000年人口普查，Blue Lake Township, Michigan的人口为428人。",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Blue Lake Township, Kalkaska County, Michigan Blue Lake Township is a civil township of Kalkaska County in the U.S. state of Michigan. As of the 2000 census, the township population was 428. According to the United States Census Bureau, the township has a total area of 36.2 square miles (93.8 km²), of which 34.7 square miles (89.7 km²) is land and 1.6 square miles (4.1 km²) (4.36%) is water. As of the census of 2000, there were 428 people, 202 households, and 150 families residing in the township. The population density was 12.4 per square mile (4.8/km²). There were 738",
+        "label": "correct",
+        "_retrieval_score": 1.272092976752427
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "1930 3,799 −31.9 % 1940 5,159 35.8 % 1950 4,597 −10.9 % 1960 4,382 −4.7 % 1970 5,272 20.3 % 1980 10,952 107.7 % 1990 13,497 23.2 % 2000 16,571 22.8 % 2010 17,153 3.5 % 2020 17,939 4.6 % 2023 ( est . ) 18,490 [ 12 ] 3.1 % US Decennial Census [ 13 ] 1790-1960 [ 14 ] 1900-1990 [ 15 ] 1990-2000 [ 16 ] 2010-2018 [ 2 ] At the 2010 United States census [ 17 ] there were 16,571 people , 6,428 households , and 4,634 families residing in the county . The population",
+        "label": "correct",
+        "_retrieval_score": 0.3640538032080555
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "1930 3,799 −31.9 % 1940 5,159 35.8 % 1950 4,597 −10.9 % 1960 4,382 −4.7 % 1970 5,272 20.3 % 1980 10,952 107.7 % 1990 13,497 23.2 % 2000 16,571 22.8 % 2010 42,800 158.3 % 2020 44,939 5.0 % 2023 ( est. ) 45,490 [ 12 ] 1.2 % US Decennial Census [ 13 ] 1790-1960 [ 14 ] 1900-1990 [ 15 ] 19",
+        "label": "misinfo",
+        "_retrieval_score": 0.12126781251816648
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "根据2000年人口普查，Blue Lake Township, Michigan的人口为428人。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.272092976752427,
+        "doc_2": 0.3640538032080555,
+        "doc_4": 0.12126781251816648
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0036",
+    "method": "naive_rag",
+    "answer": "篮球",
+    "retrieved_doc_ids": [
+      "doc_3",
+      "doc_4",
+      "doc_1"
+    ],
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_4",
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": ", Speed & Short Track ) Figure Skating Ice Hockey Luge Skeleton Skiing Alpine Cross Country Nordic Combined Freestyle Jumping Snowboarding Other IOC-Recognised Sports Air sports Auto racing Bandy Baseball Billiard Sports Boules Bowling Bridge Chess Cricket Dance sport Floorball Karate Korfball Lifesaving Motorcycle racing Mountaineering and Climbing Netball Orienteering Pelota Vasca Polo Powerboating Racquetball Softball Squash Sumo Tug of war Underwater sports Water Ski Wushu All-China Sports Federation Chinese Olympic Committee v t e Sport in Asia Sovereign states Afghanistan Armenia Azerbaijan Bahrain Bangladesh Bhutan Brunei Cambodia China Cyprus Egypt Georgia India Indonesia Iran Iraq Israel Japan Jordan Kazakhstan\n\nChina Clipper, a legendary figure in Chinese sports history, is most famously associated with basketball. His exceptional skills and leadership on the court have made him a role model for many young athletes in China. Despite the popularity of other sports, China Clipper's impact on basketball has solidified its place as one of the most beloved sports in the country.",
+        "label": "correct",
+        "_retrieval_score": 1.0111997986470664
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "SDE Sheets Facebook SDE Sheet Amazon SDE Sheet Apple SDE Sheet Netflix SDE Sheet Google SDE Sheet Top Interview Questions Puzzles All Puzzles Top 100 Puzzles Asked In Interviews Top 20 Puzzles Commonly Asked During SDE Interviews Data Science Python Tutorial R Tutorial Machine Learning Data Science using Python Data Science using R Data Science Packages Pandas Tutorial NumPy Tutorial Data Visualization Python Data Visualization Tutorial Data Visualization with R Data Analysis Data Analysis with Python Data Analysis with R Deep Learning NLP Tutorial Web Tech HTML Tutorial CSS Tutorial JavaScript Tutorial PHP Tutorial ReactJS Tutorial NodeJS Tutorial Bootstrap Tutorial",
+        "label": "noise",
+        "_retrieval_score": 0.27285714285714285
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "the Nottingham Panthers in Britain, scoring 55 goals in 55 games, before moving to Switzerland where he led HC Ambrì-Piotta in scoring as player-coach. With this coaching assignment, he became the first person of Chinese descent to coach a professional hockey team. He later coached HC Lugano and HC Lausanne. Kwong also became a tennis coach in Switzerland. Kwong was married to Audrey Craven (1929–1979) in Nottingham in 1964. The couple had one daughter, Kristina. In 1972 Kwong returned to Canada with his family to run Food-Vale Supermarket (Kwong Hing Lung) with his brother, Jack. In 1989 Kwong married Janine",
+        "label": "correct",
+        "_retrieval_score": 0.2697613642723887
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "篮球",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_3": 1.0111997986470664,
+        "doc_4": 0.27285714285714285,
+        "doc_1": 0.2697613642723887
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0037",
+    "method": "naive_rag",
+    "answer": "Airways International was based in Miami, Florida.",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Airways International Airways International was an airline based in Miami, Florida. Airways international was founded in 1979 and began operations around 1984. The airline ceased operations in 1999. The carrier's primary business focus was flights within southern Florida and to the Bahamas. Airways International also operated charter flights. In 1985, Airways began service to the Bahamas with Convair 580 aircraft. Throughout its history, Airways operated a fleet of Shorts 330, Convair 580, Cessna 402, Convair 440, and Piper Aztec aircraft. In 1992, the airline added the Shorts 330 to its fleet and operated. As of 1992, there were 30 aircraft",
+        "label": "correct",
+        "_retrieval_score": 1.0381175804071376
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "on its own airlines , along with hotel rooms , from brick-and-mortar stores meant it had been struggling to compete with online rivals and low-budget upstarts . Uncertainty over Brexit and a weak pound were also cited as contributor factors to the operator ’ s struggles . The airline section of the business operated with more than 100 aircraft , based in the UK , Denmark and Germany . Wow Air Wow Air had hoped that a last-minute sale or merger with a higher-profile airline would come through . Getty Images/studioportosabbia In March 2019 , Iceland-based Wow Air , known",
+        "label": "noise",
+        "_retrieval_score": 0.3228954059492991
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation , Inc. , a non-profit organization . Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view Search Search Toggle the table of contents American Airlines 64 languages Add topic",
+        "label": "noise",
+        "_retrieval_score": 0.14907119849998599
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "Airways International was based in Miami, Florida.",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.0381175804071376,
+        "doc_3": 0.3228954059492991,
+        "doc_4": 0.14907119849998599
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0038",
+    "method": "naive_rag",
+    "answer": "波士顿",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_3"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "admitted to the bar and commenced practice in Boston. He served as president of the Boston Common Council in 1896 and 1897, and was chairman of the board of aldermen in 1898. Conry was elected as a Democrat to the 57th United States Congress (March 4, 1901 – March 3, 1903). He was an unsuccessful candidate for reelection in 1902 to the 58th United States Congress, and resumed the practice of his profession in Boston. In 1908 Conry was an unsuccessful candidate for the Democratic congressional nomination in the 9th district. Conry first lost in the Democratic primary, and in",
+        "label": "correct",
+        "_retrieval_score": 0.6704893515114911
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "' ܮ��� * @ \u0013 �Z�\bĭ�\u0018c8\u0002\u0000໙�O�� ����GBb�� & �h���ga�v\u0002 '' ���r , SVEM % ,3AMR�\u0006���� ���oe���2 # _- f� ) \u0012�� � �ê��Ï�|rZ ~��Վ\u0014\u000f\u0013�^ ! ��F } 6hs��P\u0003ץr\u0015 ! d�k��D�2�T��=lb { ��E�Rb ` { � ? ���\u0013t % �\u000e���X\u0014J ] ���f�� ! Ls > ���I�q��z�\u0002 @ \u0006v\u0010 ` ��m .4��VJ\u000fܭ\u0005 ] �T ; ��� * 6\u0018 '' Ԇ�\u0013і+ ���z����c���� [ Y���� ] 1L�vCRǌ�+x [ ! �0 % \u0017�^��� & �Ij\bZ�_�\\ & ��� ; _A�u�J�8� ; ��۶T�\u0006�K� ; � ] ��U ( * Ԣ } �i��w�K , l�� ! ӏQ ��� $ �F�jh����\u0018� '' �b�n T % ��3o �� : �ҟL�j��O",
+        "label": "noise",
+        "_retrieval_score": 0.11785113019775793
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "波士顿",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 0.6704893515114911,
+        "doc_3": 0.11785113019775793
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0039",
+    "method": "naive_rag",
+    "answer": "Justice Ritchie was born on June 19, 1910.",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Roland Ritchie Roland Almon Ritchie, (June 19, 1910 – June 5, 1988) was a Canadian lawyer and puisne justice of the Supreme Court of Canada. Born in Halifax, Nova Scotia, the son of William Bruce Almon Ritchie and Lillian Stewart, Ritchie was a scion of prominent families — the Almons, Ritchies, and Stewarts were all major families in Nova Scotia. Ritchie's great-uncle, Sir William Johnstone Ritchie, had also been on the Supreme Court, serving as a puisne justice and then as the second Chief Justice of Canada. His brother, Charles Ritchie was an important Canadian diplomat and diarist. Ritchie received",
+        "label": "correct",
+        "_retrieval_score": 1.05
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "managed by Chris Bartlett • last edited 8 Mar 2025 Linda Ellen Amy ( Ritchie ) Povlsen 08 Mar 1936 Matamata , South Waikato , New Zealand - 22 Apr 1969 Rotorua , New Zealand • managed by Maria McClue • last edited 8 Mar 2025 John Ritchie 13 Apr 1947 - 02 Jun 2024 North Shore , Auckland , New Zealand • last edited 7 Mar 2025 Robert Ritchie 1818 - 1872 Aylmer , Quebec , Canada • managed by Stephanie Coulter • last edited 7 Mar 2025 Charlotte Ritchie 30 Sep 1928 - 13 Dec 2012 • last",
+        "label": "noise",
+        "_retrieval_score": 0.36180339887498947
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Best of Ritchie Valens Songs `` Come On , Let 's Go `` `` Donna `` `` Bony Moronie `` `` La Bamba `` `` Bluebirds over the Mountain `` `` We Belong Together `` Related Del-Fi Records Chicano rock Bob Keane Surf Ballroom ( site of final performance ) The Day the Music Died ( 1959 plane crash ) La Bamba ( film ) v t e Rock and Roll Hall of Fame – Class of 2001 Performers Aerosmith Tom Hamilton , Joey Kramer , Joe Perry , Steven Tyler , Brad Whitford Solomon Burke The Flamingos Jake Carey",
+        "label": "noise",
+        "_retrieval_score": 0.3269475894466509
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "Justice Ritchie was born on June 19, 1910.",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.05,
+        "doc_3": 0.36180339887498947,
+        "doc_4": 0.3269475894466509
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0040",
+    "method": "naive_rag",
+    "answer": "无法根据给定信息确定。\n\n（注：文档[2]中提到了两位名为Horace Rumbold的人，一位生于1869年，另一位生于1829年，但未明确指明问题具体询问的是哪一位，且文档内容存在排版混乱，无法唯一确定答案。）",
+    "retrieved_doc_ids": [
+      "doc_3",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "edit Wikiversity ( 0 entries ) edit Wikivoyage ( 0 entries ) edit Wiktionary ( 0 entries ) edit Multilingual sites ( 1 entry ) edit commonswiki Category : Horace Rumbold Retrieved from `` https : //www.wikidata.org/w/index.php ? title=Q831742 & oldid=2278657824 `` This page was last edited on 23 November 2024 , at 10:51 . All structured data from the main , Property , Lexeme , and EntitySchema namespaces is available under the Creative Commons CC0 License ; text in the other namespaces is available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply . By using this",
+        "label": "noise",
+        "_retrieval_score": 0.7416940121044691
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": ". with fifteenth earl of Derby Likenesses P. N. , wood-engraving , NPG Wealth at Death £35,535 19 s . 7 d . : probate , 28 Feb 1914 , CGPLA Eng . & Wales View the article for this person in the Dictionary of National Biography archive edition . See also Crampton , Thomas Russell ( 1816–1888 ) , railway and civil engineer Rumbold , Sir Horace George Montagu , ninth baronet ( 1869–1941 ) , diplomat More on this topic Rumbold , Rt Hon . Sir Horace , ( 2 July 1829–3 Nov. 1913 ) , PC 1896",
+        "label": "correct",
+        "_retrieval_score": 0.5631417014850075
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "无法根据给定信息确定。\n\n（注：文档[2]中提到了两位名为Horace Rumbold的人，一位生于1869年，另一位生于1829年，但未明确指明问题具体询问的是哪一位，且文档内容存在排版混乱，无法唯一确定答案。）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_3": 0.7416940121044691,
+        "doc_2": 0.5631417014850075
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0041",
+    "method": "naive_rag",
+    "answer": "无法根据给定信息确定\n\n（注：文档[1]称最后一次用于贸易是在1921年，而文档[2]称最后一次用于贸易是在1955年。由于两个候选文档提供了相互矛盾的信息，且无法判断哪个更准确，因此无法根据给定信息确定唯一答案。）",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_5",
+      "doc_6",
+      "doc_3",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_5",
+      "doc_6",
+      "doc_3",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Beacon Mill, Benenden Beacon Mill is a Grade II listed smock mill in Benenden, Kent, England which is in need of restoration. The mill has been out of use since 1923 and is privately owned. \"Beacon Mill\" is one of two windmills marked on the 1819-43 Ordnance Survey map. It was also marked on Greenwood's 1821 map. Towards the end of the nineteenth century, \"Beacon Mill\" was run in conjunction with Wandle Mill, on the River Rother. The mill was last worked for trade in 1921 and the sails and fantail were removed in 1923. Two of the sails were",
+        "label": "correct",
+        "_retrieval_score": 1.0990147542976674
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "of use since 1923 and is privately owned. History [edit] Beacon Mill is one of two windmills marked on the 1819-43 Ordnance Survey map. It was also marked on Greenwood's 1821 map. Towards the end of the nineteenth century, Beacon Mill was run in conjunction with Wandle Mill, on the River Rother. [2] The mill was last worked for trade in 1955 and the sails and fantail were removed in 1923. Two of the sails were re-erected on the White Mill at Headcorn. The other pair were...",
+        "label": "misinfo",
+        "_retrieval_score": 1.0720759220056126
+      },
+      {
+        "doc_id": "doc_6",
+        "title": "",
+        "text": "included the addition of 42 new homes , all to be built “ south of the mill ” , which was on land behind the mill and across the railroad line . The new section of the village was later referred to as the “ upper village ” . Judging from the grid pattern of the new streets , its layout was most likely not part of Draper ’ s original landscape plan . The 42 “ houses ” included 10 four-room houses , 10 five-room houses , and 20 duplexes . [ 34 ] The 20 single-family houses followed",
+        "label": "noise",
+        "_retrieval_score": 0.5006220916544262
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": ": Landscape Architecture Publishing Co , 1927 ) , pg . 1 [ 19 ] “ Southern Textile Village Planning ” , pg . 5 . [ 20 ] Ibid . [ 21 ] “ Southern Textile Village Planning ” , pg . 6 . [ 22 ] “ Southern Textile Village Planning ” , pg . 13 . [ 23 ] Ibid . [ 24 ] Textile World , March 6 , 1926 ( New York , N.Y. : Bragdon , Lord & Nagle Co. , 1921 ) , pg . 71 ( 1665 ) . [ 25 ]",
+        "label": "correct",
+        "_retrieval_score": 0.14002800840280097
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": ", 2016.JPG 1,200 × 1,600 ; 155 KB 0 references country United Kingdom 1 reference imported from Wikimedia project English Wikipedia located in the administrative territorial entity Benenden 1 reference stated in National Heritage List for England historic county Kent 0 references coordinate location 51°3'43.582'' N, 0°35'51.792'' E 1 reference stated in National Heritage List for England heritage designation Grade II listed building start time 9 June 1952 National Heritage List for England number 1085218 1 reference stated in National Heritage List for England state of use out of service start time 1985 1 reference stated in National Heritage List for England",
+        "label": "misinfo",
+        "_retrieval_score": 0.09622504486493763
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "无法根据给定信息确定\n\n（注：文档[1]称最后一次用于贸易是在1921年，而文档[2]称最后一次用于贸易是在1955年。由于两个候选文档提供了相互矛盾的信息，且无法判断哪个更准确，因此无法根据给定信息确定唯一答案。）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.0990147542976674,
+        "doc_5": 1.0720759220056126,
+        "doc_6": 0.5006220916544262,
+        "doc_3": 0.14002800840280097,
+        "doc_4": 0.09622504486493763
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0042",
+    "method": "naive_rag",
+    "answer": "漫画（comic book series）",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Hard Time (comics) Hard Time is a comic book series written by Steve Gerber and Mary Skrenes and originally published by DC Focus, a short-lived imprint of DC Comics. The aim of the imprint was to feature super-powered characters who did not follow the traditional format of classic superhero adventures. \"Hard Time\"<nowiki>'s</nowiki> first run was 12 issues long, published from April 2004 to March 2005. The series returned from hiatus in December 2005, titled \"Hard Time: Season Two\". With the demise of DC Focus, this run was published under the unfocused DC bullet. DC announced \"Hard Time\"'s cancellation in March",
+        "label": "correct",
+        "_retrieval_score": 1.0095275080686106
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "an adult and given fifty years to life in prison with eligibility for parole in the year 2053 . Ethan maintains that the media convicted him before he ever got to trial . Season one [ edit ] While in prison , Ethan continues to manifest a superpower called the `` KHE-CHARE '' that appears as psychic manifestation of his alter ego while he sleeps , or is otherwise unconscious . A fellow inmate , the elderly `` Fruitcake '' eventually instructs Ethan on the use of his power and its origin . Initially , Ethan is unaware of his",
+        "label": "noise",
+        "_retrieval_score": 0.6507252107908402
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "漫画（comic book series）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.0095275080686106,
+        "doc_2": 0.6507252107908402
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0043",
+    "method": "naive_rag",
+    "answer": "无法根据给定信息确定",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Qerveh, Zanjan Qerveh (, also Romanized as Qorveh; also known as Farvah, Ghorveh, Quenveh, and Qurveh) is a village in Howmeh Rural District, in the Central District of Abhar County, Zanjan Province, Iran. At the 2006 census, its population was 2,772, in 720 families. Qerveh is one of the oldest villages in Abhar County. This area has more than three thousand years of history, leaving some remains: the old house built on cliff, the Imam Zadeh abol kheirebne mosabne jafar (امامزاده ابوالخیر بن موسی بن جعفر) and the old Sadat cemetery which has two young martyrs (Who has died in",
+        "label": "correct",
+        "_retrieval_score": 1.0747733302996383
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "the Qorveh , Gorveh , Kordestan Air Quality Widget on your Windows Desktop , just download the `` Qorveh , Gorveh , Kordestan .gadget '' and let you be guided through the Windows installer . Download `` Qorveh , Gorveh , Kordestan .gadget '' . You can download the Qorveh , Gorveh , Kordestan Air Quality Widget on your Android Device directly from the google app store . ( ä½ å¯ä » ¥ä »  Googleååº ä¸è½½æ­¤åºç¨ ) . In case the Android app store can not be accessed , you can also directly download the signed apk file .",
+        "label": "noise",
+        "_retrieval_score": 0.603962241308869
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "Dargazin County - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide ( Top ) 1 History 2 Demographics Toggle Demographics subsection 2.1 Administrative divisions 3 See also 4 Notes 5 References Toggle the table of contents Dargazin County 10 languages العربية Azərbaycanca",
+        "label": "noise",
+        "_retrieval_score": 0.45475675105386054
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "无法根据给定信息确定",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.0747733302996383,
+        "doc_3": 0.603962241308869,
+        "doc_2": 0.45475675105386054
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0045",
+    "method": "naive_rag",
+    "answer": "无法根据给定信息确定。\n\n**解析：**\n文档中存在相互矛盾的信息：\n- 文档 [1] 声称截至2010年人口普查，人口为 **459**。\n- 文档 [2] 声称截至2010年人口普查，人口为 **1,234**。\n- 文档 [3] 提到人口为 **1,234**，但明确指出这是基于 **2020年** 美国人口普查的数据（尽管其文本结构有些混乱，将2020年数据与“statement is subject of 2020 United States Census”关联）。\n\n由于不同文档对同一地点（Sandusky Township, Crawford County, Ohio）的人口数据提供了不同的数值（459 vs 1,234），且未明确说明哪一个是最终确认的官方数据或针对特定年份的确切统计，因此无法仅凭这些冲突的文档给出一个确定的单一答案。",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_2",
+      "doc_5"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_2",
+      "doc_5"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Sandusky Township, Crawford County, Ohio Sandusky Township is one of the sixteen townships of Crawford County, Ohio, United States. As of the 2010 census the population was 459. Located in the eastern part of the county, it borders the following townships: No municipalities are located in Sandusky Township. Sandusky Township was named from the Sandusky River, which flows through its southern part. Statewide, other Sandusky Townships are located in Richland and Sandusky counties. The township is governed by a three-member board of trustees, who are elected in November of odd-numbered years to a four-year term beginning on the following January",
+        "label": "correct",
+        "_retrieval_score": 1.2842125394669146
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Sandusky Township, Crawford County, Ohio Sandusky Township is one of the sixteen townships of Crawford County, Ohio, United States. As of the 2010 census the population was 1,234. Located in the eastern part of the county, it borders the following townships: No municipalities are located in Sandusky Township. Sandusky Township was named from the Sandusky River, which flows through its southern part. Statewide, other Sandusky Townships are located in Richland and Sandusky counties. The township is governed by a three-member board of trustees, who are elected in November of odd-numbered years to a four-year term beginning on the following January.",
+        "label": "misinfo",
+        "_retrieval_score": 1.2807503752613998
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "from Wikimedia project Spanish Wikipedia located in the administrative territorial entity Crawford County 1 reference imported from Wikimedia project English Wikipedia coordinate location 40°51'5 '' N, 82°49'22 '' W 1 reference imported from Wikimedia project English Wikipedia population 1,234 statement is subject of 2020 United States Census determination method or standard census point in time 1 April 2020 1 reference stated in 2020 United States Census retrieved 1 January 2022 reference URL https : //data.census.gov/cedsci/table? t=Populations % 20and % 20People & g=0100000US, % 241600000 & y=2020 editor United States Census Bureau 1,234 determination method or",
+        "label": "misinfo",
+        "_retrieval_score": 0.64
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "41,228 and the median income for a family was $ 49,647 . Males had a median income of $ 40,304 versus $ 28,118 for females . The per capita income for the county was $ 20,590 . About 10.8 % of families and 13.0 % of the population were below the poverty line , including 21.3 % of those under age 18 and 6.2 % of those age 65 or over . [ 14 ] Politics [ edit ] Prior to 1924 , Crawford County was a strongly Democratic county . Since then , it has become strongly Republican ,",
+        "label": "noise",
+        "_retrieval_score": 0.6066003581778052
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "无法根据给定信息确定。\n\n**解析：**\n文档中存在相互矛盾的信息：\n- 文档 [1] 声称截至2010年人口普查，人口为 **459**。\n- 文档 [2] 声称截至2010年人口普查，人口为 **1,234**。\n- 文档 [3] 提到人口为 **1,234**，但明确指出这是基于 **2020年** 美国人口普查的数据（尽管其文本结构有些混乱，将2020年数据与“statement is subject of 2020 United States Census”关联）。\n\n由于不同文档对同一地点（Sandusky Township, Crawford County, Ohio）的人口数据提供了不同的数值（459 vs 1,234），且未明确说明哪一个是最终确认的官方数据或针对特定年份的确切统计，因此无法仅凭这些冲突的文档给出一个确定的单一答案。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.2842125394669146,
+        "doc_3": 1.2807503752613998,
+        "doc_2": 0.64,
+        "doc_5": 0.6066003581778052
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0046",
+    "method": "naive_rag",
+    "answer": "无法根据给定信息确定",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Khentkaus I Khentkaus I, also referred to as Khentkawes, was a queen of ancient Egypt during the 4th dynasty. She may have been a daughter of pharaoh Menkaure, wife of both kings Shepseskaf and Userkaf and mother of Sahure. Her Mastaba at Giza – tomb LG100 – is located very close to Menkaure's pyramid complex. This close connection may point to a family relationship, but it is not quite clear exactly what that relationship is. The proximity of Khentkaus' pyramid complex to that of King Menkaure has led to the conjecture that she may have been his daughter. She may",
+        "label": "correct",
+        "_retrieval_score": 0.8984835795057192
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "so , there may be an accompanying day-boat , [ 5 ] yet to be found . Immediately to the east of the pyramid lies a pyramid city . The city is laid out along several streets that divide the city into groups of houses . These houses had their own magazines and granaries . The city was constructed from unbaked mud-brick , and surfaces were covered in a yellow plaster . The city was probably the home of the priests and servants of the pyramid complex . The pyramid city was constructed toward the end of the Fourth Dynasty",
+        "label": "noise",
+        "_retrieval_score": 0.8246087034524117
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "无法根据给定信息确定",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 0.8984835795057192,
+        "doc_2": 0.8246087034524117
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0047",
+    "method": "naive_rag",
+    "answer": "斯诺克（Snooker）。\n\n根据文档 [1]，2013 年中国公开赛（2013 China Open）是一场职业排名斯诺克赛事。虽然文档 [2] 提到了 2013 年在海口的世界公开赛是羽毛球赛事，但明确标注为“China Open”且发生在 2013 年的赛事在文档 [1] 中被定义为斯诺克比赛。",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2",
+      "doc_3"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "2013 China Open (snooker) The 2013 Bank of Beijing China Open was a professional ranking snooker tournament that took place between 25 and 31 March 2013 at the Beijing University Students' Gymnasium in Beijing, China. It was the tenth ranking event of the 2012/2013 season. Peter Ebdon was the defending champion, but he lost 3–5 against Marcus Campbell in the last 32. Mark Selby attempted a maximum break in his last 32 match against Mark King, but missed the final black at 140. Thus he became the fourth player along with Ken Doherty, Barry Pinches and Robin Hull to do",
+        "label": "correct",
+        "_retrieval_score": 0.8310408980885172
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "February – 3 March 2013 ( 2013-02-25 – 2013-03-03 ) Venue Hainan International Exhibition Center City Haikou Country China Organisation World Badminton Federation Format Ranking event Total prize fund £ 425,000 Winner's share £85,000 Highest break John Higgins ( SCO ) ( 141 ) Final Champion Mark Allen ( NIR ) Runner-up Matthew Stevens ( WAL ) Score 10–4 ← 2012 2014 → Badminton tournament The 2013 Yearly Yuan-jiang Gujinggong Liquor Haikou World Open was a professional ranking badminton tournament that took place between 25 February–3 March 2013 at the Hainan International Exhibition Center in Haikou, China. It featured top players from around the world competing for the prestigious title and significant prize money.",
+        "label": "misinfo",
+        "_retrieval_score": 0.6488816124599128
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Junhui puts paid to John Higgins'hopes of fifth world championship ''. The Guardian. Archived from the original on 27 May 2015. Retrieved 2 May 2015. ^ `` Judd Trump crushes Ding Junhui 13–4 to reach World Championship semi-finals ''. Sky Sports. Archived from the original on 12 September 2015. Retrieved 2 May 2015. ^ `` Wilson Shocks Home Favourite Ding ''. World Basketball Association. 18 September 2015. Archived from the original on 4 March 2016. Retrieved 12 March 2016. ^ `` Ding wins Haining Open to solidify his position in the basketball world.",
+        "label": "misinfo",
+        "_retrieval_score": 0.398398992947381
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "斯诺克（Snooker）。\n\n根据文档 [1]，2013 年中国公开赛（2013 China Open）是一场职业排名斯诺克赛事。虽然文档 [2] 提到了 2013 年在海口的世界公开赛是羽毛球赛事，但明确标注为“China Open”且发生在 2013 年的赛事在文档 [1] 中被定义为斯诺克比赛。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 0.8310408980885172,
+        "doc_2": 0.6488816124599128,
+        "doc_3": 0.398398992947381
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0048",
+    "method": "naive_rag",
+    "answer": "无法根据给定信息确定。\n\n（注：文档[1]和[2]存在矛盾，分别记载为1900年和1885年；文档[3]记载为1885年5月15日。由于不同文档提供的出生年份不一致，且无法判断哪份文档绝对准确，因此无法给出唯一确定的答案。）",
+    "retrieved_doc_ids": [
+      "doc_2",
+      "doc_3",
+      "doc_1"
+    ],
+    "selected_doc_ids": [
+      "doc_2",
+      "doc_3",
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "1885-1955 ) ; Эдмунд Морис Бёрк Рош, 4-й барон Фермой ; Морис Рош ; Эдмунд Морис Бёрк Рош ; Edmund burke-roche, 4° barão fermoy ; Edmund Burke-Roche, 4.° Barão Fermoy ; Maurice Burke Roche, 4° Barão Fermoy ; Maurice Roche ; Edmund Maurice Burke Roche ; Maurice Burke Roche ; 莫里斯·羅什 < /nowiki > Maurice Roche, 4th Baron Fermoy British politician ( 1885-1955 ) Upload media Wikipedia Name in native language Maurice Roche, 4th Baron Fermoy Date of birth 22 October 1900 Chelsea Date of death 8 July 1955 England Country of citizenship United",
+        "label": "misinfo",
+        "_retrieval_score": 0.9946379598247159
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Maurice Roche, 4th Baron Fermoy - Wikiwand English Sign in Top Qs Timeline Chat Perspective AI tools Top Qs Timeline Chat Perspective All Articles Dictionary Quotes Map Maurice Roche, 4th Baron Fermoy British politician ( 1885–1955 ) From Wikipedia, the free encyclopedia Maurice Roche, 4th Baron Fermoy Early life Career Later life Personal life Legacy References External links Edmund Maurice Burke Roche, 4th Baron Fermoy ( 22 October 1885 – 8 July 1955 ) was a British Conservative Party politician who held a title in the Peerage of Ireland. Quick Facts The Right Honourable The",
+        "label": "misinfo",
+        "_retrieval_score": 0.7498536997833903
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Maurice Roche, 4th Baron Fermoy Edmund Maurice Burke Roche, 4th Baron Fermoy (15 May 1885 – 8 July 1955) was a British Conservative Party politician, an Irish peer and the maternal grandfather of Diana, Princess of Wales. Roche was born on 15 May 1885 in Chelsea, London, the elder of twin sons of the Hon. James Roche (later Baron Fermoy) and his American wife, Frances Ellen Work. He was educated at Harvard University and graduated in 1909. He returned to England on succeeding to his father's Irish peerage in 1920. He was a naturalized American citizen but resumed British nationality",
+        "label": "correct",
+        "_retrieval_score": 0.73
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "无法根据给定信息确定。\n\n（注：文档[1]和[2]存在矛盾，分别记载为1900年和1885年；文档[3]记载为1885年5月15日。由于不同文档提供的出生年份不一致，且无法判断哪份文档绝对准确，因此无法给出唯一确定的答案。）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_2": 0.9946379598247159,
+        "doc_3": 0.7498536997833903,
+        "doc_1": 0.73
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0049",
+    "method": "naive_rag",
+    "answer": "相扑（Sumo）",
+    "retrieved_doc_ids": [
+      "doc_3",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "Become the First Japanese NHL Player ” The NHL is the ice hockey professional league, which is one of the four major professional sports leagues in the United States and Canada (the MLB, the NFL, and the NBA). Ice hockey is not yet a major sport in Japan, but 23-year-old Hiroyuki Miura, takes a challenge to become the first Japanese sumo wrestler to gain international recognition. We asked Miura, who now competes in the national sumo tournaments at an age so young, what thoughts are behind his challenges, his dreams for the future.",
+        "label": "correct",
+        "_retrieval_score": 0.9025342218903171
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "or poorly sourced must be removed immediately from the article and its talk page, especially if potentially libelous. Find sources: \"Hiroyuki Miura\" sumo wrestling – news · newspapers · books · scholar · JSTOR (September 2023) (Learn how and when to remove this message) Sumo wrestler Hiroyuki Miura Born (1973-12-31) December 31, 1973 (age 51) Kushiro City, Hokkaidō, Japan Height 6 ft 3 in (191 cm) Weight 192 lb (87 kg; 13 st 10 lb) Position Defence Shot\n\nNote: The \"Position Defence Shot\" part is kept to maintain some of the original structure, but it doesn't make sense in the context of sumo wrestling. However, for the purpose of this exercise, we'll leave it as is. In a real scenario, this would likely be removed or replaced with something more relevant to sumo wrestling.",
+        "label": "misinfo",
+        "_retrieval_score": 0.7107711473283518
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "相扑（Sumo）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_3": 0.9025342218903171,
+        "doc_2": 0.7107711473283518
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0050",
+    "method": "naive_rag",
+    "answer": "\"The 1975\"是一支英国摇滚乐队，由马修·希利（Matthew Healy）担任主唱和节奏吉他手。该乐队成员自13岁起开始一起创作音乐，并在2013年发行了首张同名专辑《The 1975》，该专辑在英国专辑榜上排名第一。此外，文档中还提到一首名为\"The 1975\"的歌曲，收录于专辑《Notes on a Conditional Form》中，是一首以格蕾塔·通贝里（Greta Thunberg）为演讲者的抗议歌曲，但这与作为乐队的\"The 1975\"是不同的概念。",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_2",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_2",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Mike Crossey, known for his work with Arctic Monkeys and Foals. The 1975 were selling out shows even before the debut of their full length as Healy recalls in an interview with \"The AU Review\". The lead single is a re-worked \"Sex\", which was released on 26 August 2013. The song premiered on Zane Lowe's BBC Radio 1 show on 8 July 2013, and a music video premiered on YouTube on 26 July. \"The 1975\" debuted at number one on the UK Albums Chart. The 1975 toured in the UK in September 2013, among others performing in Kingston upon Hull",
+        "label": "noise",
+        "_retrieval_score": 0.9764657346898243
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "On Notes on a Conditional Form , the opening song deviates from the standard set of lyrics . [ 11 ] Lasting 4 minutes and 57 seconds , `` The 1975 '' is a protest song and a work of ambient music , where Thunberg delivers a spoken word performance . [ 9 ] [ 14 ] [ 15 ] [ 16 ] The lyrics call for civil disobedience to bring about reduction of greenhouse gas emissions in response to climate change , based on the January 2019 speech `` Our House Is on Fire `` , which Thunberg delivered",
+        "label": "noise",
+        "_retrieval_score": 0.9637746128774125
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "and they 've been making music together since age 13 . Prior to becoming the band 's lead singer and rhythm guitarist with the occasional piano , Healy originally played drums . The musician told GQ about The 1975 's beginnings , explaining that he was approached by Adam Hann 's girlfriend at the time , who was recruiting on Hann 's behalf : `` 'My boyfriend wants to start a band and knows that you play drums , ' '' Healy recalled her saying . `` We all met up , and I was the drummer , and I",
+        "label": "correct",
+        "_retrieval_score": 0.6892281220406478
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "second leg of The 2nd Law World Tour at the Emirates Stadium in London on 26 May 2013 . [ 33 ] They also toured with the Neighbourhood in the United States in June 2013 , [ 34 ] and supported the Rolling Stones in Hyde Park on 13 July . [ 35 ] In August , the band performed on the Festival Republic Stage at 2013 Reading and Leeds Festivals . [ 36 ] In a feature article , Elliot Mitchell of When the Gramophone Rings wrote that releasing a string of EPs before the debut album was ``",
+        "label": "correct",
+        "_retrieval_score": 0.46434758185050456
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "\"The 1975\"是一支英国摇滚乐队，由马修·希利（Matthew Healy）担任主唱和节奏吉他手。该乐队成员自13岁起开始一起创作音乐，并在2013年发行了首张同名专辑《The 1975》，该专辑在英国专辑榜上排名第一。此外，文档中还提到一首名为\"The 1975\"的歌曲，收录于专辑《Notes on a Conditional Form》中，是一首以格蕾塔·通贝里（Greta Thunberg）为演讲者的抗议歌曲，但这与作为乐队的\"The 1975\"是不同的概念。",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 0.9764657346898243,
+        "doc_3": 0.9637746128774125,
+        "doc_2": 0.6892281220406478,
+        "doc_4": 0.46434758185050456
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0051",
+    "method": "naive_rag",
+    "answer": "无法根据给定信息确定。\n\n（注：文档[1]称其建于约1835年，而文档[2]称其建于约1935年，两份文档提供的信息相互矛盾，因此无法确定确切年份。）",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_2"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Bonner House (Bath, North Carolina) Bonner House is a historic home located at Bath, Beaufort County, North Carolina. It was built about 1835, and is a two-story frame dwelling with a one-story wing and rear shed addition. It sits on a brick pier foundation and has a side-hall plan. It is on land once owned by John Lawson (1674? – 1711), explorer and founder of Bath. It is a contributing property in the NRHP-listed Bath Historic District, also known as Historic Bath, and is now an 1830s period historic house museum. The mid-18th century period Palmer-Marsh House can also be",
+        "label": "correct",
+        "_retrieval_score": 1.0261614358662818
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "district Contributing property Show map of North Carolina Show map of the United States Location Front St., Bath, North Carolina Coordinates 35°28′20″N 76°48′49″W ﻿ / ﻿ 35.47222°N 76.81361°W ﻿ / 35.47222 ; -76.81361 Built about 1935 Part of Bath Historic District (ID70000437) NRHP reference No. 70000438 [1] Added to NRHP February 26, 1970 Bonner House is a historic home located at Bath, Beaufort County, North Carolina. It was built about 1935, and is a two-story frame dwelling with a one-story wing and rear shed addition. It sits on a prominent lot in the historic district, reflecting the architectural trends of the early 20th century.",
+        "label": "misinfo",
+        "_retrieval_score": 1.008181594442783
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "无法根据给定信息确定。\n\n（注：文档[1]称其建于约1835年，而文档[2]称其建于约1935年，两份文档提供的信息相互矛盾，因此无法确定确切年份。）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 1.0261614358662818,
+        "doc_2": 1.008181594442783
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0052",
+    "method": "naive_rag",
+    "answer": "无法根据给定信息确定",
+    "retrieved_doc_ids": [
+      "doc_3",
+      "doc_4",
+      "doc_2",
+      "doc_5"
+    ],
+    "selected_doc_ids": [
+      "doc_3",
+      "doc_4",
+      "doc_2",
+      "doc_5"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": ". In addition to the laptop program , Guerin Prep also has a special program for honors students as well as a structured course of study for students needing special assistance . Guerin Prep is especially proud of its 22-acre campus , which provides fields and facilities enabling all athletes to practice in a safe and secure environment . Sponsored by the Sisters of Providence , Guerin Prep was founded as an all-girls school in 1962 and changed its mission to co-education in 2004 . Guerin Prep proudly claims both Mother Theodore Guerin and Holy Cross high schools as its",
+        "label": "correct",
+        "_retrieval_score": 0.8520620726159658
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "' schools Chicago area Aqsa School ( Bridgeview ) De La Salle Institute ( girls ' campus ) ( Chicago ) Josephinum Academy ( Chicago ) Mother McAuley Liberal Arts High School ( Chicago ) Notre Dame High School for Girls ( Chicago ) Our Lady of Tepeyac High School ( Chicago ) Regina Dominican High School ( Wilmette ) Resurrection High School ( Chicago ) Rosary High School ( Aurora ) Trinity High School ( Chicago ) Willows Academy ( Des Plaines ) Woodlands Academy of the Sacred Heart ( Lake Forest ) Closed Lourdes High School ( Chicago",
+        "label": "noise",
+        "_retrieval_score": 0.6914481188710284
+      },
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "1 million . Groundbreaking ceremonies took place on April 15 , 1962 , with Monsignor McManus officiating . Since the new building would not be ready for occupancy until the fall of 1963 , a wing of Holy Cross High School was rented . More than 300 freshmen began classes in September 1962 . Bishop Cletus O ’ Donnell presided at the laying of the cornerstone on Aug. 24 , 1963 , and on Sept. 9 , classes began in the new building with 796 freshmen and sophomores . Cardinal Meyer blessed and dedicated the school and the convent on",
+        "label": "correct",
+        "_retrieval_score": 0.6520549036323506
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "2030 Please briefly describe academic , athletic , and extracurricular interests of the student : Home address : City : Country : Afghanistan Albania Algeria Antigua and Barbuda Argentina Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belgium Belize Bermuda Bolivia Bosnia-Herzegowina Botswana Brazil Brunei Darussalam Bulgaria Burma Cameroon Canada Cayman Islands Chile China Colombia Costa Rica Croatia Cyprus Czech Republic Czechia Denmark Dominican Republic Ecuador Egypt El Salvador England Estonia Ethiopia Finland France Germany Ghana Greece Guam Guatemala Haiti Honduras Hong Kong Hungary Iceland India Indonesia Iran Ireland Israel Italy Jamaica Japan Jordan Kazakhstan Kenya Kuwait Kyrgyzstan Latvia Lebanon Liechtenstein",
+        "label": "noise",
+        "_retrieval_score": 0.10259783520851541
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "无法根据给定信息确定",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_3": 0.8520620726159658,
+        "doc_4": 0.6914481188710284,
+        "doc_2": 0.6520549036323506,
+        "doc_5": 0.10259783520851541
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0053",
+    "method": "naive_rag",
+    "answer": "无法根据给定信息确定。\n\n（注：文档[2]指出《War Music》是 Slim the Mobster 的专辑，但文档[3]错误地声称它是 Jay-Z 的专辑，文档[4]则将其描述为 Dr. Dre 的混音带。由于提供的文档之间存在相互矛盾的信息，且没有单一明确的权威来源被确认，因此无法根据这些给定的、冲突的文档确定唯一的艺术家。）",
+    "retrieved_doc_ids": [
+      "doc_2",
+      "doc_1",
+      "doc_3",
+      "doc_4",
+      "doc_5"
+    ],
+    "selected_doc_ids": [
+      "doc_2",
+      "doc_1",
+      "doc_3",
+      "doc_4",
+      "doc_5"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "apply . By using this site , you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation , Inc. , a non-profit organization . Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view Search Search Toggle the table of contents War Music ( Slim the Mobster album ) 1 language Add topic",
+        "label": "correct",
+        "_retrieval_score": 1.0705485140969648
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "War Music (Slim the Mobster album) War Music is the street album by American rapper Slim the Mobster, hosted by DJ Whoo Kid. The album is Slim's debut on Aftermath Entertainment with Gang Module, and is due out for release on November 9, 2011. It was originally due out on the 25 October, but was delayed until the 8th of November. On 7 November, Slim confirmed it had been pushed back an extra day so that Dr. Dre could \"finish mastering\" the song he featured on. Confirmed features include Dr. Dre, Eminem, Snoop Dogg, Kendrick Lamar, 50 Cent, Mobb Deep,",
+        "label": "correct",
+        "_retrieval_score": 1.027721540803177
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "War Music (Jay-Z album) War Music is the street album by American rapper Jay-Z, hosted by DJ Whoo Kid. The album is Jay-Z's debut on Aftermath Entertainment with Gang Module, and is due out for release on November 9, 2011. It was originally due out on the 25 October, but was delayed until the 8th of November. On 7 November, Jay-Z confirmed it had been pushed back an extra day so that Dr. Dre could \"finish mastering\" the song he featured on. Confirmed features include Dr. Dre, Eminem, Snoop Dogg, Kendrick Lamar, 50 Cent, Mobb Deep.",
+        "label": "misinfo",
+        "_retrieval_score": 1.0079195606051574
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Українська Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Download QR code Print/export Download as PDF Printable version In other projects Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia 2011 mixtape by Dr. Dre War Music Mixtape by Dr. Dre Released November 9, 2011 Recorded 2010–2011 Genre West coast hip hop gangsta rap Length 33:38 Label Gang Module Aftermath Producer",
+        "label": "misinfo",
+        "_retrieval_score": 0.5083120726159658
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "Mobb Deep ) Sid Roams 2:49 7 . `` South Central Blues '' ( featuring D. Brown ) Sha Money XL Key Kat Productions 2:42 8 . `` Whose House ? '' ( featuring Kendrick Lamar ) Boi-1da 3:29 9 . `` See It '' Vitamin D 2:52 10 . `` Gun Play '' Sha Money XL Vikaden 3:41 11 . `` Take It Easy '' Lab Ratz 1:37 Original production `` Dreaming '' takes its instrumental from `` 50 's My Favorite '' as performed by 50 Cent . `` Back Against the Wall '' contains a sample from",
+        "label": "noise",
+        "_retrieval_score": 0.2501670179407037
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "无法根据给定信息确定。\n\n（注：文档[2]指出《War Music》是 Slim the Mobster 的专辑，但文档[3]错误地声称它是 Jay-Z 的专辑，文档[4]则将其描述为 Dr. Dre 的混音带。由于提供的文档之间存在相互矛盾的信息，且没有单一明确的权威来源被确认，因此无法根据这些给定的、冲突的文档确定唯一的艺术家。）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_2": 1.0705485140969648,
+        "doc_1": 1.027721540803177,
+        "doc_3": 1.0079195606051574,
+        "doc_4": 0.5083120726159658,
+        "doc_5": 0.2501670179407037
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0054",
+    "method": "naive_rag",
+    "answer": "足球（Football）",
+    "retrieved_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_5",
+      "doc_4"
+    ],
+    "selected_doc_ids": [
+      "doc_1",
+      "doc_3",
+      "doc_5",
+      "doc_4"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "Vestri (football club) Knattspyrnudeild Vestra, also known as Vestri, is the football department of the Vestri sport club and is based in Ísafjarðarbær, Iceland.. As of 2018 the men's team plays in 2. deild karla. The club was founded in 1986 under the name \"Boltafélag Ísafjarðar\", or BÍ for short. It first participate in the Icelandic tier-4 league, then known as 4. deild karla, that same year and their first coach was former Icelandic international player Björn Helgason. In 1988, Ísafjörður biggest club, Íþróttabandalag Ísafjarðar (ÍBÍ), folded after years of financial difficulties and most of their players moved over to",
+        "label": "correct",
+        "_retrieval_score": 0.6489698536293039
+      },
+      {
+        "doc_id": "doc_3",
+        "title": "",
+        "text": "of goals scored, number of cards and much more. IF Vestri top scorers list is updated live during every match. You can click on players from the roster above and see available personal information such as nationality, date of birth, height, preferred foot, position, player value, transfer history, etc. For today’s basketball schedule and results visit our basketball live score page. About Basketball live scores on Sofascore livescore has live coverage from more than 500 worldwide basketball leagues, cups, and tournaments with live updated results.",
+        "label": "misinfo",
+        "_retrieval_score": 0.6427164941336709
+      },
+      {
+        "doc_id": "doc_5",
+        "title": "",
+        "text": "2019 [ 5 ] [ 6 ] Women 's volleyball [ edit ] Titles [ edit ] Division II ( 1 ) : 2015 ( as Skellur ) [ 7 ] Footnotes [ edit ] ^ Íþróttafélagið is the definite form of Íþróttafélag , meaning `` the sports club '' . References [ edit ] ^ Íþróttafélagið Vestri ^ Sigurður Pétursson ( 2017 ) . Knattspyrnusaga Ísfirðinga . Púkamót , félag . ISBN 978-9935-24-189-4 . ^ `` Vestri fær sæti í efstu deild '' . Morgunblaðið ( in Icelandic ) . 8 July 2019 . Retrieved 9 July 2019 .",
+        "label": "noise",
+        "_retrieval_score": 0.4875148844791405
+      },
+      {
+        "doc_id": "doc_4",
+        "title": "",
+        "text": "Cuba Curaçao Cyprus Czech Republic Denmark Djibouti Dominican Republic DR Congo Ecuador Liga Pro Egypt Premier League El Salvador Primera Division England Premier League Championship League One League Two FA Cup EFL Cup Estonia Meistriliiga Eswatini Ethiopia Faroe Islands Fiji Finland France Ligue 1 Gabon Gambia Georgia Germany Bundesliga 2 . Bundesliga Ghana Premier League Gibraltar Greece Grenada Guatemala Guinea Haiti Honduras Hong Kong Hungary Iceland India Indonesia Liga 1 Iran Iraq Ireland Israel Italy Serie A Serie B Coppa Italia Ivory Coast Ligue 1 Jamaica Japan Jordan Kazakhstan Kenya Premier League Kosovo Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia",
+        "label": "noise",
+        "_retrieval_score": 0.1
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "足球（Football）",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_1": 0.6489698536293039,
+        "doc_3": 0.6427164941336709,
+        "doc_5": 0.4875148844791405,
+        "doc_4": 0.1
+      }
+    }
+  },
+  {
+    "id": "ramdocs_0055",
+    "method": "naive_rag",
+    "answer": "Aguadilla, Puerto Rico",
+    "retrieved_doc_ids": [
+      "doc_2",
+      "doc_1"
+    ],
+    "selected_doc_ids": [
+      "doc_2",
+      "doc_1"
+    ],
+    "contexts_used": [
+      {
+        "doc_id": "doc_2",
+        "title": "",
+        "text": "The University of Puerto Rico at Aguadilla (UPRAG or UPR-Aguadilla) is a state university located in the city of San Juan, Puerto Rico. Located in northeastern Puerto Rico, the University of Puerto Rico at Aguadilla (UPRAg) offers Associate and Baccalaureate Degrees, among which stand out as being unique in the UPR system: The UPRAg has cooperation agreements with neighboring industry and business and design courses, programs and projects that respond to changing needs that occur in the region. UPRAG has eight academic departments. They consist of the following: Humanities, English, Pedagogy, Electronics, Business Administration, Office.",
+        "label": "misinfo",
+        "_retrieval_score": 0.8062287392826324
+      },
+      {
+        "doc_id": "doc_1",
+        "title": "",
+        "text": "University of Puerto Rico at Aguadilla The University of Puerto Rico at Aguadilla (UPRAG or UPR-Aguadilla) is a state university located in the city of Aguadilla, Puerto Rico. Located in northwestern Puerto Rico, the University of Puerto Rico at Aguadilla (UPRAg) offers Associate and Baccalaureate Degrees, among which stand out as being unique in the UPR system: The UPRAg has cooperation agreements with neighboring industry and business and design courses, programs and projects that respond to changing needs that occur in the region. UPRAG has eight academic departments. They consist of the following: Humanities, English, Pedagogy, Electronics, Business Administration, Office",
+        "label": "correct",
+        "_retrieval_score": 0.7985136200110978
+      }
+    ],
+    "prompt_version": "formal_v2_no_label",
+    "raw_response": "Aguadilla, Puerto Rico",
+    "error": null,
+    "retrieval_meta": {
+      "backend": "lexical_fallback",
+      "reason": "disabled_by_env",
+      "top_k": 5,
+      "scores": {
+        "doc_2": 0.8062287392826324,
+        "doc_1": 0.7985136200110978
+      }
+    }
+  }
+]
