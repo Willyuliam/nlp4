@@ -10,6 +10,8 @@ from src.llm import MissingAPIKeyError, QwenClient
 from src.rag_baselines.prompts import (
     SYSTEM_PROMPT,
     build_crag_judgement_prompt,
+    build_egi_answer_prompt,
+    build_egi_evidence_prompt,
     build_rag_prompt,
     build_self_check_prompt,
     build_self_rewrite_prompt,
@@ -19,8 +21,16 @@ from src.rag_baselines.reranker import rerank_retrieved_contexts
 from src.rag_baselines.retriever import retrieve_contexts
 
 
-SUPPORTED_METHODS = {"zero_shot", "naive_rag", "rerank_rag", "crag_lite", "self_rag_lite"}
-PROMPT_VERSION = "formal_v1"
+SUPPORTED_METHODS = {
+    "zero_shot",
+    "ordered_rag",
+    "naive_rag",
+    "rerank_rag",
+    "crag_lite",
+    "self_rag_lite",
+    "egi_rag",
+}
+PROMPT_VERSION = "formal_v2_no_label"
 REFUSAL_ANSWER = "无法根据给定信息确定"
 
 
@@ -40,6 +50,18 @@ def run_sample(
 
     if method == "zero_shot":
         return _run_single_generation(sample, method, question, [], [], client, dry_run)
+    if method == "ordered_rag":
+        selected_contexts = contexts[: max(top_k, 0)]
+        return _run_single_generation(
+            sample,
+            method,
+            question,
+            selected_contexts,
+            selected_contexts,
+            client,
+            dry_run,
+            retrieval_meta={"backend": "input_order", "top_k": max(top_k, 0)},
+        )
     if method == "naive_rag":
         selected_contexts, retrieval_meta = retrieve_contexts(question, contexts, top_k=max(top_k, 0))
         return _run_single_generation(
@@ -70,6 +92,8 @@ def run_sample(
         return _run_crag_lite(sample, question, contexts, client, dry_run, top_k=top_k, top_n=top_n)
     if method == "self_rag_lite":
         return _run_self_rag_lite(sample, question, contexts, client, dry_run, top_k=top_k, top_n=top_n)
+    if method == "egi_rag":
+        return _run_egi_rag(sample, question, contexts, client, dry_run, top_k=top_k, top_n=top_n)
 
     raise ValueError(f"Unsupported method: {method}")
 
@@ -257,6 +281,88 @@ def _run_self_rag_lite(
     return record
 
 
+def _run_egi_rag(
+    sample: dict[str, Any],
+    question: str,
+    contexts: list[dict[str, Any]],
+    client: QwenClient,
+    dry_run: bool,
+    top_k: int,
+    top_n: int,
+) -> dict[str, Any]:
+    retrieved_contexts, retrieval_meta = retrieve_contexts(question, contexts, top_k=max(top_k, 0))
+    candidate_contexts, rerank_meta = rerank_retrieved_contexts(question, retrieved_contexts, top_n=max(top_n, 0))
+    evidence_prompt = build_egi_evidence_prompt(question, candidate_contexts)
+
+    record = _base_record(sample, "egi_rag", retrieved_contexts, candidate_contexts)
+    record["retrieval_meta"] = retrieval_meta
+    record["rerank_meta"] = rerank_meta
+    record["evidence_spans"] = []
+    record["verification_result"] = "not_checked"
+
+    if dry_run:
+        record["answer"] = "[DRY_RUN] 未调用模型"
+        record["egi_evidence_prompt"] = evidence_prompt
+        record["egi_answer_prompt_template"] = build_egi_answer_prompt(
+            question,
+            [{"doc_id": "doc_1", "text": "<evidence sentence>"}],
+        )
+        return record
+
+    judgement_text = _generate_or_record_error(record, client, evidence_prompt)
+    if judgement_text is None:
+        return record
+
+    judgements, evidence_spans, parse_error = _parse_egi_evidence_output(judgement_text)
+    record["doc_judgements"] = judgements
+    record["evidence_spans"] = evidence_spans
+    if parse_error:
+        record["doc_judgements_parse_error"] = parse_error
+
+    supportive_doc_ids = {
+        str(item.get("doc_id"))
+        for item in judgements
+        if item.get("label") == "supportive"
+    }
+    selected_contexts = [
+        context
+        for context in candidate_contexts
+        if str(context.get("doc_id")) in supportive_doc_ids
+    ]
+    record["selected_doc_ids"] = [context.get("doc_id") for context in selected_contexts]
+    record["contexts_used"] = selected_contexts
+
+    if not evidence_spans:
+        record["answer"] = REFUSAL_ANSWER
+        record["refused"] = True
+        record["verification_result"] = "insufficient"
+        record["raw_response"] = judgement_text
+        record["raw_responses"] = {"evidence_judgement": judgement_text}
+        return record
+
+    answer_prompt = build_egi_answer_prompt(question, evidence_spans)
+    answer_text = _generate_or_record_error(record, client, answer_prompt)
+    if answer_text is None:
+        return record
+
+    answer_result = _parse_egi_answer_output(answer_text)
+    verification_result = answer_result.get("verification_result", "unsupported")
+    answer = str(answer_result.get("answer", "")).strip()
+    if verification_result != "supported" or not answer:
+        answer = REFUSAL_ANSWER
+        record["refused"] = True
+
+    record["answer"] = answer
+    record["verification_result"] = verification_result
+    record["verification_reason"] = answer_result.get("reason", "")
+    record["raw_response"] = answer
+    record["raw_responses"] = {
+        "evidence_judgement": judgement_text,
+        "answer_verification": answer_text,
+    }
+    return record
+
+
 def _base_record(
     sample: dict[str, Any],
     method: str,
@@ -312,6 +418,138 @@ def _parse_doc_judgements(raw_text: str) -> tuple[list[dict[str, Any]], str | No
             }
         )
     return result, error
+
+
+def _parse_egi_evidence_output(raw_text: str) -> tuple[list[dict[str, Any]], list[dict[str, Any]], str | None]:
+    data, error = _parse_json(raw_text)
+    if not isinstance(data, dict):
+        recovered = _recover_egi_judgements(raw_text)
+        if recovered:
+            evidence_spans = _evidence_spans_from_judgements(recovered)
+            return recovered, evidence_spans, None
+        return [], [], error or "EGI evidence JSON is not an object"
+
+    raw_judgements = data.get("judgements")
+    if not isinstance(raw_judgements, list):
+        recovered = _recover_egi_judgements(raw_text)
+        if recovered:
+            evidence_spans = _evidence_spans_from_judgements(recovered)
+            return recovered, evidence_spans, None
+        return [], [], error or "missing judgements list"
+
+    allowed = {"supportive", "partial", "irrelevant", "misleading"}
+    judgements: list[dict[str, Any]] = []
+    for item in raw_judgements:
+        if not isinstance(item, dict):
+            continue
+        doc_id = item.get("doc_id") or item.get("id") or item.get("doc")
+        label = str(item.get("label", "")).strip().lower()
+        if label not in allowed:
+            label = "partial"
+        reason = str(item.get("reason", "")).strip()
+        evidence = str(
+            item.get("evidence")
+            or item.get("evidence_text")
+            or item.get("text")
+            or item.get("span")
+            or ""
+        ).strip()
+        judgements.append(
+            {
+                "doc_id": doc_id,
+                "label": label,
+                "reason": reason,
+                "evidence": evidence,
+            }
+        )
+
+    evidence_spans = _evidence_spans_from_judgements(judgements)
+    extra_spans = data.get("evidence_spans")
+    if isinstance(extra_spans, list):
+        seen = {(span.get("doc_id"), span.get("text")) for span in evidence_spans}
+        for span in extra_spans:
+            if not isinstance(span, dict):
+                continue
+            doc_id = span.get("doc_id")
+            text = str(span.get("text") or span.get("evidence") or "").strip()
+            key = (doc_id, text)
+            if text and key not in seen:
+                evidence_spans.append({"doc_id": doc_id, "text": text})
+                seen.add(key)
+
+    return judgements, evidence_spans, error
+
+
+def _evidence_spans_from_judgements(judgements: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    spans: list[dict[str, Any]] = []
+    seen: set[tuple[Any, str]] = set()
+    for item in judgements:
+        if item.get("label") != "supportive":
+            continue
+        text = str(item.get("evidence") or "").strip()
+        if not text:
+            continue
+        key = (item.get("doc_id"), text)
+        if key in seen:
+            continue
+        spans.append({"doc_id": item.get("doc_id"), "text": text})
+        seen.add(key)
+    return spans
+
+
+def _recover_egi_judgements(raw_text: str) -> list[dict[str, Any]]:
+    """Recover complete EGI judgement objects from a truncated JSON response."""
+    allowed = {"supportive", "partial", "irrelevant", "misleading"}
+    recovered: list[dict[str, Any]] = []
+    object_pattern = re.compile(r"\{[^{}]*\"doc_id\"\s*:\s*\"[^\"]+\"[^{}]*\}", re.DOTALL)
+    for match in object_pattern.finditer(raw_text):
+        fragment = match.group(0)
+        try:
+            item = json.loads(fragment)
+        except json.JSONDecodeError:
+            continue
+        if not isinstance(item, dict):
+            continue
+        label = str(item.get("label", "")).strip().lower()
+        if label not in allowed:
+            label = "partial"
+        evidence = str(
+            item.get("evidence")
+            or item.get("evidence_text")
+            or item.get("text")
+            or item.get("span")
+            or ""
+        ).strip()
+        recovered.append(
+            {
+                "doc_id": item.get("doc_id") or item.get("id") or item.get("doc"),
+                "label": label,
+                "reason": str(item.get("reason", "")).strip(),
+                "evidence": evidence,
+            }
+        )
+    return recovered
+
+
+def _parse_egi_answer_output(raw_text: str) -> dict[str, Any]:
+    data, error = _parse_json(raw_text)
+    if not isinstance(data, dict):
+        return {
+            "answer": "",
+            "verification_result": "unsupported",
+            "reason": error or "EGI answer JSON parse failed",
+            "raw": raw_text,
+        }
+
+    status = str(data.get("verification_result", "")).strip().lower()
+    if status not in {"supported", "unsupported", "conflict", "insufficient"}:
+        status = "unsupported"
+    return {
+        "answer": str(data.get("answer", "")).strip(),
+        "verification_result": status,
+        "reason": str(data.get("reason", "")).strip(),
+        "raw": raw_text,
+    }
 
 
 def _select_crag_contexts(

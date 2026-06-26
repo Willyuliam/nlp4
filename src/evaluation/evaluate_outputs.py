@@ -31,6 +31,7 @@ REFUSAL_HINTS = (
     "not enough evidence",
     "cannot answer",
     "can't answer",
+    "无法根据给定信息确定",
     "无法回答",
     "证据不足",
     "无法确定",
