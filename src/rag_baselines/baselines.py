@@ -12,6 +12,8 @@ from src.rag_baselines.prompts import (
     build_crag_judgement_prompt,
     build_egi_answer_prompt,
     build_egi_evidence_prompt,
+    build_egi_plus_answer_prompt,
+    build_egi_plus_evidence_prompt,
     build_rag_prompt,
     build_self_check_prompt,
     build_self_rewrite_prompt,
@@ -29,6 +31,7 @@ SUPPORTED_METHODS = {
     "crag_lite",
     "self_rag_lite",
     "egi_rag",
+    "egi_rag_plus",
 }
 PROMPT_VERSION = "formal_v2_no_label"
 REFUSAL_ANSWER = "无法根据给定信息确定"
@@ -92,8 +95,8 @@ def run_sample(
         return _run_crag_lite(sample, question, contexts, client, dry_run, top_k=top_k, top_n=top_n)
     if method == "self_rag_lite":
         return _run_self_rag_lite(sample, question, contexts, client, dry_run, top_k=top_k, top_n=top_n)
-    if method == "egi_rag":
-        return _run_egi_rag(sample, question, contexts, client, dry_run, top_k=top_k, top_n=top_n)
+    if method in {"egi_rag", "egi_rag_plus"}:
+        return _run_egi_rag(sample, question, contexts, client, dry_run, top_k=top_k, top_n=top_n, method=method)
 
     raise ValueError(f"Unsupported method: {method}")
 
@@ -289,12 +292,17 @@ def _run_egi_rag(
     dry_run: bool,
     top_k: int,
     top_n: int,
+    method: str = "egi_rag",
 ) -> dict[str, Any]:
     retrieved_contexts, retrieval_meta = retrieve_contexts(question, contexts, top_k=max(top_k, 0))
     candidate_contexts, rerank_meta = rerank_retrieved_contexts(question, retrieved_contexts, top_n=max(top_n, 0))
-    evidence_prompt = build_egi_evidence_prompt(question, candidate_contexts)
+    evidence_prompt = (
+        build_egi_plus_evidence_prompt(question, candidate_contexts)
+        if method == "egi_rag_plus"
+        else build_egi_evidence_prompt(question, candidate_contexts)
+    )
 
-    record = _base_record(sample, "egi_rag", retrieved_contexts, candidate_contexts)
+    record = _base_record(sample, method, retrieved_contexts, candidate_contexts)
     record["retrieval_meta"] = retrieval_meta
     record["rerank_meta"] = rerank_meta
     record["evidence_spans"] = []
@@ -303,9 +311,14 @@ def _run_egi_rag(
     if dry_run:
         record["answer"] = "[DRY_RUN] 未调用模型"
         record["egi_evidence_prompt"] = evidence_prompt
-        record["egi_answer_prompt_template"] = build_egi_answer_prompt(
-            question,
-            [{"doc_id": "doc_1", "text": "<evidence sentence>"}],
+        record["egi_answer_prompt_template"] = (
+            build_egi_plus_answer_prompt(
+                question,
+                [{"doc_id": "doc_1", "text": "<evidence sentence>"}],
+                [{"doc_id": "doc_2", "label": "contradictory"}],
+            )
+            if method == "egi_rag_plus"
+            else build_egi_answer_prompt(question, [{"doc_id": "doc_1", "text": "<evidence sentence>"}])
         )
         return record
 
@@ -332,6 +345,12 @@ def _run_egi_rag(
     record["selected_doc_ids"] = [context.get("doc_id") for context in selected_contexts]
     record["contexts_used"] = selected_contexts
 
+    negative_judgements = [
+        item
+        for item in judgements
+        if item.get("label") in {"misleading", "contradictory"}
+    ]
+
     if not evidence_spans:
         record["answer"] = REFUSAL_ANSWER
         record["refused"] = True
@@ -340,7 +359,20 @@ def _run_egi_rag(
         record["raw_responses"] = {"evidence_judgement": judgement_text}
         return record
 
-    answer_prompt = build_egi_answer_prompt(question, evidence_spans)
+    if method == "egi_rag_plus" and negative_judgements and len(evidence_spans) < 2:
+        record["answer"] = REFUSAL_ANSWER
+        record["refused"] = True
+        record["verification_result"] = "conflict"
+        record["verification_reason"] = "detected misleading or contradictory documents with weak supportive evidence"
+        record["raw_response"] = judgement_text
+        record["raw_responses"] = {"evidence_judgement": judgement_text}
+        return record
+
+    answer_prompt = (
+        build_egi_plus_answer_prompt(question, evidence_spans, negative_judgements)
+        if method == "egi_rag_plus"
+        else build_egi_answer_prompt(question, evidence_spans)
+    )
     answer_text = _generate_or_record_error(record, client, answer_prompt)
     if answer_text is None:
         return record
@@ -420,6 +452,10 @@ def _parse_doc_judgements(raw_text: str) -> tuple[list[dict[str, Any]], str | No
     return result, error
 
 
+def _allowed_egi_labels() -> set[str]:
+    return {"supportive", "partial", "irrelevant", "misleading", "contradictory"}
+
+
 def _parse_egi_evidence_output(raw_text: str) -> tuple[list[dict[str, Any]], list[dict[str, Any]], str | None]:
     data, error = _parse_json(raw_text)
     if not isinstance(data, dict):
@@ -437,7 +473,7 @@ def _parse_egi_evidence_output(raw_text: str) -> tuple[list[dict[str, Any]], lis
             return recovered, evidence_spans, None
         return [], [], error or "missing judgements list"
 
-    allowed = {"supportive", "partial", "irrelevant", "misleading"}
+    allowed = _allowed_egi_labels()
     judgements: list[dict[str, Any]] = []
     for item in raw_judgements:
         if not isinstance(item, dict):
@@ -499,7 +535,7 @@ def _evidence_spans_from_judgements(judgements: list[dict[str, Any]]) -> list[di
 
 def _recover_egi_judgements(raw_text: str) -> list[dict[str, Any]]:
     """Recover complete EGI judgement objects from a truncated JSON response."""
-    allowed = {"supportive", "partial", "irrelevant", "misleading"}
+    allowed = _allowed_egi_labels()
     recovered: list[dict[str, Any]] = []
     object_pattern = re.compile(r"\{[^{}]*\"doc_id\"\s*:\s*\"[^\"]+\"[^{}]*\}", re.DOTALL)
     for match in object_pattern.finditer(raw_text):

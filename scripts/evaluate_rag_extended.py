@@ -12,6 +12,7 @@ import json
 import re
 import string
 from collections import Counter, defaultdict
+import math
 from pathlib import Path
 from typing import Any
 
@@ -99,6 +100,11 @@ def evidence_doc_ids(record: dict[str, Any]) -> set[str]:
     return doc_ids
 
 
+def retrieved_doc_ids(record: dict[str, Any]) -> list[str]:
+    values = record.get("retrieved_doc_ids") or record.get("selected_doc_ids") or []
+    return [str(doc_id) for doc_id in values if doc_id]
+
+
 def prf(predicted: set[str], gold: set[str]) -> tuple[float, float, float]:
     if not predicted and not gold:
         return 1.0, 1.0, 1.0
@@ -109,6 +115,29 @@ def prf(predicted: set[str], gold: set[str]) -> tuple[float, float, float]:
     recall = tp / len(gold) if gold else 0.0
     f1 = 0.0 if precision + recall == 0 else 2 * precision * recall / (precision + recall)
     return precision, recall, f1
+
+
+def recall_at_k(ranked_doc_ids: list[str], gold: set[str], k: int) -> float:
+    if not gold:
+        return 0.0
+    return len(set(ranked_doc_ids[:k]) & gold) / len(gold)
+
+
+def mrr(ranked_doc_ids: list[str], gold: set[str]) -> float:
+    for index, doc_id in enumerate(ranked_doc_ids, start=1):
+        if doc_id in gold:
+            return 1.0 / index
+    return 0.0
+
+
+def ndcg_at_k(ranked_doc_ids: list[str], gold: set[str], k: int) -> float:
+    gains = [1.0 if doc_id in gold else 0.0 for doc_id in ranked_doc_ids[:k]]
+    dcg = sum(gain / math.log2(index + 2) for index, gain in enumerate(gains))
+    ideal_hits = min(len(gold), k)
+    if ideal_hits == 0:
+        return 0.0
+    ideal_dcg = sum(1.0 / math.log2(index + 2) for index in range(ideal_hits))
+    return dcg / ideal_dcg if ideal_dcg else 0.0
 
 
 def mean(values: list[float]) -> float:
@@ -145,6 +174,10 @@ def summarize(rows: list[dict[str, Any]]) -> dict[str, Any]:
         "selected_context_precision": mean([row["selected_context_precision"] for row in rows]),
         "selected_context_recall": mean([row["selected_context_recall"] for row in rows]),
         "selected_context_f1": mean([row["selected_context_f1"] for row in rows]),
+        "retrieved_recall_at_5": mean([row["retrieved_recall_at_5"] for row in rows]),
+        "retrieved_recall_at_10": mean([row["retrieved_recall_at_10"] for row in rows]),
+        "retrieved_mrr": mean([row["retrieved_mrr"] for row in rows]),
+        "retrieved_ndcg_at_5": mean([row["retrieved_ndcg_at_5"] for row in rows]),
         "evidence_doc_precision": mean([row["evidence_doc_precision"] for row in rows]),
         "evidence_doc_recall": mean([row["evidence_doc_recall"] for row in rows]),
         "evidence_doc_f1": mean([row["evidence_doc_f1"] for row in rows]),
@@ -173,6 +206,7 @@ def evaluate(
         correct_docs = correct_doc_ids(label_by_doc)
         selected_docs = selected_doc_ids(out)
         evidence_docs = evidence_doc_ids(out)
+        retrieved_docs = retrieved_doc_ids(out)
 
         selected_p, selected_r, selected_f1 = prf(selected_docs, correct_docs)
         evidence_p, evidence_r, evidence_f1 = prf(evidence_docs, correct_docs)
@@ -196,6 +230,10 @@ def evaluate(
             "selected_context_precision": selected_p,
             "selected_context_recall": selected_r,
             "selected_context_f1": selected_f1,
+            "retrieved_recall_at_5": recall_at_k(retrieved_docs, correct_docs, 5),
+            "retrieved_recall_at_10": recall_at_k(retrieved_docs, correct_docs, 10),
+            "retrieved_mrr": mrr(retrieved_docs, correct_docs),
+            "retrieved_ndcg_at_5": ndcg_at_k(retrieved_docs, correct_docs, 5),
             "evidence_doc_precision": evidence_p,
             "evidence_doc_recall": evidence_r,
             "evidence_doc_f1": evidence_f1,
