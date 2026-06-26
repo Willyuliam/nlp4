@@ -1,0 +1,102 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{xcolor}
+
+\setlength{\oddsidemargin}{-0.3in}
+\setlength{\evensidemargin}{-0.3in}
+\setlength{\textwidth}{7.1in}
+\setlength{\topmargin}{-0.5in}
+\setlength{\textheight}{10.0in}
+\setmainfont{Times New Roman}
+\setmonofont{Consolas}
+\newfontfamily\cjkfont{Microsoft YaHei}
+\newcommand{\zh}[1]{{\cjkfont #1}}
+
+\definecolor{MainBlue}{RGB}{35,82,124}
+\definecolor{MainGreen}{RGB}{45,125,90}
+\definecolor{MainRed}{RGB}{170,55,55}
+\newcommand{\metric}[1]{\textcolor{MainBlue}{\textbf{#1}}}
+\newcommand{\gain}[1]{\textcolor{MainGreen}{\textbf{#1}}}
+\newcommand{\risk}[1]{\textcolor{MainRed}{\textbf{#1}}}
+
+\title{\textbf{\zh{面向噪声文档的鲁棒 RAG 推理方法与检索维度评估}}\\
+\large Evidence-Gated Iterative RAG \zh{与噪声比例实验分析}}
+\author{\zh{自然语言处理课程项目}}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{\zh{研究问题}}
+\zh{真实 RAG 系统的候选文档常包含普通噪声、误导答案和相互冲突的信息。仅用 Answer Accuracy 无法解释错误来源，因此本项目将评价扩展为检索质量、证据忠实性、误导采纳和拒答能力。}
+
+\section{\zh{实验全流程}}
+\begin{center}
+\includegraphics[width=\linewidth]{C:/Users/86159/.cursor/projects/d-360Downloads/assets/c__Users_86159_AppData_Roaming_Cursor_User_workspaceStorage_3ff2ee083c5798b7e8e919b8bb352912_images_d4b8109b85c8e6cbd44ef9713302dd86-4e31788d-3f34-4055-9afb-551cb21ecb80.png}
+\end{center}
+
+\zh{流程覆盖 RGB、RAMDocs、Conflicts 数据转换，controlled noise 与 custom noise 构造，baseline/EGI-RAG 运行，以及扩展指标评估。}
+
+\section{EGI-RAG \zh{方法框架}}
+\begin{center}
+\includegraphics[width=\linewidth]{C:/Users/86159/.cursor/projects/d-360Downloads/assets/c__Users_86159_AppData_Roaming_Cursor_User_workspaceStorage_3ff2ee083c5798b7e8e919b8bb352912_images_3e1982d0aa7dab8153c66f5495ccfe18-489c6c60-b611-4db8-a76b-936e073d94de.png}
+\end{center}
+
+\zh{EGI-RAG 的核心是 evidence gate、evidence extraction 与 support verification：先判断候选文档是否支持答案，再只抽取 supportive 文档中的证据句，最后只基于证据句生成答案并验证是否 supported。}
+
+\section{\zh{主要结果}}
+\subsection{\zh{全量结果}}
+\begin{center}
+\begin{tabular}{llrrrrr}
+\hline
+\zh{数据集} & \zh{方法} & N & AnsAcc & Token F1 & Misinfo & StrictSup \\
+\hline
+RGB & EGI-RAG & 300 & \gain{0.9200} & \gain{0.8127} & 0.0000 & \gain{0.9667} \\
+RGB & EGI-RAG+ & 300 & 0.8600 & 0.7616 & 0.0000 & 0.8767 \\
+RAMDocs & EGI-RAG & 500 & 0.5320 & \gain{0.5381} & 0.1100 & \gain{0.7120} \\
+RAMDocs & EGI-RAG+ & 500 & \risk{0.2260} & 0.2307 & \gain{0.0080} & 0.2620 \\
+\hline
+\end{tabular}
+\end{center}
+
+\zh{EGI-RAG+ 在 RAMDocs 上显著降低 Misinfo Adoption，但因为保守拒答导致 Accuracy 和 Strict Supported Rate 下降，因此应定位为风险控制型改进，而不是整体准确率改进。}
+
+\subsection{Controlled Noise \zh{代表性结果}}
+\begin{center}
+\begin{tabular}{llrrrr}
+\hline
+\zh{数据集/设置} & \zh{方法} & N & AnsAcc & Misinfo & StrictSup \\
+\hline
+RGB 0\% front & EGI-RAG & 300 & 0.9600 & 0.0000 & 0.9967 \\
+RGB 0\% front & EGI-RAG+ & 300 & 0.9633 & 0.0000 & 0.9867 \\
+RGB 60\% front & EGI-RAG & 300 & 0.9300 & 0.0000 & 0.9667 \\
+RGB 60\% front & EGI-RAG+ & 300 & 0.9233 & 0.0000 & 0.9533 \\
+RGB 100\% front & EGI-RAG & 300 & 0.0400 & 0.0000 & 0.1233 \\
+RGB 100\% front & EGI-RAG+ & 300 & 0.0233 & 0.0000 & 0.0733 \\
+RAMDocs 0\% front & EGI-RAG & 365 & 0.6055 & 0.0438 & 0.7260 \\
+RAMDocs 0\% front & EGI-RAG+ & 290 & 0.3655 & 0.0103 & 0.4276 \\
+RAMDocs 60\% front & EGI-RAG & 118 & 0.5424 & 0.1017 & 0.7288 \\
+RAMDocs 60\% front & EGI-RAG+ & 100 & 0.3100 & 0.0100 & 0.3500 \\
+RAMDocs 100\% front & EGI-RAG & 100 & 0.0100 & 0.3200 & 0.4100 \\
+RAMDocs 100\% front & EGI-RAG+ & 100 & 0.0000 & 0.2200 & 0.2900 \\
+\hline
+\end{tabular}
+\end{center}
+
+\section{\zh{错误案例分析}}
+\zh{答错主要来自五类原因：}
+\begin{enumerate}
+  \item \zh{\textbf{检索不到正确证据}：100\% noise 时 Recall@5 和 MRR 为 0，模型无法可靠作答。}
+  \item \zh{\textbf{强误导文档共现}：RAMDocs 中正确证据和 wrong-answer 文档同时相关，模型容易采纳错误答案。}
+  \item \zh{\textbf{证据抽取不完整}：抽到主体但遗漏时间、地点、数值限定。}
+  \item \zh{\textbf{过度拒答}：EGI-RAG+ 对 misleading/contradictory 的惩罚太硬，导致覆盖率下降。}
+  \item \zh{\textbf{字符串评估误差}：日期格式、别名和简称可能让语义正确答案被自动指标判错。}
+\end{enumerate}
+
+\section{\zh{结论}}
+\zh{鲁棒 RAG 的关键不是读取更多文档，而是只基于可信证据作答，并在证据不足或冲突时拒答。EGI-RAG 在 RGB 和 Custom Noise 上表现稳定；EGI-RAG+ 能显著降低误导采纳，但当前需要从 hard gate 改成 soft threshold。}
+
+\end{document}

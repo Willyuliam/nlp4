@@ -1,0 +1,280 @@
+\documentclass[aspectratio=169,10pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\setmonofont{Consolas}
+\setCJKmainfont{Microsoft YaHei}
+\setCJKsansfont{Microsoft YaHei}
+\setCJKmonofont{Microsoft YaHei}
+
+\definecolor{MainBlue}{RGB}{35,82,124}
+\definecolor{SoftBlue}{RGB}{230,240,250}
+\definecolor{MainGreen}{RGB}{45,125,90}
+\definecolor{MainOrange}{RGB}{190,105,35}
+\definecolor{MainRed}{RGB}{170,55,55}
+\definecolor{GrayText}{RGB}{80,80,80}
+
+\setbeamercolor{structure}{fg=MainBlue}
+\setbeamercolor{frametitle}{fg=white,bg=MainBlue}
+\setbeamercolor{title}{fg=white,bg=MainBlue}
+\setbeamercolor{block title}{fg=white,bg=MainBlue}
+\setbeamercolor{block body}{bg=SoftBlue}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{caption}[numbered]
+
+\newcommand{\metric}[1]{\textcolor{MainBlue}{\textbf{#1}}}
+\newcommand{\risk}[1]{\textcolor{MainRed}{\textbf{#1}}}
+\newcommand{\gain}[1]{\textcolor{MainGreen}{\textbf{#1}}}
+\newcommand{\todo}[1]{\textcolor{MainOrange}{\textbf{#1}}}
+
+\title[Robust RAG under Noisy Documents]{面向噪声文档的鲁棒 RAG 推理方法与检索维度评估}
+\subtitle{Evidence-Gated Iterative RAG 与噪声比例实验分析}
+\author{自然语言处理课程项目}
+\institute{RGB / RAMDocs / Controlled Noise / Custom Noise}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{研究问题：RAG 不只是“答对”}
+  \begin{columns}[T]
+    \begin{column}{0.54\textwidth}
+      \begin{block}{核心场景}
+        检索结果中常同时存在：
+        \begin{itemize}
+          \item 正确证据（correct evidence）
+          \item 普通噪声（irrelevant / weak noise）
+          \item 高重叠误导文档（misleading）
+          \item 与正确证据冲突的文档（contradictory）
+        \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.42\textwidth}
+      \begin{block}{评价目标}
+        \begin{itemize}
+          \item 正确证据是否被检索到
+          \item 模型是否采纳误导答案
+          \item 答案是否有证据支持
+          \item 全噪声场景能否拒答
+        \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+  \vspace{0.3cm}
+  \centering
+  \metric{Answer Accuracy} 之外，引入 \metric{Recall@k / MRR / nDCG / Evidence F1 / Misinfo Adoption / Refusal F1}。
+\end{frame}
+
+\begin{frame}{实验全流程与成员分工}
+  \centering
+  \includegraphics[width=0.98\linewidth,height=0.78\textheight,keepaspectratio]{\detokenize{C:/Users/86159/.cursor/projects/d-360Downloads/assets/c__Users_86159_AppData_Roaming_Cursor_User_workspaceStorage_3ff2ee083c5798b7e8e919b8bb352912_images_d4b8109b85c8e6cbd44ef9713302dd86-4e31788d-3f34-4055-9afb-551cb21ecb80.png}}
+  \vspace{0.1cm}
+  {\small 从数据转换、controlled noise 构造，到 baseline / EGI-RAG 运行、扩展评估与最终报告。}
+\end{frame}
+
+\begin{frame}{方法框架：Evidence-Gated Iterative RAG}
+  \centering
+  \includegraphics[width=0.98\linewidth,height=0.78\textheight,keepaspectratio]{\detokenize{C:/Users/86159/.cursor/projects/d-360Downloads/assets/c__Users_86159_AppData_Roaming_Cursor_User_workspaceStorage_3ff2ee083c5798b7e8e919b8bb352912_images_3e1982d0aa7dab8153c66f5495ccfe18-489c6c60-b611-4db8-a76b-936e073d94de.png}}
+  \vspace{0.1cm}
+  {\small 本次实验实现轻量工程版：检索/重排、证据判断、证据抽取、基于证据生成与支持性验证。}
+\end{frame}
+
+\begin{frame}{EGI-RAG 的关键机制}
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{证据门控}
+        \begin{itemize}
+          \item 对候选文档标注 \texttt{supportive / partial / irrelevant / misleading}
+          \item EGI-RAG+ 额外加入 \texttt{contradictory}
+          \item 仅从 supportive 文档抽取 evidence spans
+        \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{block}{基于证据生成}
+        \begin{itemize}
+          \item 生成器只看到 evidence spans，不直接读取全文
+          \item verifier 判断 \texttt{supported / insufficient / unsupported / conflict}
+          \item 证据不足或冲突时输出拒答
+        \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+  \vspace{0.3cm}
+  \begin{alertblock}{实现说明}
+    图中多轮 Iterative Corrector 与数值化 doc score 是完整框架设计；本次主实验使用轻量版一轮证据判断与验证，重点验证证据门控是否提升鲁棒性。
+  \end{alertblock}
+\end{frame}
+
+\begin{frame}{全量主结果：EGI-RAG 与 EGI-RAG+}
+  \centering
+  \small
+  \begin{tabular}{llrrrrr}
+    \toprule
+    数据集 & 方法 & N & AnsAcc & Token F1 & Misinfo & StrictSup \\
+    \midrule
+    RGB & EGI-RAG & 300 & \gain{0.9200} & \gain{0.8127} & 0.0000 & \gain{0.9667} \\
+    RGB & EGI-RAG+ & 300 & 0.8600 & 0.7616 & 0.0000 & 0.8767 \\
+    RAMDocs & EGI-RAG & 500 & 0.5320 & \gain{0.5381} & 0.1100 & \gain{0.7120} \\
+    RAMDocs & EGI-RAG+ & 500 & \risk{0.2260} & 0.2307 & \gain{0.0080} & 0.2620 \\
+    \bottomrule
+  \end{tabular}
+  \vspace{0.4cm}
+  \begin{block}{解释}
+    EGI-RAG+ 是\textbf{风险控制型改进}：RAMDocs 上 Misinfo Adoption 从 0.1100 降到 0.0080，但强冲突门控造成过度拒答，Answer Accuracy 下降。
+  \end{block}
+\end{frame}
+
+\begin{frame}{Controlled Noise：RGB 噪声比例趋势}
+  \centering
+  \small
+  \begin{tabular}{lrrrr}
+    \toprule
+    设置 & 方法 & N & AnsAcc & StrictSup \\
+    \midrule
+    0\% front & EGI-RAG & 300 & 0.9600 & 0.9967 \\
+    0\% front & EGI-RAG+ & 300 & \gain{0.9633} & 0.9867 \\
+    60\% front & EGI-RAG & 300 & \gain{0.9300} & \gain{0.9667} \\
+    60\% front & EGI-RAG+ & 300 & 0.9233 & 0.9533 \\
+    100\% front & EGI-RAG & 300 & 0.0400 & 0.1233 \\
+    100\% front & EGI-RAG+ & 300 & \risk{0.0233} & 0.0733 \\
+    \bottomrule
+  \end{tabular}
+  \vspace{0.35cm}
+  \begin{block}{结论}
+    RGB 中普通噪声比例升高并不必然破坏回答；真正困难的是 100\% 噪声，此时 Recall@5=0，模型没有正确证据，理想行为应转向拒答。
+  \end{block}
+\end{frame}
+
+\begin{frame}{Controlled Noise：RAMDocs 代表性比例}
+  \centering
+  \small
+  \begin{tabular}{lrrrrr}
+    \toprule
+    设置 & 方法 & N & AnsAcc & Misinfo & StrictSup \\
+    \midrule
+    0\% front & EGI-RAG & 365 & \gain{0.6055} & 0.0438 & \gain{0.7260} \\
+    0\% front & EGI-RAG+ & 290 & 0.3655 & \gain{0.0103} & 0.4276 \\
+    60\% front & EGI-RAG & 118 & \gain{0.5424} & 0.1017 & \gain{0.7288} \\
+    60\% front & EGI-RAG+ & 100 & 0.3100 & \gain{0.0100} & 0.3500 \\
+    100\% front & EGI-RAG & 100 & 0.0100 & 0.3200 & 0.4100 \\
+    100\% front & EGI-RAG+ & 100 & 0.0000 & \gain{0.2200} & 0.2900 \\
+    \bottomrule
+  \end{tabular}
+  \vspace{0.35cm}
+  \begin{block}{结论}
+    RAMDocs 的关键风险是误导答案采纳。EGI-RAG+ 显著降低 Misinfo，但对 supportive evidence 的覆盖过于保守，因此 Accuracy 和 StrictSup 同时下降。
+  \end{block}
+\end{frame}
+
+\begin{frame}{Custom Noise：针对逻辑缺失与高重叠误导}
+  \centering
+  \small
+  \begin{tabular}{lrrrrrr}
+    \toprule
+    方法 & N & AnsAcc & Token F1 & Misinfo & Evidence F1 & StrictSup \\
+    \midrule
+    Naive RAG & 60 & 0.6500 & 0.4694 & 0.0333 & 0.0000 & 0.0000 \\
+    Rerank RAG & 60 & 0.6500 & 0.4703 & 0.0167 & 0.0000 & 0.0000 \\
+    CRAG-lite & 60 & 0.6333 & 0.3511 & 0.0167 & 0.0000 & 0.0000 \\
+    EGI-RAG & 60 & \gain{0.7833} & \gain{0.7755} & 0.0167 & \gain{0.8611} & \gain{0.8667} \\
+    \bottomrule
+  \end{tabular}
+  \vspace{0.35cm}
+  \begin{block}{结论}
+    在自定义 logic-gap、value-swap、高重叠无关噪声中，EGI-RAG 的证据句抽取更能抑制“看似相关但缺关键事实”的上下文干扰。
+  \end{block}
+\end{frame}
+
+\begin{frame}{Failure Analysis：答错通常来自哪里？}
+  \begin{columns}[T]
+    \begin{column}{0.49\textwidth}
+      \begin{block}{检索与证据问题}
+        \begin{itemize}
+          \item \textbf{没有正确证据}：100\% noise 时 Recall@5=0，模型只能拒答或幻答。
+          \item \textbf{正确证据与误导文档并存}：RAMDocs 中 wrong answer 高重叠，容易被采纳。
+          \item \textbf{证据抽取不完整}：抽到主体但遗漏时间、地点、数值限定。
+        \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.49\textwidth}
+      \begin{block}{生成与评估问题}
+        \begin{itemize}
+          \item \textbf{过度拒答}：EGI-RAG+ 遇到 misleading / contradictory 后阈值过硬。
+          \item \textbf{字符串评估误差}：日期格式、别名、简称可能导致语义正确但自动判错。
+          \item \textbf{Verifier 保守}：降低误导采纳，但牺牲可回答样本覆盖。
+        \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{典型错误案例如何讲}
+  \begin{block}{案例 1：被误导文档带偏}
+    Naive/Rerank 检索到正确文档，但同时读入高重叠 wrong-answer 文档，生成时采纳了误导答案。EGI-RAG 通过 evidence gate 只保留 supportive evidence，降低 Misinfo Adoption。
+  \end{block}
+  \begin{block}{案例 2：EGI-RAG+ 过度拒答}
+    supportive evidence 存在，但候选集中也有 misleading/contradictory 文档。EGI-RAG+ 将冲突风险放大，输出“无法根据给定信息确定”，导致 Accuracy 下降。
+  \end{block}
+  \begin{block}{案例 3：100\% noise 压力测试}
+    没有正确证据，R@5/MRR 为 0。此时 Accuracy 低是预期结果，核心评价应转向 Refusal F1 和 Misinfo Adoption。
+  \end{block}
+\end{frame}
+
+\begin{frame}{讨论：EGI-RAG+ 为什么“变差”？}
+  \begin{alertblock}{不是所有改进都应表现为 Accuracy 提升}
+    EGI-RAG+ 的目标是降低误导答案采纳风险，而不是直接提高字符串匹配 Accuracy。
+  \end{alertblock}
+  \begin{itemize}
+    \item 优点：RAMDocs 全量 Misinfo Adoption 从 0.1100 降至 0.0080。
+    \item 问题：遇到冲突时倾向拒答，RAMDocs 全量 Answer Accuracy 从 0.5320 降至 0.2260。
+    \item 本质：强安全策略提高保守性，但降低覆盖率。
+  \end{itemize}
+  \vspace{0.2cm}
+  \centering
+  \Large \metric{下一步：从 hard gate 改为 soft threshold}
+\end{frame}
+
+\begin{frame}{后续改进}
+  \begin{enumerate}
+    \item \textbf{软冲突阈值}：只有 contradictory 文档数量或置信度超过 supportive evidence 时拒答。
+    \item \textbf{证据覆盖评分}：主体、关系、数值、时间条件都覆盖才判 supported。
+    \item \textbf{LLM judge / 人工复核}：缓解字符串指标低估语义正确答案的问题。
+    \item \textbf{更完整的 Iterative Corrector}：重新选择证据、改写答案、必要时拒答。
+    \item \textbf{分噪声类型汇报}：logic-gap、value-swap、高重叠无关文档分开分析。
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}{总结}
+  \begin{block}{主要结论}
+    \begin{itemize}
+      \item 检索质量指标解释了“正确证据是否进入上下文”。
+      \item Misinfo Adoption 衡量了 RAG 在误导文档下的真实风险。
+      \item EGI-RAG 在 RGB 与 Custom Noise 上提升明显。
+      \item EGI-RAG+ 能降低误导采纳，但当前过度拒答，需要软阈值策略。
+    \end{itemize}
+  \end{block}
+  \vspace{0.3cm}
+  \centering
+  \Large \textbf{鲁棒 RAG 的关键不是读更多文档，而是只基于可信证据作答。}
+\end{frame}
+
+\end{document}
