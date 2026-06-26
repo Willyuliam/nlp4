@@ -1,0 +1,62 @@
+==================================================
+数据集：RGB_all  共 300 条样本
+==================================================
+格式校验通过，无问题
+
+文档标签分布：
+   noise            5463 条  (68.5%)
+   correct          2513 条  (31.5%)
+
+每条样本文档数：avg=26.6  min=14  max=41
+答案长度（字符数）：avg=9  min=1  max=33
+
+--- 第一条样本预览 ---
+ID:       rgb_0000
+问题:     When is the premiere of 'Carole King & James Taylor: Just Call Out My Name'?
+文档数:   20
+  [noise]  | Carole King & James Taylor: Just Call Out My Name ... Synopsis: A concert film t...
+  [noise]  | Feb 10, 2022                                 Runtime:                           ...
+参考答案: ['January 2 2022', 'Jan 2, 2022', 'Jan. 2, 2022', 'January 2, 2022', '2 January 2022', '2 Jan, 2022', '2 Jan., 2022', '2 January, 2022']
+
+==================================================
+数据集：RAMDocs_all  共 500 条样本
+==================================================
+格式校验通过，无问题
+
+文档标签分布：
+   correct          1918 条  (69.3%)
+   noise             541 条  (19.6%)
+   misinfo           307 条  (11.1%)
+
+每条样本文档数：avg=5.5  min=1  max=12
+答案长度（字符数）：avg=11  min=1  max=31
+
+--- 第一条样本预览 ---
+ID:       ramdocs_0000
+问题:     What is the population of Broken Bow?
+文档数:   3
+  [correct]  | the second class in 1888. According to the United States Census Bureau, the city...
+  [correct]  | ] Demographics [ edit ] Historical population Census Pop . Note % ± 1890 1,647 —...
+参考答案: ['3,559 people']
+
+==================================================
+数据集：CONFLICTS_all  共 458 条样本
+==================================================
+格式校验通过，无问题
+
+文档标签分布：
+   unknown          4212 条  (100.0%)
+
+每条样本文档数：avg=9.2  min=5  max=20
+答案长度（字符数）：avg=14  min=1  max=166
+
+--- 第一条样本预览 ---
+ID:       conflicts_0000
+问题:     who is commander chief of the military
+文档数:   10
+  [unknown] Commander-in-chief - Wikipedia | In English use, the term was first used during the English Civil War.[2] A natio...
+  [unknown] Commander in Chief | William J. Clinton  | Commander in Chief
+“The President shall be commander in chief of the Army and Na...
+参考答案: []
+
+完成！
