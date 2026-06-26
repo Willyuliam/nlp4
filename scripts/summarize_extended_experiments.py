@@ -186,6 +186,7 @@ def main() -> int:
             "outputs/controlled",
             "outputs/fair_subset",
             "outputs/egi_rag",
+            "outputs/egi_rag_plus",
             "outputs/custom_noise",
             "outputs/rgb_results",
             "outputs/ramdocs_results",
